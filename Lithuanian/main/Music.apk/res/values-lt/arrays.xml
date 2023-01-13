@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>Vyras</item>
+        <item>Moteris</item>
+    </string-array>
+    <string-array name="recommendation_desc_week">
+        <item>Sekmadienio rekomendacijos</item>
+        <item>Pirmadienio rekomendacijos</item>
+        <item>Antradienio rekomendacijos</item>
+        <item>Trečiadienio rekomendacijos</item>
+        <item>Ketvirtadienio rekomendacijos</item>
+        <item>Penktadienio rekomendacijos</item>
+        <item>Šeštadienio rekomendacijos</item>
+    </string-array>
+</resources>
