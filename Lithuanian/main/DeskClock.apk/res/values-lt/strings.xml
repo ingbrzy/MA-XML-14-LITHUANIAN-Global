@@ -525,7 +525,6 @@ mm"</string>
     <string name="shutdown_alarm_enable_summary">Žadintuvas skambės, jei yra nustatytas bent 10 minučių po įrenginio išjungimo</string>
     <string name="shutdown_alarm_title">Išjungimo žadintuvas</string>
     <string name="silent_alarm_summary">Tylus</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Išjungti kartą %s</string>
     <string name="sleep_analysis">Statistika</string>
     <string name="sleep_analysis_chart_date_format">MM-dd</string>
@@ -571,7 +570,6 @@ mm"</string>
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Nėra ratų</string>
     <string name="stopwatch_reset_notification">Chronometras buvo atstatytas</string>
     <string name="stopwatch_running_notification">Chronometras</string>
@@ -580,7 +578,6 @@ mm"</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Siekiant išnaudoti visas šios programos teikiamas funkcijas, leisti šiai programai prisijungti prie interneto.</string>
     <string name="system_permission_main_purpose">Laiko, žadintuvų ir laikmačių peržiūra, chronometro naudojimas</string>
     <string name="system_permission_purpose">Savaitinių žadintuvų kūrimas ir pasirinktinių skambėjimo garsų nustatymas</string>

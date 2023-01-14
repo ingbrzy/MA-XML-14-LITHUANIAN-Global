@@ -196,7 +196,6 @@ https://appleid.apple.com/#!&amp;page=prisijunkite, kad uždarytumėte"</string>
     <string name="dialog_backup_password_change_machine_tips">Negalėsite perkelti slaptažodžiu apsaugotų atsarginių kopijų. Prieš naudodami „Mi Mover“, išjunkite atsarginių kopijų slaptažodį.</string>
     <string name="dialog_backup_password_restore_tips">Atsarginių elementų atkūrimas negalimas, kai įjungtas atsarginio kopijavimo slaptažodis. Pirmiausia išjunkite atsarginio kopijavimo slaptažodį.</string>
     <string name="dialog_backup_password_to_settings">Parametrai</string>
-    <string name="digit_percent">%</string>
     <string name="dir_date_format">yyyyMMdd_HHmmss</string>
     <string name="disable_encrypt_description">Nekoduoti</string>
     <string name="disable_encrypt_title">Išjungti šifravimą</string>
@@ -357,7 +356,6 @@ r
     <string name="import_data_from_icloud">Importuoti duomenis iš „iCloud“</string>
     <string name="import_from_xiaomi_account_hint2">Jei atsarginę kopiją jau sukūrėte, spustelėkite \"Toliau\".</string>
     <string name="import_from_xiaomi_account_hint_title">Naudokite „Mi Talk“, kad sukurtumėte atsarginę kontaktų kopiją įvairiuose įrenginiuose.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Dėl problemų, susijusių su suderinamumu, iš „iOS“ įrenginių galite perkelti tik dalį duomenų. Įsitikinkite, kad sukūrėte „iCloud“ atsarginę kopiją prieš pradedant perkėlimą.</string>
     <string name="lack_perm_msg">„Mi perkėlimui“ reikalingi žemiau įvardyti leidimai: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Reikalingi leidimai</string>
@@ -1048,11 +1046,8 @@ Neišjunkite puslapio, kol neužmegsite ryšio."</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>
     <string name="wifi_title">„Wi-Fi“ parametrai</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Nepavyko pradėti atsisiuntimo. Įsitikinkite, kad Atsisiuntimų Tvarkyklė veikia normaliai.</string>
     <string name="xiaomi_external_storage_unavailable">Talpykla yra neprieinama, patikrinkite SD kortelę.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Maršrutizatorius</string>
     <string name="xiaomi_router_location">Mi Maršrutizatorius %s</string>
     <string name="xiaomi_update_dialog_message">"Pristatoma versija %1$s

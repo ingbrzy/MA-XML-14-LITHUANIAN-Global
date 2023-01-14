@@ -4,11 +4,6 @@
         <item>Vyras</item>
         <item>Moteris</item>
     </string-array>
-    <string-array name="customer_service">
-        <item>@string/customer_service_apply</item>
-        <item>@string/customer_service_complain</item>
-        <item>@string/customer_service_station</item>
-    </string-array>
     <string-array name="net_diag_err_link_quality">
         <item>Prastas „Wi-Fi“ ryšys. Perjunkite bevielio ryšio juostas arba perkraukite maršrutizatorių.</item>
         <item>Nepavyko pasiekti tinklo. Iš naujo prisijunkite prie „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
@@ -62,11 +57,5 @@
     </string-array>
     <string-array name="net_diag_err_network_topology">
         <item>Patikrinkite maršrutizatoriaus DHCP nustatymus ir laidinį ryšį</item>
-    </string-array>
-    <string-array name="reproductivity">
-        <item>@string/feedback_reproductivity_everytime</item>
-        <item>@string/feedback_reproductivity_often</item>
-        <item>@string/feedback_reproductivity_occasionally</item>
-        <item>@string/feedback_reproductivity_once</item>
     </string-array>
 </resources>

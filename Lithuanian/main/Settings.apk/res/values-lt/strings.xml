@@ -1804,7 +1804,6 @@ Prisijungęs įrenginys %2$s gaus visus telefono numeriu %3$s atliktus skambuči
 Jei atlikote kurį nors iš pirmiau nurodytų punktų, iš naujo pridėkite „Mi“ paskyrą. Kitu atveju, nebegalėsite atrakinti savo įrenginio."</string>
     <string name="bootloader_tips_ok">Supratau</string>
     <string name="bootloader_tips_warning">Neatsijunkite nuo tinklo ar „Mi“ paskyros, neatlikite gamyklinių duomenų atstatymo ir netrinkite sisteminių duomenų.</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Papildomų mygtukų funkcijos</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
     <string name="breathing_light_color_menu_title">Šviesos spalva</string>
@@ -2883,7 +2882,6 @@ Jei tai kartosis, gali reikėti pašalinti programą, kad pagerintumėte akumuli
     <string name="dialog_wifi_context">Norėdami prisijungti prie interneto, pirmiausia įdiekite savo įrenginį. Išskyrus atvejus, kai prisijungiate prie „Wi-Fi“, gali būti naudojami mobilieji duomenys. Mobiliųjų duomenų naudojimas gali sugeneruoti papildomų mokesčių iš operatoriaus. Vis tiek naudoti mobiliuosius duomenis?</string>
     <string name="dialog_wifi_title">Mobiliųjų duomenų naudojimas</string>
     <string name="dialog_yes">Taip</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Pastaba: Po pakartotinio paleidimo, programa galės būti naudojama tik atrakinus įrenginį.</string>
     <string name="disable_overlays">Išjungti HW persidengimą</string>
     <string name="disable_overlays_summary">Ekrano formatavimui visada naudoti GPU</string>
@@ -2973,7 +2971,6 @@ Jei tai kartosis, gali reikėti pašalinti programą, kad pagerintumėte akumuli
     <string name="dndm_auto_button_title">Pasikartojantis „Netrukdyti“ laikas</string>
     <string name="dndm_auto_setting_group">Suplanuota</string>
     <string name="dndm_auto_time_setting">Nustatyti laiką</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">Iki</string>
     <string name="dndm_auto_time_turn_off_title">Automatiškai išjungti režimą „Netrukdyti“</string>
     <string name="dndm_auto_time_turn_on">Nuo</string>
@@ -4608,7 +4605,6 @@ Atidarykite „Xiaomi debesį“ ir atkurkite elementus iš ten."</string>
     <string name="lights_title">LED šviesa</string>
     <string name="line_breaking_summary">Optimizuoti pastraipos eilutės lūžį</string>
     <string name="line_breaking_title">Optimizuoti tekstą</string>
-    <string name="link_speed">%1$d Mb/s</string>
     <string name="link_turbo_prompt">Šiame puslapyje pateikiama statistika nurodo tik duomenų kiekį, sunaudojamą „Wi-Fi“ ryšio greičio didinimui. Ši statistika neatspindi faktinio mobiliųjų duomenų naudojimo.</string>
     <string name="link_turbo_settings_all_app_display_loading">Sekundėlę…</string>
     <string name="link_turbo_settings_all_app_reach_max">Galite pasirinkti iki 15 programų</string>
@@ -5209,7 +5205,6 @@ Yra kitų šio įrenginio naudotojų.
     <string name="memory_title">Laisva: %1$s\u0009\u0009 Iš Viso: %2$s</string>
     <string name="memory_usage">Atminties naudojimas</string>
     <string name="memory_usage_apps">Programų naudojama atmintis</string>
-    <string name="memory_use_running_format">%1$s / %2$s</string>
     <string name="memory_use_summary">Per paskutines 3 val. naudota vid. %1$s atminties</string>
     <string name="memorycard_calculating">Skaičiuojama…</string>
     <string name="menu_cancel">Atšaukti</string>
@@ -5735,7 +5730,6 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -5928,7 +5922,6 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="nfc_main_switch_title">NFC naudojimas</string>
     <string name="nfc_more_details">Sužinokite daugiau</string>
     <string name="nfc_more_title">Daugiau…</string>
-    <string name="nfc_payment_app_and_desc">„%1$s“ – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Nustatyti numatytuosius nustatymus</string>
     <string name="nfc_payment_btn_text_update">Atnaujinti</string>
     <string name="nfc_payment_default">Numatytoji mokėjimo programa</string>
@@ -6343,7 +6336,6 @@ Programa taip pat galės įjungti ar išjungti netrukdymo režimą ir keisti sus
     <string name="overlay_settings_title">Leisti ekranų perdangas skiltyje „Nustatymai“</string>
     <string name="overlay_toast_failed_to_apply">Nepavyko pritaikyti perdangos</string>
     <string name="owner_info_settings_edit_text_hint">Pvz., Tomo „Android“.</string>
-    <string name="owner_info_settings_status">%1$d / %2$d</string>
     <string name="owner_info_settings_summary">Nėra</string>
     <string name="owner_info_settings_title">Užrakto ekrano parašas</string>
     <string name="owner_space">„Pirmoji erdvė“</string>
@@ -6589,7 +6581,6 @@ paspauskite maitinimo ir garsumo didinimo mygtukus tuo pačiu metu."</string>
     <string name="power_remaining_less_than_duration_only">Liko mažiau nei %1$s</string>
     <string name="power_remaining_more_than_subtext">Liko daugiau nei %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Liko daugiau nei %1$s</string>
-    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Ekranas</string>
     <string name="power_settings_title">Sistemos efektyvumas</string>
     <string name="power_suggestion_battery_run_out">Akumuliatorius gali išsekti iki %1$s</string>
@@ -6843,8 +6834,6 @@ paspauskite maitinimo ir garsumo didinimo mygtukus tuo pačiu metu."</string>
     <string name="privileged_action_disable_sub_dialog_title">Išjungti „%1$s“?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Išjungti SIM kortelę?</string>
     <string name="process_dex2oat_label">Programų optimizavimas</string>
-    <string name="process_format">„%1$s“ (%2$d)</string>
-    <string name="process_kernel_label">„Android“ OS</string>
     <string name="process_mediaserver_label">Medijos serveris</string>
     <string name="process_network_tethering">Įrenginio kaip modemo naudojimas</string>
     <string name="process_provider_in_use_description">„%1$s“ teikėjas naudojamas.</string>
@@ -7648,7 +7637,6 @@ Norėdami prisegti programą, atlikite toliau nurodytus veiksmus. \u0009
     <string name="security_encryption_attention_3">Turėsite nustatyti naują ekrano užraktą.</string>
     <string name="security_encryption_attention_4">Įsitikinkite, kad įsidėmėjote savo ekrano užraktą. Kitu atveju, bus atliktas pilną atkūrimas ir pašalinti visi įrenginyje esantys duomenys.</string>
     <string name="security_encryption_attention_info">Galite užšifruoti paskyras, parametrus, atsiųstas programas ir jų duomenis, mediją ir kitus failus.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Svarbu</string>
     <string name="security_encryption_close_dialog_info">Nusprendus nešifruoti įrenginio, naudojantis ekrano užraktu, kai kurios „Google“ paslaugos gali būti nepasiekiamos.</string>
     <string name="security_encryption_close_dialog_title">Grįžti į numatytąjį sisteminį šifravimą</string>
@@ -8182,7 +8170,6 @@ Tikriausiai netinkamas PIN kodas."</string>
     <string name="sim_select_card">Pasirinkite SIM kortelę</string>
     <string name="sim_selection_channel_title">SIM pasirinkimas</string>
     <string name="sim_selection_required_pref">Būtina pasirinkti</string>
-    <string name="sim_settings_summary">„%1$s“ – %2$s</string>
     <string name="sim_settings_title">SIM kortelės</string>
     <string name="sim_setup_channel_id">Tinklo aktyvinimas</string>
     <string name="sim_setup_wizard_title">SIM kortelės</string>
@@ -8209,7 +8196,6 @@ Dukart bakstelėkite, kad atidarytumėte „Naujausi“."</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Vis tiek praleisti</string>
     <string name="skip_label">Praleisti</string>
@@ -8439,10 +8425,8 @@ Visa tai galima dėl įrenginyje įdiegtų patikimų prisijungimo duomenų."</st
     <string name="status_bar_app_enable_keyguard">Užrakto ekranas</string>
     <string name="status_bar_app_enable_message">Ženkleliai</string>
     <string name="status_bar_carrier_settings_no_sim_card">Nėra SIM kortelės</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Pranešimai ir būsenos juosta</string>
     <string name="status_bar_settings_all_app_display_loading">Sekundėlę…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Programų pranešimai</string>
     <string name="status_bar_settings_notification_bar">Pranešimų juosta</string>
     <string name="status_bar_settings_status_bar">Būsenos juosta</string>
@@ -8813,7 +8797,6 @@ Bandykite naudoti spartesnę saugyklą („^3“) arba vietoj jos rinkitės neš
     <string name="sum_carrier_select">Pasirinkite tinklo operatorių</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s–%2$s</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
@@ -9729,7 +9712,6 @@ Bakstelėkite pliusą, kad pridėtumėte žodžių."</string>
     <string name="vision_settings_title">Matomumo nustatymai</string>
     <string name="voice_access">Balso valdikliai</string>
     <string name="voice_assist">„Mi“ DI</string>
-    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Kalba</string>
     <string name="voice_helper_title">Balso asistentas</string>
     <string name="voice_input_output_settings">Balso įvestis ir išvestis</string>
@@ -10915,10 +10897,8 @@ Išjungę „Netrukdymo“ režimą praleistus pranešimus rasite perbraukę že
     <string name="zone_auto_summaryOn">Naudoti operatoriaus tinklo pateiktą laiką</string>
     <string name="zone_auto_title">Nustatyti laiko juostą automatiškai</string>
     <string name="zone_change_to_from_dst">%1$s prasideda %2$s.</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Naudojama: %1$s. %2$s prasideda %3$s</string>
     <string name="zone_info_footer_no_dst">Naudojama: %1$s. Vasaros laikas nenaudojamas.</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Rūšiuoti pagal abėcėlę</string>
     <string name="zone_list_menu_sort_by_timezone">Rūšiuoti pagal laiko zoną</string>
     <string name="zone_menu_by_offset">Pasirinkti pagal UTC nuokrypį</string>

@@ -696,7 +696,6 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_display_currency_btn">Butano ngultrumas</string>
     <string name="unit_data_display_currency_bwp">Botsvanos pula</string>
     <string name="unit_data_display_currency_byn">Baltarusijos rublis</string>
-    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanados doleris</string>
     <string name="unit_data_display_currency_cdf">Kongo frankas</string>
     <string name="unit_data_display_currency_chf">Šveicarijos frankas</string>
@@ -1039,15 +1038,12 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">Skaičiuotuvas – sisteminė programa. Išdiegus programą, neturėsite galimybės naudoti keitiklių ir papildomų funkcijų.</string>
     <string name="xiaomi_calculator_delete_title">Išdiegti skaičiuotuvą?</string>
     <string name="xiaomi_calculator_remove_icon_description">Skaičiuotuvas yra sisteminė programa. Pašalinus pagrindinio ekrano nuorodą, neturėsite galimybės naudoti keitiklių ir papildomų funkcijų.</string>
     <string name="xiaomi_calculator_remove_icon_title">Pašalinti „Skaičiuotuvą“ iš pagrindinio ekrano?</string>
     <string name="xiaomi_connect_download_manager_fail">Nepavyko prisijungti prie atsisiuntimų. Įsitikinkite, kad programai suteikti visi reikiami leidimai skiltyje „Parametrai“ > „Įdiegtos programos“.</string>
     <string name="xiaomi_external_storage_unavailable">Talpykla nepasiekiama. Patikrinkite savo SD kortelę.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Pristatome %1$s versiją
 Dydis: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Pristatome %1$s versiją

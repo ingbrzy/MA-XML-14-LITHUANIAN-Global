@@ -196,7 +196,6 @@
     <string name="b_contacts_remove_tips">Pašalinti šį adresą iš blokuojamų sąrašo?</string>
     <string name="back">Atgal</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="blank_feedback_toast">Jums reikia įrašyti atsiliepimą</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">Sukurti laišką</string>
@@ -207,7 +206,6 @@
     <string name="cancel">Atšaukti</string>
     <string name="cancel_action">Atšaukti</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Nepavyko pridėti „%s“ sertifikato</string>
@@ -231,7 +229,6 @@
     <string name="click_to_reload">Bakstelėkite ekrano atnaujinti</string>
     <string name="close">Uždaryti</string>
     <string name="collapse_recipient_details">Suskleisti gavėjo informaciją</string>
-    <string name="colon">:</string>
     <string name="compose">Sukurti</string>
     <string name="compose_event">Pakvietimas</string>
     <string name="compose_paste_address_oob">Per daug simbolių</string>
@@ -472,7 +469,6 @@
     <string name="installation_failed">Nepavyko įdiegti.</string>
     <string name="installing_module">Įdiegiamas modulis:</string>
     <string name="kilobytes">%s KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">Ieškoti serverio dėžutėje</string>
     <string name="load_more">Užkrauti daugiau</string>
     <string name="loading_conversation">Užkraunama…</string>
@@ -865,7 +861,6 @@ Minutėlę palaukite, kol jis bus pilnai sinchronizuotas arba peržiūrėkite pr
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">Siunčiamųjų laiškų serverio slaptažodis neteisingas</string>
     <string name="sort_attachment">Rikiuoti pagal</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Pasirinkti viską</string>
     <string name="str_select_none">Nuimti pasirinkimą</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>
