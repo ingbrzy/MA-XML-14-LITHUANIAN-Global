@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">Įrenginys turi būti prijungtas prie WLAN, įkraunamas ir užrakintas</string>
     <string name="cloud_backup_detail_time">Paskutinė kopija: %1$s</string>
     <string name="cloud_backup_detail_title">Atkurti elementus</string>
-    <string name="cloud_backup_get_installed_apps_summary">For backing up and restoring Home screen apps</string>
-    <string name="cloud_backup_get_installed_apps_title">Access the list of apps installed on this device</string>
     <string name="cloud_backup_have_data">Rasta atsarginė kopija „Xiaomi debesyje“</string>
     <string name="cloud_backup_in_cancel">Atšaukti</string>
     <string name="cloud_backup_in_process">Kuriama at. kopija</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">Jūsų pagrindinis ekranas bus paleistas iš naujo. Atkurtos programos bus atsiųstos automatiškai.</string>
     <string name="confirm_restore_title">Atkurti</string>
     <string name="copy">Kopijuoti</string>
-    <string name="cta_dialog_all_purpose">Sveiki prisijungę prie debesies atsarginių kopijų kūrimo programos! Galite naudoti šią programą norėdami sukurti atsargines pagrindinio ekrano išdėstymo, programų, parametrų ir „WeChat“ duomenų kopijas debesyje. Įsitikinkite, kad naudojate naujausią versiją, kad galėtumėte pasinaudoti visomis mūsų funkcijomis.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">For backing up and restoring apps</string>
-    <string name="cta_dialog_permission_description_storage">Elementų atsarginių kopijų kūrimas ir elementų atkūrimas</string>
     <string name="customization"><u>Individualizuoti</u></string>
     <string name="date_format">HH:mm:ss yyyy-MM-dd</string>
     <string name="date_picker_label_day" />
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Perjungti atsarginių kopijų jungiklį</string>
     <string name="other_device_main_space">„Pirmoji erdvė“</string>
     <string name="other_device_second_space">„Antroji erdvė“</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Nepavyksta atkurti elementų PC režimu. Išjunkite PC režimą ir bandykite dar kartą.</string>
     <string name="permission_to_use">Leidimų informacija</string>
     <string name="pm">Popiet</string>

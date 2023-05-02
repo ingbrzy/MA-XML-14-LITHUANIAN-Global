@@ -19,16 +19,6 @@
         <item>Keisti „Xiaomi“ paskyros slaptažodį</item>
         <item>Slaptažodžio keitimas;Atnaujinti slaptažodį;„Mi“ paskyra;Paskyra;„Xiaomi“ paskyra</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Šeimos saugyklos vieta</item>
-        <item>Peržiūrėti / įjungti Šeimos saugyklos vietą</item>
-        <item>Šeimos saugyklos vieta;Saugyklos bendrinimas</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Šeimos paslaugos</item>
-        <item>Peržiūrėti / įjungti Šeimos paslaugas</item>
-        <item>Šeima;Šeimos paslaugos;Dalijimasis su šeima</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Pagalba</item>
         <item>Gauti „Xiaomi“ paskyros pagalbą ir palaikymą</item>

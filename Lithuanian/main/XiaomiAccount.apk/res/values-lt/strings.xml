@@ -138,11 +138,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="cloud_member_vipname_premium">„Premium“</string>
     <string name="cloud_member_vipname_ultra">„Ultra“</string>
     <string name="cloud_service">„Xiaomi debesis“</string>
-    <string name="cloud_service_cloud_open">Įjungti</string>
-    <string name="cloud_service_space_full">Saugykla užpildyta</string>
-    <string name="cloud_service_space_not_enough">Trūksta vietos</string>
-    <string name="cloud_service_space_used">Užimta</string>
-    <string name="cloud_service_state_error">Nepavyko įkelti</string>
     <string name="cloud_service_status_backup_not_open">Atsarginių kopijų funkcija išjungta</string>
     <string name="cloud_service_status_cloud_not_open">Išjungta</string>
     <string name="cloud_service_status_storage_full">Saugykla užpildyta</string>
@@ -199,8 +194,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="diagnosis_log_sent_format">"Žurnalas sėkmingai nusiųstas.
 ID:%s
 Nusiųskite šį kodą vadovui."</string>
-    <string name="dind_device_service_not_open">Išjungta</string>
-    <string name="dind_device_service_opened">Įjungta</string>
     <string name="download_file">Atsisiunčiama %s…</string>
     <string name="early_morning">Rytas</string>
     <string name="empty" />
@@ -219,7 +212,6 @@ Nusiųskite šį kodą vadovui."</string>
     <string name="facebook_login">Prisijungti naudojant „Facebook“</string>
     <string name="failed_dup_secure_phone_number">Šis telefono numeris jau yra susietas su kita „Xiaomi“ paskyra</string>
     <string name="family_service">Šeimos paslaugos</string>
-    <string name="family_service_not_open">Pakviesti narius</string>
     <string name="family_share">Dalijimasis su šeima</string>
     <string name="find_device">Rasti įrenginį</string>
     <string name="find_device_access_denied">Nepavyko nustatyti būsenos, prieiga nesuteikta</string>
@@ -351,7 +343,6 @@ Nusiųskite šį kodą vadovui."</string>
     <string name="login_with_other">Daugiau parinkčių</string>
     <string name="logout_account">Atsijungti</string>
     <string name="logout_failed">Nepavyko atsijungti</string>
-    <string name="mi_account">Mano paskyra</string>
     <string name="mi_account_identity_title">Patvirtinkite savo tapatybę</string>
     <string name="mi_finance">Mano finansai</string>
     <string name="mi_finance_info">Naujų vartotojų premijos</string>
@@ -750,11 +741,6 @@ Nusiųskite šį kodą vadovui."</string>
     <string name="push_notify_dialog_title">Paskyros patikra</string>
     <string name="pwd_width_phone_number_or_mail_num">Slaptažodžio negali sudaryti jūsų telefono numeris, el. pašto adresas ar „Xiaomi“ paskyros ID</string>
     <string name="qq">QQ</string>
-    <string name="qrcode_login_entry_text">&lt;Data>Prisijungėte per kitą įrenginį? Naudokite &lt;a href=>greitąjį prisijungimą&lt;/a>&lt;/Data></string>
-    <string name="qrcode_login_load_refresh">&lt;Data>Šis QR kodas nebegalioja. Bakstelėkite &lt;a href=>norėdami atnaujinti&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_load_retry">&lt;Data>Nepavyko įkelti. &lt;a href=>Pabandykite dar kartą&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_message">Norėdami prisijungti, nuskaitykite savo „Xiaomi“ telefono arba planšetinio kompiuterio skaitytuvo programa, „Xiaomi Home“ arba kita „Xiaomi“ programa</string>
-    <string name="qrcode_login_title">Nuskaitykite, kad prisijungtumėte</string>
     <string name="recycle_phone_notification_msg">Panašu, kad jūsų telefono numeris buvo pašalintas. Atnaujinimui palieskite.</string>
     <string name="recycle_phone_notification_title">„Xiaomi“ paskyros saugumo rizika</string>
     <string name="removing_account">Atsijungiama…</string>
@@ -889,8 +875,6 @@ Nusiųskite šį kodą vadovui."</string>
     <string name="two_factor_auth_need_code_summary">Kituose prisijungusiuose „Mi“ įrenginiuose pamatysite kodą. Įveskite šį kodą naująjame įrenginyje, kad prisijungtumėte.</string>
     <string name="two_factor_auth_summary">Jungiantis prie naujo įrenginio arba naujoje vietoje apie tai jums bus pranešama kituose įrenginiuose. Turėsite patvirtinti, ar šie bandymai prisijungti jūsų įgalioti.</string>
     <string name="unbind_sns_description">Jums atsijungus iš šios paskyros, jūs daugiau nebegalėsite naudoti %s Paskyros informacijos prisijungimui prie jūsų „Xiaomi“ paskyros.</string>
-    <string name="unit_gb">" GB"</string>
-    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Nežinoma klaida</string>
     <string name="unlock_help_notice">"Pagalba:
 1. Jei pamiršote slaptažodį, eikite į id.mi.com, norėdami jį atstatyti.
@@ -944,6 +928,5 @@ Nusiųskite šį kodą vadovui."</string>
     <string name="weixin">„WeChat“</string>
     <string name="weixin_login">Prisijungti naudojant „WeChat“</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="xiaomi_cloud_service">„Xiaomi debesis“</string>
     <string name="yesterday">Vakar</string>
 </resources>

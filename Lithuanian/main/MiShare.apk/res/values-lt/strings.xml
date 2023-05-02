@@ -396,7 +396,6 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="somepc_send_muchfile_files">%1$s jums siunčia daugiau nei %2$d failų…</string>
     <string name="start_receive_much_files_from_pc">Gaunama daugiau nei %2$d failų iš %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Ši funkcija automatiškai išsijungs už %d min.</string>
     <string name="success_receive_much_file_from_pc">Gauta daugiau nei %2$d failų iš %1$s. Bakstelėkite, norėdami peržiūrėti.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sekmadienis</string>
@@ -458,19 +457,15 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">„Mi Share“</string>
     <string name="to_feedback">Pranešti</string>
-    <string name="toast_auto_close_in_minutes">„Mi Share“ išsijungs už %d min.</string>
-    <string name="toast_transfering">Perkeliami elementai. Bandykite dar kartą vėliau.</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
     <string name="transfer_intercept_to_remote">Nepavyko išsiųsti: %1$s</string>
     <string name="transfer_to_pc_summary">Naujausia „AIoT“ programinės įrangos versija įdiegta „Mi“ nešiojamajame kompiuteryje suderinama su „Mi Share“. Palaikomų nešiojamųjų kompiuterių modelių sąrašą rasite „MIUI“ tinklapyje. Jei jūsų nešiojamasis kompiuteris nurodytas sąraše, bet kompiuteryje neįdiegta „AIoT“, atnaujinkite nešiojamojo kompiuterio BIOS ir tinklo plokštės tvarkyklę ir atsisiųskite „AIoT“.</string>
     <string name="transfer_to_pc_summary_new">&lt;Data>Naujausia MIUI+ versija įdiegta „Mi“ nešiojamame kompiuteryje yra suderinama su „Mi Share“. MIUI+ tinklalapyje (&lt;a href=%1$s>%2$s&lt;/a>) galite peržiūrėti palaikomų nešiojamų kompiuterių modelių sąrašą. Jei sąraše radote savo nešiojamą kompiuterį, tačiau jame neįdiegta MIUI+, atnaujinkite savo kompiuterio BIOS, tinklo adapterio draiverį ir parsisiųskite MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Siųsti failus į kompiuterius</string>
-    <string name="transfer_to_phone_summary">Pranešimų juostoje įjunkite „Mi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
-    <string name="transfer_to_phone_summary_new">Norėdami lengvai siųsti ir gauti elementus, Valdymo centre įjunkite „Mi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
+    <string name="transfer_to_phone_summary">Pranešimų juostoje įjunkite „Mi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti įrenginius netoliese. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
     <string name="transfer_to_phone_title">Siųsti failus į telefonus</string>
     <string name="transfer_to_summary">Pranešimų juostoje įjunkite „Mi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
-    <string name="transfer_to_summary_new">Norėdami lengvai siųsti ir gauti elementus, Valdymo centre įjunkite „Mi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
     <string name="transfer_to_title">Siųsti failus į mobiliuosius įrenginius</string>
     <string name="tuesday">Antradienis</string>
     <string name="tuesday_short">An.</string>

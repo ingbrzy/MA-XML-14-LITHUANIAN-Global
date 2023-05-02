@@ -130,7 +130,7 @@
     <string name="adb_install_open_error">Nepavyko suteikti leidimo, patikrinkite tinklo ryšį</string>
     <string name="adb_install_reject_notiy">Neleidžiama įdiegti %s per USB</string>
     <string name="adb_install_reject_notiy_desc">Jūs galite leisti įdiegti per USB Kūrėjo nustatymuose</string>
-    <string name="adb_login_xiaomi_account">Visų pirma prisijunkite prie „Xiaomi“ paskyros</string>
+    <string name="adb_login_xiaomi_account">Pirmiausia prisijunkite prie „Mi“ paskyros</string>
     <string name="add_bill_reminder_alarm">Nustatykite telefono likučio įspėjimą</string>
     <string name="add_done">Sėkmingai pridėta</string>
     <string name="add_game">Pridėti žaidimą</string>
@@ -560,14 +560,14 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="applock_add_account">Pridėti</string>
     <string name="applock_add_account_ignore">Ne dabar</string>
     <string name="applock_add_account_ignore_with_seconds">Ne dabar (%d sek.)</string>
-    <string name="applock_add_account_info">Pridėkite savo „Xiaomi“ paskyrą, kad galėtumėte atkurti slaptažodį, jei jį pamirštumėte.</string>
+    <string name="applock_add_account_info">Pridėkite savo „Mi“ paskyrą, kad galėtumėte atkurti slaptažodį, jei jį pamirštumėte.</string>
     <string name="applock_add_account_setting">Paskyra ir privatumas</string>
-    <string name="applock_add_account_tips">Naudodami „Xiaomi“ paskyrą, galėsite atkurti programų užraktą, jei jį pamirštumėte.</string>
-    <string name="applock_add_account_title">Pridėti savo „Xiaomi“ paskyrą</string>
+    <string name="applock_add_account_tips">Naudodami „Mi“ paskyrą, galėsite atkurti programų užraktą, jei jį pamirštumėte.</string>
+    <string name="applock_add_account_title">Pridėti „Mi“ paskyrą</string>
     <string name="applock_already_add_account">Dabartinė paskyra: %s</string>
     <string name="applock_app_recommend_lock_title">Galite atrakinti toliau pateiktas programas</string>
-    <string name="applock_bind_account_dialog_content">Jūsų „Xiaomi“ paskyra yra vienintelė, kuri gali būti naudojama programų užrakto atkūrimui jį pamiršus. Prisijunkite, kad pridėtumėte „Xiaomi“ paskyrą.</string>
-    <string name="applock_bind_account_dialog_title">Pridėti savo „Xiaomi“ paskyrą</string>
+    <string name="applock_bind_account_dialog_content">Jūsų „Mi“ paskyra yra vienintelė, kuri gali būti naudojama programų užrakto atkūrimui, jį pamiršus. Prisijunkite, kad pridėtumėte „Mi“ paskyrą.</string>
+    <string name="applock_bind_account_dialog_title">Pridėti „Mi“ paskyrą</string>
     <string name="applock_bind_account_title">Pamiršau slaptažodį</string>
     <string name="applock_close_dialog_summary">Jūsų programų užrakto slaptažodis bus ištrintas. Išjungti programų užraktą dabar?</string>
     <string name="applock_close_dialog_title">Išjungti „Programų užraktą“?</string>
@@ -589,7 +589,7 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="applock_guide_tip1_without_face">Pasiekiama keletas slaptažodžių. Atrakinkite programas piršto atspaudu arba įvesdami slaptažodį.</string>
     <string name="applock_guide_tip1_without_finger">Pasiekiama keletas slaptažodžių. Atrakinkite programas veidu arba įvesdami slaptažodį.</string>
     <string name="applock_guide_tip1_without_finger_face">Pasiekiama keletas slaptažodžio tipų parametrų.</string>
-    <string name="applock_guide_tip2">Pridėkite savo „Xiaomi“ paskyrą, kad galėtumėte atkurti slaptažodį.</string>
+    <string name="applock_guide_tip2">Pridėkite savo „Mi“ paskyrą, kad galėtumėte atkurti slaptažodį.</string>
     <string name="applock_guide_tip3">Slėpti pranešimų turinį.</string>
     <string name="applock_guide_tip3_global">Slėpti pranešimų turinį.</string>
     <string name="applock_guide_title">Apsaugokite privatumą naudodami „Programų užraktą“</string>
@@ -601,7 +601,7 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="applock_login_and_add_account">Prisijungti ir pridėti</string>
     <string name="applock_mixtype_hidepwd_icon">Slėpti</string>
     <string name="applock_mixtype_showpwd_icon">Rodyti</string>
-    <string name="applock_no_account_login">Nesate prisijungę prie „Xiaomi“ paskyros</string>
+    <string name="applock_no_account_login">Nesate prisijungę prie „Mi“ paskyros</string>
     <string name="applock_not_add_account"><u>Ne dabar</u></string>
     <string name="applock_not_login_account">Jūs neprisijungęs</string>
     <string name="applock_numeric_pwd_type_line">Bendras slaptažodyje naudojamų skaitmenų skaičius: %1$d. Suvesta skaitmenų: %2$d.</string>
@@ -877,10 +877,10 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="bill_traffic_reminder_instruction_text">Mobiliųjų operatorių teikiamų mobiliųjų duomenų faktiniai duomenys gali skirtis ir dėl to gali vėluoti mokėjimai. Čia pateikta informacija yra tik informacinio pobūdžio.</string>
     <string name="bind_xiaomi_account_cancel">Atšaukti</string>
     <string name="bind_xiaomi_account_confirm">Pridėti</string>
-    <string name="bind_xiaomi_account_dialog_summery">Ketinate pridėti „Xiaomi“ paskyrą %s. Jei pamiršote slaptažodį, galite naudoti šią paskyrą norėdami jį iš naujo nustatyti. Paskyra bus automatiškai pašalinta, jei atsijungsite.</string>
-    <string name="bind_xiaomi_account_success">„Xiaomi“ paskyra sėkmingai pridėta</string>
-    <string name="bind_xiaomi_account_summary">Norėdami iš naujo nustatyti slaptažodį, naudokite „Xiaomi“ paskyrą</string>
-    <string name="bind_xiaomi_account_title">Pridėti „Xiaomi“ paskyrą</string>
+    <string name="bind_xiaomi_account_dialog_summery">Jūs pridedate Mi Paskyrą %s.Pamiršus slaptažodį, galėsite jį atstatyti naudodami šią paskyrą. Paskyra bus automatiškai pašalinta, jei atsijungsite.</string>
+    <string name="bind_xiaomi_account_success">„Mi“ paskyra sėkmingai pridėta</string>
+    <string name="bind_xiaomi_account_summary">Slaptažodžio atstatymui naudokite „Mi paskyrą“</string>
+    <string name="bind_xiaomi_account_title">Pridėti „Mi“ paskyrą</string>
     <string name="birthday">Gimtadienis</string>
     <string name="bl_no_blacklist">Nėra užblokuotų numerių.</string>
     <string name="bl_no_block_call">Nėra užblokuotų skambučių.</string>
@@ -989,6 +989,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="card_main_private_space_summary">„Antrosios erdvės“ naudojimas prilygsta dviejų telefonų turėjimui</string>
     <string name="card_main_private_space_title">„Antroji erdvė“</string>
     <string name="card_main_sectool_title">Įrankiai</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Sukurti</string>
     <string name="card_main_xspace_summary">Sukurkite dvigubas bet kurios programos paskyras</string>
     <string name="card_main_xspace_title">Dvigubos programos</string>
@@ -1054,7 +1055,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="confirmSecondSpacePassword">Patvirtinkite Antrosios erdvės slaptažodį</string>
     <string name="confirm_ai_allow_all_permission">Pakeisti visų programų leidimų būseną į „Spręsti už mane“?</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
-    <string name="confirm_bind_xiaomi_account_dialog_title">Pridedama „Xiaomi“ paskyra</string>
+    <string name="confirm_bind_xiaomi_account_dialog_title">Pridedama „Mi“ paskyra</string>
     <string name="confirm_close">Išjungti</string>
     <string name="confirm_fingerprint_msg">Patvirtinkite piršto atspaudą</string>
     <string name="confirm_leave">Ne, ačiū</string>
@@ -1276,6 +1277,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Rytas</string>
     <string name="edit_phone_num">Redaguoti SIM telefono numerį</string>
+    <string name="ellipsis">…</string>
     <string name="email">El. paštas</string>
     <string name="empty" />
     <string name="empty_app">Nėra programų</string>
@@ -1311,6 +1313,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="exit_dialog_garbage_clean_title">Atlaisvinti vietos saugykloje</string>
     <string name="exit_dialog_homepage_optimise_message">Jūsų įrenginio našumas yra mažesnis nei 80 taškų. Ar norite optimizuoti dabar?</string>
     <string name="exit_dialog_release_memory_positive_button">Uždaryti</string>
+    <string name="exit_dialog_release_memory_title">&lt;Data>Padidinti jūsų įrenginio greitį &lt;font color=#0099ff>%d%%&lt;/font>&lt;/Data></string>
     <string name="exit_dialog_release_memory_title_new">&lt;Data>Padidinti jūsų įrenginio greitį &lt;font color=#0099ff>%s&lt;/font>&lt;/Data></string>
     <string name="exit_dialog_release_storage_message">Daugiau nei 80% įrenginio talpyklos yra išnaudota. Atlaisvinkite vietos išdiegdami niekada nenaudotas programas.</string>
     <string name="exit_dialog_release_storage_message_new">Užimta daugiau nei %s jūsų įrenginio saugyklos vietos. Atlaisvinkite vietos, išdiegdami niekada nenaudojamas programėles.</string>
@@ -1354,7 +1357,9 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -1911,7 +1916,7 @@ bet taip pat padidina energijos sąnaudas ir leidžia įrenginiui perkaisti"</st
     <string name="gb_voice_changer_recommend">Rekomenduojama</string>
     <string name="gb_voice_changer_renew_dailog">Norėdami naudoti šį efektą, atnaujinkite savo narystę</string>
     <string name="gb_voice_changer_robot">Robotas</string>
-    <string name="gb_voice_changer_setting_account_title">„Xiaomi“ paskyra</string>
+    <string name="gb_voice_changer_setting_account_title">„Mi“ paskyra</string>
     <string name="gb_voice_changer_setting_become_vip">Užsisakyti</string>
     <string name="gb_voice_changer_setting_gender_subtitle">Derinkite efektus ir siūlymus pagal pasirinktą lytį</string>
     <string name="gb_voice_changer_setting_gender_title">Lytis</string>
@@ -1927,7 +1932,7 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="gb_voice_changer_user_status_expired">Prenumerata nebegalioja</string>
     <string name="gb_voice_changer_user_status_get_trial_card_dialog">"Išbandykite %d-d. bandomąją versiją
  ir susipažinkite su mūsų balso keitimo įrenginiu!"</string>
-    <string name="gb_voice_changer_user_status_no_login">Prisijungti prie „Xiaomi“ paskyros</string>
+    <string name="gb_voice_changer_user_status_no_login">Prisijunkite prie „Mi“ paskyros</string>
     <string name="gb_voice_changer_user_status_remain_time">Galiojimo data: %s</string>
     <string name="gb_voice_changer_user_status_renew">Atnaujinti</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Jūsų narystės galiojimas baigėsi. Atnaujinkite, norėdami naudotis visais teikiamais privalumais!</string>
@@ -2039,10 +2044,10 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="gtb_dialog_btn_close">Išjungti</string>
     <string name="gtb_dialog_btn_open">Įjungti</string>
     <string name="gtb_dialog_hint_smart_5g">Šią funkciją bet kada galite išjungti arba įjungti skiltyje „Turbo žaidimai“ > „Parametrai“.</string>
-    <string name="gtb_dialog_privacy_speed_message">Ketinate naudotis „Xunyou Game Booster“. Ši paslauga rinks jūsų „Xiaomi“ paskyros ID, kad užfiksuotų prenumeratos trukmę.</string>
+    <string name="gtb_dialog_privacy_speed_message">Netrukus naudositės „Xunyou Game Booster“. Ši paslauga ims jūsų „Mi“ paskyros ID, kad įrašytų narystės trukmę.</string>
     <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Perskaičiau ir sutinku su „Xunyou Game Booster“ &lt;a href=\"%1$s\">Privatumo politika.&lt;/a>&lt;/Data></string>
     <string name="gtb_dialog_privacy_speed_title">„Xunyou Game Booster“</string>
-    <string name="gtb_dialog_privacy_voice_message">Ketinate naudotis „Xunyou“ žaidimų balso keitimo priemone. Ši paslauga rinks jūsų „Xiaomi“ paskyros ID, kad užfiksuotų prenumeratos trukmę.</string>
+    <string name="gtb_dialog_privacy_voice_message">Netrukus naudositės „Xunyou“ balso keitėju. Ši paslauga ims jūsų „Mi“ paskyros ID, kad įrašytų narystės trukmę.</string>
     <string name="gtb_dialog_privacy_voice_tips">&lt;Data>Perskaičiau ir sutinku su „Xunyou“ balso keitimo žaidimo &lt;a href=\"%1$s\">Privatumo politika.&lt;/a>&lt;/Data></string>
     <string name="gtb_dialog_privacy_voice_title">„Xunyou“ balso keitimo žaidimas</string>
     <string name="gtb_dialog_summary_smart_5g">Kai tik „Turbo žaidimai“ aptiks 5G tinklą, norėdami sumažinti tinklo delsą, galėsite įrenginį prijungti prie geriausio pasiekiamo tinklo. Įjungti šią funkciją dabar?</string>
@@ -2366,6 +2371,8 @@ atsako"</string>
     <string name="memory_check_content">Atlaisvinta %s</string>
     <string name="memory_clean_memory_size_tip">Podėlis</string>
     <string name="memory_clean_no_need_clean">Viskas atrodo gerai</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">"Atlaisvinta %s.
+Jūsų įrenginys dabar %d%% greitesnis."</string>
     <string name="memory_clean_no_need_clean_1_new" formatted="false">"Atlaisvinta %s.
 Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="memory_clear_unused">Valyti talpyklą (%s)</string>
@@ -2390,6 +2397,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_item_notification_antispam_text_avail">Blokuojamų sąrašas</string>
     <string name="menu_item_notification_antispam_text_normal">Blokuojamų sąrašas</string>
     <string name="menu_item_notification_garbage_text">%s</string>
+    <string name="menu_item_notification_optimize_text">Užimta %d %%</string>
     <string name="menu_item_notification_optimize_text_new">Užimta %s</string>
     <string name="menu_item_notification_power_text">Akumuliatoriaus optimizavimas</string>
     <string name="menu_item_notification_title">Priminimų juostoje rodyti meniu</string>
@@ -2417,6 +2425,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_summary_networkassistants_3">Liko užtektinai duomenų</string>
     <string name="menu_summary_networkassistants_4">Duomenys greitai baigsis</string>
     <string name="menu_summary_optimize_manage">Valyti atmintį</string>
+    <string name="menu_summary_optimize_manage_1">Padarykite savo įrenginį %d%% greitesnį</string>
     <string name="menu_summary_optimize_manage_1_new">Padarykite savo įrenginį %s greitesnį</string>
     <string name="menu_summary_power_manager">„Energijos taupymas“ prailginą laiką tarp įkrovų</string>
     <string name="menu_summary_power_manager_1">Baterija pilnai įkrauta</string>
@@ -2432,6 +2441,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_license_manager">Leidimai</string>
     <string name="menu_text_networkassistants">Duomenų naudojimas</string>
     <string name="menu_text_networkassistants_danger">virš %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">liko %s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2440,6 +2450,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_optimize_manage">Spartinimas</string>
     <string name="menu_text_optimize_manage_1">Spartinimas</string>
     <string name="menu_text_power_manager">Akumuliatorius</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Pašalinti iš išimčių</string>
     <string name="menu_white">Įtraukti į išimtis</string>
     <string name="mi_ime_not_used">Naudokite „Xiaomi“ atestuotą klaviatūrą</string>
@@ -2544,6 +2555,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -2710,6 +2722,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="notification_link_cleaner_3001">Išvalyti „WeChat“ šiukšlinę, norint pagreitinti įrenginį</string>
     <string name="notification_link_cleaner_3002">Išvalyti „WeChat“ šiukšlinę</string>
     <string name="notification_link_cleaner_4000">Išvalyti „QQ“ šiukšlinę</string>
+    <string name="notification_link_optimizemanage_1011">Užimta %d%% atminties. Valyti dabar.</string>
     <string name="notification_link_optimizemanage_1011_new">Užimta %s atminties. Valyti dabar.</string>
     <string name="notification_low_battery_need_charge">Prijunkite įkroviklį</string>
     <string name="notification_low_battery_open_save_mode">Įjungti energijos taupymą</string>
@@ -2726,6 +2739,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="notification_masked_subtitle">Programos užraktas gali visa tai atlikti</string>
     <string name="notification_optimize_button_text">Valyti</string>
     <string name="notification_optimize_message">Išvalykite atmintį, norėdami padidinti greitį</string>
+    <string name="notification_optimize_title">Užimta %d%% atminties</string>
     <string name="notification_optimize_title_new">Užimta %s atminties</string>
     <string name="notification_power_consume_issue_summary">Didelės energijos sąnaudos</string>
     <string name="notification_power_consume_suggest_summary">Ištaisyti problemas akumuliat. energijos taupymui</string>
@@ -2869,9 +2883,9 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="password_forget_pattern_message_none">Programos nėra užrakintos. Jūs galite atstatyti savo slaptažodį.</string>
     <string name="password_forget_pattern_reset">Atstatyti</string>
     <string name="password_forget_pattern_title">Įspėjimas</string>
-    <string name="password_promotion_not_login_xiaomi_account_message">Pridėkite savo „Xiaomi“ paskyrą, kad galėtumėte atkurti slaptažodį, jei jį pamirštumėte.</string>
+    <string name="password_promotion_not_login_xiaomi_account_message">Pridėkite savo „Mi“ paskyrą, kad galėtumėte atkurti slaptažodį, jei jį pamirštumėte.</string>
     <string name="password_promotion_postbutton_text">Pridėti</string>
-    <string name="password_promotion_title">Pridėti „Xiaomi“ paskyrą</string>
+    <string name="password_promotion_title">Pridėti „Mi“ paskyrą</string>
     <string name="password_toggle_content_description">Rodyti slaptažodį</string>
     <string name="password_type">Pakeisti slaptažodį</string>
     <string name="password_type_underline"><u>Keisti slaptažodį</u></string>
@@ -3119,6 +3133,11 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_center_dialog_msg_top">Kai energijos taupymas įjungtas, „MIUI“ atliks tolesnius optimizavimo veiksmus:</string>
     <string name="power_center_hints_scan_danger_result">Galite išspręsti akumuliatoriaus problemas dabar</string>
     <string name="power_center_list_item_auto_brightness">Automatiškai derinti ekrano ryškumą</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">val.</string>
     <string name="power_center_list_item_close_bluetooth">Išjungti „Bluetooth“</string>
     <string name="power_center_list_item_deep_save_title">Išplėstiniai parametrai</string>
@@ -3404,6 +3423,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pref_normal_traffic_limit">Išnaudojus duomenų planą</string>
     <string name="pref_open_adjust_traffic">Kasdien atnaujinti duomenų vartojimo informaciją iš jūsų operatoriaus</string>
     <string name="pref_operator_not_set">Paslaugų tiekėjas nenustatytas</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kai viršijate duomenų plano limitą</string>
     <string name="pref_package_traffic_settings">Duomenų planas</string>
     <string name="pref_pkg_begin_date">Mėnesinio vartojimo atstatymo data</string>
@@ -3552,7 +3572,7 @@ Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis ka
     <string name="privacy_pop_record">Šiandien įrašė garsą</string>
     <string name="privacy_pop_storage">Šiandien pasiekė saugyklą</string>
     <string name="privacy_prompt_tc_sms_report_message">Jūsų telefono numeris ir tinklo operatoriaus informacija bus užkoduoti ir išsiųsti į Mi serverius, siekiant atnaujinti jūsų duomenų vartojimo informaciją.</string>
-    <string name="privacy_prompt_traffic_adjust_message">"Pradėjus kalibraciją, MIUI prisijungs prie tinklo, užkoduos jūsų tinklo operatoriaus informaciją, telefono numerį, IMEI ir „Xiaomi“ paskyrą ir įkels šiuos duomenis į „Mi“ serverius. Visa tai atliekama siekiant įgyti tinklo operatoriaus kalibracijos trafaretą ir įsitikinti ar jūsų vietovėje leidžiama įsigyti duomenis.
+    <string name="privacy_prompt_traffic_adjust_message">"Pradėjus kalibraciją, MIUI prisijungs prie tinklo, užkoduos jūsų tinklo operatoriaus informaciją, telefono numerį, IMEI ir Mi Paskyrą ir įkels šiuos duomenis į Mi serverius. Visa tai atliekama siekiant įgyti tinklo operatoriaus kalibracijos trafaretą ir įsitikinti ar jūsų Vietovėje leidžiama įsigyti duomenis.
 
 Kalibracijos metu, MIUI jūsų paslaugų tiekėjui išsiųs SMS žinutę, reikalingą gauti kalibracijos trafaretui."</string>
     <string name="privacy_prompt_upload">Įkelti</string>
@@ -3680,6 +3700,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_using_record">Garso įrašymas</string>
     <string name="privacyapp_number_masked_text">Pranešimo turinys – paslėptas</string>
     <string name="privacyapp_number_unmasked_text">Pranešimo turinys negali būti paslėptas</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medijų serveris</string>
     <string name="process_vpnsdkmanager_label">Turbo žaidimai</string>
     <string name="promotion">Reklama</string>
@@ -3749,7 +3770,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="report_warning_title">Įspėjimas</string>
     <string name="required_permissions">Privalomi leidimai</string>
     <string name="required_permissions_desc">Šie leidimai yra būtini įprastų programos funkcijų ir paslaugų naudojimui.</string>
-    <string name="reset_data_dialog_message">Šis įrenginys nėra susietas su jūsų „Xiaomi“ paskyra. Nepavyko atkurti ar atstatyti slaptažodžio. Sukurkite svarbių elementų atsargines kopijas ir atkurkite gamintojo parametrus. Atkuriant gamintojo parametrus visi duomenys bus negrįžtamai ištrinti, o jūsų SD kortelė bus suformatuota.</string>
+    <string name="reset_data_dialog_message">Šis įrenginys nėra susietas su jūsų „Mi“ paskyra. Nepavyko atkurti ar atstatyti slaptažodžio. Sukurkite svarbių elementų atsargines kopijas ir atstatykite gamyklinius nustatymus. Visi SD kortelės duomenys bus negrįžtamai ištrinti, o jūsų SD kortelė bus suformatuota.</string>
     <string name="reset_data_dialog_ok">Gamyklinis atstatymas</string>
     <string name="reset_data_title">Nepavyko atkurti slaptažodžio</string>
     <string name="result_autoscan_header">Mokėjimų stebėjimas</string>
@@ -3820,6 +3841,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="scan_open_shut_down_password_title">Išjungimo patvirtinimas</string>
     <string name="scan_status_risk">Rizikinga</string>
     <string name="scan_status_safe">Saugu</string>
+    <string name="scanning_bar_number">%d%%</string>
     <string name="scanning_bar_number_new">%s</string>
     <string name="screenrecord_not_find">Įdiekite naujausią „Ekrano įrašymas“ versiją ir pabandykite dar kartą.</string>
     <string name="sd_eject">Atjungti SD kortelę</string>
@@ -3863,7 +3885,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="set_now">Parametrai</string>
     <string name="set_numeric_password_name">Nustatyti PIN</string>
     <string name="set_package_tips">SMS pranešimas bus išsiųstas jūsų operatoriui, siekiant patikrinti jūsų duomenų planą. Šiam pranešimui parašyti, jūsų pateikta informacija bus užkoduota ir įkelta į mūsų serverius.</string>
-    <string name="set_package_tips_detail">Informacija, įkelta į „Xiaomi“ serverius apims jūsų operatoriaus informaciją, taip pat jūsų telefono numerį, IMEI ir „Xiaomi“ paskyros informaciją.</string>
+    <string name="set_package_tips_detail">Informacija, įkelta į „Xiaomi“ serverius apims jūsų operatoriaus informaciją, taip pat, jūsų telefono numerį, IMEI ir „Mi“ paskyrą.</string>
     <string name="set_pattern_password_name">Nustatyti raštą</string>
     <string name="set_traffic_tips">Nustatykite savo duomenų planą, norėdami valdyti duomenų naudojimą ir išvengti papildomų mokesčių iš operatoriaus</string>
     <string name="setting">Parametrai</string>
@@ -4303,7 +4325,7 @@ Norėdami naudoti šią ^1 šiame įrenginyje, pirmiausia ją įdiekite."</strin
     <string name="storage_item_doc_name">Dokumentai</string>
     <string name="storage_item_other_name">Kita</string>
     <string name="storage_item_picture_name">Vaizdai</string>
-    <string name="storage_item_system_data">Sistemos failai</string>
+    <string name="storage_item_system_data">Sistema</string>
     <string name="storage_item_system_name">Sistema</string>
     <string name="storage_item_video_name">Vaizdo įr.</string>
     <string name="storage_menu_mount">Prijungti</string>
@@ -4383,6 +4405,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="superpower_dialog_button_ok">Gerai</string>
     <string name="superpower_dialog_massage">„Ultra energijos taupymas“ apriboja daugumą energiją naudojančių funkcijų ir sumažina jūsų įrenginio spartą, siekiant išlaikyti bazinį įrenginio funkcionalumą (pvz., skambučius, SMS ir interneto prieigą) pasiekiamą kuo ilgiau. Įjungti ultra energijos taupymą?</string>
     <string name="superpower_dialog_title">Ultra energijos taupymas</string>
+    <string name="superpower_notification_new_title">Akumuliatoriaus liko mažiau nei %d%%</string>
     <string name="superpower_notification_new_title_new">Akumuliatoriaus liko mažiau nei %s</string>
     <string name="superpower_notification_summary">Įkraukite įrenginį arba įjunkite „Ultra energijos taupymą“</string>
     <string name="superpower_notification_time_12">"MMMM dd 'd.', EEEE"</string>
@@ -4586,7 +4609,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="title_block_calls_from_strangers">Praleidžiate svarbius skambučius?</string>
     <string name="title_chain_start">Apriboti masinį paleidimą</string>
     <string name="title_cleaner_cloudscan">Debesų šiukšlinės nuskaitymas</string>
-    <string name="title_cloud_account">„Xiaomi“ paskyra</string>
+    <string name="title_cloud_account">„Mi“ paskyra</string>
     <string name="title_cloud_service">„Xiaomi debesis“</string>
     <string name="title_cloud_space_almost_full">Debesies talpykla beveik pilna, elementai gali likti nesinchronizuoti</string>
     <string name="title_cloud_space_full">Debesis užpildytas</string>
