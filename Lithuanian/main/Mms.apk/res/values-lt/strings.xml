@@ -391,7 +391,6 @@ Atkreipkite dėmesį, kad žinučių siuntimo funkcija internetu yra sustabdyta 
     <string name="file_size">Dydis:</string>
     <string name="file_title">Vardas:</string>
     <string name="file_width_height">Dydis:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Skrydis</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -1209,7 +1208,6 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="send_signature_confirm_dialog_title">Siųsti žinutę</string>
     <string name="send_sms">Siųsti žinutę</string>
     <string name="send_to">Kam:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Išsiųsta: %1s</string>
     <string name="sent_label">"Išsiųstą: "</string>
     <string name="service_abandon_alert">Dėmesio</string>
