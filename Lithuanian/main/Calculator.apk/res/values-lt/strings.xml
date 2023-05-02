@@ -42,7 +42,7 @@
     <string name="app_name">Skaičiuotuvas</string>
     <string name="app_notification_info">Skaičiuotuvas veikia fone</string>
     <string name="base_rate">Bazinė palūkanų norma</string>
-    <string name="bmi_error_text">Šis KMI neatrodo gerai. Įsitikinkite, kad įvesti aukščio ir svorio duomenys yra teisingi.</string>
+    <string name="bmi_error_text">Įveskite galiojančius parametrus</string>
     <string name="bmi_label_information">Informacija</string>
     <string name="bmi_label_normal">Normalus</string>
     <string name="bmi_label_overweight">Viršsvoris</string>
@@ -220,6 +220,7 @@
     <string name="global_search_key_word_figure">Finansiniai simboliai</string>
     <string name="golbal_search_calculator_setting">Skaičiuotuvas; Skaičiuotuvo parametrai;Parametrai</string>
     <string name="golbal_search_path_calculator_setting">Sisteminės programos/Skaičiuotuvas/Parametrai</string>
+    <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
     <string name="height_prompt">Aukštis</string>
     <string name="help_content_desc">Pagalba</string>
@@ -235,6 +236,7 @@
     <string name="install_scanner_to_continued_use">Skaitytuvas yra išdiegtas. Įdiegti iš naujo?</string>
     <string name="interest_rate_hint">Įveskite palūkanų normą</string>
     <string name="investment_invalid_duration">Investicijos trukmė turi būti didesnė už nulį</string>
+    <string name="investment_loan_result">Išsamiau</string>
     <string name="investment_type_once">Vienkartinis</string>
     <string name="investment_type_recurring">Pasikartojantis</string>
     <string name="item_page_title_investment">Investicijų skaičiuotuvas</string>
@@ -593,7 +595,6 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="tax_result_real_get">Po mokesčių</string>
     <string name="tax_social_insurance">Socialinis draudimas</string>
     <string name="tax_thershold_foreign">%s (Užsienio piliečiai)</string>
-    <string name="tax_thershold_native">%s (žemyninė Kinija)</string>
     <string name="tax_thershold_native_new">%s (nauja)</string>
     <string name="tax_thershold_native_new_description">Nuo 2018 m. spalio 1 d. mokesčiai bus apskaičiuojami atsižvelgiant į naująjį mokesčių įstatymą</string>
     <string name="tax_threshold">Neapmokestinamos pajamos</string>
@@ -696,6 +697,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_display_currency_btn">Butano ngultrumas</string>
     <string name="unit_data_display_currency_bwp">Botsvanos pula</string>
     <string name="unit_data_display_currency_byn">Baltarusijos rublis</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanados doleris</string>
     <string name="unit_data_display_currency_cdf">Kongo frankas</string>
     <string name="unit_data_display_currency_chf">Šveicarijos frankas</string>
@@ -801,7 +803,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_display_length_fen">Fen</string>
     <string name="unit_data_display_length_fm">Sieksnis</string>
     <string name="unit_data_display_length_ft">Pėda</string>
-    <string name="unit_data_display_length_fur">Femara</string>
+    <string name="unit_data_display_length_fur">Furlongas</string>
     <string name="unit_data_display_length_gongli">Gongli</string>
     <string name="unit_data_display_length_hao">Hao</string>
     <string name="unit_data_display_length_in">Colis</string>
@@ -1038,12 +1040,15 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">Skaičiuotuvas – sisteminė programa. Išdiegus programą, neturėsite galimybės naudoti keitiklių ir papildomų funkcijų.</string>
     <string name="xiaomi_calculator_delete_title">Išdiegti skaičiuotuvą?</string>
     <string name="xiaomi_calculator_remove_icon_description">Skaičiuotuvas yra sisteminė programa. Pašalinus pagrindinio ekrano nuorodą, neturėsite galimybės naudoti keitiklių ir papildomų funkcijų.</string>
     <string name="xiaomi_calculator_remove_icon_title">Pašalinti „Skaičiuotuvą“ iš pagrindinio ekrano?</string>
     <string name="xiaomi_connect_download_manager_fail">Nepavyko prisijungti prie atsisiuntimų. Įsitikinkite, kad programai suteikti visi reikiami leidimai skiltyje „Parametrai“ > „Įdiegtos programos“.</string>
     <string name="xiaomi_external_storage_unavailable">Talpykla nepasiekiama. Patikrinkite savo SD kortelę.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Pristatome %1$s versiją
 Dydis: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Pristatome %1$s versiją

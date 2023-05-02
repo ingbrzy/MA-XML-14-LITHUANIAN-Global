@@ -52,6 +52,7 @@
     <string name="additional_calendar_note">Kai kurie papildomi kalendoriai gali skirtis arba būti nepasiekiami dėl nepastovių veiksnių</string>
     <string name="afternoon">Popietė</string>
     <string name="agenda_month_empty_hint">Šiandien įvykių nėra</string>
+    <string name="agenda_not_today_empty_hint">Čia dar nėra įvykių. Spustelėkite, kad sukurtumėte.</string>
     <string name="agenda_tomorrow">RYTOJ, %1$s</string>
     <string name="agenda_view">Įvykiai</string>
     <string name="alarm_label">Atmesti</string>
@@ -182,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="date_today">" (šiandien)"</string>
     <string name="date_view">Data</string>
@@ -194,6 +196,8 @@
     <string name="delete_this_event_title">Ištrinti šį įvykį?</string>
     <string name="description_calendar">Sistemos programos/Kalendorius</string>
     <string name="description_calendar_edit_event">Sistemos programos/Kalendorius/Dienotvarkė</string>
+    <string name="description_calendar_huangli" />
+    <string name="description_calendar_subscribe_group" />
     <string name="directory_searching_fmt">Ieškoma %s…</string>
     <string name="discard_label">Atšaukti</string>
     <string name="display_to_calendar">Rodyti Kalendoriuje</string>
@@ -270,6 +274,7 @@
     <string name="event_info_when">Kada</string>
     <string name="event_info_where">Kur</string>
     <string name="event_reminder_allday_day_zero">Tą dieną %2$s</string>
+    <string name="event_reminder_custom">Tinkinta</string>
     <string name="event_reminder_value_zero">Prieš įvykį</string>
     <string name="event_title">Pavadinimas</string>
     <string name="event_view">Peržiūrėti įvykį</string>
@@ -389,6 +394,7 @@
     <string name="holidays_title">Atostogos</string>
     <string name="horoscope">Horoskopas</string>
     <string name="horoscope_card_title">Šiandienos horoskopas</string>
+    <string name="horoscope_partner" />
     <string name="horoscope_select_activity_label">Pasirinkite zodiako ženklą</string>
     <string name="hour_1">%d valanda</string>
     <string name="image_processing">Vaizdas nėra paruoštas</string>
@@ -422,6 +428,8 @@
     <string name="long_holiday_week_off">Savaitės išeiginės</string>
     <string name="long_month_date_format">"yyyy 'm.' MMMM d 'd.'"</string>
     <string name="lunar_date">Mėnulio kalendoriaus data</string>
+    <string name="lunar_day" />
+    <string name="lunar_to_solar" />
     <string name="manage_holidays">Valdyti atostogas</string>
     <string name="manage_title">Valdyti</string>
     <string name="mark_end">Menstruacijos pasibaigė</string>
@@ -579,7 +587,7 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="no_visiable_calendar_title">Pridėti paskyrą</string>
     <string name="none">Nenustatyta</string>
     <string name="noon">Vidurdienis</string>
-    <string name="not_more_than_three_weekday">Galite pasirinkti iki 3 dienų</string>
+    <string name="not_more_than_three_weekday">Galite pasirinkti iki %d dienų</string>
     <string name="not_set">Nenustatyta</string>
     <string name="notes_hint">Bakstelėkite, kad įtrauktumėte užduotį</string>
     <string name="notes_reminders_channel">Priminimai apie užrašus</string>
@@ -594,6 +602,10 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="notes_weekly">Savaitinis</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Kalendoriaus priminimai</string>
+    <string name="notification_open_setting_button_exit">Ne, ačiū</string>
+    <string name="notification_open_setting_button_ok">Leisti</string>
+    <string name="notification_open_setting_message">Negalėsite gauti pranešimų apie įvykius, nebent leisite kalendoriui jums siųsti pranešimus.</string>
+    <string name="notification_open_setting_title">Leisti kalendoriaus pranešimus?</string>
     <string name="numbers">%d</string>
     <string name="pack_up">收起</string>
     <string name="panchang_amanta">Amanta</string>
@@ -621,6 +633,7 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">Partnerio suderinamumas</string>
     <string name="path_calendar_settings">Sisteminės programos/Kalendorius/Parametrai</string>
+    <string name="permission_denial">Suteikite leidimus, kad galėtumėte naudoti šią funkciją</string>
     <string name="permission_description">Leidimų informacija</string>
     <string name="picker_day">Pasirinkta diena: %1$d. Perbraukite vertikaliai, kad pasirinktumėte.</string>
     <string name="picker_month">Pasirinktas mėnuo: %1$d. Perbraukite vertikaliai, kad pasirinktumėte.</string>
@@ -634,7 +647,6 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="pref_title_no_remind">Priminimų nėra</string>
     <string name="pref_title_notification_remind">Priminimai apie pranešimus</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
-    <string name="preferences_additional_cal_default">0</string>
     <string name="preferences_alarms_category_title">Žadintuvo priminimai</string>
     <string name="preferences_alarms_sound">Melodija</string>
     <string name="preferences_alarms_vibrateWhen">Vibruoti</string>
@@ -653,9 +665,9 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="preferences_title">Kalendorius</string>
     <string name="preferences_use_home_tz_descrip">Keliavimo metu, rodyti kalendorių ir įvykių laiką pagal jūsų namų laiko zoną</string>
     <string name="preferences_use_home_tz_title">Naudoti namų laiko juostą</string>
-    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Savaitės pradžia</string>
     <string name="preferences_week_start_day_title">Savaitės pradžia</string>
+    <string name="premission_description_notice">Siųsti pranešimus apie renginius ir atostogas</string>
     <string name="privacy_and_permissions">Privatumas ir leidimai</string>
     <string name="privacy_card_description">Norėdami pasiekti visas funkcijas, sutikite su mūsų privatumo politika.</string>
     <string name="privacy_policy_dialog_agree">Sutinku</string>
@@ -681,6 +693,8 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="remind_title_menstruation_start">Priminti apie menstruacijų pradžią</string>
     <string name="remind_title_record">Priminti apie įrašymą</string>
     <string name="repeat_activity_label">Kartoti</string>
+    <string name="repeat_alarm_close_title">Tai pasikartojantis įvykis. Išjungti priminimą?</string>
+    <string name="repeat_alarm_open_title">Tai pasikartojantis įvykis. Įjungti priminimą?</string>
     <string name="repeat_custom_activity_label">Savas</string>
     <string name="repeat_custom_prompt_daily">kas %1$s</string>
     <string name="repeat_custom_prompt_sentence">Įvykis bus kartojamas %1$s</string>
@@ -702,6 +716,7 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="repeat_label_frequency">Dažnumas</string>
     <string name="repeat_label_interval">Kiekvieną</string>
     <string name="repeat_label_week">Savaitė</string>
+    <string name="repeat_lunar_yearly" />
     <string name="repeat_month_day_splitter">" "</string>
     <string name="repeat_week_info">" %1$s %2$s"</string>
     <string name="repeats_label">Kartoti</string>
@@ -722,7 +737,9 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="saving_event">Įvykis išsaugotas</string>
     <string name="saving_event_with_guest">Siunčiami atnaujinimai…</string>
     <string name="search_calendar_edit_event">Susitikimas;Priminimas;Planas</string>
+    <string name="search_calendar_huangli" />
     <string name="search_calendar_settings">Kalendorius;Planas;Priminimas</string>
+    <string name="search_calendar_subscribe_group" />
     <string name="search_events">Ieškoti įvykių</string>
     <string name="search_history">Paieškos istorija</string>
     <string name="search_menu_title">Ieškoti</string>
@@ -740,7 +757,7 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="setting_about_summary">Versija:</string>
     <string name="setting_accounts">Kalendorius paskyros</string>
     <string name="setting_change_language">Pasirinkite kalendoriaus kalbą</string>
-    <string name="setting_desc_import_todo">Importuoti suplanuotas užduotis iš „Užrašų“</string>
+    <string name="setting_desc_import_todo">Importuoti skubias užduotis iš užrašinės</string>
     <string name="setting_features_title">Funkcijos parametrai</string>
     <string name="setting_holiday_display_desc">Šventinių dienų korteles rasite apačioje, pagrindiniame puslapyje</string>
     <string name="setting_holiday_reminder">Priminimas apie šventes</string>
@@ -777,6 +794,10 @@ Patikrinkite tinklo parametrus ir bandykite dar kartą."</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip">Praleisti</string>
     <string name="small_week_date_format">yyyy-MM-dd EEE</string>
+    <string name="solar_lunar_convert_date" />
+    <string name="solar_lunar_convert_description" />
+    <string name="solar_lunar_convert_tab" />
+    <string name="solar_to_lunar" />
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Ypatingi įvykiai</string>
     <string name="start_date_calculate">Apskaičiuoti</string>

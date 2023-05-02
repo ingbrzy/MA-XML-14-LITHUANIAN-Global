@@ -2,9 +2,9 @@
 <resources>
     <string-array name="additional_cal_dialog_labels">
         <item>Nėra</item>
-        <item>Hijri kalendorius</item>
-        <item>Shaka kalendorius</item>
-        <item>Vikrami kalendorius</item>
+        <item>Islamiškas kalendorius</item>
+        <item>Indijos nacionalinis kalendorius</item>
+        <item>Vikramo kalendorius</item>
     </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
@@ -29,6 +29,10 @@
     <string-array name="change_response_labels">
         <item>Tik šį įvykį</item>
         <item>Visus įvykius iš serijos</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Išjungti kartą</item>
+        <item>Visada išjungta</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>Pirmyn</item>
@@ -78,6 +82,10 @@
         <item>libra</item>
         <item>Svarstyklės</item>
         <item>9-23 - 10-23</item>
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Įjungti kartą</item>
+        <item>Visada įjungta</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>Sekmadienis</item>

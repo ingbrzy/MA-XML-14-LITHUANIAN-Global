@@ -54,18 +54,6 @@
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minutes</item>
     </plurals>
-    <plurals name="announce_for_drag">
-        <item quantity="other">Tempiama %1$d elementų</item>
-        <item quantity="one">Tempiamas %1$d elementas</item>
-        <item quantity="few">Tempiami %1$d elementai</item>
-        <item quantity="many">Tempiama %1$d elemento</item>
-    </plurals>
-    <plurals name="announce_for_unread">
-        <item quantity="other">%2$s neskaitytų nuo %1$s</item>
-        <item quantity="one">%2$s neskaitytas nuo %1$s</item>
-        <item quantity="few">%2$s neskaityti nuo %1$s</item>
-        <item quantity="many">%2$s neskaityto nuo %1$s</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
         <item quantity="one">Prieš pusvalandį</item>
@@ -108,46 +96,10 @@
         <item quantity="few">Pasirinkti %d elementai</item>
         <item quantity="many">Pasirinkta %d elemento</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d naujų pranešimų</item>
-        <item quantity="one">%d naujas pranešimas</item>
-        <item quantity="few">%d nauji pranešimai</item>
-        <item quantity="many">%d naujo pranešimo</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
         <item quantity="one">Prieš 1 minutę</item>
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minutes</item>
-    </plurals>
-    <plurals name="remove_dialog_title_multi_format">
-        <item quantity="other">Pašalinti %1$d elementų iš pagrindinio ekrano?</item>
-        <item quantity="one">Pašalinti %1$d elementą iš pagrindinio ekrano?</item>
-        <item quantity="few">Pašalinti %1$d elementų iš pagrindinio ekrano?</item>
-        <item quantity="many">Pašalinti %1$d elementus iš pagrindinio ekrano?</item>
-    </plurals>
-    <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">%1$d puslapis, %2$d programų.</item>
-        <item quantity="one">%1$d puslapis, %2$d programa.</item>
-        <item quantity="few">%1$d puslapis, %2$d programos.</item>
-        <item quantity="many">%1$d puslapis, %2$d programos.</item>
-    </plurals>
-    <plurals name="uninstall_dialog_title_multi_format">
-        <item quantity="other">Išdiegti %1$d programų?</item>
-        <item quantity="one">Išdiegti %1$d programą?</item>
-        <item quantity="few">Išdiegti %1$d programas?</item>
-        <item quantity="many">Išdiegti %1$d programos?</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_failed">
-        <item quantity="other">Nepavyko išdiegti %1$d programų</item>
-        <item quantity="one">Nepavyko išdiegti %1$d programos</item>
-        <item quantity="few">Nepavyko išdiegti %1$d programų</item>
-        <item quantity="many">Nepavyko išdiegti %1$d programos</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">%1$d programų išdiegta</item>
-        <item quantity="one">%1$d programa išdiegta</item>
-        <item quantity="few">%1$d programos išdiegtos</item>
-        <item quantity="many">%1$d programos išdiegta</item>
     </plurals>
 </resources>

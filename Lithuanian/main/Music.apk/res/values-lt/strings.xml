@@ -40,35 +40,8 @@
     <string name="abc_shareactionprovider_share_with">Bendrinti su</string>
     <string name="abc_shareactionprovider_share_with_application">Bendrinti naudojant programą „%s“</string>
     <string name="abc_toolbar_collapse_description">Sutraukti</string>
-    <string name="access_denied_info">Per daug bandymų. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="account_and_cloud">Paskyra</string>
-    <string name="account_crop_user_avatar">Apkirpti nuotrauką</string>
-    <string name="account_empty_user_name">Įveskite „Mi“ paskyros naudotojo vardą</string>
-    <string name="account_error_all_space_user_name">Naudotojo vardas negali būti tik iš \"tarpo\" simbolių</string>
-    <string name="account_error_invalid_user_name">Vardo negali sudaryti &lt;, > ar /</string>
-    <string name="account_error_longer_user_name">Vardas negali būti ilgesnis nei 20 simbolių</string>
-    <string name="account_error_shorter_user_name">Vardas turi būti ilgesnis nei 2 simboliai</string>
-    <string name="account_error_user_birthday">Gimtadienis, kurį įvedėte, yra neteisingas</string>
-    <string name="account_error_user_name">Šis slapyvardis netinkamas. Pabandykite kitą.</string>
-    <string name="account_invalid_user_avatar">Ši nuotrauka – netinkama. Pabandykite kitą.</string>
-    <string name="account_limit_update_birthday">Šiuo metu nepavyksta atnaujinti gimtadienio</string>
     <string name="account_logout">Atsijungti</string>
-    <string name="account_no_set">Nenustatyta</string>
-    <string name="account_none_bind_info">Nenustatyta</string>
-    <string name="account_none_user_name">Jokio</string>
-    <string name="account_secure_info_pref_title">Paskyros informacija</string>
-    <string name="account_security_info_pref_title">Saugumo informacija</string>
-    <string name="account_user_avatar">Profilio nuotrauka</string>
-    <string name="account_user_avatar_from_album">Galerija</string>
-    <string name="account_user_avatar_from_camera">Fotoaparatas</string>
-    <string name="account_user_base_info">Pagrindinė informacija</string>
-    <string name="account_user_details">Asmeninė informacija</string>
-    <string name="account_user_email">Atkūrimo el. paštas</string>
-    <string name="account_user_gender">Lytis</string>
-    <string name="account_user_id">„Mi“ paskyros ID</string>
-    <string name="account_user_name">Slapyvardis</string>
-    <string name="account_user_name_dialog_title">Įveskite naudotojo vardą</string>
-    <string name="account_user_phone">Atstatymo telefonas</string>
     <string name="action_item_add">Pridėti į</string>
     <string name="action_item_add_song">Įtraukti į grojaraštį</string>
     <string name="action_item_add_to_current_playlist">Eilė</string>
@@ -82,13 +55,13 @@
     <string name="action_item_play_all">Sumaišyti viską</string>
     <string name="action_item_play_next">Groti vėliau</string>
     <string name="action_item_play_video">Groti muzikinį klipą</string>
+    <string name="action_item_podcast">Tinklalaidės informacija</string>
+    <string name="action_item_podcast_speed">Atkūrimo greitis</string>
     <string name="action_item_remove">Pašalinti</string>
     <string name="action_item_remove_from_favorite">Nebemėgti</string>
     <string name="action_item_share">Bendrinti</string>
     <string name="action_settings">Parametrai</string>
     <string name="actionbar_button_up_description">Grįžti</string>
-    <string name="activate_email_notice">Įsitikinkite, paskyrą pavyks suaktyvinti per 24 valandas</string>
-    <string name="activity_not_found_notice">Nepavyksta rasti programos</string>
     <string name="ad_close">Uždaryti</string>
     <string name="ad_data_exception">Reklamos duomenų klaida</string>
     <string name="ad_recommend">Rodyti reklamą</string>
@@ -98,7 +71,6 @@
     <string name="add_to_last_of_playlist">Pridėti į grojaraščio pabaigą</string>
     <string name="add_to_playlist">Įtraukti į eilę</string>
     <string name="add_to_playlist_successful">Sėkmingai pridėta</string>
-    <string name="add_to_trust_device">Šis įrenginys yra patikimas</string>
     <string name="added_next_play">Pridėta į „toliau groti“</string>
     <string name="afternoon">Popietė</string>
     <string name="agreement_desc">Naudotojo sutartis (privaloma)</string>
@@ -156,7 +128,6 @@
     <string name="audio_ad_countdown">Praleisti reklamą po %s sek.</string>
     <string name="audio_ad_pass">Pral. rekl.</string>
     <string name="audio_picker_title">Pasirinkite dainą</string>
-    <string name="auth_fail_warning">Seansas baigėsi. Prisijunkite iš naujo.</string>
     <string name="auto_play_switch">Aut. vaizdo įrašų paleidimas</string>
     <string name="auto_play_toast">Aut. paleidimas įjungtas. Galite jį išjungti parametruose.</string>
     <string name="auto_recommend">Automat. (rekomenduojama)</string>
@@ -166,6 +137,7 @@
     <string name="autoplay_is_off">Aut. paleidimas išjungtas</string>
     <string name="autoplay_is_on">Aut. paleidimas įjungtas</string>
     <string name="available_playlist_name_format">Naujas grojaraštis %d</string>
+    <string name="avatar">Profilio nuotrauka</string>
     <string name="avoid_to_use_traffic_summary">Nenaudoti mobiliųjų tinklų muzikos transliavimui</string>
     <string name="avoid_to_use_traffic_title">Klausti prieš klausant muzikos per mobiliuosius tinklus</string>
     <string name="back">Grįžti</string>
@@ -187,9 +159,7 @@
     <string name="cancel">Atšaukti</string>
     <string name="cancel_running_download">Atšaukti</string>
     <string name="cannot_download_to_sdcard_hint">Nepavyko atsiųsti elementų į SD kortelę dėl autorinių teisių apribojimų. Vietoj to, elementai bus atsiųsti į vidinę saugyklą.</string>
-    <string name="change_activate_email">Pakeisti el. pašto adresą</string>
     <string name="change_download_quality">Pakeisti atsisiuntimo kokybę</string>
-    <string name="change_password">Keisti slaptažodį</string>
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="checking_new_version">Ieškoma naujinimų…</string>
@@ -206,7 +176,6 @@
     <string name="click_to_shuffle">Sumaišyti</string>
     <string name="close">Uždaryti</string>
     <string name="close_music_time">"Liko laiko: "</string>
-    <string name="collect_diagnosis_log">Rinkti žurnalus</string>
     <string name="columbus_ad_flag_text">Reklama</string>
     <string name="columbus_skip_ad">Praleisti</string>
     <string name="comment_format" formatted="false">%s: %s</string>
@@ -229,7 +198,6 @@
     <string name="common_signin_button_text">Prisijungti</string>
     <string name="common_signin_button_text_long">Prisijungti naudojant „Google“</string>
     <string name="confirm">Gerai</string>
-    <string name="confirm_activate_email">Patvirtinta</string>
     <string name="confirm_exit">Išsaugoti pakeitimus?</string>
     <string name="connect_now">Prisijungti</string>
     <string name="connecting_apk">Jungiamasi…</string>
@@ -272,10 +240,6 @@
     <string name="desktop_lyric_textsize">Tekstas</string>
     <string name="device_connected">Prisijungta</string>
     <string name="device_not_connected">Neprisijungta</string>
-    <string name="diagnosis_log_send_failed">Nepavyko išsiųsti žurnalų. Bandykite dar kartą.</string>
-    <string name="diagnosis_log_sent_format">"Žurnalai sėkmingai išsiųsti.
-ID:%s
-Išsiųskite šį kodą vadovui."</string>
     <string name="dialog_cannot_resume">Atsiuntimas sutrukdytas. Pratęsti negalima.</string>
     <string name="dialog_clear_history">Išvalyti nesenai grotų dainų sąrašą?</string>
     <string name="dialog_confirm_delete_checkbox_message">Taip pat ištrinti ir lokalius failus</string>
@@ -327,7 +291,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="discover_more_music">Atraskite daugiau dainų</string>
     <string name="do_not_remind_this_version">Nepriminti apie šią versiją</string>
     <string name="do_not_support_google_voice_search">„Google“ balso paieška nėra palaikoma šiame įrenginyje.</string>
-    <string name="doing_query_account">Tikrinama paskyros informacija…</string>
     <string name="download">Atsisiųsti</string>
     <string name="download_added_to_list">Pridėta į atsiuntimų eilę</string>
     <string name="download_apk_desktop_installing">Įdiegiama</string>
@@ -364,7 +327,9 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="download_method">Atsisiųsti</string>
     <string name="download_no_application_title">Nepavyko atverti failo</string>
     <string name="download_paused_in_power_save_mode">Atsiuntimai yra pristabdomi, kai įjungtas energijos taupymo režimas</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Atsiunčiama…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Atsiuntimo kokybė</string>
     <string name="download_quality_summary">Papildomi atsiunčiamų dainų parametrai</string>
     <string name="download_queued">Pridėta į eilę</string>
@@ -432,12 +397,9 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="equalizer">Ekvalaizeris</string>
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
-    <string name="error_dup_binded_email">Šis el. pašto adresas jau yra susietas su kita „Mi“ paskyra.</string>
     <string name="error_icon_content_description">Klaida</string>
-    <string name="error_invalid_bind_address">El. pašto adresas, kurį įvedėte, yra neteisingas.</string>
     <string name="error_not_support">Nepalaikoma</string>
     <string name="evening">Popietė</string>
-    <string name="exceed_binded_phone_times_notice">Šis telefono numeris jau yra susietas su kita „Mi“ paskyra.</string>
     <string name="exo_controls_cc_disabled_description">Įgalinti subtitrus</string>
     <string name="exo_controls_cc_enabled_description">Išjungti subtitrus</string>
     <string name="exo_controls_fastforward_description">Sukti pirmyn</string>
@@ -450,17 +412,16 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="exo_controls_pause_description">Pristabdyti</string>
     <string name="exo_controls_play_description">Leisti</string>
     <string name="exo_controls_playback_speed">Sparta</string>
-    <string name="exo_controls_playback_speed_normal">Įprasta</string>
     <string name="exo_controls_previous_description">Ankstesnės</string>
-    <string name="exo_controls_repeat_all_description">Kartoti viską</string>
-    <string name="exo_controls_repeat_off_description">Nekartoti nieko</string>
-    <string name="exo_controls_repeat_one_description">Kartoti vieną</string>
+    <string name="exo_controls_repeat_all_description">Dabart. rež.: kart. viską. Perj. pakart. r.</string>
+    <string name="exo_controls_repeat_off_description">Dabart. rež.: nekart. nieko. Perj. pakart. r.</string>
+    <string name="exo_controls_repeat_one_description">Dabart. rež.: kart. vieną. Perj. pakart. r.</string>
     <string name="exo_controls_rewind_description">Sukti atgal</string>
     <string name="exo_controls_seek_bar_description">Atkūrimo eiga</string>
     <string name="exo_controls_settings_description">Nustatymai</string>
     <string name="exo_controls_show">Rodyti leistuvės valdiklius</string>
-    <string name="exo_controls_shuffle_off_description">Maišymas išjungtas</string>
-    <string name="exo_controls_shuffle_on_description">Maišymas įjungtas</string>
+    <string name="exo_controls_shuffle_off_description">Įgalinti maišymo režimą</string>
+    <string name="exo_controls_shuffle_on_description">Išjungti maišymo režimą</string>
     <string name="exo_controls_stop_description">Sustabdyti</string>
     <string name="exo_controls_vr_description">VR režimas</string>
     <string name="exo_download_completed">Atsisiuntimo procesas baigtas</string>
@@ -468,12 +429,17 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="exo_download_downloading">Atsisiunčiama</string>
     <string name="exo_download_failed">Nepavyko atsisiųsti</string>
     <string name="exo_download_notification_channel_name">Atsisiuntimai</string>
+    <string name="exo_download_paused">Atsisiuntimai pristabdyti</string>
+    <string name="exo_download_paused_for_network">Norint tęsti atsis., laukiama tinklo</string>
+    <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_media_action_repeat_all_description">Kartoti viską</string>
     <string name="exo_media_action_repeat_off_description">Nekartoti nieko</string>
     <string name="exo_media_action_repeat_one_description">Kartoti vieną</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -491,7 +457,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="expand_button_title">Išplėstiniai</string>
     <string name="expired">Nebegalioja</string>
     <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
-    <string name="facebook_login_btn_content_description">Prisijungti naudojant „Facebook“</string>
     <string name="facebook_not_installed">Pirmiausia įdiekite „Facebook“.</string>
     <string name="fail_to_fetch_payment_page_url">Nepavyko gauti mokėjimo informacijos</string>
     <string name="fail_to_play">Nepavyko paleisti dainos</string>
@@ -587,7 +552,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="fmt_weekday_timezone">W z</string>
     <string name="follow">Sekti</string>
     <string name="followed">Sekama</string>
-    <string name="for_diagnosis_usage_only">Žurnalai yra naudojami tik diagnostikai.</string>
     <string name="format_not_support">Šis formatas nėra palaikomas.</string>
     <string name="format_unsupported_or_corrupted">Šis formatas nepalaikomas arba failas sugadintas</string>
     <string name="fragment_title_artist_album">Albumai</string>
@@ -599,19 +563,19 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="get_more_favorite_content_after_login">Norėdami atrasti daugiau dainų ir vaizdo įrašų, prisijunkite.</string>
     <string name="get_one_day_vip">Turite VIP %d- dienai!</string>
     <string name="get_one_hour_vip">Turite VIP %d- valandai!</string>
-    <string name="get_phone_verifycode_exceed_limit">Į šį numerį išsiųsta per daug patvirtinimo kodų. Palaukite 24 val. ir bandykite iš naujo.</string>
     <string name="get_vip">Gauti VIP</string>
     <string name="go_agree">Gerai</string>
     <string name="google_account_login">Prisijungti naudojant „Google“</string>
-    <string name="google_login_btn_content_description">Prisijungti naudojant „Google“</string>
     <string name="goto_local_search">Ieškoti įrenginyje</string>
     <string name="goto_online_search">Ieškoti internete</string>
     <string name="handle_later">Ne dabar</string>
     <string name="hd_quality_audio">HD kokybės garsas</string>
-    <string name="header_help">Pagalba</string>
     <string name="headset_and_audio_effect_category">Ausinės ir garso efektai</string>
     <string name="headset_and_audio_effect_summary">Ausinės ir vienodintuvas</string>
     <string name="headset_and_audio_effect_title">Ausinės ir garso efektai</string>
+    <string name="hgm_vip_btn_desc">Išbandykite nemokamai</string>
+    <string name="hgm_vip_high_quality">Kokybiški atsisiuntimai</string>
+    <string name="hgm_vip_no_ads">Be reklamų ir limitų</string>
     <string name="hide_album">Slėpti albumo viršelį</string>
     <string name="hide_lyric">Slėpti dainų žodžius</string>
     <string name="hifi_quality">Aukšta kokybė</string>
@@ -623,6 +587,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="home_tab_local">Mano muzika</string>
     <string name="home_tab_more_music">Daugiau muzikos</string>
     <string name="home_tab_online">Muzika internete</string>
+    <string name="home_tab_podcast">Tinklalaidės</string>
     <string name="home_tab_recommend">Internete</string>
     <string name="home_tab_search">Paieška</string>
     <string name="hot_icon_in_fast_indexer">H</string>
@@ -656,7 +621,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="individuation_recommend_title">Rekomenduojama</string>
     <string name="individuation_setting_summary">Gauti rekomendacijas pagrįstas jūsų interesais</string>
     <string name="individuation_setting_title">Suasmenintos rekomendacijos</string>
-    <string name="input_email_address_notice">Šis el. pašto adresas bus naudojamas jūsų paskyros patvirtinimui</string>
     <string name="input_hint_prefix">Įveskite %1$s</string>
     <string name="installing_apk">Įdiegiama…</string>
     <string name="insufficient_space">Jūsų vidinėje laikmenoje trūksta laisvos vietos</string>
@@ -718,7 +682,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="listen_anywhere">Klausykite bet kur</string>
     <string name="load_shuffle">Įkeliama…</string>
     <string name="loadercontainer_loading">Sekundėlę…</string>
-    <string name="loading">Sekundėlę…</string>
     <string name="loading_hint">Sekundėlę…</string>
     <string name="loading_reached_the_bottom">Šiam kartui tiek.</string>
     <string name="loading_text">Sekundėlę…</string>
@@ -729,15 +692,9 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="local_page_artist_more">Daugiau %s dainų</string>
     <string name="local_page_playlist">Grojaraščiai</string>
     <string name="local_page_song_download_history">Atsisiuntimai</string>
-    <string name="login_by_local_phone_long_text">Prisijungti dabar</string>
-    <string name="login_by_local_phone_short_text">Prisijungti</string>
     <string name="login_instantly">Prisijungti</string>
     <string name="login_mi_account_and_gain_more_rights">Prisijunkite naudodami „Xiaomi“ paskyrą, kad pasiektumėte daugiau funkcijų.</string>
-    <string name="login_other">Kita „Mi“ paskyra</string>
     <string name="login_out_tip">Šiuo metu negalima atsijungti. Vietoj to galite išvalyti visus programos duomenis.</string>
-    <string name="login_register_by_local_phone_long_text">Sukurti paskyrą</string>
-    <string name="login_with_sns">Kiti prisijungimo būdai</string>
-    <string name="logout_account">Atsijungti</string>
     <string name="long_press_to_select_lyric">Paspauskite ir palaikykite, kad pasirinktumėte vietinį dainų žodžių failą</string>
     <string name="lots_of_songs_for_free">Klausykite milijonų dainų nemokamai</string>
     <string name="low_sound_quality">Žema</string>
@@ -873,6 +830,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -917,17 +875,16 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="my_playlist_set_to_public">Viešinti</string>
     <string name="nav_app_bar_navigate_up_description">Naršyti aukštyn</string>
     <string name="nav_app_bar_open_drawer_description">Atidaryti naršymo juostą</string>
+    <string name="need_to_close">Rodyti mažiau</string>
+    <string name="need_to_show">Rodyti daugiau</string>
     <string name="network_disable">Nepavyko prisijungti prie tinklo</string>
     <string name="network_error_and_retry">Nepavyko prisijungti, pakartojimui palieskite</string>
-    <string name="network_error_info">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="network_request_error">Nepavyko prisijungti prie tinklo</string>
     <string name="network_settings_error">Nepavyko prisijungti prie tinklo</string>
-    <string name="network_timeout_info">Nepavyksta prisijungti prie tinklo. Bandykite dar kartą.</string>
     <string name="network_traffic">Duomenų naudojimas</string>
     <string name="next_time">Ne dabar</string>
     <string name="next_to_play">Toliau</string>
     <string name="night">Vakaras</string>
-    <string name="no_account">Neprisijungta</string>
     <string name="no_album_info">Nėra albumo informacijos</string>
     <string name="no_artist_info">Nėra atlikėjo informacijos</string>
     <string name="no_downloads">Atsisiuntimų nėra</string>
@@ -1013,15 +970,45 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="only_pro_can_choose_hd_sound_quality">HD garsas pasiekiamas tik „Gold“ naudotojams</string>
     <string name="open_online_service">Šios paslaugos naudojimui reikalingos interneto paslaugos. Įjungti dabar?</string>
     <string name="open_service">Įjungti</string>
-    <string name="open_settings">Parametrai</string>
     <string name="operation_done_close">Uždaryti</string>
     <string name="other_song_in_album">Kitos dainos iš šio albumo</string>
     <string name="party">Vakarėlis</string>
     <string name="passport_access_denied">Prieiga nesuteikta</string>
+    <string name="passport_account_crop_user_avatar">Apkirpti nuotrauką</string>
+    <string name="passport_account_empty_user_name">Įveskite savo slapyvardį</string>
+    <string name="passport_account_error_all_space_user_name">Slapyvardis negali būti tik iš „tarpo“ simbolių</string>
+    <string name="passport_account_error_invalid_user_name">Slapyvardžio negali sudaryti &lt;, > ar /</string>
+    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
+    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_user_name">Šis slapyvardis netinkamas. Pabandykite kitą.</string>
+    <string name="passport_account_invalid_user_avatar">Ši nuotrauka netinkama. Pabandykite kitą.</string>
     <string name="passport_account_name">"Paskyra: %1$s "</string>
+    <string name="passport_account_no_set">Jokia</string>
+    <string name="passport_account_none_bind_info">Jokia</string>
+    <string name="passport_account_none_user_name">Joks</string>
+    <string name="passport_account_secure_info_pref_title">Paskyros informacija</string>
+    <string name="passport_account_security_info_pref_title">Saugumo informacija</string>
+    <string name="passport_account_user_avatar">Profilio nuotrauka</string>
+    <string name="passport_account_user_avatar_from_album">Galerija</string>
+    <string name="passport_account_user_avatar_from_camera">Fotoaparatas</string>
+    <string name="passport_account_user_base_info">Pagrindinė informacija</string>
+    <string name="passport_account_user_details">Asmeninė informacija</string>
+    <string name="passport_account_user_email">Atkūrimo el. paštas</string>
+    <string name="passport_account_user_gender">Lytis</string>
+    <string name="passport_account_user_id">„Xiaomi“ paskyros ID</string>
+    <string name="passport_account_user_name">Slapyvardis</string>
+    <string name="passport_account_user_name_dialog_title">Įveskite slapyvardį</string>
+    <string name="passport_account_user_phone">Atkūrimo telefonas</string>
+    <string name="passport_activity_not_found_notice">Nepavyksta rasti programos</string>
+    <string name="passport_agree">Sutinku</string>
     <string name="passport_area_code_title">Pašto kodas</string>
+    <string name="passport_attention">Dėmesio</string>
+    <string name="passport_auth_fail_warning">Seansas baigėsi. Prisijunkite iš naujo.</string>
+    <string name="passport_back">Grįžti</string>
     <string name="passport_bad_authentication">Neteisingas naudotojo vardas arba slaptažodis</string>
     <string name="passport_can_not_recevie_verify_code">Negavote kodo?</string>
+    <string name="passport_change_password">Keisti slaptažodį</string>
+    <string name="passport_check_security">Tikrinama, ar nėra saugumo problemų…</string>
     <string name="passport_checking_account">Tikrinamas slaptažodis…</string>
     <string name="passport_clear_input">Išvalyti įvestą turinį</string>
     <string name="passport_copy_link">Kopijuoti URL</string>
@@ -1035,16 +1022,14 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="passport_dialog_nick_name_prefix">Slapyvardis: %s</string>
     <string name="passport_dialog_phone_number_prefix">Telefono numeris: %s</string>
     <string name="passport_dialog_register_other">Ne, sukursiu naują</string>
-    <string name="passport_email">El. pašto adresas</string>
-    <string name="passport_empty_password">Slaptažodis negali būti tuščias</string>
+    <string name="passport_doing_query_account">Tikrinama paskyros informacija…</string>
     <string name="passport_error_auth_fail">Seansas baigėsi. Prisijunkite dar kartą.</string>
     <string name="passport_error_device_id">Nepavyko gauti prietaiso ID</string>
-    <string name="passport_error_dynamic_token_error">Neteisingas patvirtinimo kodas</string>
-    <string name="passport_error_email">El. pašto adresas, kurį įvedėte, yra neteisingas</string>
-    <string name="passport_error_empty_email">Įveskite el. pašto adresą</string>
+    <string name="passport_error_dup_binded_email">Šis el. pašto adresas jau yra susietas su kita „Xiaomi“ paskyra.</string>
     <string name="passport_error_empty_password">Įveskite slaptažodį</string>
     <string name="passport_error_empty_pwd">Slaptažodis negali būti tuščias</string>
     <string name="passport_error_empty_user_id">Įveskite naudotojo vardą</string>
+    <string name="passport_error_invalid_bind_address">El. pašto adresas, kurį įvedėte, yra neteisingas.</string>
     <string name="passport_error_length_limit">Įvestas tekstas per ilgas</string>
     <string name="passport_error_network">Nepavyksta prisijungti prie tinklo</string>
     <string name="passport_error_no_password_user">Dar nesukūrėte slaptažodžio. Prisijunkite su SMS.</string>
@@ -1058,40 +1043,73 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="passport_error_unknow_host_network_error">Nepavyko prisijungti prie tinklo</string>
     <string name="passport_error_unknow_network_error">Įvyko tinklo klaida</string>
     <string name="passport_error_unknown">Nežinoma klaida</string>
-    <string name="passport_error_user_agreement">Visų pirma sutikite su mūsų naudotojo sutartimi</string>
     <string name="passport_error_user_name">Neteisingas naudotojo vardas</string>
     <string name="passport_error_user_password">Slaptažodžiai nesutampa</string>
+    <string name="passport_exceed_binded_phone_times_notice">Šis telefono numeris jau yra susietas su kita „Xiaomi“ paskyra.</string>
+    <string name="passport_facebook_login_btn_content_description">Prisijungti naudojant „Facebook“</string>
+    <string name="passport_frequency_try_later">Per daug bandymų. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="passport_get_login_type_next">Kitas</string>
-    <string name="passport_header_back">Atgal</string>
+    <string name="passport_get_phone_verifycode_exceed_limit">Šiuo numeriu buvo išsiųsta per daug patvirtinimo kodų. Palaukite 24 val. ir pabandykite dar kartą.</string>
+    <string name="passport_google_login_btn_content_description">Prisijungti naudojant „Google“</string>
+    <string name="passport_help">Pagalba</string>
+    <string name="passport_i_know">Supratau</string>
     <string name="passport_identification_expired">Patvirtinimo kodas nebegalioja. Pradėkite iš naujo.</string>
     <string name="passport_input_captcha_hint">Įveskite kodą</string>
+    <string name="passport_input_email_address_notice">Šis el. pašto adresas bus naudojamas jūsų paskyros patvirtinimui</string>
     <string name="passport_input_password_hint">Įveskite slaptažodį</string>
     <string name="passport_input_phone_number_hint">Įveskite telefono numerį</string>
     <string name="passport_input_verify_code">Įveskite patvirtinimo kodą</string>
     <string name="passport_input_voice_captcha_hint">Įveskite balso patvirtinimo kodą</string>
     <string name="passport_input_voice_hint">Įveskite balso kodą</string>
+    <string name="passport_login_by_local_phone_long_text">Prisijungti dabar</string>
+    <string name="passport_login_by_local_phone_short_text">Prisijungti</string>
+    <string name="passport_login_other">Kita „Xiaomi“ paskyra</string>
+    <string name="passport_login_register_by_local_phone_long_text">Sukurti paskyrą</string>
+    <string name="passport_login_with_sns">Kiti prisijungimo būdai</string>
+    <string name="passport_logout_account">Atsijungti</string>
     <string name="passport_mi_account_first_title">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
     <string name="passport_mi_account_title">Prisijungti su „Xiaomi“ paskyra</string>
-    <string name="passport_network_error">Įvyko tinklo klaida.</string>
+    <string name="passport_network_error">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="passport_network_error_hint">Patikrinkite URL ir bandykite dar kartą arba nukopijuokite URL ir atidarykite jį savo naršyklėje.</string>
+    <string name="passport_network_timeout">Nepavyksta prisijungti prie tinklo. Bandykite dar kartą.</string>
     <string name="passport_next">Toliau</string>
+    <string name="passport_no_account">Neprisijungta</string>
+    <string name="passport_open_settings">Parametrai</string>
     <string name="passport_page_load_failed">Nepavyko atidaryti puslapio</string>
     <string name="passport_password_login_btn">Prisijungti</string>
     <string name="passport_password_not_show">Nerodyti slaptažodžio</string>
-    <string name="passport_password_req_notice">Slaptažodis turi būti sudarytas iš 8-16 simbolių ir bent iš dviejų toliau išvardytų elementų: skaitmenų, raidžių ir spec. simbolių (pvz., 123abc@#, 123abc, arba abc@#).</string>
     <string name="passport_password_show">Rodyti slaptažodį</string>
+    <string name="passport_phone_auto_login_register_with_local_number">Sukurti paskyrą</string>
+    <string name="passport_photo_picker_not_found">Nėra pasiekiamų nuotraukų.</string>
+    <string name="passport_qq_login_btn_content_description">Prisijungti naudojant „QQ“</string>
     <string name="passport_querying_phone_info">Siunčiama paskyros informacijos užklausa…</string>
     <string name="passport_quick_login_title">Įveskite savo slaptažodį</string>
     <string name="passport_reging">Kuriama paskyra…</string>
+    <string name="passport_register_by_local_phone_long_text">Sukurti paskyrą</string>
+    <string name="passport_register_by_local_phone_short_text">Sukurti paskyrą</string>
     <string name="passport_register_restricted">Per daug paskyrų, susietų su šiuo numeriu. Pabandykite kitą.</string>
     <string name="passport_relogin_notice">Reikalingas pakartotinis prisijungimas</string>
+    <string name="passport_request_agree">Leisti</string>
+    <string name="passport_request_camera_permission_message">Mes užtikrinsime jūsų asmeninės informacijos apsaugą laikydamiesi atitinkamų įstatymų, reglamentų ir privatumo politikų. Šios programos funkcionalumui užtikrinti programai reikalingi toliau nurodyti leidimai:&lt;br>&lt;br>&lt;b>Fotoaparato naudojimas (profilio nuotraukos nustatymui)&lt;/b>&lt;br>&lt;br>Jei nesutiksite suteikti šių leidimų, neturėsite galimybės naudotis kai kuriomis programos funkcijomis, tačiau pagrindinės programos funkcijos ir toliau išliks pasiekiamos. Apriboti teises arba atsisakyti įgaliojimų bet kada galėsite parametruose.</string>
+    <string name="passport_request_cancel">Atšaukti</string>
+    <string name="passport_request_error_invalid_token">Nepavyko patvirtinti</string>
+    <string name="passport_request_error_network">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
+    <string name="passport_request_error_unknown">Įvyko sistemos klaida. Grįžkite ir pabandykite dar kartą.</string>
+    <string name="passport_request_gallery_permission_message">Lesiti pasiekti Galeriją:&lt;br/>profilio nuotraukų nustatymui</string>
+    <string name="passport_resend_email_reach_limit_message">Išsiųsta per daug paskyros patvirtinimo užklausų. Įsitikinkite, kad patvirtinimo el. laiškas nepakliuvo į gautųjų laiškų Šlamšto aplanką.</string>
+    <string name="passport_resend_email_reach_limit_title">Per daug bandymų</string>
     <string name="passport_resend_ticket">Iš naujo išsiųsti kodą</string>
     <string name="passport_retry">Bandykite dar kartą</string>
+    <string name="passport_same_new_and_old_pwd">Negali sutapti su esamu slaptažodžiu</string>
     <string name="passport_send_sms_to">Kodas išsiųstas į %1$s</string>
     <string name="passport_send_too_many_code">Šiuo numeriu buvo išsiųsta per daug patvirtinimo kodų. Palaukite 24 val. ir pabandykite dar kartą.</string>
     <string name="passport_sending_vcode">Siunčiamas kodas…</string>
-    <string name="passport_set_password">Nustatyti slaptažodį</string>
+    <string name="passport_service_error">Serverio klaida</string>
     <string name="passport_set_password_no_phone_msg">Norėdami apsaugoti savo paskyrą, įveskite savo telefono numerį.</string>
+    <string name="passport_skip_query_account">Praleisti</string>
+    <string name="passport_sns_access_token_expired_warning">Seanso laikas baigėsi. Prisijunkite dar kartą.</string>
+    <string name="passport_sns_bind_limit">Per daug bandymų. Pamėginkite kitus prisijungimo būdus.</string>
+    <string name="passport_system_error">Sistema užimta. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="passport_talkback_image_captcha">Vaizdinis patvirtinimo kodas</string>
     <string name="passport_talkback_switch_image_captcha">Perjungti į vaizdinį patvirtinimo kodą</string>
     <string name="passport_talkback_switch_voice_captcha">Perjungti į balso patvirtinimo kodą</string>
@@ -1100,11 +1118,26 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="passport_to_forget_password">Pamiršote slaptažodį?</string>
     <string name="passport_to_password_login">Prisijungti naudojant slaptažodį</string>
     <string name="passport_to_verify_code_login">Prisijungti naudojant SMS</string>
-    <string name="passport_unknow_host_network_error">Patikrinkite tinklo parametrus ir pabandykite dar kartą</string>
+    <string name="passport_unknown_error">Nežinoma klaida</string>
+    <string name="passport_unknown_host_network_error">Patikrinkite tinklo parametrus ir pabandykite dar kartą</string>
+    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>Privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>Privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo nuostatomis sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_default">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_first_login">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
+    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_avatar_update_title">Keisti profilio nuotrauką</string>
+    <string name="passport_user_avatar_uploading">Sekundėlę…</string>
     <string name="passport_user_id_hint">El. paštas/Tel. numeris/„Xiaomi“ paskyros ID</string>
-    <string name="passport_user_id_intro">Įveskite %1$s slaptažodį</string>
+    <string name="passport_user_name_phone_number">Telefono numeris</string>
     <string name="passport_user_password_hint">Slaptažodis</string>
+    <string name="passport_vcode_what_app_send_prompt">„WhatsApp“ patvirtinimo kodas jums bus nusiųstas į atkūrimo telefoną (&lt;font color=#1F93FF>%s&lt;/font>).</string>
     <string name="passport_wechat_not_install">Pirmiausia įdiekite „WeChat“</string>
+    <string name="passport_weibo_login_btn_content_description">Prisijungti naudojant „Weibo“</string>
+    <string name="passport_weixin_login_btn_content_description">Prisijungti naudojant „WeChat“</string>
     <string name="passport_wrong_captcha">Kodas, kurį įvedėte, yra neteisingas</string>
     <string name="passport_wrong_phone_number_format">Neteisingas įvesto telefono numerio formatas</string>
     <string name="passport_wrong_vcode">Kodas, kurį įvedėte, yra neteisingas</string>
@@ -1127,8 +1160,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="permission_declaration_title">Suteikti prieigą</string>
     <string name="permission_open">Leisti</string>
     <string name="permission_required">Reikalingi leidimai</string>
-    <string name="phone_auto_login_register_with_local_number">Sukurti paskyrą</string>
-    <string name="photoPickerNotFoundText">Nėra pasiekiamų nuotraukų.</string>
     <string name="pick_favorite_song">Mėgstamiausi</string>
     <string name="pick_local_song">Vietinės dainos</string>
     <string name="pick_recent_song">Nesenai grota</string>
@@ -1168,6 +1199,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="privacy_authorize_revoking">Atsisakoma įgaliojimų…</string>
     <string name="privacy_desc">Privatumo politika (privaloma)</string>
     <string name="privacy_policy">Privatumo politika</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=lt_LT</string>
     <string name="privacy_request_desc">"&lt;Data>„Mi muzikos“ tinklo transliavimo paslaugai teikti reikalingas būtinosios informacijos rinkimas. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. „Mi muzikos“ Privatumo politikos įgaliojimus galite bet kada atšaukti programos parinktyse.
 Prieš pradėdami naudoti „Mi muzika“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>.
 Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data>"</string>
@@ -1177,15 +1209,11 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="privacy_request_subtitle_offline">Sveikiname pradėjus naudotis „Mi“ muzika. Ši programa pateikia vietinį garso įrašų grotuvą.</string>
     <string name="privacy_request_title">Nuostatos ir sąlygos</string>
     <string name="pro_member">„Gold“ narys</string>
-    <string name="progressbar_title">Tikrinamos saugumo problemos…</string>
     <string name="project_device">Mi Telefonas</string>
     <string name="prompt_grant_write_settings_permission">Leisti keisti sistemos parametrus</string>
-    <string name="protocal_dialog_confirm">Sutinku</string>
-    <string name="protocal_dialog_title">Dėmesio</string>
     <string name="pulluprefreshrecyclerview_loading_error">Įkelti nepavyko</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Įkelta sėkmingai</string>
     <string name="pulluprefreshrecyclerview_loading_running">Įkeliama…</string>
-    <string name="qq_login_btn_content_description">Prisijungti naudojant „QQ“</string>
     <string name="queue_is_empty">Grojaraštis tuščias.</string>
     <string name="read_and_agree_hungama_protocol">&lt;Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„hungama“ privatumo politika&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_joox_protocol">&lt;Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„JOOX“ privatumo politika&lt;/a>&lt;/font>&lt;/Data></string>
@@ -1198,8 +1226,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="recommended_file_size_download_in_mobile">Naudoti %s mob. duomenų šiam failui atsiųsti?</string>
     <string name="recommended_no_file_size_download_in_mobile">Šio failo atsiuntimui naudoti mobiliuosius duomenis?</string>
     <string name="refresh">Atnaujinti</string>
-    <string name="register_by_local_phone_long_text">Sukurti paskyrą</string>
-    <string name="register_by_local_phone_short_text">Sukurti paskyrą</string>
     <string name="remove">Pašalinti</string>
     <string name="remove_download">Pašalinti</string>
     <string name="remove_user_privacy_dialog_message">Išjungdami jungiklį, jūs atšaukiate savo „Mi muzikos“ privatumo politikos įgaliojimą. Jūsų asmeninė informacija nebus renkama. Surinkta ir išsaugota asmeninė informacija bus ištrinta per konkretų laikotarpį, kaip to reikalaujama pagal taikytiną teisę. Pagrindinių „Mi muzikos“ paslaugų teikimui reikalinga jūsų būtinoji asmeninė informacija. Privatumo politikos įgaliojimo atšaukimas bus laikomas atsisakymu sutikti su paslaugos teikimo sąlygomis dėl asmeninės informacijos rinkimo.</string>
@@ -1207,21 +1233,10 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="remove_user_privacy_dialog_title">Sutikimo atšaukimas</string>
     <string name="repeat_all_notif">Kartojamos visos dainos.</string>
     <string name="repeat_current_notif">Kartojama grojama daina.</string>
-    <string name="request_agree">Leisti</string>
-    <string name="request_camera_permission_message">Mes užtikrinsime jūsų asmeninės informacijos apsaugą laikydamiesi atitinkamų įstatymų, reglamentų ir privatumo politikų. Šios programos funkcionalumui užtikrinti, programai reikalingi toliau nurodyti leidimai:&lt;br>&lt;br>&lt;b>Fotoaparato naudojimas (profilio nuotraukos nustatymui)&lt;/b>&lt;br>&lt;br>Jei nesutinkate suteikti šių leidimų, neturėsite galimybės naudotis kai kuriomis programos funkcijomis, tačiau pagrindinės programos funkcijos ir toliau išliks pasiekiamos.Apriboti teises arba atsisakyti įgaliojimų bet kada galėsite parametruose.</string>
-    <string name="request_cancel">Atšaukti</string>
-    <string name="request_error_invalid_token">Nepavyko patvirtinti</string>
-    <string name="request_error_network">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
-    <string name="request_error_unknown">Įvyko sistemos klaida. Grįžkite ir pabandykite dar kartą.</string>
-    <string name="request_gallery_permission_message">Leiskite pasiekti Galeriją:&lt;br/>profilio nuotraukų nustatymui</string>
     <string name="request_overlay_permission_desc">Norėdami naudoti šią funkciją, įgalinkite „Mi muzikos“ slankiųjų langų funkciją.</string>
     <string name="request_privacy_permission_title">Norėdami pasiekti visas mūsų paslaugas, susipažinkite ir sutikite su toliau nurodytomis nuostatomis ir sąlygomis.</string>
     <string name="request_share_info">Sekundėlę…</string>
     <string name="request_subscription_status">Sekundėlę…</string>
-    <string name="resend_active_email">Siųsti dar kartą</string>
-    <string name="resend_email_reach_limit_message">Išsiųsta per daug paskyros patvirtinimo užklausų. Įsitikinkite, kad patvirtinimo el. laiškas nepakliuvo į gautųjų laiškų Šlamšto aplanką.</string>
-    <string name="resend_email_reach_limit_title">Per daug bandymų</string>
-    <string name="resend_email_success">Sėkmingai išsiųsta</string>
     <string name="restart_immediate">Perkrauti</string>
     <string name="retry">Bandykite dar kartą</string>
     <string name="retry_after_network_available">Neįmanoma prisijungti prie tinklo. Patikrinkite ryšį ir bandykite dar kartą.</string>
@@ -1241,7 +1256,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="s5">Sukurti kalendoriaus įvykį</string>
     <string name="s6">Leisti skelbimui sukurti kalendoriaus įvykį?</string>
     <string name="s7">Bandomasis skelbimas</string>
-    <string name="same_new_and_old_pwd">Negali sutapti su esamu slaptažodžiu</string>
     <string name="saturday">Šeštadienis</string>
     <string name="saturday_short">Št.</string>
     <string name="saturday_shortest">Št.</string>
@@ -1267,6 +1281,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="search_result_online_songs">Internete</string>
     <string name="search_songs">Ieškoti dainų</string>
     <string name="search_songs_count">Dainos: %d</string>
+    <string name="see_more_videos">Daugiau vaizdo įrašų</string>
     <string name="select">Pasirinkti</string>
     <string name="select_all">Žymėti viską</string>
     <string name="select_clip_desc">Pasirinkite įrašą arba dainą</string>
@@ -1282,11 +1297,8 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="select_three_languages">Galite pasirinkti iki %d kalbų</string>
     <string name="selected_count">Pasirinkta %1$d iš %2$d</string>
     <string name="send">Siųsti</string>
-    <string name="send_diagnosis_log">Siųsti žurnalus</string>
-    <string name="send_email_activate_message">Patvirtinimo el. laiškas sėkmingai išsiųstas</string>
     <string name="send_to_title">Išsiųsti į (%1$s)</string>
     <string name="service_and_settings">Paslaugos ir parametrai</string>
-    <string name="service_error">Serverio klaida</string>
     <string name="set_as_alarm_clock_ringtone">Žadintuvas</string>
     <string name="set_as_ring">Nustatatyti kaip skamb. garsą</string>
     <string name="set_online_home_subtitle">Atidaryti internetines rekomendacijas, kai programa yra paleidžiama</string>
@@ -1309,6 +1321,8 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="share_song">Bendrinti</string>
     <string name="share_text_list">"Grojaraštis iš „Mi muzikos“: "</string>
     <string name="share_text_song">"Daina iš „Mi muzikos“: "</string>
+    <string name="shortcut_get">Žiūrėti</string>
+    <string name="shortcut_success">Sėkmingai sukurta. Žiūrėkite pagrindiniame ekrane.</string>
     <string name="show_float_first_hint">Minimizuoti grotuvą</string>
     <string name="show_more">Rodyti dar %s</string>
     <string name="shuffle_music">Atsitiktinis atkūrimas</string>
@@ -1317,18 +1331,15 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="shuffle_play_toast_text">Maišomos dainos…</string>
     <string name="similar_albums">Panašūs albumai</string>
     <string name="similar_playlists">Panašūs grojaraščiai</string>
+    <string name="similar_podcasts">Panašios tinklalaidės</string>
     <string name="similar_songs">Panašios dainos</string>
     <string name="similar_videos">Panašūs vaizdo įrašai</string>
     <string name="skip">Praleisti</string>
-    <string name="skip_query_account">Praleisti</string>
     <string name="sleep_mode">Miego laikmatis</string>
     <string name="sleep_mode_canceled">Miego režimas išjungtas</string>
     <string name="sleep_mode_summary">Sustabdyti grotuvą po tam tikro laiko</string>
     <string name="sleep_mode_title">Miego laikmatis</string>
     <string name="sliding_pro_center">„hungama“ „Gold“ narystė</string>
-    <string name="sns_access_token_expired_warning">Seanso laikas baigėsi. Prisijunkite dar kartą.</string>
-    <string name="sns_bind_limit">Per daug bandymų. Pamėginkite kitus prisijungimo būdus.</string>
-    <string name="sns_sign_in">Kiti prisijungimo būdai</string>
     <string name="song_already_in_playlist">Ši daina jau grojaraštyje</string>
     <string name="song_exist_in_playlist">Ši daina jau pridėta į eilę</string>
     <string name="song_info">Dainos informacija</string>
@@ -1348,6 +1359,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="start_to_download">Atsiunčiama…</string>
     <string name="start_to_play">Ruošiamasi groti…</string>
     <string name="start_update">Įdiegiama nauja versija…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Dvigubų programų saugykla</string>
     <string name="storage_internal">Vidinė talpykla</string>
     <string name="storage_sd_card">SD kortelė</string>
@@ -1359,8 +1371,8 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
     <string name="supplementary_songs">Papildomos dainos</string>
+    <string name="swipe_for_more">Daugiau muzikinių vaizdo įrašų perbraukus aukštyn</string>
     <string name="switch_success">Sėkmingai perjungta</string>
-    <string name="system_error_info">Sistema užimta. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="tab_album">Albumai</string>
     <string name="tab_album_list">Albumai</string>
     <string name="tab_artist">Atlikėjai</string>
@@ -1398,7 +1410,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="task_card_message_received_successfully">Baigėte atlikti šios dienos užduotis. Išpirkite savo monetas dabar!</string>
     <string name="task_card_title_received_successfully">Sėkmingai atsiimta</string>
     <string name="telephone_permissions_for_push">Skambinimo leidimai: siekiant teikti „Google“„push“ pranešimų paslaugas</string>
-    <string name="temporary_not_available">Ši funkcija dar negalima</string>
     <string name="terms_of_service">Paslaugos teikimo sąlygos</string>
     <string name="the_anniversary_of_lifting_martial_law">Karo padėties atšaukimo metinės</string>
     <string name="the_anti_aggression_day">Kovos su agresija diena</string>
@@ -1494,12 +1505,9 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="ultra_high_quality">Aukščiausia</string>
     <string name="unknown_album_name">Nežinomas albumas</string>
     <string name="unknown_artist_name">Nežinomas atlikėjas</string>
-    <string name="unknown_error_info">Nežinoma klaida</string>
     <string name="unlimited_downloads">Neriboti atsisiuntimai</string>
     <string name="unlimited_offline_songs">Neribotos dainos neprisijungus</string>
     <string name="unlimited_skips">Neribotas prasukimų skaičius</string>
-    <string name="update_email_address_dialog_message">Prieš atnaujinant atkūrimo el. paštą reikalinga tapatybės patikra.</string>
-    <string name="update_email_address_dialog_title">Atnaujinti atkūrimo el. paštą</string>
     <string name="update_now">NAUJINTI DABAR</string>
     <string name="upgrade_music">Atnaujinti Muziką</string>
     <string name="upgrade_music_message">Atnaujinimai paruošti. Norėdami atnaujinti paleiskite programą iš naujo.</string>
@@ -1512,19 +1520,8 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="upload_playlist_to_hungama_title">Sinchronizuokite dainas žiniatinklyje su „hungama“, norėdami jas pasiekti iš bet kurio kito įrenginio, kuriame naudojate „Xiaomi“ paskyrą.</string>
     <string name="upload_playlist_to_hungama_toast">Dainos žiniatinklyje bus sinchronizuotos su „hungama“</string>
     <string name="user_agreement">Naudotojo sutartis</string>
-    <string name="user_agreement_hint_3rd_app">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Mi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Mi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Mi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Mi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_default">&lt;Data>Perskaičiau ir sutinku su „Mi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_first_login">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
-    <string name="user_agreement_hint_with_mobile">&lt;Data>Perskaičiau ir sutinku su „Mi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_with_telecom">&lt;Data>Perskaičiau ir sutinku su „Mi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_hint_with_unicom">&lt;Data>Perskaičiau ir sutinku su „Mi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="user_avatar_update_title">Keisti profilio nuotrauką</string>
-    <string name="user_avatar_uploading">Sekundėlę…</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=lt_LT</string>
     <string name="user_experience_program_open">Dėl autorių teisių apribojimų turėsite prisijungti prie naudotojų patirties programos. Tai atlikti galite eidami į Parametrai > Slaptažodis ir saugumas > Privatumas > Prisijungti prie naudotojų patirties programos.</string>
-    <string name="user_name_phone_number">Telefono numeris</string>
     <string name="user_playlist_plaza">Grojaraščiai</string>
     <string name="user_privacy_dialog_negative_text">Atšaukti</string>
     <string name="user_privacy_dialog_positive_count_down_text">Atsisakyti (%ssek.)</string>
@@ -1548,8 +1545,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="wednesday">Trečiadienis</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>
-    <string name="weibo_login_btn_content_description">Prisijungti naudojant „Weibo“</string>
-    <string name="weixin_login_btn_content_description">Prisijungti naudojant „WeChat“</string>
     <string name="welcome_to_entertainment">Išbandykite naują pramogų funkciją, skirtą muzikos žaidimams ir kt.</string>
     <string name="wifi_required_body" formatted="false">"Šio %s failo atsiuntimo užbaigimui rekomenduojama naudoti „Wi-Fi“.
 
@@ -1558,6 +1553,7 @@ Paspauskite %s, kad pradėti atsiuntimą kitą kartą prisijungus prie „Wi-Fi�
     <string name="yesterday">Vakar</string>
     <string name="you_can_switch_mode_in_settings">Tamsusis režimas gali būti perjungtas parametruose</string>
     <string name="you_may_like">Jums taip pat gali patikti</string>
+    <string name="you_might_like_it">Jums gali patikti</string>
     <string name="youtube_download_canl">Atšaukti</string>
     <string name="youtube_download_fail_net">Nepavyko prisijungti prie tinklo. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="youtube_download_fail_source">Įvyko klaida. Minutėlę palaukite ir pabandykite dar kartą.</string>
@@ -1570,4 +1566,5 @@ Paspauskite %s, kad pradėti atsiuntimą kitą kartą prisijungus prie „Wi-Fi�
     <string name="youtube_play_history">Atkūrimo istorija</string>
     <string name="youtube_share_guide_tip">Dabar galite bendrinti vaizdo įrašus su draugais</string>
     <string name="youtube_tab_explore">Atraskite</string>
+    <string name="youtube_tab_playlist">Grojaraščiai</string>
 </resources>

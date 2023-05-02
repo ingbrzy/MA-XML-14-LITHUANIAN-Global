@@ -54,18 +54,6 @@
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minutes</item>
     </plurals>
-    <plurals name="circulate_audio_group_subtitle_format">
-        <item quantity="other">%1$d įrenginių</item>
-        <item quantity="one">%1$d įrenginys</item>
-        <item quantity="few">%1$d įrenginiai</item>
-        <item quantity="many">%1$d įrenginių</item>
-    </plurals>
-    <plurals name="circulate_audio_group_title_format">
-        <item quantity="other">%1$d įrenginių</item>
-        <item quantity="one">%1$d įrenginys</item>
-        <item quantity="few">%1$d įrenginiai</item>
-        <item quantity="many">%1$d įrenginių</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
         <item quantity="one">Prieš pusvalandį</item>
