@@ -11,6 +11,12 @@
         <item>4 Mbps</item>
         <item>1 Mbps</item>
     </string-array>
+    <string-array name="screenrecorder_settings_frames">
+        <item>24 kadr./s</item>
+        <item>30 kadr./s</item>
+        <item>48 kadr./s</item>
+        <item>60 kadr./s</item>
+    </string-array>
     <string-array name="screenrecorder_settings_orientation">
         <item>Automatinė</item>
         <item>Stati</item>
@@ -30,12 +36,6 @@
         <item>Nutildyti</item>
         <item>Mikrofonas</item>
         <item>Sisteminiai garsai</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_sound_native">
-        <item>Joks</item>
-        <item>Mikrofonas</item>
-        <item>Sistema</item>
-        <item>Abu</item>
     </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Vidinė saugykla</item>

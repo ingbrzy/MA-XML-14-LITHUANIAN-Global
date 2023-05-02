@@ -6,7 +6,7 @@
 Įrenginio ID turi būti tinkamas IMEI arba MAC adresas. Be įrenginio ID kai kurios „Xiaomi“ paskyros ir „Xiaomi debesies“ funkcijos gali neveikti."</string>
     <string name="error_device_id_title">Nepavyksta gauti teisingo prietaiso ID</string>
     <string name="explain_send_sms_permission_button">Patvirtinti</string>
-    <string name="explain_send_sms_permission_msg">Norėdami įjungti %s, Xiaomi Paslaugų Sąsaja išsiųs SMS žinutę, kad patvirtinti jūsų telefono numerį. Jūs būsite apmokestintas už įprastą SMS žinutę.</string>
+    <string name="explain_send_sms_permission_msg">Norint įjungti %s, „Xiaomi“ paslaugų sąsaja išsiųs SMS žinutę jūsų telefono numerio patvirtinimui. Jūs būsite apmokestintas kaip už įprastą SMS žinutę.</string>
     <string name="explain_send_sms_permission_title">Patvirtinkite savo telefono numerį</string>
     <string name="pop_up_allow_notify_dialog">Leisti</string>
     <string name="pop_up_deny_notify_dialog">Drausti</string>
