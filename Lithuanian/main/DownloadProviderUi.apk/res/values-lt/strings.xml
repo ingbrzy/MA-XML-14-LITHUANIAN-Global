@@ -74,6 +74,7 @@
     <string name="continue_download">Tęsti</string>
     <string name="copy">Kopijuoti</string>
     <string name="copy_info">Nukopijuota į iškarpinę. Galite pasidalinti su draugais!</string>
+    <string name="copy_toast_msg">Nuoroda nukopijuota į iškarpinę</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -131,8 +132,20 @@
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="evening">Popietė</string>
+    <string name="exo_download_completed">Atsisiuntimo procesas baigtas</string>
+    <string name="exo_download_description">Atsisiųsti</string>
+    <string name="exo_download_downloading">Atsisiunčiama</string>
+    <string name="exo_download_failed">Nepavyko atsisiųsti</string>
+    <string name="exo_download_notification_channel_name">Atsisiuntimai</string>
+    <string name="exo_download_paused">Atsisiuntimai pristabdyti</string>
+    <string name="exo_download_paused_for_network">Norint tęsti atsis., laukiama tinklo</string>
+    <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
+    <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="expand_button_title">Išplėstinė</string>
     <string name="extend">Daugiau</string>
+    <string name="fallback_menu_item_copy_link">Kopijuoti nuorodą</string>
+    <string name="fallback_menu_item_open_in_browser">Atidaryti naršyklėje</string>
+    <string name="fallback_menu_item_share_link">Bendrinti nuorodą</string>
     <string name="file_size">Dydis:</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -190,6 +203,9 @@
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
     <string name="gigabyteShort_per_seconds">GB/s</string>
+    <string name="icon_create_failure">Nepavyko pridėti sparčiųjų klavišų derinio</string>
+    <string name="icon_create_success">Spartusis klavišų derinys pridėtas sėkmingai</string>
+    <string name="icon_restore">Palieskite, kad pridėtumėte Pagrindinio ekrano nuorodą atsisiuntimams</string>
     <string name="info_download_progress">Rodyti atsiuntimo eigą</string>
     <string name="info_flow_show">Rodyti rekomenduojamą turinį</string>
     <string name="insufficient_space">Trūksta laisvos vietos</string>
@@ -212,14 +228,14 @@
     <string name="midnight">Naktis</string>
     <string name="missing_title">&lt;Nežinomas></string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -306,6 +322,7 @@
     <string name="preferences_title">Nustatymai</string>
     <string name="privacy_agree_dialog_msg">&lt;Data>Sveiki atvykę į „Atsisiuntimų“ programą! Šią programą galite naudoti failų atsisiuntimui.&lt;BR>Siekiant teikti atsisiuntimų statistiką generuojančias paslaugas jums, atsisiuntimų programai reikalingas būtinosios informacijos rinkimas. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>.&lt;BR>Prieš pradėdami naudoti atsisiuntimus, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>.&lt;BR>Privatumo politikos įgaliojimus galite bet kada atšaukti atsisiuntimų programos parinktyse. Nesutikus su mūsų privatumo politika, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data></string>
     <string name="privacy_agree_dialog_title">Nuostatos ir sąlygos</string>
+    <string name="privacy_policy">Privatumo politika</string>
     <string name="privacy_revoke_dialog_later">Atšaukti</string>
     <string name="privacy_revoke_dialog_msg">Išjungdami jungiklį, jūs atsisakote atsisiuntimų privatumo politikos įgaliojimo. Jūsų asmeninė informacija nebus renkama. Surinkta ir išsaugota asmeninė informacija bus ištrinta per konkretų laikotarpį, kaip to reikalaujama pagal taikytiną teisę. Siekiant teikti atsisiuntimų statistiką generuojančias paslaugas jums, atsisiuntimų programai reikalingas būtinosios informacijos rinkimas. Privatumo politikos įgaliojimo atšaukimas bus laikomas atsisakymu sutikti su paslaugos teikimo sąlygomis dėl asmeninės informacijos rinkimo.</string>
     <string name="privacy_revoke_dialog_ok">Atsisakyti</string>

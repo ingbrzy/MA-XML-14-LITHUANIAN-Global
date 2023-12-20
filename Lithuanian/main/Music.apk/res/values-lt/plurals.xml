@@ -75,10 +75,10 @@ viso %2$d dainos"</item>
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -87,10 +87,10 @@ viso %2$d dainos"</item>
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -105,10 +105,10 @@ viso %2$d dainos"</item>
         <item quantity="many">Dabar</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -118,9 +118,9 @@ viso %2$d dainos"</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d komentarų</item>
@@ -216,6 +216,12 @@ Pastaba: Įrenginio failai taip pat bus ištrinti."</item>
         <item quantity="few">Prieš pusvalandį</item>
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
+    <plurals name="hide_reason_duration">
+        <item quantity="other">Trumpesnės nei %1$d sek.</item>
+        <item quantity="one">Trumpesnės nei %1$d sek.</item>
+        <item quantity="few">Trumpesnės nei %1$d sek.</item>
+        <item quantity="many">Trumpesnės nei %1$d sek.</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Po 1 valandos</item>
         <item quantity="one">Po 1 valandos</item>
@@ -258,6 +264,12 @@ Pastaba: Įrenginio failai taip pat bus ištrinti."</item>
         <item quantity="few">Sekami %d asmenys</item>
         <item quantity="many">Sekami %d asmenys</item>
     </plurals>
+    <plurals name="media_store_new_songs_add">
+        <item quantity="other">%d naujų dainų</item>
+        <item quantity="one">%d nauja daina</item>
+        <item quantity="few">%d naujos dainos</item>
+        <item quantity="many">%d naujų dainų</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">Pasirinkta %d elementų</item>
         <item quantity="one">Pasirinktas %d elementas</item>
@@ -299,6 +311,12 @@ Pastaba: Įrenginio failai taip pat bus ištrinti."</item>
         <item quantity="one">%d sekėjas</item>
         <item quantity="few">%d sekėjai</item>
         <item quantity="many">%d sekėjo</item>
+    </plurals>
+    <plurals name="reward_seconds_remaining">
+        <item quantity="other">VIP narystė po %d sek.</item>
+        <item quantity="one">VIP narystė po %d sek.</item>
+        <item quantity="few">VIP narystė po %d sek.</item>
+        <item quantity="many">VIP narystė po %d sek.</item>
     </plurals>
     <plurals name="send_songs_toast">
         <item quantity="other">Bus išsiųsta %d dainų</item>
@@ -353,5 +371,23 @@ Pastaba: Įrenginio failai taip pat bus ištrinti."</item>
         <item quantity="one">Liko %d diena</item>
         <item quantity="few">Liko %d dienos</item>
         <item quantity="many">Liko %d dienos</item>
+    </plurals>
+    <plurals name="web_reward_dialog_title">
+        <item quantity="other">Jei žiūrėsite %d sek., kaip atlygį gausite VIP narystę. Vis tiek išeiti?</item>
+        <item quantity="one">Jei žiūrėsite %d sek., kaip atlygį gausite VIP narystę. Vis tiek išeiti?</item>
+        <item quantity="few">Jei žiūrėsite %d sek., kaip atlygį gausite VIP narystę. Vis tiek išeiti?</item>
+        <item quantity="many">Jei žiūrėsite %d sek., kaip atlygį gausite VIP narystę. Vis tiek išeiti?</item>
+    </plurals>
+    <plurals name="whitelist_multi_added">
+        <item quantity="other">Pridėta %d failų</item>
+        <item quantity="one">Pridėtas %d failas</item>
+        <item quantity="few">Pridėti %d failai</item>
+        <item quantity="many">Pridėta %d failų</item>
+    </plurals>
+    <plurals name="whitelist_multi_added_before">
+        <item quantity="other">%d failų buvo pridėti anksčiau</item>
+        <item quantity="one">%d failas buvo pridėtas anksčiau</item>
+        <item quantity="few">%d failai buvo pridėti anksčiau</item>
+        <item quantity="many">%d failų buvo pridėti anksčiau</item>
     </plurals>
 </resources>

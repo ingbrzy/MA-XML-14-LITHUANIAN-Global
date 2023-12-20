@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
-        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ prieigos taško kilo problema dėl klaidos Nr. 16384.</item>
+        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ kilo problema. (Klaida = 16384)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
-        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ prieigos taško kilo problema dėl klaidos Nr. 16385.</item>
+        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ kilo problema. (Klaida = 16385)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
         <item>:::1839:::%1$s: negalite prisijungti prie „Verizon“ „Wi-Fi“ prieigos taško būdami ne „Verizon“ aprėpties zonoje. (Klaida = 32760)</item>
@@ -28,9 +28,9 @@
         <item>:::1839:::%1$s: „Verizon“ „Wi-Fi“ prieigos taškas nepasiekiamas iš jūsų vietovės. Vėliau bandykite dar kartą arba pabandykite iš kitos vietovės. (Klaida = 32766)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
-        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ prieigos taško kilo problema. Vėliau bandykite dar kartą arba pabandykite iš kitos vietovės.</item>
+        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ prieigos taško kilo problema. Vėliau bandykite dar kartą arba pabandykite iš kitos vietos. (Klaida = 32767)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
-        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ prieigos taško kilo problema.</item>
+        <item>:::1839:::%1$s: prisijungiant prie „Verizon“ „Wi-Fi“ kilo problema. (Klaida = nežinoma)</item>
     </string-array>
 </resources>

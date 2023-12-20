@@ -36,9 +36,9 @@
     <string name="activate_feature_mi_roaming">„Mi tarptinklinis ryšys“</string>
     <string name="activate_feature_mms_sync">Sinchronizuoti žinutes</string>
     <string name="activate_feature_mx">Mi Žinutė</string>
-    <string name="activate_feature_register_xiaomi_account">„Mi“ paskyros įdiegimas</string>
+    <string name="activate_feature_register_xiaomi_account">„Xiaomi“ paskyros sąranka</string>
     <string name="activate_feature_remote_assist">Nuotolinis asistentas</string>
-    <string name="activate_feature_verify_mx_token">„Mi“ paskyros patikrinimas</string>
+    <string name="activate_feature_verify_mx_token">„Xiaomi“ paskyros patvirtinimas</string>
     <string name="activate_feature_voip">„Mi“ VolP žinutė</string>
     <string name="activate_history_canceled_overview">SIM kortelės aktyvavimas buvo atšauktas. Aktyvavimą inicijuoja %1$s.</string>
     <string name="activate_history_multisim_canceled_overview">SIM kortelės %2$d aktyvavimas buvo atšauktas. Aktyvavimą inicijuoja %1$s.</string>
@@ -47,8 +47,8 @@
     <string name="activate_history_success_overview">SIM kortelė aktyvuota sėkmingai. Aktyvavimą inicijuoja %1$s.</string>
     <string name="activate_history_title">SIM kortelės aktyvavimas</string>
     <string name="activate_phone_failed_notif_title_sim">Nepavyko suaktyvinti \"%2$s\" naudojant SIM %1$d</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">„Mi“ paskyra sėkmingai sukurta naudojant SIM %d</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Nepavyko sukurti „Mi“ paskyros naudojant SIM %d</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">„Xiaomi“ paskyra sėkmingai sukurta naudojant SIM %d</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Nepavyko sukurti „Xiaomi“ paskyros naudojant SIM %d</string>
     <string name="activate_phone_server_failed_notif_title">Nepavyko suaktyvinti \"%s\"</string>
     <string name="activate_phone_server_success_notif_title">\"%s\" sėkmingai suaktyvinta</string>
     <string name="activate_phone_success_notif_title_sim">\"%2$s\" sėkmingai suaktyvinta naudojant SIM %1$d</string>
@@ -60,8 +60,8 @@
     <string name="activate_popup_confirm_failed_receive_sms">Bandyti dar kartą</string>
     <string name="activate_popup_confirm_failed_send_sms">Siųsti dar kartą</string>
     <string name="activate_popup_confirm_failed_server">Bandyti dar kartą</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">Siekiant suaktyvinti \"%2$s\", bus išsiųstas &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>tarptautinis mokamas SMS pranešimas&lt;/b>. Jūsų operatorius apmokestins šį pranešimą.</string>
-    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">Siekiant suaktyvinti \"%2$s\", bus išsiųstas &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>vietinis mokamas SMS pranešimas&lt;/b>. Jūsų operatorius apmokestins šį pranešimą.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">Siekiant aktyvuoti \"%2$s\", bus išsiųsta &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>tarptautinė mokama SMS žinutė&lt;/font>. Jūsų operatorius apmokestins šias žinutes.</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">Siekiant aktyvuoti \"%2$s\", bus išsiųsta &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>vietinė mokama SMS&lt;/font> žinutė. Jūsų operatorius apmokestins šią žinutę.</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Nepavyko aptikti jūsų telefono numerio. Įsitikinkite, kad jūsų SIM kortelė suaktyvinta.
 Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų naująja SIM kortele."</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"Nepavyko išsiųsti aktyvinimo žinutės. Įsitikinkite, kad jūsų SIM kortelė yra aktyvi.
@@ -74,21 +74,22 @@ Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų
     <string name="activate_popup_desc_failed_receive_sms">Įsitikinkite, kad jūsų įvestas telefono numeris yra teisingas ir, kad jūsų SIM kortelė buvo aktyvuota.</string>
     <string name="activate_popup_desc_failed_server">Patikrinkite interneto ryšį ir pabandykite dar kartą.</string>
     <string name="activate_popup_desc_failed_server_msg">Įvyko serverio klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg">%1$s. Norėdami suaktyvinti \"%3$s\", įveskite SIM %2$d telefono numerį. Jei pakeisite šią SMS kortelę, bus išsiųstas kitas SMS suaktyvinimo pranešimas.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s. Norėdami suaktyvinti \"%2$s\", įveskite savo telefono numerį. Jei pakeisite šią SIM kortelę, bus išsiųstas kitas SMS suaktyvinimo pranešimas.</string>
-    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">Siekiant suaktyvinti \"%2$s\", bus išsiųstas &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>tarptautinis mokamas SMS pranešimas&lt;/b>. Jūsų operatorius apmokestins šį pranešimą.</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s. &lt;Data>Jei kyla klausimų, žr. &lt;a href=https://account.xiaomi.com/helpcenter/faq>„Mi“ paskyros naudotojo vadovą&lt;/a>.&lt;/Data></string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">Siekiant suaktyvins \"%3$s\", bus išsiųstas &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>vietinis SMS pranešimas&lt;/b> ir&lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>tarptautinis mokamas SMS pranešimas&lt;/b>. Jūsų operatorius apmokestinsi šiuos pranešimus.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg">%1$s Norėdami suaktyvinti „%3$s“, įveskite SIM %2$d telefono numerį. Jei pakeisite šią SMS kortelę, bus išsiųstas kitas SMS suaktyvinimo pranešimas.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s Norėdami suaktyvinti „%2$s“, įveskite savo telefono numerį. Jei pakeisite šią SIM kortelę, bus išsiųstas kitas SMS suaktyvinimo pranešimas.</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">Siekiant aktyvuoti \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>bus išsiųsta&lt;/font> tarptautinė mokama SMS žinutė. Jūsų operatorius apmokestins šią žinutę.</string>
+    <string name="activate_popup_desc_mi_account_user_manual">"%1$s
+&lt;Data>Jei kyla klausimų, žr. &lt;a href=https://account.xiaomi.com/helpcenter/faq>„Xiaomi“ paskyros naudotojo vadovą&lt;/a>.&lt;/Data>"</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">Siekiant aktyvuoti \"%3$s\", bus išsiųsta &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>vietinė SMS žinutė&lt;/font> ir &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>tarptautinė mokama SMS žinutė&lt;/font>. Jūsų operatorius apmokestins šias žinutes.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">Siekiant suaktyvinti \"%2$s\", įveskite SIM %1$d telefono numerį.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">Norėdami suaktyvinti %s, įveskite savo telefono numerį.</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">Siekiant suaktyvinti \"%2$s\", bus išsiųstas &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>mokamas SMS pranešimas&lt;/font>. Jūsų operatorius apmokestins šį pranešimą.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. Norėdami suaktyvinti \"%3$s\", įveskite SIM %2$d telefono numerį. Techninę pagalbą dalinai teikia „Weihuitel“. Išsamesnės informacijos ieškokite „Weihuitel“ privatumo politikoje.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s. Norėdami suaktyvinti \"%2$s\", įveskite savo telefono numerį. Techninę pagalbą dalinai teikia „Weihuitel“. Išsamesnės informacijos ieškokite „Weihuitel“ privatumo politikoje.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s Norėdami suaktyvinti „%3$s“, įveskite SIM %2$d telefono numerį. Techninę pagalbą dalinai teikia „Weihuitel“. Išsamesnės informacijos ieškokite „Weihuitel“ privatumo politikoje.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s Norėdami suaktyvinti „%2$s“, įveskite savo telefono numerį. Techninę pagalbą dalinai teikia „Weihuitel“. Išsamesnės informacijos ieškokite „Weihuitel“ privatumo politikoje.</string>
     <string name="activate_popup_failed_send_sms_desc">Nepavyko išsiųsti aktyvinimo SMS. Įsitikinkite, kad SIM %d veikia tinkamai ir pabandykite dar kartą.</string>
     <string name="activate_popup_failed_send_sms_desc_one_sim">Nepavyko išsiųsti suaktyvinimo SMS. Įsitikinkite, kad jūsų SIM kortelė veikia tinkamai ir pabandykite dar kartą.</string>
     <string name="activate_progress_status_title">Aktyvinama \"%s\"…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Nepavyko sukurti „Mi“ paskyros</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">„Mi“ paskyra sėkmingai suaktyvinta</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Nepavyko sukurti „Xiaomi“ paskyros</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">„Xiaomi“ paskyra sėkmingai suaktyvinta</string>
     <string name="activate_status_desc_acquire_phone_number">Tikrinamas telefono numeris…</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">Nepavyko patvirtinti telefono numerio. Įsitikinkite, kad SIM %d veikia tinkamai ir pabandykite dar kartą.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">Nepavyko patvirtinti telefono numerio. Įsitikinkite, kad jūsų SIM kortelė veikia tinkamai ir pabandykite dar kartą.</string>
@@ -102,8 +103,8 @@ Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų
     <string name="activate_status_desc_sending_sms">Siunčiama aktyvacijos SMS…</string>
     <string name="activate_status_desc_wait_for_sms">Laukiama aktyvavimo SMS iš serverio…</string>
     <string name="activate_status_title_activating_sim">Aktyvinama \"%2$s\" naudojant SIM%1$d…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Kuriama „Mi“ paskyra…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">„Mi“ paskyra kuriama naudojant SIM %d…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Kuriama „Xiaomi“ paskyra…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">„Xiaomi“ paskyra kuriama naudojant SIM %d…</string>
     <string name="afternoon">Popietė</string>
     <string name="am">Priešpiet</string>
     <string name="app_name">„Xiaomi“ SIM aktyvinimo paslauga</string>
@@ -126,7 +127,7 @@ Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų
     <string name="error_sim_not_in_service_tip">SIM %d nepavyko prisijungti prie tinklo. Įsitikinkite, kad SIM kortelė veikia tinkamai ir pabandykite dar kartą.</string>
     <string name="error_sim_not_in_service_tip_one_sim">Nepavyko prisijungti prie tinklo. Įsitikinkite, kad jūsų SIM kortelė veikia tinkamai ir pabandykite dar kartą.</string>
     <string name="evening">Popietė</string>
-    <string name="explain_activate_register_xiaomi_account_title">Sukurti „Mi“ paskyrą</string>
+    <string name="explain_activate_register_xiaomi_account_title">Sukurti „Xiaomi“ paskyrą</string>
     <string name="explain_activate_send_sms_permission_msg">Norint suaktyvinti %s, jūsų įrenginiui reikalingi leidimai, kad būtų galima siųsti SMS suaktyvinimo pranešimus. Jūsų operatorius suaktyvins šį pranešimą.</string>
     <string name="explain_send_sms_permission_button">Patvirtinti</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -186,14 +187,14 @@ Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų
     <string name="friday_shortest">Pn.</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -265,7 +266,7 @@ Norėdami iš naujo aktyvinti %s, įveskite telefono numerį, susietą su jūsų
     <string name="sim_activated_failed_msg">Nepavyko suaktyvinti šios paslaugos. Bakstelėkite, norėdami pabandyti dar kartą.</string>
     <string name="sim_unactivated_feature_title">\"%s\" nebuvo suaktyvinta</string>
     <string name="sim_unactivated_msg">Ši paslauga nesuaktyvinta. Bakstelėkite dar kartą, norėdami pakartoti.</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">„Mi“ paskyra nesukurta</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">„Xiaomi“ paskyra nesukurta</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>

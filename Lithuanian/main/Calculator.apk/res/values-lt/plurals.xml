@@ -7,10 +7,10 @@
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Dabar</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -50,27 +50,15 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
     </plurals>
-    <plurals name="age_label_days">
-        <item quantity="other">%d dienų</item>
-        <item quantity="one">%d diena</item>
-        <item quantity="few">%d dienos</item>
-        <item quantity="many">%d dienos</item>
-    </plurals>
-    <plurals name="age_label_months">
-        <item quantity="other">%d mėnesių</item>
-        <item quantity="one">%d mėnuo</item>
-        <item quantity="few">%d mėnesiai</item>
-        <item quantity="many">%d mėnesiai</item>
-    </plurals>
-    <plurals name="age_label_yrs">
-        <item quantity="other">metų</item>
-        <item quantity="one">metai</item>
-        <item quantity="few">metai</item>
-        <item quantity="many">metai</item>
+    <plurals name="delete_msg">
+        <item quantity="other">Trinti %d elementų dabar?</item>
+        <item quantity="one">Trinti %d elementą dabar?</item>
+        <item quantity="few">Trinti %d elementus dabar?</item>
+        <item quantity="many">Trinti %d elementus dabar?</item>
     </plurals>
     <plurals name="entries">
         <item quantity="other">%d elementų</item>
@@ -114,12 +102,6 @@
         <item quantity="few">Ką tik</item>
         <item quantity="many">Ką tik</item>
     </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">Išsamus grąžinimas (%d metų)</item>
-        <item quantity="one">Išsamus grąžinimas (%d metai)</item>
-        <item quantity="few">Išsamus grąžinimas (%d metai)</item>
-        <item quantity="many">Išsamus grąžinimas (%d metų)</item>
-    </plurals>
     <plurals name="loan_repayment_detail_unit">
         <item quantity="other">Išsamus grąžinimas (%d metų), CNY</item>
         <item quantity="one">Išsamus grąžinimas (%d metai), CNY</item>
@@ -136,7 +118,7 @@
         <item quantity="other">%1$d metai (%2$d mėnesių)</item>
         <item quantity="one">%1$d metai (%2$d mėnesis)</item>
         <item quantity="few">%1$d metai (%2$d mėnesiai)</item>
-        <item quantity="many">%1$d metai (%2$d mėnesiai)</item>
+        <item quantity="many">%1$d years (%2$d months)</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
@@ -144,16 +126,58 @@
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minutes</item>
     </plurals>
+    <plurals name="select_items">
+        <item quantity="other">Pasirinkta %d elementų</item>
+        <item quantity="one">Pasirinktas %d elementas</item>
+        <item quantity="few">Pasirinkti %d elementai</item>
+        <item quantity="many">Pasirinkti %d elementai</item>
+    </plurals>
     <plurals name="tenure_months">
-        <item quantity="other">%d mėnesių</item>
+        <item quantity="other">%d mėnesiai</item>
         <item quantity="one">%d mėnuo</item>
         <item quantity="few">%d mėnesiai</item>
-        <item quantity="many">%d mėnesiai</item>
+        <item quantity="many">%d mėnesių</item>
     </plurals>
     <plurals name="tenure_years">
-        <item quantity="other">%d metų</item>
+        <item quantity="other">%d metai</item>
         <item quantity="one">%d metai</item>
         <item quantity="few">%d metai</item>
-        <item quantity="many">%d metai</item>
+        <item quantity="many">%d metų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_b">
+        <item quantity="other">Baitai</item>
+        <item quantity="one">Baitas</item>
+        <item quantity="few">Baitai</item>
+        <item quantity="many">Baitų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_gb">
+        <item quantity="other">Gigabaitai</item>
+        <item quantity="one">Gigabaitas</item>
+        <item quantity="few">Gigabaitai</item>
+        <item quantity="many">Gigabaitų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_kb">
+        <item quantity="other">Kilobaitai</item>
+        <item quantity="one">Kilobaitas</item>
+        <item quantity="few">Kilobaitai</item>
+        <item quantity="many">Kilobaitų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_mb">
+        <item quantity="other">Megabaitai</item>
+        <item quantity="one">Megabaitas</item>
+        <item quantity="few">Megabaitai</item>
+        <item quantity="many">Megabaitų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_pb">
+        <item quantity="other">Petabaitai</item>
+        <item quantity="one">Petabaitas</item>
+        <item quantity="few">Petabaitai</item>
+        <item quantity="many">Petabaitų</item>
+    </plurals>
+    <plurals name="unit_data_display_data_tb">
+        <item quantity="other">Terabaitai</item>
+        <item quantity="one">Terabaitas</item>
+        <item quantity="few">Terabaitai</item>
+        <item quantity="many">Terabaitų</item>
     </plurals>
 </resources>

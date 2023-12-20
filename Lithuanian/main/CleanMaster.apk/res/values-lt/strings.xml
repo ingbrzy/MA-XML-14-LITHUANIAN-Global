@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Programos</string>
     <string name="activity_title_video">Ištrinti video</string>
     <string name="activity_title_white_list">Išimtys</string>
+    <string name="ad_flag_text">Reklama</string>
     <string name="ad_install_success_dialog_lunch">Atverti</string>
     <string name="ad_install_success_dialog_title">%1$s įdiegta sėkmingai. Atverti iškarto?</string>
     <string name="afternoon">Popietė</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Valyti „WeChat“ istoriją</string>
     <string name="dc_storage_cleaned">Atlaisvinta %s</string>
     <string name="dc_storage_info">Pasiekiama: %1$s | Viso: %2$s</string>
+    <string name="dc_storage_info_new">Pasiekiama %1$s</string>
     <string name="deep_clean_completed_tips">Sėkmingai išvalyta</string>
     <string name="deep_clean_data_path_clean_title">Išvalyti spartinančiąją atmintinę</string>
     <string name="deep_clean_uninstall_completed_tips">Pašalinta sėkmingai</string>
@@ -302,6 +304,7 @@
     <string name="download">Atsisiųsti</string>
     <string name="downloading">Atsisiunčiama</string>
     <string name="early_morning">Rytas</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tuščia</string>
     <string name="empty_content_no_privacy">Tuščia</string>
     <string name="empty_content_no_similar_image">Nuotraukų nėra</string>
@@ -328,7 +331,7 @@
     <string name="exo_download_paused_for_network">Norint tęsti atsis., laukiama tinklo</string>
     <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="facebook_clean_exit_confirm_cancel">Tęsti nuskaitymą</string>
     <string name="facebook_clean_exit_confirm_msg">„Facebook“ nuskaitymas nebaigtas. Sustabdyti nuskaitymą dabar?</string>
     <string name="facebook_clean_exit_confirm_ok">Sustabdyti</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Atšaukti</string>
     <string name="guide_dc_dialog_positive">Gerai</string>
     <string name="guide_dc_dialog_title">Saugykloje greitai pritrūks vietos</string>
-    <string name="guide_secure_dialog_message">Jūsų įrenginio optimizavimo rezultatas yra žemesnis nei 80 taškų. Optimizuoti dabar?</string>
     <string name="guide_secure_dialog_message_new">Jūsų įrenginio optimizavimo rezultatas yra žemesnis nei %d taškų. Optimizuoti dabar?</string>
     <string name="guide_secure_dialog_negative">Atšaukti</string>
     <string name="guide_secure_dialog_positive">Optimizuoti</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Viskas atrodo tvarkingai</string>
     <string name="hints_garbage_handle_item_content">%1$d elementų, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Nėra įrašų</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Retai naudota</string>
     <string name="hints_installed_app_near">Neseniai naudota</string>
     <string name="hints_installed_app_never">Niekada nenaudota</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Ankstesnis skenavimas buvo nutrauktas</string>
     <string name="load_only_under_wlan">Įkelti tik naudojant „Wi-Fi“</string>
     <string name="location_not_found">Nepavyko rasti failo</string>
+    <string name="lock_device_toast">Šis įrenginys užrakintas. Atrakinkite, kad galėtumėte naudotis valymo funkcija.</string>
     <string name="login_immediately">Prisijungti</string>
     <string name="long_click_dialog_summary">Ilgai laikykite norėdami pridėti į išimčių sąrašą.</string>
     <string name="long_click_dialog_title">Įspėjimas</string>
@@ -566,14 +570,14 @@
     <string name="menu_view">Žiūrėti aplanke</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Atlikta</string>
     <string name="msg_update_error_code_unknown_error">Serveriai užimti. Palaukite porą minučių ir pabandykite dar kartą.</string>
     <string name="name_debuglog_dir">„BSP“ derinimo žurnalas</string>
+    <string name="native_body">Tekstas</string>
+    <string name="native_headline">Antraštė</string>
+    <string name="native_media_view">Medijos rodinys</string>
     <string name="nb_clear_set">Išvalyti talpyklą, rodyti baterijos būklę ir blokuojamų sąrašo info priminimų juostoje</string>
     <string name="network_not_available">Nepavyko prisijungti prie tinklo</string>
     <string name="news_change">Pakeisti</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Įkelti failų vardus</string>
     <string name="pref_title_open_optimizer_memory_scan">Nuskaityti programų atmintį</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
-    <string name="privacy_app_desc">Paskyra ir slaptažodis</string>
-    <string name="privacy_app_desc_message">Paskyra, slaptažodžiai, ir žinutės</string>
-    <string name="privacy_app_desc_search">Paskyra, slaptažodžiai, ir paieškos istorija</string>
-    <string name="privacy_app_desc_setting">Paskyra, slaptažodžiai, ir nustatymai</string>
     <string name="privacy_browser_desc">Ieškoti elementai</string>
-    <string name="privacy_cache_desc">Paskyra, slaptažodis, istorija, nustatymai ir kita</string>
     <string name="privacy_cache_empty">Nėra privačių duomenų</string>
     <string name="privacy_cache_scaning">Tikrinama…</string>
     <string name="privacy_cache_title">Asmeninė informacija</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_ad">Praleisti</string>
     <string name="sponsored">Remiama</string>
     <string name="start_downloading_app">Pradedamas atsiuntimas: %1$s</string>
     <string name="start_install">Įdiegti dabar</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">V</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Atšaukti</string>
-    <string name="tips_low_storage_dialog_msg_qq">„QQ“ podėlio dydis pasiekė 3 GB. Tai gali sulėtinti įrenginį. Išvalyti „QQ“ podėlį dabar?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">„QQ“ podėlio dydis pasiekė %d GB. Tai gali sulėtinti įrenginį. Išvalyti „QQ“ podėlį dabar?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Jūs išnaudojote 90% jūsų talpyklos vietos. Išdiekite nenaudojamas programas.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Jūs išnaudojote %s jūsų saugyklos vietos. Išdiekite nenaudojamas programas.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">„WeChat“ podėlio dydis pasiekė %d GB. Tai gali sulėtinti įrenginį. Išvalyti „WeChat“ podėlį dabar?</string>
     <string name="tips_low_storage_dialog_ok">Valyti</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="virus_scan">Antivirusinė</string>
+    <string name="watermark_label_prefix">„AdMob“ –</string>
     <string name="wechat_chat_data_type_cache">WeChat spartinančioji atmintinė</string>
     <string name="wechat_chat_data_type_cache_desc">Jūs galėsite atkurti šiuos failus, kai prisijungsite prie interneto.</string>
     <string name="wechat_chat_data_type_chat">Pokalbių istorija</string>

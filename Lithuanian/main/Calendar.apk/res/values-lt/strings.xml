@@ -183,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="date_today">" (šiandien)"</string>
     <string name="date_view">Data</string>
@@ -344,6 +345,8 @@
     <string name="full_scorecard">Visa rezultatų kortelė</string>
     <string name="gadget_no_events">Nėra artėjančių kalendoriaus įvykių</string>
     <string name="gadget_title">Kalendorius</string>
+    <string name="glance_card_sub_title">Savo užrakto ekrane gaukite įdomių istorijų</string>
+    <string name="glance_card_title">„Glance“ skirta „Mi“</string>
     <string name="global_action_text_card_manager">Individualizuokite savo kalendorių</string>
     <string name="global_cricket_no_match">Šiandien nėra suplanuotų kriketo rungtynių. Patikrinkite kitas dienas.</string>
     <string name="global_football_final">FINALAS</string>

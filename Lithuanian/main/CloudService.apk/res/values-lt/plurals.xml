@@ -7,10 +7,10 @@
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Dabar</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -50,9 +50,15 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
+    </plurals>
+    <plurals name="cloud_storage_full_upgrade_text">
+        <item quantity="other">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukų.</item>
+        <item quantity="one">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukos.</item>
+        <item quantity="few">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukų.</item>
+        <item quantity="many">Nepakanka saugyklos vietos. Nepavyko susinchronizuoti %d nuotraukų.</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d blokuojamų sąrašo įrašų</item>
@@ -162,6 +168,12 @@
         <item quantity="few">Bandykite dar kartą po %d sekundžių</item>
         <item quantity="many">Bandykite dar kartą po %d sekundžių</item>
     </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_red_title">
+        <item quantity="other">Nepavyko sinchronizuoti &lt;font color=#F22424>%s elementų &lt;/font></item>
+        <item quantity="one">Nepavyko sinchronizuoti &lt;font color=#F22424>%s elemento &lt;/font></item>
+        <item quantity="few">Nepavyko sinchronizuoti &lt;font color=#F22424>%s elementų &lt;/font></item>
+        <item quantity="many">Nepavyko sinchronizuoti &lt;font color=#F22424>%s elementų &lt;/font></item>
+    </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Nepavyko sinchronizuoti %s elementų</item>
         <item quantity="one">Nepavyko sinchronizuoti %s elemento</item>
@@ -233,6 +245,12 @@
         <item quantity="one">Pasirinktas %d elementas</item>
         <item quantity="few">Pasirinkti %d elementai</item>
         <item quantity="many">Pasirinkta %d elemento</item>
+    </plurals>
+    <plurals name="noti_quota_full_title_with_icon_text">
+        <item quantity="other">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
+        <item quantity="one">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programos&lt;/font>.</item>
+        <item quantity="few">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
+        <item quantity="many">Saugykla užpildyta. Nepavyko sinchronizuoti &lt;font color=#F22424>%d programų&lt;/font>.</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>

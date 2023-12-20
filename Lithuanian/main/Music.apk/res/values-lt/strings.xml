@@ -64,10 +64,15 @@
     <string name="actionbar_button_up_description">Grįžti</string>
     <string name="ad_close">Uždaryti</string>
     <string name="ad_data_exception">Reklamos duomenų klaida</string>
+    <string name="ad_flag_text">Reklama</string>
     <string name="ad_recommend">Rodyti reklamą</string>
     <string name="ad_setting">Papildomi parametrai</string>
     <string name="add">Pridėti</string>
     <string name="add_music">Pridėti dainas</string>
+    <string name="add_songs_manually_bottom">Pridėti</string>
+    <string name="add_songs_manually_home">Pridėti dainas rankiniu būdu</string>
+    <string name="add_songs_manually_setting">Pridėti dainas rankiniu būdu</string>
+    <string name="add_songs_to_playlist">Įtraukti į grojaraštį</string>
     <string name="add_to_last_of_playlist">Pridėti į grojaraščio pabaigą</string>
     <string name="add_to_playlist">Įtraukti į eilę</string>
     <string name="add_to_playlist_successful">Sėkmingai pridėta</string>
@@ -98,6 +103,13 @@
     <string name="app_disable_description_content">„Mi“ muzika yra sisteminė programa. Jos išjungimas gali turėti įtakos kitų programų naudojimui. Vis tiek išjungti?</string>
     <string name="app_disable_description_title">Išjungti sisteminę programą?</string>
     <string name="app_label">Atsisiuntimai</string>
+    <string name="app_notify_dialog_btn_desc">Parametrai</string>
+    <string name="app_notify_dialog_check_desc">Įjungti pranešimų juostos valdiklį, bet neleisti nuolatinių pranešimų</string>
+    <string name="app_notify_dialog_path">Parametrai > Pranešimų būsenos juosta > Programėlės pranešimai > Muzika</string>
+    <string name="app_notify_dialog_path_10">Parametrai > Pranešimų būsenos juosta > Programėlės pranešimai > Muzika</string>
+    <string name="app_notify_dialog_path_8">Parametrai > Pranešimų būsenos juosta > Programėlės pranešimai > Muzika</string>
+    <string name="app_notify_dialog_subtitle">Norėdami valdyti muzikos grojimą pranešimų juostoje, įjunkite pranešimus, skirtus „Mi“ muzikai.</string>
+    <string name="app_notify_dialog_title">Reikalingi leidimai</string>
     <string name="app_permission_confirm">Supratau</string>
     <string name="app_permission_optional">Pasirinktiniai leidimai</string>
     <string name="app_permission_require">Privalomi leidimai</string>
@@ -108,8 +120,10 @@
     <string name="app_permission_use_group_phone_desc">„Google Push“ paslaugoms</string>
     <string name="app_permission_use_group_storage">Saugykla</string>
     <string name="app_permission_use_group_storage_desc">Rasti ir groti dainas, išsaugotas įrenginio talpykloje</string>
+    <string name="app_resident_push_switch">Leisti nuolatinius pranešimus</string>
     <string name="apply_for_the_following_permissions">Programai reikalingi šie leidimai:</string>
     <string name="apply_permissions_greater_than_pie">Galite suteikti šį leidimą eidami į Parametrai > Programos > Leidimai > Leidimai > Failai ir medijos > Muzika.</string>
+    <string name="apply_permissions_greater_than_tiramisu">Galite suteikti šį leidimą eidami į Parametrai > Programos > Leidimai > Leidimai > Muzika ir garso failai/Nuotraukos ir vaizdo įrašai > Muzika.</string>
     <string name="apply_permissions_less_than_pie">Galite suteikti šį leidimą eidami į Parametrai > Programos > Leidimai > Leidimai > Vidinės atminties failų prieiga ir keitimas > Music.</string>
     <string name="apply_permissions_tips_content">Norėdami atrasti muziką savo įrenginyje, leiskite programai pasiekti failus.</string>
     <string name="artist">Atlikėjai</string>
@@ -141,7 +155,7 @@
     <string name="avoid_to_use_traffic_summary">Nenaudoti mobiliųjų tinklų muzikos transliavimui</string>
     <string name="avoid_to_use_traffic_title">Klausti prieš klausant muzikos per mobiliuosius tinklus</string>
     <string name="back">Grįžti</string>
-    <string name="back_confirm">Paspauskite dar kartą, kad perkelti programą į foną</string>
+    <string name="back_confirm">Palieskite dar kartą, kad išeiti</string>
     <string name="best_experience">Geriausia patirtis</string>
     <string name="billion_char">%s milijard.</string>
     <string name="bluetooth_device">„Bluetooth“ garso įrenginys</string>
@@ -207,6 +221,7 @@
     <string name="create_playlist">Sukurti grojaraštį</string>
     <string name="create_playlist_failure">Nepavyko sukurti grojaraščio</string>
     <string name="create_playlist_input_hint">Įveskite grojaračio pavadinimą</string>
+    <string name="create_shortcut_for_playlist">Sukurti grojaraščio pagrindinio ekrano nuorodą?</string>
     <string name="current_album">Dabartinis albumo viršelis</string>
     <string name="current_lyric">Dabartiniai dainų žodžiai</string>
     <string name="current_version">Dabartinė versija</string>
@@ -327,7 +342,9 @@
     <string name="download_method">Atsisiųsti</string>
     <string name="download_no_application_title">Nepavyko atverti failo</string>
     <string name="download_paused_in_power_save_mode">Atsiuntimai yra pristabdomi, kai įjungtas energijos taupymo režimas</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Atsiunčiama…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Atsiuntimo kokybė</string>
     <string name="download_quality_summary">Papildomi atsiunčiamų dainų parametrai</string>
     <string name="download_queued">Pridėta į eilę</string>
@@ -435,7 +452,9 @@
     <string name="exo_media_action_repeat_all_description">Kartoti viską</string>
     <string name="exo_media_action_repeat_off_description">Nekartoti nieko</string>
     <string name="exo_media_action_repeat_one_description">Kartoti vieną</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -559,9 +578,11 @@
     <string name="get_more_favorite_content_after_login">Norėdami atrasti daugiau dainų ir vaizdo įrašų, prisijunkite.</string>
     <string name="get_one_day_vip">Turite VIP %d- dienai!</string>
     <string name="get_one_hour_vip">Turite VIP %d- valandai!</string>
+    <string name="get_one_minute_vip">Uždirbote VIP %d minutei!</string>
     <string name="get_vip">Gauti VIP</string>
     <string name="go_agree">Gerai</string>
     <string name="google_account_login">Prisijungti naudojant „Google“</string>
+    <string name="google_download_music">Atsisiųsti %1$s naudojant „Google“</string>
     <string name="goto_local_search">Ieškoti įrenginyje</string>
     <string name="goto_online_search">Ieškoti internete</string>
     <string name="handle_later">Ne dabar</string>
@@ -569,11 +590,19 @@
     <string name="headset_and_audio_effect_category">Ausinės ir garso efektai</string>
     <string name="headset_and_audio_effect_summary">Ausinės ir vienodintuvas</string>
     <string name="headset_and_audio_effect_title">Ausinės ir garso efektai</string>
+    <string name="hgm_failed_to_connect_hint">Patikrinkite tinklo parametrus ir pabandykite dar kartą. Jei susiduriate su „hungama“ serverio klaida, ją ištaisysime kaip galima greičiau.</string>
+    <string name="hgm_has_offline">Negalima leisti muzikos, kurią teikia „hungama“</string>
+    <string name="hgm_network_request_error_toast">Nepavyko prisijungti prie „hungama“ serverių. Bandykite dar kartą.</string>
     <string name="hgm_vip_btn_desc">Išbandykite nemokamai</string>
     <string name="hgm_vip_high_quality">Kokybiški atsisiuntimai</string>
     <string name="hgm_vip_no_ads">Be reklamų ir limitų</string>
     <string name="hide_album">Slėpti albumo viršelį</string>
     <string name="hide_lyric">Slėpti dainų žodžius</string>
+    <string name="hide_or_add_songs_manually">Rodyti paslėptas dainas</string>
+    <string name="hide_reason_folder">Paslėptas aplankalas</string>
+    <string name="hide_reason_other">Kita priežastis</string>
+    <string name="hide_reason_size">Ilgesnės nei %1$s</string>
+    <string name="hide_songs_title">Paslėptos dainos</string>
     <string name="hifi_quality">Aukšta kokybė</string>
     <string name="high_sound_quality">Aukšta</string>
     <string name="higher_quality_music">Aukštos kokybės garsas</string>
@@ -587,6 +616,7 @@
     <string name="home_tab_recommend">Internete</string>
     <string name="home_tab_search">Paieška</string>
     <string name="hot_icon_in_fast_indexer">H</string>
+    <string name="hot_recommend">Dabar populiaru</string>
     <string name="hungama_batch_download_alert_summary">Tik „Gold“ nariai gali atsisiųsti keletą dainų. Įsigyti „Gold“ narystę dabar?</string>
     <string name="hungama_batch_download_alert_summary_toast">Norėdami atsisiųsti visą grojaraštį, įsigykite narystę.</string>
     <string name="hungama_download_subscription_toast">Prenumeruokite „hungama“ muzika, kad atsisiųstumėte šią dainą</string>
@@ -665,6 +695,10 @@
     <string name="joox_search_result_more">Daugiau</string>
     <string name="joox_vip_check_to_pay">Įsigyti</string>
     <string name="joox_vip_expired_hint">Jūsų VIP narystė nebegalioja. Dainos atsiųstos iš „JOOX“ bus rodomos tik jūsų atsisiuntimų srityje .</string>
+    <string name="jump_to_ytb_dialog_cancel">Atšaukti</string>
+    <string name="jump_to_ytb_dialog_desc">Ketinate išeiti iš „Mi“ muzikos ir atidaryti „YouTube“. Atidaryti „YouTube“ dabar?</string>
+    <string name="jump_to_ytb_dialog_ok">Patvirtinti</string>
+    <string name="jump_to_ytb_dialog_title">Išeinama iš „Mi“ muzikos</string>
     <string name="just_hit_next">Tiesiog spustelėkite „kita“</string>
     <string name="keep_queued_download">Palikti</string>
     <string name="ktv_playlist">KTV grojaraštis</string>
@@ -681,9 +715,19 @@
     <string name="loading_hint">Sekundėlę…</string>
     <string name="loading_reached_the_bottom">Šiam kartui tiek.</string>
     <string name="loading_text">Sekundėlę…</string>
+    <string name="local_download_download">Atsisiųsti</string>
+    <string name="local_download_hint">Įjungti „Wi-Fi“ prieš atsisiunčiant</string>
+    <string name="local_download_item">Atsisiųsti nemokamai</string>
+    <string name="local_download_title">Pasirinkti dainas atsisiuntimui</string>
+    <string name="local_download_toast">Atsiunčiama…</string>
+    <string name="local_download_toast_notify">Atsisiunčiama. Eigą galite patikrinti priminimų juostoje.</string>
     <string name="local_header_title">Muzika prietaise</string>
     <string name="local_music">Vietinės dainos</string>
     <string name="local_music_is_not_available">Jūsų įrenginyje nėra dainų.</string>
+    <string name="local_out_dialog_cancel">Atšaukti</string>
+    <string name="local_out_dialog_desc">Ruošiatės atidaryti kitą programą, nesusijusią su „Mi“ muzika.</string>
+    <string name="local_out_dialog_ok">Gerai</string>
+    <string name="local_out_dialog_title">Išeinama iš „Mi“ muzika</string>
     <string name="local_page_album_more">Peržiūrėti viską</string>
     <string name="local_page_artist_more">Daugiau %s dainų</string>
     <string name="local_page_playlist">Grojaraščiai</string>
@@ -701,6 +745,13 @@
     <string name="lyric_label">Dainos žodžiai</string>
     <string name="lyric_open_other_connect">Atsisiųsti dainų žodžius naudojant mobiliuosius duomenis</string>
     <string name="lyric_setting">Dainų žodžių parametrai</string>
+    <string name="lyrics_guide_button_text">Išbandykite</string>
+    <string name="lyrics_guide_four">Norėdami peržiūrėti, grįžkite į dainų žodžių puslapį</string>
+    <string name="lyrics_guide_one">Bakstelėkite ant paieškos rezultato, norėdami jį pasirinkti</string>
+    <string name="lyrics_guide_three">Redaguokite ir išsaugokite dainos žodžius</string>
+    <string name="lyrics_guide_title">Kaip ieškoti ir išsaugoti dainos žodžius</string>
+    <string name="lyrics_guide_two">Pasirinkite ir nukopijuokite norimus dainos žodžius</string>
+    <string name="lyrics_popup_title">Bakstelėkite, norėdami ieškoti dainos žodžių</string>
     <string name="material_clock_toggle_content_description">Pasirinkite „iki pietų“ arba „po pietų“</string>
     <string name="material_hour_selection">Pasirinkite valandą</string>
     <string name="material_hour_suffix">%1$s val.</string>
@@ -744,14 +795,14 @@
     <string name="miuishare_title_more">Daugiau</string>
     <string name="miuishare_title_share">Bendrinti</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -826,6 +877,7 @@
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -931,6 +983,7 @@
     <string name="ok">Gerai</string>
     <string name="one_day_vip">VIP %d- dieną</string>
     <string name="one_hour_vip">VIP %d valandą</string>
+    <string name="one_minute_vip">VIP %d minutę</string>
     <string name="online_apk_acquired">Įkelta %d%%</string>
     <string name="online_apk_acquiring">Įkeliama… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Nepavyko atsisiųsti. Trūksta vietos talpykloje.</string>
@@ -951,7 +1004,7 @@
     <string name="online_apk_install_failed_with_reason" formatted="false">Nepavyko įkelti internetinio turinio. Bakstelėkite %s, kad pabandytumėte dar kartą. Klaidos kodas: %d.</string>
     <string name="online_apk_install_in_background">Internetinis turinys įkeliamas fone…</string>
     <string name="online_apk_install_network_change_paused">Šiuo metu naudojate mobiliuosius duomenis. Elementų įkėlimas laikinai pristabdytas. Bakstelėkite %s, kad peržiūrėtumėte.</string>
-    <string name="online_apk_install_network_error">Nepavyksta prisijungti prie tinklo. Patikrinkite tinklo parametrus ir bandykite dar kartą.</string>
+    <string name="online_apk_install_network_error">Nepavyko prisijungti prie tinklo. Patikrinkite tinklo parametrus ir bandykite dar kartą.</string>
     <string name="online_apk_install_tips">Atsisiųskite šio turinio teikėjo priedą vieną kartą ir kitą kartą dainos bus pasiekiamos tiesiogiai.</string>
     <string name="online_list_delete_message">Visos atsiųstos šio grojaraščio dainos bus ištrintos iš prietaiso vidinės atminties.</string>
     <string name="online_playlist_category">Grojaraščiai</string>
@@ -1194,9 +1247,10 @@
     <string name="privacy_authorize_revoking">Atsisakoma įgaliojimų…</string>
     <string name="privacy_desc">Privatumo politika (privaloma)</string>
     <string name="privacy_policy">Privatumo politika</string>
-    <string name="privacy_request_desc">"&lt;Data>„Mi muzikos“ tinklo transliavimo paslaugai teikti reikalingas būtinosios informacijos rinkimas. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. „Mi muzikos“ Privatumo politikos įgaliojimus galite bet kada atšaukti programos parinktyse.
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=lt_LT</string>
+    <string name="privacy_request_desc"><Data>"„Mi muzikos“ tinklo transliavimo paslaugai teikti reikalingas būtinosios informacijos rinkimas. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. „Mi muzikos“ Privatumo politikos įgaliojimus galite bet kada atšaukti programos parinktyse.
 Prieš pradėdami naudoti „Mi muzika“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>.
-Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data>"</string>
+Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos."</Data></string>
     <string name="privacy_request_subtitle">"Sveiki atvykę į „Mi muziką“! Ši programa teikia toliau nurodytas paslaugas:
 - Vietinis garso leistuvas
 -Tinklo transliavimo paslaugos"</string>
@@ -1209,9 +1263,9 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="pulluprefreshrecyclerview_loading_finished">Įkelta sėkmingai</string>
     <string name="pulluprefreshrecyclerview_loading_running">Įkeliama…</string>
     <string name="queue_is_empty">Grojaraštis tuščias.</string>
-    <string name="read_and_agree_hungama_protocol">&lt;Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„hungama“ privatumo politika&lt;/a>&lt;/font>&lt;/Data></string>
-    <string name="read_and_agree_joox_protocol">&lt;Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„JOOX“ privatumo politika&lt;/a>&lt;/font>&lt;/Data></string>
-    <string name="read_and_agree_mi_protocol">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a>&lt;/font> ir &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">privatumo politika&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_hungama_protocol"><Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„hungama“ privatumo politika&lt;/a>&lt;/font></Data></string>
+    <string name="read_and_agree_joox_protocol"><Data>Perskaičiau ir sutinku su&lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">„JOOX“ privatumo politika&lt;/a>&lt;/font></Data></string>
+    <string name="read_and_agree_mi_protocol"><Data>Perskaičiau ir sutinku su „Xiaomi“ &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a>&lt;/font> ir &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">privatumo politika&lt;/a>&lt;/font></Data></string>
     <string name="read_and_agree_protocol">Prieš tęsdami perskaitykite ir sutikite su mūsų naudotojo sutartimi ir privatumo politika.</string>
     <string name="ready_to_play">Toliau</string>
     <string name="recently_played">Neseniai groti</string>
@@ -1219,7 +1273,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="recommend_songs_when_playing_audio_files">Gaukite dainų rekomendacijas, klausydami muzikos</string>
     <string name="recommended_file_size_download_in_mobile">Naudoti %s mob. duomenų šiam failui atsiųsti?</string>
     <string name="recommended_no_file_size_download_in_mobile">Šio failo atsiuntimui naudoti mobiliuosius duomenis?</string>
-    <string name="refresh">Atnaujinti</string>
     <string name="remove">Pašalinti</string>
     <string name="remove_download">Pašalinti</string>
     <string name="remove_user_privacy_dialog_message">Išjungdami jungiklį, jūs atšaukiate savo „Mi muzikos“ privatumo politikos įgaliojimą. Jūsų asmeninė informacija nebus renkama. Surinkta ir išsaugota asmeninė informacija bus ištrinta per konkretų laikotarpį, kaip to reikalaujama pagal taikytiną teisę. Pagrindinių „Mi muzikos“ paslaugų teikimui reikalinga jūsų būtinoji asmeninė informacija. Privatumo politikos įgaliojimo atšaukimas bus laikomas atsisakymu sutikti su paslaugos teikimo sąlygomis dėl asmeninės informacijos rinkimo.</string>
@@ -1236,6 +1289,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="retry_after_network_available">Neįmanoma prisijungti prie tinklo. Patikrinkite ryšį ir bandykite dar kartą.</string>
     <string name="retry_download">Pakartoti</string>
     <string name="revoke_upload_playlist_to_hungama_toast">Dainos žiniatinklyje nebus sinchronizuotos su „hungama“</string>
+    <string name="reward_received">Uždirbote VIP narystę!</string>
     <string name="ringtone_editing">Skambėjimo garso redaktorius</string>
     <string name="ringtone_not_support">Šis dainos formatas nepalaikomas</string>
     <string name="ringtone_selected">Pasirinkta</string>
@@ -1286,6 +1340,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="select_local_cover">Pasirinkti vietinį viršelį</string>
     <string name="select_local_lyric">Pasirinkti failą</string>
     <string name="select_local_lyric_file">Pasirinkti vietinį dainų žodžių failą</string>
+    <string name="select_lyrics_copy">Pasirinkti ir kopijuoti dainos tekstą</string>
     <string name="select_none">Atžymėti viską</string>
     <string name="select_one_language">Pasirinkite bent %d kalbą</string>
     <string name="select_three_languages">Galite pasirinkti iki %d kalbų</string>
@@ -1329,6 +1384,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="similar_songs">Panašios dainos</string>
     <string name="similar_videos">Panašūs vaizdo įrašai</string>
     <string name="skip">Praleisti</string>
+    <string name="skip_ad">Praleisti</string>
     <string name="sleep_mode">Miego laikmatis</string>
     <string name="sleep_mode_canceled">Miego režimas išjungtas</string>
     <string name="sleep_mode_summary">Sustabdyti grotuvą po tam tikro laiko</string>
@@ -1344,6 +1400,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="song_offline">Ši daina nebepasiekiama.</string>
     <string name="song_picker_complete">Atlikta</string>
     <string name="song_quality_category">Muzika</string>
+    <string name="song_swipe_navigation">Braukite į kairę arba dešinę, kad perjungtumėte dainą</string>
     <string name="songgroup_pick_album">Albumai</string>
     <string name="songgroup_pick_playlist">Grojaraščiai</string>
     <string name="sort_by_name">Pavadinimas</string>
@@ -1353,6 +1410,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="start_to_download">Atsiunčiama…</string>
     <string name="start_to_play">Ruošiamasi groti…</string>
     <string name="start_update">Įdiegiama nauja versija…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Dvigubų programų saugykla</string>
     <string name="storage_internal">Vidinė talpykla</string>
     <string name="storage_sd_card">SD kortelė</string>
@@ -1513,6 +1571,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="upload_playlist_to_hungama_title">Sinchronizuokite dainas žiniatinklyje su „hungama“, norėdami jas pasiekti iš bet kurio kito įrenginio, kuriame naudojate „Xiaomi“ paskyrą.</string>
     <string name="upload_playlist_to_hungama_toast">Dainos žiniatinklyje bus sinchronizuotos su „hungama“</string>
     <string name="user_agreement">Naudotojo sutartis</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=lt_LT</string>
     <string name="user_experience_program_open">Dėl autorių teisių apribojimų turėsite prisijungti prie naudotojų patirties programos. Tai atlikti galite eidami į Parametrai > Slaptažodis ir saugumas > Privatumas > Prisijungti prie naudotojų patirties programos.</string>
     <string name="user_playlist_plaza">Grojaraščiai</string>
     <string name="user_privacy_dialog_negative_text">Atšaukti</string>
@@ -1526,6 +1585,7 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="version_info">Versija</string>
+    <string name="video_loading_fail">Nepavyko įkelti vaizdo įrašo</string>
     <string name="video_play_cellular">Jūsų įrenginys nėra prisijungęs prie „Wi-Fi“. Naudoti mobiliuosius duomenis?</string>
     <string name="video_replay_btn">Groti dar kartą</string>
     <string name="video_retry_btn">Bandyti dar kartą</string>
@@ -1534,10 +1594,22 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="vip_required_with_song">%s pasiekiama tik „Gold“ nariams. Kol kas daina praleidžiama.</string>
     <string name="voice_search_first_hint">Išbandykite paiešką balsu!</string>
     <string name="watch_video">Žiūrėti vaizdo įrašą</string>
+    <string name="web_reward_dialog_cancle">Atšaukti</string>
+    <string name="web_reward_dialog_ok">Išeiti</string>
     <string name="wednesday">Trečiadienis</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>
     <string name="welcome_to_entertainment">Išbandykite naują pramogų funkciją, skirtą muzikos žaidimams ir kt.</string>
+    <string name="whitelist_add_exist">Kai kurios dainos jau įtrauktos į vietinių dainų sąrašą ir čia nerodomos</string>
+    <string name="whitelist_add_failed">Nepavyko pridėti failų</string>
+    <string name="whitelist_desc_1">Jei „Mi Music“ įrenginyje neranda ieškomų dainų, galite jas pridėti rankiniu būdu.</string>
+    <string name="whitelist_desc_2">Šie failai bus rodomi, net jei failo dydis ir dainos ilgis nesutampa arba jie yra paslėptuose aplankuose.</string>
+    <string name="whitelist_dialog_content">Pašalinti failai nebebus rodomi tarp „Mi Music“ išimčių, bet nebus ištrinti iš jūsų įrenginio. Pašalinti dabar?</string>
+    <string name="whitelist_dialog_title">Pašalinti failus?</string>
+    <string name="whitelist_entrance_desc">Rankiniu būdu pridėkite failus, kurių „Mi Music“ automatiškai neaptinka</string>
+    <string name="whitelist_entrance_text_1">"Nepavyksta rasti dainos? "</string>
+    <string name="whitelist_multi_add_tips">%1$s. %2$s.</string>
+    <string name="whitelist_title">Failų išimtys</string>
     <string name="wifi_required_body" formatted="false">"Šio %s failo atsiuntimo užbaigimui rekomenduojama naudoti „Wi-Fi“.
 
 Paspauskite %s, kad pradėti atsiuntimą kitą kartą prisijungus prie „Wi-Fi“ tinklo."</string>
@@ -1546,6 +1618,10 @@ Paspauskite %s, kad pradėti atsiuntimą kitą kartą prisijungus prie „Wi-Fi�
     <string name="you_can_switch_mode_in_settings">Tamsusis režimas gali būti perjungtas parametruose</string>
     <string name="you_may_like">Jums taip pat gali patikti</string>
     <string name="you_might_like_it">Jums gali patikti</string>
+    <string name="youtube_delete_dialog_cancel">Atšaukti</string>
+    <string name="youtube_delete_dialog_desc">Ar pašalinti šią dainą iš parankinių dabar?</string>
+    <string name="youtube_delete_dialog_ok">Pašalinti</string>
+    <string name="youtube_delete_dialog_title">Pašalinti iš parankinių</string>
     <string name="youtube_download_canl">Atšaukti</string>
     <string name="youtube_download_fail_net">Nepavyko prisijungti prie tinklo. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="youtube_download_fail_source">Įvyko klaida. Minutėlę palaukite ir pabandykite dar kartą.</string>
@@ -1557,6 +1633,12 @@ Paspauskite %s, kad pradėti atsiuntimą kitą kartą prisijungus prie „Wi-Fi�
     <string name="youtube_download_suc">Atsiųsta sėkmingai</string>
     <string name="youtube_play_history">Atkūrimo istorija</string>
     <string name="youtube_share_guide_tip">Dabar galite bendrinti vaizdo įrašus su draugais</string>
+    <string name="youtube_store_dialog_desc">Čia galite rasti į parankinius įdėtus vaizdo įrašus internete. Jei anksčiau vaizdo įrašas nebuvo siųstas, negalėsite naudoti mobiliųjų duomenų, kad jį dar kartą pažiūrėtumėte.</string>
+    <string name="youtube_store_dialog_ok">Supratau</string>
     <string name="youtube_tab_explore">Atraskite</string>
     <string name="youtube_tab_playlist">Grojaraščiai</string>
+    <string name="youtube_tab_popular">Populiaru</string>
+    <string name="youtube_tab_radar">Radaras</string>
+    <string name="youtube_tab_shorts">Trumpukai</string>
+    <string name="youtube_tab_trend">Populiaru</string>
 </resources>

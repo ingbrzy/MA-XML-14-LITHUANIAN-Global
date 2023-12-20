@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Sutikti</string>
+    <string name="apm_enabled_first_time_message">Įrenginys prisimena, kad lėktuvo režimu reikia palikti įjungtą „Wi‑Fi“ ryšį. Išjunkite „Wi‑Fi“, jei nenorite, kad jis liktų įjungtas.</string>
+    <string name="apm_enabled_first_time_title">„Wi‑Fi“ lieka įjungtas</string>
     <string name="decline">Atmesti</string>
     <string name="dlg_ok">Gerai</string>
+    <string name="notification_channel_apm_alerts">APM įspėjimai</string>
     <string name="notification_channel_network_alerts">Tinklo įspėjimai</string>
     <string name="notification_channel_network_available">Tinklas pasiekiamas</string>
     <string name="notification_channel_network_status">Tinklo būsena</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Sertifikato galiojimo laiko pabaiga:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Leisti prisijungti prie šio tinklo, tik jei toliau pateikta informacija yra tinkama.
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Parašas:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256 piršto atspaudas:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Neprisijungti</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Vis tiek prisijungti</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Atjungti dabar</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Palikti susietą</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">Trūksta tinklo %1$s sertifikato.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Sužinokite, kaip pridėti sertifikatus</string>
     <string name="wifi_ca_cert_dialog_preT_title">Nepavyko patvirtinti šio tinklo</string>
@@ -82,14 +89,29 @@ Gali būti, kad atlikus šį pakeitimą įrenginio vietovę galės stebėti neto
     <string name="wifi_enable_request_dialog_negative_button">Neleisti</string>
     <string name="wifi_enable_request_dialog_positive_button">Leisti</string>
     <string name="wifi_enable_request_dialog_title">Leisti programai „%1$s“ įjungti „Wi‑Fi“?</string>
+    <string name="wifi_enabled_apm_first_time_message">Jei paliksite „Wi‑Fi“ ryšį įjungtą, įrenginys prisimins palikti jį įjungtą, kai kitą kartą įjungsite lėktuvo režimą</string>
+    <string name="wifi_enabled_apm_first_time_title">„Wi‑Fi“ ryšys įjungtas lėktuvo režimu</string>
     <string name="wifi_interface_priority_approve">Leisti</string>
+    <string name="wifi_interface_priority_interface_name_ap">„Wi‑Fi“ viešosios interneto prieigos taškas</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">„Wi‑Fi“ viešosios interneto prieigos taškas</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi‑Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">Stoties režimas (STA)</string>
     <string name="wifi_interface_priority_message">Dėl to gali kilti su „%3$s“ susijusių problemų.</string>
     <string name="wifi_interface_priority_message_plural">Dėl to gali kilti problemų šiose programose: %3$s.</string>
     <string name="wifi_interface_priority_reject">Neleisti</string>
     <string name="wifi_interface_priority_title">„%1$s“ nori naudoti tinklų šaltinį</string>
+    <string name="wifi_network_disabled_by_admin_button">Uždaryti</string>
+    <string name="wifi_network_disabled_by_admin_message">„%1$s“ išjungė administratorius.</string>
+    <string name="wifi_network_disabled_by_admin_title">Nepasiekiamas tinklas</string>
+    <string name="wifi_network_switch_dialog_negative_button">Neperjungti</string>
+    <string name="wifi_network_switch_dialog_positive_button">Perjungti</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">„%1$s“ prastos kokybės. Perjungti į „%2$s“?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">Panašu, kad „%1$s“ neprijungtas prie interneto. Perjungti į „%2$s“?</string>
     <string name="wifi_p2p_enter_pin_message">Įveskite reikiamą PIN kodą:</string>
     <string name="wifi_p2p_frequency_conflict_message">Telefonas bus laikinai atjungtas nuo „Wi-Fi“, kol bus prijungtas prie „%1$s“</string>
     <string name="wifi_p2p_from_message">Nuo:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Priimkite per # sekundę.}one{Priimkite per # sekundę.}few{Priimkite per # sekundes.}many{Priimkite per # sekundės.}other{Priimkite per # sekundžių.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Pakvietimas išsiųstas</string>
     <string name="wifi_p2p_invitation_to_connect_title">Pakvietimas prisijungti</string>
     <string name="wifi_p2p_show_pin_message">PIN kodas:</string>
