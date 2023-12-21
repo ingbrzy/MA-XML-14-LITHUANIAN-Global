@@ -235,7 +235,6 @@
     <string name="settings_guide_title">Ar reikalingi kiti parametrai?</string>
     <string name="show_badge_notifications">Pranešimų ženkleliai</string>
     <string name="show_badge_notifications_short">Ženkliukai</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Būsenos juosta</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Slankieji pranešimai nėra leidžiami</string>
