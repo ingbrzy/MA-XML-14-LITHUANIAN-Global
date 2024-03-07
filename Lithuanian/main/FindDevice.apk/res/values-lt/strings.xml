@@ -33,11 +33,17 @@
     <string name="afternoon">Popietė</string>
     <string name="am">Priešpiet</string>
     <string name="app_name">Rasti įrenginį</string>
+    <string name="call_notification_answer_action">Atsakyti</string>
+    <string name="call_notification_answer_video_action">Vaizdo įrašas</string>
+    <string name="call_notification_decline_action">Atmesti</string>
+    <string name="call_notification_hang_up_action">Baigti pok.</string>
+    <string name="call_notification_incoming_text">Gaunamasis skambutis</string>
+    <string name="call_notification_ongoing_text">Vykstantis skambutis</string>
+    <string name="call_notification_screening_text">Gaunamojo skambučio tikrinimas</string>
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Nepavyko atrakinti. %s.</string>
     <string name="clearable_edittext_clear_description">Išvalyti</string>
     <string name="close">Uždaryti</string>
-    <string name="copy">Kopijuoti</string>
     <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">Prieiga prie telefono numerio, siekiant aptikti prietaisą, kai jis nėra prijungtas prie interneto</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">Šio įrenginio aptikimas, kai jis nėra prijungtas prie interneto</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">Įrenginio aptikimas ir perjungimas į praradimo režimą</string>
@@ -48,7 +54,7 @@
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="default_debt_msg_words">"Šis prietaisas užblokuotas dėl laiku nesumokėtų įmokų už prietaiso įsigijimą.
 Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
-    <string name="default_lock_msg_words">Šis prietaisas jau yra susietas su egzistuojančia Mi Paskyra. Saugumo tikslais įveskite slaptažodį, kad patvirtinti jūsų įrenginį.</string>
+    <string name="default_lock_msg_words">Šis prietaisas jau yra susietas su egzistuojančia „Xiaomi“ paskyra. Saugumo sumetimais, įrenginiui patvirtinti turite įvesti slaptažodį.</string>
     <string name="default_lock_msg_words_with_phone">Sveiki, aš pamečiau šį įrenginį. Gal galite su manimi susisiekti? Ačiū!</string>
     <string name="device_locked">Šis prietaisas užrakintas</string>
     <string name="device_lost">Šis prietaisas pamestas</string>
@@ -63,16 +69,14 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="evening">Popietė</string>
-    <string name="expand_button_title">Išplėstinė</string>
-    <string name="find_device">Rasti įrenginį</string>
     <string name="find_device_capture_done_notification_content">Peržiūrėkite nuotrauką adresu i.mi.com</string>
     <string name="find_device_capture_done_notification_title">Rasti įrenginį padarė nuotrauką nuotoliniu būdu</string>
     <string name="find_device_capture_notification_content">Prašymą fotografuoti nuotoliniu būdu naudojant šį įrenginį pateikė jūsų paskyra</string>
     <string name="find_device_capture_notification_title">Rasti įrenginį netrukus fotografuos</string>
     <string name="find_device_crash">\"Rasti Įrenginį\" netikėtai sustojo.</string>
     <string name="find_device_error_access_denied">Prieiga nesuteikta.</string>
-    <string name="find_device_error_account_sys_timeout">"Nepavyko prisijungti prie „Mi“ paskyros. "</string>
-    <string name="find_device_error_account_unknown_error">„Mi“ paskyros klaida (%s).</string>
+    <string name="find_device_error_account_sys_timeout">Nepavyko prisijungti prie „Xiaomi“ paskyros.</string>
+    <string name="find_device_error_account_unknown_error">„Xiaomi“ paskyros klaida (%s).</string>
     <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Tinklo klaida.</string>
     <string name="find_device_error_password_changed">Nesenai buvo pakeistas paskyros slaptažodis.</string>
@@ -91,42 +95,42 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">"MMMM d 'd.'"</string>
+    <string name="fmt_date_long_month_day">"MMM d 'd.'"</string>
     <string name="fmt_date_long_year_month">"yyyy MMMM 'mėn.'"</string>
     <string name="fmt_date_long_year_month_day">"yyyy 'm.' MMMM d 'd.'"</string>
     <string name="fmt_date_numeric_day">d</string>
-    <string name="fmt_date_numeric_month">MM</string>
-    <string name="fmt_date_numeric_month_day">MM-dd</string>
+    <string name="fmt_date_numeric_month">M</string>
+    <string name="fmt_date_numeric_month_day">M-d</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">yyyy-MM</string>
-    <string name="fmt_date_numeric_year_month_day">yyyy-MM-dd</string>
-    <string name="fmt_date_short_month">MM</string>
-    <string name="fmt_date_short_month_day">MM-dd</string>
+    <string name="fmt_date_numeric_year_month">yyyy-M</string>
+    <string name="fmt_date_numeric_year_month_day">yyyy-M-d</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">MMM d</string>
     <string name="fmt_date_short_year_month">"yyyy MMM 'mėn.'"</string>
-    <string name="fmt_date_short_year_month_day">yyyy-MM-dd</string>
+    <string name="fmt_date_short_year_month_day">"yyyy 'm.' MMM d 'd.'"</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">hh aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
@@ -147,14 +151,15 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="login_extra_steps">Prisijungimo patvirtinimas</string>
     <string name="login_failed">Nepavyko prisijungti %s.</string>
     <string name="midnight">Naktis</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -212,8 +217,8 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="morning">Rytas</string>
     <string name="night">Vakaras</string>
     <string name="noon">Vidurdienis</string>
-    <string name="not_set">Nenustatyta</string>
-    <string name="open_wifi_settings">Atidaryti „Wi-Fi“ parametrus</string>
+    <string name="open_wifi_settings">Open WLAN settings</string>
+    <string name="open_wifi_settings_china">Open WLAN settings</string>
     <string name="passport_checking_vcode">Tikrinamas slaptažodis…</string>
     <string name="passport_error_empty_vcode">Įveskite patvirtinimo kodą</string>
     <string name="passport_notification_need_unlock_again">Bandykite atrakinti iš naujo</string>
@@ -222,11 +227,10 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="passport_vcode_prompt_long">Įveskite patvirtinimo kodą</string>
     <string name="passport_verify">Patvirtinti</string>
     <string name="password">Įveskite slaptažodį</string>
-    <string name="phone_locked">Šis įrenginys susietas su „Mi“ paskyra (%s). Norėdami suaktyvinti įrenginį, įveskite slaptažodį.</string>
+    <string name="phone_locked">Šis įrenginys susietas su „Xiaomi“ paskyra (%s). Norėdami suaktyvinti įrenginį, įveskite slaptažodį.</string>
     <string name="phone_locked_account_email">, susietas el. paštas: %s</string>
     <string name="phone_locked_account_phone">, susietas tel. numeris: %s</string>
     <string name="pm">Popiet</string>
-    <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
     <string name="return_to_call">Grįžti į skambutį</string>
     <string name="saturday">Šeštadienis</string>
     <string name="saturday_short">Št.</string>
@@ -236,7 +240,6 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha negali būti tuščias</string>
     <string name="stop_on_empty_password">Slaptažodis negali būti tuščias</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
@@ -307,29 +310,33 @@ Norėdami sužinoti daugiau, susisiekite su prekės tiekėju."</string>
     <string name="unlock_error_device_id">Nepavyko gauti prietaiso ID</string>
     <string name="unlock_error_interrupted">Sutrukdyta</string>
     <string name="unlock_error_network">Nepavyko prisijungti prie tinklo</string>
-    <string name="unlock_error_passport_sdk_timeout">„Mi“ pakyros SDK neatsako</string>
     <string name="unlock_error_rpc">RPC klaida</string>
     <string name="unlock_error_server">Serverio klaida</string>
-    <string name="unlock_error_ssl_hand_shake">Nepavyko prisijungti prie serverio. Bandykite nustatyti datą ir laiką savarankiškai.</string>
     <string name="unlock_error_unknown">Nepavyko prisijungti</string>
     <string name="unlock_error_user_name">Neteisingas vartotojo vardas</string>
     <string name="unlock_error_wrong_vcode">Kodas, kurį įvedėte yra neteisingas</string>
-    <string name="unlock_help">"Prisijunkite prie tinklo.
-Įdėkite veikiančią SIM kortelę ir prisijunkite prie tinkamo „Wi-Fi“ tinklo.
+    <string name="unlock_help">"Connect to the network.
+Insert a working SIM card and don't connect to invalid WLAN networks.
 
-Pamiršote slaptažodį?
-Eikite į id.mi.com, pasirinkite „Pamiršote slaptažodį?“ ir laikykitės nurodymų.
+Forgot password?
+Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
 
-Nepavyksta suaktyvinti įrenginio?
-Eikite į i.mi.com/ss ir pateikite įrenginio atrakinimo paraišką."</string>
+Can't activate device?
+Go to i.mi.com/ss and submit your application to unlock the device."</string>
+    <string name="unlock_help_china">"Connect to the network.
+Insert a working SIM card and don't connect to invalid WLAN networks.
+
+Forgot password?
+Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
+
+Can't activate device?
+Go to i.mi.com/ss and submit your application to unlock the device."</string>
     <string name="unlock_help_title">Atrakinimo pagalba:</string>
     <string name="unlock_number">Atrakinimo kodas: %s</string>
     <string name="unlock_wrong_captcha">Kodas, kurį įvedėte yra neteisingas</string>
     <string name="unlocking">Aktyvuojama…</string>
-    <string name="v7_preference_off">IŠJUNGTA</string>
-    <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="verifing_account">Tikrinamas slaptažodis…</string>
-    <string name="verify_password_failed">Nepavyko patikrinti „Mi“ paskyros ID. %s.</string>
+    <string name="verify_password_failed">Nepavyko patvirtinti „Xiaomi“ paskyros ID. %s.</string>
     <string name="wednesday">Trečiadienis</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>

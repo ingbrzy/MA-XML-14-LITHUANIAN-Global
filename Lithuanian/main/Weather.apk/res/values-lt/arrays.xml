@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="aqi_detail_title">
-        <item>Geras</item>
-        <item>Vidutinis</item>
-        <item>Nesveika jautriems žmonėms</item>
-        <item>Nesveika</item>
-        <item>Labai kenksminga</item>
+        <item>Gera</item>
+        <item>Pakankamai gera</item>
+        <item>Vidutinė</item>
+        <item>Kenksminga</item>
+        <item>Labai prasta</item>
         <item>Nuodinga</item>
     </string-array>
     <string-array name="aqi_title">
@@ -33,13 +33,13 @@
         <item>OKI: %1$s</item>
     </string-array>
     <string-array name="aqi_value">
-        <item>Normalus</item>
-        <item>Patenkinamas</item>
-        <item>Vidutiniškai užteršta</item>
-        <item>Prastas</item>
-        <item>Labai prastas</item>
-        <item>Kenksmingas</item>
-        <item>Virš indekso</item>
+        <item>Gera</item>
+        <item>Pakankamai gera</item>
+        <item>Vidutinė</item>
+        <item>Kenksminga</item>
+        <item>Labai prasta</item>
+        <item>Nuodinga</item>
+        <item>Už indekso ribų</item>
     </string-array>
     <string-array name="hot_city">
         <item>Beijing</item>
@@ -70,29 +70,60 @@
         <item>Vidutinis</item>
         <item>Lengvas</item>
     </string-array>
+    <string-array name="realtime_humidity_status">
+        <item>Sausa</item>
+        <item>Komfortabilu</item>
+        <item>Drėgna</item>
+    </string-array>
+    <string-array name="realtime_pressure_status">
+        <item>Aukštas</item>
+        <item>Vidutinis</item>
+        <item>Žemas</item>
+    </string-array>
+    <string-array name="realtime_temperature_status">
+        <item>Šalta</item>
+        <item>Vėsu</item>
+        <item>Komfortabilu</item>
+        <item>Šilta</item>
+        <item>Karšta</item>
+    </string-array>
+    <string-array name="realtime_uv_level">
+        <item>Silpnas</item>
+        <item>Vidutinis</item>
+        <item>Stiprus</item>
+        <item>Labai stiprus</item>
+        <item>Kenksmingas</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
+    </string-array>
     <string-array name="weather_type">
         <item>Giedra</item>
         <item>Debesuota</item>
         <item>Apsiniaukę</item>
-        <item>Ūkanota</item>
+        <item>Migla</item>
         <item>Audringa liūtis</item>
         <item>Liūtis</item>
         <item>Lietinga audra</item>
         <item>Perkūnija</item>
-        <item>Lietus</item>
+        <item>Trumpi stiprūs lietūs</item>
         <item>Stiprus lietus</item>
         <item>Vidutinis lietus</item>
         <item>Lengvas lietus</item>
         <item>Šlapdriba</item>
         <item>Pūga</item>
-        <item>Sniegas</item>
+        <item>Snygis</item>
         <item>Stipriai sninga</item>
         <item>Vidutiniškai sninga</item>
         <item>Lengvai sninga</item>
         <item>Didelė smėlio audra</item>
         <item>Smėlio audra</item>
-        <item>Smėlis</item>
-        <item>Vėjuota</item>
+        <item>Silpna smėlio audra</item>
+        <item>Dulkių audra</item>
         <item>Kruša</item>
         <item>Dulkės</item>
         <item>Migla</item>

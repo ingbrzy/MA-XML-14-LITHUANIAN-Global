@@ -36,6 +36,8 @@
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
+    <string name="cast_auth_count_down">Įveskite kodą iš %1$s norėdami pradėti perdavimą (%2$ds)</string>
+    <string name="cast_auth_title">Įveskite kodą</string>
     <string name="cast_image_des">Perdavimo mokymo priemonė</string>
     <string name="casting_tips">Perduodama…</string>
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
@@ -43,10 +45,11 @@
     <string name="clear_text_end_icon_content_description">Išvalyti tekstą</string>
     <string name="clearable_edittext_clear_description">Išvalyti</string>
     <string name="close">Uždaryti</string>
+    <string name="close_auxiliary_wifi_hint">Kad galėtumėte perduoti, išjunkite „Dvigubos juostos „Wi-Fi“ greičio padidinimą“</string>
+    <string name="close_auxiliary_wifi_hint_china">Turn off \"Dual band WLAN speed boost\" to be able to cast</string>
+    <string name="close_dp_casting_hint">Atjunkite kabelį ir bandykite dar kartą.</string>
     <string name="close_hotspot_hint">Prieš pradėdami perdavimą, išjunkite aktyviąją sritį</string>
     <string name="close_hotspot_hint_DFS">Norėdami perkelti elementus į televizorių, visų pirma turite išjungti aktyviąją sritį.</string>
-    <string name="close_slave_wifi_hint">Prieš pradėdami perdavimą, atsijunkite iš pagalbinių „Wi-Fi“ tinklų</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">Naudojant programą „%1$s“ kilo problemų dėl „Google Play“ paslaugų. Bandykite dar kartą.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">„Xiaomi Conference Tapcast“ per „Wi-Fi“</string>
@@ -65,6 +68,7 @@
     <string name="device_desc_trust">Patikimi įrenginiai</string>
     <string name="dialog_can_not_find_device">Nepavyksta aptikti įrenginių netoliese</string>
     <string name="dialog_cancle">Atšaukti</string>
+    <string name="dialog_close">Išjungti</string>
     <string name="dialog_connect_fail">Nepavyko prisijungti</string>
     <string name="dialog_connect_retry">Bakstelėkite, norėdami pakartoti</string>
     <string name="dialog_connect_verify_perssion">Pirmiausia įgaliokite perdavimą jūsų TV</string>
@@ -79,8 +83,8 @@
     <string name="dialog_nearbydevice_permission_message">Leiskite šiam įrenginiui pasiekti netoliese esančius įrenginius, kad galėtumėte naudoti perdavimo funkcijas.</string>
     <string name="dialog_nearbydevice_permission_title">Reikalingi leidimai</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prijunkite mobilųjį įrenginį ir TV prie to paties „Wi-Fi“ tinklo.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Kai kuriuose TV modeliuose ši funkcija pasiekiama tik, kai ekrano atvaizdavimas įjungtas. Norėdami sužinoti daugiau, peržiūrėkite skiltį &lt;a href=milink://com.milink.service/specification>\"Pagalba\".&lt;/a>&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prijunkite mobilųjį įrenginį ir TV prie to paties „Wi-Fi“ tinklo.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Kai kuriuose TV modeliuose ši funkcija pasiekiama tik, kai ekrano atvaizdavimas įjungtas. Norėdami sužinoti daugiau, peržiūrėkite skiltį &lt;a href=milink://com.milink.service/specification>\"Pagalba\".&lt;/a></Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Gerai</string>
     <string name="dialog_only_suport_content">Perduokite nuotraukas, vaizdo įrašus arba muziką</string>
     <string name="dialog_open_wifi_bt">Įjungti</string>
@@ -94,6 +98,9 @@ Jei kyla prisijungimo problemų, peržiūrėkite pagalbą."</string>
     <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
 %2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">Norėdami perduoti, išjunkite funkciją „Dvigubos juostos „Wi-Fi“ greičio padidinimas“. Išjungti šią funkciją dabar?</string>
+    <string name="dialog_scanning_close_tethering">Norėdami perduoti, išjunkite aktyviąją sritį. Išjungti aktyviąją sritį dabar?</string>
     <string name="dialog_scanning_device">Ieškoma įrenginių netoliese…</string>
     <string name="dialog_scanning_precondition">Norėdami naudoti belaidį ekraną, telefone įjunkite „Wi-Fi“ ir „Bluetooth“.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
@@ -101,16 +108,18 @@ Jei kyla prisijungimo problemų, peržiūrėkite pagalbą."</string>
     <string name="dialog_select_tv">Pasirinkite įrenginį (%1$d)</string>
     <string name="dialog_show_help">Pagalba</string>
     <string name="disconnect">Nutraukti perdavimą</string>
+    <string name="dp_casting_start_hint">Prijungta naudojant kabelį. Perdavimas baigtas.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Išjunkite dvigubą „Wi-Fi“ ryšį ir bandykite dar kartą</string>
     <string name="early_morning">Rytas</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Projektuoti ekrano turinį į išorinį monitorių</string>
+    <string name="enable_screen_projection_summary_new">Perduoti mobiliojo įrenginio ekraną į netoliese esančius televizorius ir kitus išorinius monitorius</string>
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="error_icon_content_description">Klaida</string>
     <string name="evening">Popietė</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -168,24 +177,32 @@ Jei kyla prisijungimo problemų, peržiūrėkite pagalbą."</string>
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
     <string name="global_privacy">Nuostatos ir sąlygos</string>
-    <string name="global_privacy_detail">&lt;Data>Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;br>Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis kai kuriomis šios programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;br>Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis kai kuriomis šios programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.</Data></string>
     <string name="global_privacy_explain">Sveiki atvykę į „Perdavimą“! Ši programa teikia toliau nurodytas paslaugas:</string>
     <string name="global_privacy_feature">Leidžia naudoti minimizuotus langus, leidžia perduoti išjungus ekraną ir slėpti asmeninius elementus.</string>
     <string name="global_privacy_main">Leidžia projektuoti elementus iš jūsų telefono ekrano į didesnį išorinį monitorių.</string>
     <string name="global_privacy_negative">Nesutinku</string>
     <string name="global_privacy_positive">Sutinku</string>
     <string name="global_privacy_screencast">Įrašant ar perduodant, paslauga, teikianti šią funkciją, gali užfiksuoti bet kokią neskelbtiną informaciją, rodomą ekrane arba leidžiamą iš įrenginio, įskaitant neskelbtiną informaciją, pvz., garsą, slaptažodžius, mokėjimo informaciją, nuotraukas ir pranešimus.</string>
-    <string name="global_privacy_tip">&lt;Data>Įprastų paslaugų teikimui, perdavimo proceso optimizavimui ir funkcijų tobulinimui reikalingas būtinosios jūsų asmeninės informacijos rinkimas. Apie tai, kaip valdome surinktą informaciją galite sužinoti mūsų &lt;a href=%1$s>privatumo politikoje&lt;/a>. Privatumo politikos įgaliojimų galite bet kada atsisakyti parametruose.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Įprastų paslaugų teikimui, perdavimo proceso optimizavimui ir funkcijų tobulinimui reikalingas būtinosios jūsų asmeninės informacijos rinkimas. Apie tai, kaip valdome surinktą informaciją galite sužinoti mūsų &lt;a href=%1$s>privatumo politikoje&lt;/a>. Privatumo politikos įgaliojimų galite bet kada atsisakyti parametruose.</Data></string>
     <string name="hang_up">Perduoti išj. ekraną</string>
     <string name="hang_up_alert_dialog_content">Tęsti perdavimą, kai jūsų įrenginio ekranas išjungtas. Ši funkcija mažina energijos sąnaudas. Paspauskite „Maitinimo“ mygtuką, kad iš naujo įjungtumėte ekraną.</string>
     <string name="hang_up_alert_dialog_neg">Atšaukti</string>
     <string name="hang_up_alert_dialog_pos">Gerai</string>
     <string name="hang_up_alert_dialog_title">Ruošiamas perdavimui išjungus ekraną…</string>
+    <string name="head_toast_connecting">Jungiamasi…</string>
+    <string name="head_toast_fail">Nepavyko prisijungti</string>
+    <string name="head_toast_success">Sėkmingai prisijungta</string>
+    <string name="help_page_question_1st_01_international">"%1$d. Kai įrenginys, kuriam perduodama, yra „Xiaomi TV“, jame įjunkite „Miracast“.
+%2$d. Kai įrenginys, kuriam perduodama, yra ne „Xiaomi TV“, įsitikinkite, kad televizorius palaiko „Miracast“ bei kad ši funkcija įjungta."</string>
+    <string name="help_page_setp_1st_02_international">%1$d. Kai kurių gamintojų televizoriuose „Miracast“ gali būti įjungtas automatiškai.</string>
+    <string name="help_page_step_1st_01_international">%1$d. „Xiaomi TV“ įjunkite „Miracast“.</string>
     <string name="help_page_text_01">Pagalba</string>
     <string name="help_page_text_02">Kas yra perdavimas?</string>
     <string name="help_page_text_03">„Perdavimas“ – elementų projektavimas iš telefono ekrano į didesnį išorinį monitorių. Naudodamiesi šia funkcija, galite bendrinti vaizdus ir vaizdo įrašus su draugais, šeima, nenaudojant mobiliųjų duomenų.</string>
     <string name="help_page_text_04">Kaip perduoti elementus į didesnį ekraną?</string>
     <string name="help_page_text_05">%1$d žingsnis: patikrinkite savo įrenginio ryšio aplinką</string>
+    <string name="help_page_text_05_new">%1$d žingsnis: peržiūrėkite savo įrenginius ir tinklo aplinką</string>
     <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
 Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
 Note: Older TV models might not support casting across different networks.
@@ -196,13 +213,33 @@ Siekdami geriausio rezultato, prijunkite mobilųjį įrenginį ir išorinį moni
 Pastaba: Senesniuose televizoriuose perdavimas į skirtingus tinklus gali būti nepalaikomas.
 %2$d. Jei naudojate kitų gamintojų televizorius, priedėlius ar projektorius, mobilųjį įrenginį ir išorinį monitorių prijunkite prie to paties „Wi-Fi“ tinklo.
 Jei abu įrenginiai negali būti prijungti prie to paties tinklo, išoriniame monitoriuje įjunkite „Miracast“. „Miracast“ funkcijos pavadinimas gali skirtis."</string>
+    <string name="help_page_text_06_new_1">„XIaomi“ televizoriai, priedėliai ir projektoriai:</string>
+    <string name="help_page_text_06_new_2">"%1$d. Įsitikinkite, kad jūsų mobilusis įrenginys ir išorinis monitorius prijungti prie to paties „WI-Fi“ tinklo.
+%2$d. Kai kuriuose „Xiaomi“ televizoriuose galite nustatyti perdavimą iš televizoriaus, taip pat tinkinti įrenginio paieškos ir patvirtinimo metodus."</string>
+    <string name="help_page_text_06_new_3">*Perdavimo parametruose galite nustatyti televizoriaus perdavimo nuostatas.</string>
+    <string name="help_page_text_06_new_4">Ne „XIaomi“ televizoriai, priedėliai ir projektoriai:</string>
+    <string name="help_page_text_06_new_5">"%1$d. Įsitikinkite, kad jūsų mobilusis įrenginys ir išorinis monitorius prijungti prie to paties „WI-Fi“ tinklo.
+%2$dKai kuriuose televizoriuose norėdami perduoti turėsite įjungti „Miracast“."</string>
+    <string name="help_page_text_06_new_6">Sužinokite daugiau</string>
     <string name="help_page_text_08">%1$d žingsnis: įjunkite perdavimą</string>
+    <string name="help_page_text_08_new">%1$d žingsnis: įjunkite perdavimą</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">Savo įrenginio pranešimų juostoje palieskite jungiklį „perdavimas“. Siekdami užmegzti stabilų ryšį, įjunkite „Wi-Fi“ ir „Bluetooth“.</string>
+    <string name="help_page_text_09_new_1">Įjunkite perdavimą įrenginio valdymo centre, tada ieškokite išorinio monitoriaus.</string>
     <string name="help_page_text_10">Jei norite perduoti nuotraukas, vaizdo įrašus, žaidimus ar pristatymus, galite pasinaudoti įdiegtomis perdavimo funkcijomis atitinkamose programose.</string>
     <string name="help_page_text_11">%1$d žingsnis: pasirinkite įrenginį</string>
+    <string name="help_page_text_11_new">%1$d žingsnis: pasirinkite įrenginį</string>
     <string name="help_page_text_12">Norėdami pradėti perdavimą, pasirinkite išorinį įrenginį iš pasiekiamų įrenginių sąrašo.</string>
+    <string name="help_page_text_12_new_1">Norėdami pradėti perdavimą, pasirinkite išorinį įrenginį iš pasiekiamų įrenginių sąrašo.</string>
     <string name="help_page_text_13">Nepavyksta prisijungti prie išorinio įrenginio?</string>
+    <string name="help_page_text_13_act_label_1">DUK</string>
+    <string name="help_page_text_13_desc_1">"%1$d. Įsitikinkite, kad jūsų mobilusis įrenginys ir išorinis monitorius yra prijungti prie to paties „Wi-Fi“ tinklo arba aktyviosios srities.
+%2$d. Įsitikinkite, kad tinklo aplinka yra stabili. Jei ne, pabandykite iš naujo paleisti maršruto parinktuvą arba perjunkite į %3$d GHz tinklo juostą.
+%4$d. Perduodami į „Xiaomi“ televizorių, televizoriuje įjunkite belaidžio perdavimo funkciją. Prisijungdami būkite perdavimo puslapyje.
+%5$d. Kai kurie dideli viešieji LAN, pvz., įmonių ir mokyklų, nepalaiko galimybės aptikti įrenginius tame pačiame LAN tinkle."</string>
+    <string name="help_page_text_13_desc_2">Kai kurie televizoriai perduodant naudoja ne LAN ryšį. Tai , kad šie įrenginiai yra atjungiami nuo tinklo, yra normalu. Paprastai perdavimui pasibaigus jie prijungiami per %1$d-%2$d sek.</string>
+    <string name="help_page_text_13_summary_1">Nepavyksta prisijungti prie išorinio įrenginio</string>
+    <string name="help_page_text_13_summary_2">Tinklo pertrūkiai perduodant</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Prijunkite mobilųjį įrenginį ir išorinį monitorių (pvz., jūsų TV) prie 
     <string name="help_page_text_17">"„Mi“ telefono elementus galite projektuoti į daugelį TV modelių su „Bluetooth“ pajėgumais rankiniu būdu neįjungdami „Miracast“.
 Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirinkite „Mano programos“ > „Bendrinimas“ > „Miracast“."</string>
     <string name="help_page_text_17_1">„Xiaomi“ klientų aptarnavimas: 400-100-5678</string>
+    <string name="help_page_text_17_content">You can project items from your Xiaomi phone on most Xiaomi TV models with Bluetooth capabilities without turning on Miracast manually. If you need to turn on Miracast, press the [MENU] button and start casting by using the option for other Android phones.</string>
     <string name="help_page_text_18">„Samsung“ TV</string>
     <string name="help_page_text_19">Pirmiausia įsitikinkite, kad „Miracast“ funkcionalumas palaikomas jūsų įrenginyje. Kai kuriuose modeliuose galite paspausti nuotolinio valdiklio mygtuką [SOURCE] ir pasirinkti „Ekrano atvaizdavimas“. Tam tikruose modeliuose ši funkcija įjungiama pagal numatytuosius parametrus.</string>
     <string name="help_page_text_20">„Samsung“ klientų aptarnavimas: 400-810-5858</string>
@@ -280,14 +318,14 @@ Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirink
     <string name="material_timepicker_text_input_mode_description">Laiko įvestį pateikti perjungus į teksto įvesties režimą.</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -350,6 +388,7 @@ Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirink
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -398,13 +437,13 @@ Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirink
     <string name="paipai_error_dialog_msg">Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="paipai_error_dialog_negative">Supratau</string>
     <string name="password_toggle_content_description">Rodyti slaptažodį</string>
-    <string name="path_setting_cast">Ryšys ir bendrinimas/perdavimas</string>
-    <string name="path_setting_cast_demo">Ryšys ir bendrinimas/perdavimas/demonstracijos</string>
-    <string name="path_setting_cast_demo_document">Ryšys ir bendrinimas/perdavimas/dokumentai</string>
-    <string name="path_setting_cast_demo_gallery">Ryšys ir bendrinimas/perdavimas/demonstracijos/nuotraukos ir vaizdo įrašai</string>
-    <string name="path_setting_cast_demo_game">Ryšys ir bendrinimas/perdavimas/demonstracijos/žaidimai</string>
-    <string name="path_setting_cast_feature">Ryšys ir bendrinimas/perdavimas/ypatingos funkcijos</string>
-    <string name="path_setting_cast_help">Ryšys ir bendrinimas/perdavimas/pagalba</string>
+    <string name="path_setting_cast">Daugiau jungiamumo parinkčių / perdavimas</string>
+    <string name="path_setting_cast_demo">Daugiau jungiamumo parinkčių / perdavimas / demonstracijos</string>
+    <string name="path_setting_cast_demo_document">Daugiau jungiamumo parinkčių / perdavimas / demonstracijos / dokumentai</string>
+    <string name="path_setting_cast_demo_gallery">Daugiau jungiamumo parinkčių / perdavimas / demonstracijos / nuotraukos ir vaizdo įrašai</string>
+    <string name="path_setting_cast_demo_game">Daugiau jungiamumo parinkčių / perdavimas / demonstracijos / žaidimai</string>
+    <string name="path_setting_cast_feature">Daugiau jungiamumo parinkčių / perdavimas / specialiosios funkcijos</string>
+    <string name="path_setting_cast_help">Daugiau jungiamumo parinkčių / perdavimas / pagalba</string>
     <string name="permission_allowed">Suteikta</string>
     <string name="permission_uballowed">Nesuteikta</string>
     <string name="pm">Popiet</string>
@@ -412,7 +451,7 @@ Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirink
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
     <string name="privacy_agree">Sutikti</string>
     <string name="privacy_detail">Prieš tęsdami leiskite šiai programai prisijungti prie interneto ir suteikite reikiamus leidimus.</string>
-    <string name="privacy_detail_extra">&lt;Data>Kai kurios funkcijos yra teikiamos trečiųjų šalių paslaugų teikėjo „HappyCast“. Prieš pradėdami naudoti šią funkciją, susipažinkite ir sutikite su &lt;a href=%1$s> „HappyCast“ privatumo politika&lt;/a> ir &lt;a href=%2$s> „HappyCast“ teisės akto pažyma&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Kai kurios funkcijos yra teikiamos trečiųjų šalių paslaugų teikėjo „HappyCast“. Prieš pradėdami naudoti šią funkciją, susipažinkite ir sutikite su &lt;a href=%1$s> „HappyCast“ privatumo politika&lt;/a> ir &lt;a href=%2$s> „HappyCast“ teisės akto pažyma&lt;/a>.</Data></string>
     <string name="privacy_explain">Sveiki atvykę į „Perdavimą“! Šią programą galite naudoti, norėdami rodyti projekciją iš telefono ekrano į didesnį išorinį monitorių. Šios programos funkcionalumui užtikrinti reikalingas prisijungimas prie interneto ir pirmiau nurodyti leidimai:</string>
     <string name="privacy_negative">Išeiti</string>
     <string name="privacy_permission_ble">„Bluetooth“ Įjungimas ir išjungimas</string>
@@ -454,11 +493,11 @@ Jei jums reikia įjungti „Miracast“. paspauskite [MENU] mygtuką ir pasirink
     <string name="privacy_setting_show_lelink_policy">Peržiūrėkite „HappyCast“ privatumo politiką</string>
     <string name="privacy_setting_show_policy">Peržiūrėti privatumo politiką</string>
     <string name="privacy_setting_show_user_agreement">Peržiūrėti naudotojo sutartį</string>
-    <string name="privacy_text_1">"&lt;Data>Sveiki atvykę į perdavimą! Perdavimas leidžia projekuoti telefono ekrano elementus į didesnį išorinį monitorių. 
+    <string name="privacy_text_1"><Data>"Sveiki atvykę į perdavimą! Perdavimas leidžia projekuoti telefono ekrano elementus į didesnį išorinį monitorių. 
 Jūsų asmeninę informaciją saugosime laikydamiesi taikomų įstatymų, teisės aktų ir privatumo politikų. Kai kurias funkcijas teikia trečiųjų šalių paslaugų teikėjas „HappyCast“. Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su &lt;a href=%2$s>„HappyCast“ teisės akto pažyma&lt;/a> ir &lt;a href=%1$s>„HappyCast“ privatumo politika&lt;/a>.
-Siekiant užtikrinti programos funkcionalumą, programai reikalingas internetas ir šie leidimai, reikalingi jūsų asmeninės informacijos rinkimui.&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Jei nesutinkate suteikti šių leidimų arba bendrinti ir įkelti asmeninės informacijos, negalėsite naudotis šia programa. Tokiais atvejais, programos parametruose galite pasirinkti šią programą išdiegti, atsijungti arba apriboti leidimus.
-Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data>"</string>
+Siekiant užtikrinti programos funkcionalumą, programai reikalingas internetas ir šie leidimai, reikalingi jūsų asmeninės informacijos rinkimui."</Data></string>
+    <string name="privacy_text_2"><Data>"Jei nesutinkate suteikti šių leidimų arba bendrinti ir įkelti asmeninės informacijos, negalėsite naudotis šia programa. Tokiais atvejais, programos parametruose galite pasirinkti šią programą išdiegti, atsijungti arba apriboti leidimus.
+Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>."</Data></string>
     <string name="privacy_text_pemission">"　　•Vaizdų prieiga ir išsaugojimas įrenginyje, siekiant projektuoti šiuos elementus į išorinius monitorius
 　　•Skambučių ir garsų įrašymas, siekiant perduoti garsą į išorinius įrenginius
 　　•Telefono numerio, IMEI ir IMSI prieiga, siekiant identifikuoti jūsų įrenginį
@@ -480,22 +519,38 @@ Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &
     <string name="scan_wifi_label_global">Prisijungti prie „Wi-Fi“</string>
     <string name="screen_projection">Perdavimas</string>
     <string name="screen_projection_characteristics">Specialiosios funkcijos</string>
+    <string name="screen_projection_characteristics_cast_summary">Perduoti ekrano turinį į netoliese esantį televizorių</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">Perduodami išjunkite mobiliojo įrenginio ekraną, kad taupytumėte akumuliatorių ir išvengtumėte perkaitimo</string>
     <string name="screen_projection_characteristics_off_screen_summary">Perdavimas gali būti tęsiamas, kai įrenginio ekranas išjungtas. Ši funkcija mažina energijos sąnaudas.</string>
     <string name="screen_projection_characteristics_off_screen_title">Perduoti išjungiant ekraną</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Išoriniuose monitoriuose nerodyti slankiųjų pranešimų, įeinančių skambučių ir kitų privačių elementų.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Slėpti privačius elementus</string>
+    <string name="screen_projection_characteristics_private_summary_new">Saugokite savo privatumą: perduodant įrenginyje nebus rodomi laikinieji pranešimai, įeinantys skambučiai ir kiti privatūs elementai</string>
     <string name="screen_projection_characteristics_small_window_summary">Minimizuoti projektuojamą langą, siekiant naudotis kitomis telefono funkcijomis.</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">Perduoti ekraną ir rodyti jo turinį laikinajame lange, kai naudojamos kitos programos</string>
     <string name="screen_projection_characteristics_small_window_title">Minimizuoti langą</string>
+    <string name="screen_projection_entrance_list">Peržiūrėti pasiekiamus įrenginius</string>
+    <string name="screen_projection_entrance_list_new">Peržiūrėti galimų perduoti įrenginių sąrašą</string>
+    <string name="screen_projection_example_document_hint_miui15">*Elementai bus rodomi netoliese esančiame televizoriuje</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Norėdami naudoti šią funkciją, eikite į Failai > Dokumentai ir palieskite &lt;img src=../drawable/ic_cast_icon_photo.png/> piktogramą.</Data></string>
     <string name="screen_projection_example_document_summary">Telefono naudojimo metu, rodyti pateiktis išoriniame monitoriuje, siekiant perjungti skaidres į užrašų peržiūrą. Norėdami išbandyti šią funkciją, eikite į „Failų tvarkyklę“ > „Dok“.</string>
+    <string name="screen_projection_example_document_summary_miui15">Rodyti pristatymo skaidres televizoriuje, kai šis įrenginys naudojamas kaip nuotolinio valdymo pultas</string>
     <string name="screen_projection_example_document_title">Dokumentai</string>
+    <string name="screen_projection_example_gallery_hint_miui15">*Kad galėtumėte perduoti nuotraukas ir vaizdo įrašus, galerijoje pasirinkite elementą, palieskite „Bendrinti“, tada palieskite piktogramą „Perdavimas“.</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*Norėdami naudoti šią funkciją, eikite į galeriją, pasirinkite nuotrauką, juostoje palieskite mygtuką „Siųsti“ ir palieskite &lt;img src=../drawable/ic_cast_icon_photo.png/> piktogramą.</Data></string>
     <string name="screen_projection_example_gallery_summary">Bakstelėkite galerijos programos elemento apačioje esantį mygtuką „Bendrinti“, kad jis būtų rodomas išoriniaime monitoriuje.</string>
+    <string name="screen_projection_example_gallery_summary_miui15">Peržiūrėkite savo nuotraukas ir vaizdo įrašus televizoriaus ekrane</string>
     <string name="screen_projection_example_gallery_title">Nuotraukos ir vaizdo įrašai</string>
+    <string name="screen_projection_example_game_hint_miui15">"*Kad galėtumėte perduoti žaidimus, žaisdami Turbo žaidimus palieskite „Perdavimas“.
+Prieš perduodami žaidimus įsitikinkite, kad įjungėte Turbo žaidimus."</string>
     <string name="screen_projection_example_game_summary">„Turbo žaidimai“ jums suteikia galimybę projektuoti žaidimus į išorinį monitorių. Norėdami naudoti šią funkciją, pasinaudokite „Turbo žaidimų“ įrankių komplekto nuoroda.</string>
+    <string name="screen_projection_example_game_summary_miui15">Peržiūrėkite žaidimo seansus televizoriuje</string>
     <string name="screen_projection_example_game_title">Žaidimai</string>
     <string name="screen_projection_help">Pagalba</string>
     <string name="screen_projection_sample_summary">Dokumentų, žaidimų, nuotraukų ir vaizdo įrašų perdavimas</string>
     <string name="screen_projection_sample_title">Demonstracijos</string>
     <string name="screen_projection_title">Perdavimas</string>
+    <string name="screen_projection_title_miui15">Perdavimas</string>
     <string name="search_menu_title">Ieškoti</string>
     <string name="send">Siųsti</string>
     <string name="show_result_on_tv">Peržiūrėkite rezultatus televizoriuje</string>
@@ -553,6 +608,7 @@ Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &
     <string name="thursday_short">Kt.</string>
     <string name="thursday_shortest">Kt.</string>
     <string name="tile_label">Perdavimas</string>
+    <string name="tile_label_v2">Sujungiamumo paslaugos</string>
     <string name="time_picker_dialog_title">Nustatyti laiką</string>
     <string name="time_picker_label_hour">V</string>
     <string name="time_picker_label_minute">M</string>
@@ -570,7 +626,7 @@ Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
     <string name="trust_device_desc">Šie įrenginiai bus pirmiausia rodomi čia, kai yra netoliese</string>
-    <string name="trust_device_dialog_desc">Jei pažymėsite &lt;Data>%s kaip patikimą, pirmiausia jis bus rodomas prie pasiekiamų įrenginių, kai yra netoliese.&lt;br>&lt;br> &lt;a href=milink://com.milink.service/trust>patikimus įrenginius valdyti&lt;/a> galite parametruose&lt;/Data></string>
+    <string name="trust_device_dialog_desc">Jei pažymėsite <Data>%s kaip patikimą, pirmiausia jis bus rodomas prie pasiekiamų įrenginių, kai yra netoliese.&lt;br>&lt;br> &lt;a href=milink://com.milink.service/trust>patikimus įrenginius valdyti&lt;/a> galite parametruose</Data></string>
     <string name="trust_device_dialog_pos">Pasitikėti</string>
     <string name="trust_device_dialog_title">Pasitikėti šiuo įrenginiu?</string>
     <string name="trust_device_manager">Valdyti patikimus įrenginius</string>

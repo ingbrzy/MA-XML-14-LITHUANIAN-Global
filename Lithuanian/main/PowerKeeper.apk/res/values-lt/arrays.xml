@@ -2,7 +2,7 @@
 <resources>
     <string-array name="hmode_app_classify1">
         <item>Pasirinktinis</item>
-        <item>„MIUI“ energijos taupymas</item>
+        <item>Energijos taupymas</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Aktyvios programos</item>

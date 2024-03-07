@@ -113,7 +113,7 @@
     <string name="error_permissions_location">Programos funkcionalumui užtikrinti, leiskite jai pasiekti tikslią vietą</string>
     <string name="error_permissions_storage">Norėdami naudoti šią funkciją, leiskite pasiekti nuotraukas</string>
     <string name="evening">Popietė</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="feed_search_fail">Nepavyko rasti rezultatų</string>
     <string name="feedback_description_camera_access">Skaitytuvui nepavyksta prisijungti prie fotoaparato</string>
     <string name="feedback_description_save_photo">Nepavyko išsaugoti nuotraukos ar vaizdo įrašo</string>
@@ -213,14 +213,15 @@
     <string name="miracast_switch_off">Belaidis ekranas išjungtas</string>
     <string name="miracast_switch_tip">Šios funkcijos naudojimui įjunkite belaidį ekraną</string>
     <string name="mishop">„Mi“ parduotuvė</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>

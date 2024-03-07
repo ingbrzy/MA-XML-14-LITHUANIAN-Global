@@ -54,6 +54,24 @@
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minučių</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Atmesta %2$d failų, įskaitant %1$s</item>
+        <item quantity="one">Atmestas %2$d failas, įskaitant %1$s</item>
+        <item quantity="few">Atmesti %2$d failai, įskaitant %1$s</item>
+        <item quantity="many">Atmesta %2$d failų, įskaitant %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Gauta %2$d failų, įskaitant%1$s</item>
+        <item quantity="one">Gautas %2$d failas, įskaitant %1$s</item>
+        <item quantity="few">Gauti %2$d failai, įskaitant%1$s</item>
+        <item quantity="many">Gauta %2$d failų, įskaitant%1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d failų, įskaitant %1$s</item>
+        <item quantity="one">%2$d failas, įskaitant %1$s</item>
+        <item quantity="few">%2$d failai, įskaitant %1$s</item>
+        <item quantity="many">%2$d failų, įskaitant %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
         <item quantity="one">Prieš pusvalandį</item>

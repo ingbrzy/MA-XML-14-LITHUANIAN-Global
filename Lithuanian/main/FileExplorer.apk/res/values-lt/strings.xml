@@ -275,6 +275,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="favorite_photo">Nuotraukos</string>
     <string name="favorite_ringtone">Skambėjimo tonai</string>
     <string name="favorite_screen_cap">Ekranvaizdžiai</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Įskaitoma: </string>
     <string name="file_info_canwrite">Rašoma: </string>
     <string name="file_info_ishidden">Paslėpta: </string>
@@ -475,11 +476,13 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
     <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
+    <string name="miuix_appcompat_edit">Redaguoti</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_item_view_role_description">Skirtukas</string>
     <string name="miuix_navigator_content_switch_description">Rodyti šoninę juostą</string>
     <string name="miuix_navigator_multiple_choice">Pasirinkti</string>
     <string name="miuix_navigator_navigator_switch_description">Slėpti šoninę juostą</string>
@@ -800,6 +803,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="set_pattern">Atnaujinkite slaptažodį</string>
     <string name="set_pattern_btn">Nustatyti</string>
     <string name="set_pattern_msg">Iš naujo nustatykite slaptažodį. Privatumo apsaugos slaptažodis taip pat naudojamas nuotraukoms, pranešimams ir užrašams.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mažesnis nei %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB – %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB – %2d MB</string>

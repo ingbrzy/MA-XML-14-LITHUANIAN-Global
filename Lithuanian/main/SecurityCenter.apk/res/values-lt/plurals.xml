@@ -757,10 +757,10 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="many">Trinti %d programų likučius</item>
     </plurals>
     <plurals name="notification_power_consume_issue">
-        <item quantity="other">%d akumuliatoriaus naudojimo trikčių</item>
-        <item quantity="one">%d akumuliatoriaus naudojimo triktis</item>
-        <item quantity="few">%d akumuliatoriaus naudojimo triktys</item>
-        <item quantity="many">%d akumuliatoriaus naudojimo triktys</item>
+        <item quantity="other">%d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="one">%d elementas su didelėmis energijos sąnaudomis</item>
+        <item quantity="few">%d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="many">%d elementų su didelėmis energijos sąnaudomis</item>
     </plurals>
     <plurals name="notification_power_consume_suggest">
         <item quantity="other">Optimizuoti %d elementų, kad būtų taupoma akumuliatoriaus energija</item>
@@ -985,10 +985,10 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="many">kartus</item>
     </plurals>
     <plurals name="power_center_battery_consume_prolblem">
-        <item quantity="other">%d akumuliatoriaus naudojimo trikčių</item>
-        <item quantity="one">%d akumuliatoriaus naudojimo triktis</item>
-        <item quantity="few">%d akumuliatoriaus naudojimo triktys</item>
-        <item quantity="many">%d akumuliatoriaus naudojimo triktys</item>
+        <item quantity="other">%d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="one">%d elementas su didelėmis energijos sąnaudomis</item>
+        <item quantity="few">%d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="many">%d elementų su didelėmis energijos sąnaudomis</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d dienų "</item>
@@ -1033,10 +1033,10 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="many">Ištaisyti %d akumuliatoriaus naudojimo triktis</item>
     </plurals>
     <plurals name="power_center_battery_problem_result">
-        <item quantity="other">Gali būti Ištaisyta %d akumuliatoriaus naudojimo trikčių</item>
-        <item quantity="one">Gali būti Ištaisyta %d akumuliatoriaus naudojimo triktis</item>
-        <item quantity="few">Gali būti Ištaisytos %d akumuliatoriaus naudojimo triktys</item>
-        <item quantity="many">Gali būti Ištaisytos %d akumuliatoriaus naudojimo triktys</item>
+        <item quantity="other">Galite optimizuoti galios sunaudojimą %d elementams</item>
+        <item quantity="one">Galite optimizuoti galios sunaudojimą %d elementui</item>
+        <item quantity="few">Galite optimizuoti galios sunaudojimą %d elementams</item>
+        <item quantity="many">Galite optimizuoti galios sunaudojimą %d elementų</item>
     </plurals>
     <plurals name="power_center_battery_save_suggest">
         <item quantity="other">" %d elementų gali būti optimizuota"</item>
@@ -1115,6 +1115,12 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="one">Įjunkite norėdami pridėti %s min. laiko</item>
         <item quantity="few">Įjunkite norėdami pridėti %s min. laiko</item>
         <item quantity="many">Įjunkite norėdami pridėti %s min. laiko</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">Supratau (%d)</item>
+        <item quantity="one">Supratau (%d)</item>
+        <item quantity="few">Supratau (%d)</item>
+        <item quantity="many">Supratau (%d)</item>
     </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">Supratau (%dsek.)</item>
@@ -1255,10 +1261,10 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="many">Rasta %d baterijos problemų, ištaisykite jas</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">Išspręsta %d baterijos problemų</item>
-        <item quantity="one">Išspręsta %d baterijos problema</item>
-        <item quantity="few">Išspręstos %d baterijos problemos</item>
-        <item quantity="many">Išspręstos %d baterijos problemos</item>
+        <item quantity="other">Optimizuoti %d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="one">Optimizuotas %d elementas su didelėmis energijos sąnaudomis</item>
+        <item quantity="few">Optimizuoti %d elementai su didelėmis energijos sąnaudomis</item>
+        <item quantity="many">Optimizuota %d elementų su didelėmis energijos sąnaudomis</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
         <item quantity="other">Gamyklinis atstatymas (%ds)</item>
@@ -1385,6 +1391,12 @@ Išbandykite nemokamą %d-ių dienų bandomąją versiją!"</item>
         <item quantity="one">Ištrintas %d virusas</item>
         <item quantity="few">Ištrinti %d virusai</item>
         <item quantity="many">Ištrinti %d virusai</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">Virusų arba rizikingų programų: %d</item>
+        <item quantity="one">%d virusas arba rizikinga programa</item>
+        <item quantity="few">Virusų arba rizikingų programų: %d</item>
+        <item quantity="many">Virusų arba rizikingų programų: %d</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d programų</item>

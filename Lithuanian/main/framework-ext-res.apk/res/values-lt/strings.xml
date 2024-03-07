@@ -519,6 +519,8 @@
     <string name="vigor">Jėga</string>
     <string name="vivo">„vivo“</string>
     <string name="vivo_phone">vivo</string>
+    <string name="wallpaper_floral_arrangement_title">Gėlių kompozicija</string>
+    <string name="wallpaper_gradient_title">Gradientas</string>
     <string name="wallpaper_group_black_white_title">Juoda ir balta</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
     <string name="wallpaper_group_dynamic_nebula_title">Dinaminis ūkas</string>
@@ -530,6 +532,8 @@
     <string name="wallpaper_group_natural_texture_title">Gamtos raštai</string>
     <string name="wallpaper_group_red_mars_subtitle">NASA, JPL, Arizonos universitetas</string>
     <string name="wallpaper_group_red_mars_title">Marsas</string>
+    <string name="wallpaper_neon_title">Neoninis</string>
+    <string name="wallpaper_overlapping_space_title">Forma ir šešėliai</string>
     <string name="waterdrop_preview">Lašeliai</string>
     <string name="wifi_assistant_wifi_no_internet">Šis „Wi-Fi“ tinklas neturi interneto prieigos</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Palieskite išsamesnei peržiūrai</string>

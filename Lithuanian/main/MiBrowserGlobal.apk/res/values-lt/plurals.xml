@@ -7,10 +7,10 @@
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Dabar</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -50,9 +50,9 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
     </plurals>
     <plurals name="adblock_notification">
         <item quantity="other">Blokuojama %d reklamų</item>
@@ -72,6 +72,12 @@
         <item quantity="few">Iki šiol užblokuotos %d reklamos</item>
         <item quantity="many">Iki šiol užblokuotos %d reklamos</item>
     </plurals>
+    <plurals name="antivirus_desc_not_scanned_virus_in_days">
+        <item quantity="other">Nepavyko nuskaityti %d dienas</item>
+        <item quantity="one">Nepavyko nuskaityti %d dieną</item>
+        <item quantity="few">Nepavyko nuskaityti %d dienas</item>
+        <item quantity="many">Nepavyko nuskaityti %d dienų</item>
+    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">Tik pažiūrėkite! %1$d naujų straipsnių</item>
         <item quantity="one">Tik pažiūrėkite! %1$d naujas straipsnis</item>
@@ -83,6 +89,30 @@
         <item quantity="one">Kitas vaizdo įrašas gros po %d sekundės</item>
         <item quantity="few">Kitas vaizdo įrašas gros po %d sekundžių</item>
         <item quantity="many">Kitas vaizdo įrašas gros po %d sekundės</item>
+    </plurals>
+    <plurals name="back_dialog_antivirus_content_des">
+        <item quantity="other">Nenuskaitėte savo įrenginio per %d dienas. Nuskaityti dabar?</item>
+        <item quantity="one">Nenuskaitėte savo įrenginio per %d dieną. Nuskaityti dabar?</item>
+        <item quantity="few">Nenuskaitėte savo įrenginio per %d dienas. Nuskaityti dabar?</item>
+        <item quantity="many">Nenuskaitėte savo įrenginio per %d dienų. Nuskaityti dabar?</item>
+    </plurals>
+    <plurals name="back_dialog_day">
+        <item quantity="other">dienos</item>
+        <item quantity="one">diena</item>
+        <item quantity="few">dienos</item>
+        <item quantity="many">dienų</item>
+    </plurals>
+    <plurals name="back_dialog_health_check_content_des">
+        <item quantity="other">Neoptimizavote savo įrenginio per %d dienas. Optimizuoti dabar?</item>
+        <item quantity="one">Neoptimizavote savo įrenginio per %d dieną. Optimizuoti dabar?</item>
+        <item quantity="few">Neoptimizavote savo įrenginio per %d dienas. Optimizuoti dabar?</item>
+        <item quantity="many">Neoptimizavote savo įrenginio per %d dienų. Optimizuoti dabar?</item>
+    </plurals>
+    <plurals name="count_likes">
+        <item quantity="other">%s patiktukų</item>
+        <item quantity="one">%s patiktukas</item>
+        <item quantity="few">%s patiktukai</item>
+        <item quantity="many">%s patiktukų</item>
     </plurals>
     <plurals name="days_ago">
         <item quantity="other">Prieš %1$d dienų</item>
@@ -222,6 +252,12 @@
         <item quantity="few">Pasirinkti %d elementai</item>
         <item quantity="many">Pasirinkta %d elemento</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
     <plurals name="mw_last_num_days">
         <item quantity="other">Paskutinės %d dienų</item>
         <item quantity="one">Paskutinė %d diena</item>
@@ -288,11 +324,11 @@
         <item quantity="few">Blokuotos %d reklamos</item>
         <item quantity="many">Blokuotos %d reklamos</item>
     </plurals>
-    <plurals name="reading__search_resultful">
-        <item quantity="other">Rasti %1$d resultatų</item>
-        <item quantity="one">Rastas %1$d rezultatas</item>
-        <item quantity="few">Rasti %1$d resultatai</item>
-        <item quantity="many">Rasti %1$d resultatų</item>
+    <plurals name="recommend_top_guide">
+        <item quantity="other">%d naujų rekomenduojamų vaizdo įrašų</item>
+        <item quantity="one">%d naujas rekomenduojamas vaizdo įrašas</item>
+        <item quantity="few">%d nauji rekomenduojami vaizdo įrašai</item>
+        <item quantity="many">%d naujų rekomenduojamų vaizdo įrašų</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s paieškos užklausų</item>
@@ -437,5 +473,11 @@
         <item quantity="one">%s kartą</item>
         <item quantity="few">%s kartus</item>
         <item quantity="many">%s kartų</item>
+    </plurals>
+    <plurals name="web_preload_hint_dialog_title">
+        <item quantity="other">Praėjusią savaitę „Mi“ naršyklė padidino tinklalapio įkrovimo greitį %d kartus (-ų)!</item>
+        <item quantity="one">Praėjusią savaitę „Mi“ naršyklė padidino tinklalapio įkrovimo greitį %d kartą!</item>
+        <item quantity="few">Praėjusią savaitę „Mi“ naršyklė padidino tinklalapio įkrovimo greitį %d kartus (-ų)!</item>
+        <item quantity="many">Praėjusią savaitę „Mi“ naršyklė padidino tinklalapio įkrovimo greitį %d kartus (-ų)!</item>
     </plurals>
 </resources>

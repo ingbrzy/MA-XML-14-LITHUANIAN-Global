@@ -969,6 +969,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="card_main_private_space_summary">„Antrosios erdvės“ naudojimas prilygsta dviejų telefonų turėjimui</string>
     <string name="card_main_private_space_title">„Antroji erdvė“</string>
     <string name="card_main_sectool_title">Įrankiai</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Valdyti vaizdo įrašus</string>
     <string name="card_main_whatsappclean_title">„WhatsApp“ valymas</string>
     <string name="card_main_xspace_action">Sukurti</string>
@@ -1339,6 +1340,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="dynamic_performance_optimization_title">Dinaminė sparta</string>
     <string name="early_morning">Rytas</string>
     <string name="edit_phone_num">Redaguoti SIM telefono numerį</string>
+    <string name="ellipsis">…</string>
     <string name="email">El. paštas</string>
     <string name="empty" />
     <string name="empty_app">Nėra programų</string>
@@ -1416,7 +1418,9 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -2124,8 +2128,8 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="group_clipboard">Iškarpinė</string>
     <string name="group_connect_device">Sujungiamumas</string>
     <string name="group_file">Failai ir dokumentai</string>
+    <string name="group_file_less_t">Access files and media</string>
     <string name="group_head_data_ai_clipboard">Iškarpinės apsauga</string>
-    <string name="group_head_data_ai_clipboard_desc">Leisti sistemai nuspręsti, ar programos gali pasiekti elementus iškarpinėje</string>
     <string name="group_head_data_camera_desc">Išjungti, kad būtų apribota visų programų fotoaparato prieiga</string>
     <string name="group_head_data_clipboard_desc">Išjungti, kad būtų apribota visų programų iškarpinės prieiga</string>
     <string name="group_head_data_location_desc">Išjungti, kad būtų apribota visų programų vietos prieiga</string>
@@ -2601,6 +2605,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_license_manager">Leidimai</string>
     <string name="menu_text_networkassistants">Duomenų naudojimas</string>
     <string name="menu_text_networkassistants_danger">virš %s</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">liko %s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2609,6 +2614,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_optimize_manage">Spartinimas</string>
     <string name="menu_text_optimize_manage_1">Spartinimas</string>
     <string name="menu_text_power_manager">Akumuliatorius</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Pašalinti iš išimčių</string>
     <string name="menu_white">Įtraukti į išimtis</string>
     <string name="mi_ime_not_used">Naudokite „Xiaomi“ atestuotą klaviatūrą</string>
@@ -2617,6 +2623,9 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="mi_service_traffic_detail">Sąsajos informacija</string>
     <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
+    <string name="mic_noise_reduction_mode_standard">Įprastas</string>
+    <string name="mic_noise_reduction_mode_ultimate">Pasirinkti</string>
+    <string name="mic_noise_reduction_voiceprint_desc">Garsą gauti tik iš tam tikro naudotojo</string>
     <string name="midnight">Naktis</string>
     <string name="midrop_post_notification_contentTitle">Norite bendrinti failus?</string>
     <string name="miui_blur_location">Leisti visoms programoms pasiekti apytikslę vietą</string>
@@ -2714,6 +2723,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -3104,6 +3114,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_battery_history_total_consumption_title">VIsos energijos sąnaudos</string>
     <string name="pc_battery_history_usetime_title">Aktyvus</string>
     <string name="pc_battery_low_health_reminder">Laikas pakeisti jūsų bateriją</string>
+    <string name="pc_button_go_to_setting">Parametrai</string>
     <string name="pc_category_charge_settings">Įkrovimo parametrai</string>
     <string name="pc_charged_auto_close_summary">Išjungti, kai baterija yra įkrauta %1$s arba pilnai</string>
     <string name="pc_charged_auto_close_title">Išjungti įkrovus</string>
@@ -3143,6 +3154,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_going_to_exit_extreme_mode">Išeinama iš užmigdymo režimo</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Jūsų įrenginys kraunamas. Išeinama iš užmigdymo režimo.</string>
     <string name="pc_going_to_extreme_mode">Pereinama į užmigdymo režimą</string>
+    <string name="pc_handle_battery_level">Laikiklis</string>
     <string name="pc_have_no_battery_issue">Jokių problemų</string>
     <string name="pc_hide_more_power_rank_apps">Slėpti</string>
     <string name="pc_hidemode_normal">Subalansuota</string>
@@ -3202,11 +3214,14 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_performance_mode_dialog_title">Našumo režimas</string>
     <string name="pc_performance_mode_noti_summary">Efektyvumo režimas gali lemti didesnį energijos suvartojimą ir perkaitimo problemas</string>
     <string name="pc_performance_mode_noti_title">Didesnis įrenginio efektyvumas</string>
+    <string name="pc_phone_battery_level">Telefonas</string>
     <string name="pc_power_consume_check">Baterijos patikrinimas</string>
     <string name="pc_power_consume_check_ing">Tikrinama…</string>
+    <string name="pc_power_mode_has_performance">Efektyvumo režimas įjungtas</string>
     <string name="pc_power_save_settings_new">Akumuliatoriaus energijos taupymo parametrai</string>
     <string name="pc_remind_close_cover_to_charge_summary">Sulenkite įrenginį prieš kraunant, kad įkrovimas būtų greitesnis ir stabilesnis.</string>
     <string name="pc_remind_close_cover_to_charge_title">Sulenkite, norėdami įkrauti</string>
+    <string name="pc_reminder_always_protect_summary">Perjunkite į ribotą krovimą, kad lėčiau sentų akumuliatorius</string>
     <string name="pc_save_charge">Įkraunama</string>
     <string name="pc_save_other_setting">Kiti parametrai</string>
     <string name="pc_save_power">Energijos taupymas</string>
@@ -3236,6 +3251,11 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_wait_device_cools_down">Norėdami naudoti šią funkciją, palaukite, kol įrenginys atvės</string>
     <string name="pc_wireless_charge_adjust_position_summary">Uždėkite jį ant belaidžio įkroviklio</string>
     <string name="pc_wireless_charge_adjust_position_title">Greičiau įkraukite įrenginį</string>
+    <string name="pc_wireless_charging_special_stand_summary1">Savo įrenginį dėkite ant stovo, kuris buvo pateiktas kartu su bevieliu krovikliu</string>
+    <string name="pc_wireless_charging_special_stand_summary2">Norėdami geriausio veikimo, savo įrenginį dėkite ant stovo, kuris buvo pateiktas kartu su bevieliu krovikliu</string>
+    <string name="pc_wireless_charging_special_stand_title">Naudokite pateiktą krovimo stotelę</string>
+    <string name="pc_wireless_handle_connected">Įrenginys prijungtas</string>
+    <string name="pc_wireless_handle_title">Belaidės kameros laikiklis</string>
     <string name="pc_work_in_save_mode">Energijos taupymas</string>
     <string name="pc_work_in_super_save_mode">Ultra energijos taupymas</string>
     <string name="pc_xiaoai_create_auto_task">Nauja užduotis iš „Mi“ DI</string>
@@ -3296,6 +3316,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="permission_group_camera">Šiuo leidimu programoms leidžiama naudoti fotoaparatą, kad būtų galima fofografuoti ir filmuoti.</string>
     <string name="permission_group_contact">Šiuo leidimu programoms leidžiama pasiekti arba redaguoti kontaktus, taip pat peržiūrėti šiame įrenginyje sukurtus programos kontaktus.</string>
     <string name="permission_group_file">Šiuo leidimu programoms leidžiama pasiekti visus įrenginyje laikomus failus.</string>
+    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
     <string name="permission_group_image_video">Šiuo leidimu programos leidžiama pasiekti įrenginyje laikomas nuotraukas ir vaizdo įrašus.</string>
     <string name="permission_group_location">Šiuo leidimu programoms leidžiama pasiekti vietos informaciją per tinklą ar palydovą.</string>
     <string name="permission_group_microphone">Šiuo leidimu programoms leidžiama naudoti fotoaparatą, kad būtų galima įrašyti garsą.</string>
@@ -3460,7 +3481,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_center_batteryrank_all">Visas akumuliatoriaus naudojimas</string>
     <string name="power_center_batteryrank_hardware">Aparatinės įrangos akumuliatoriaus naudojimas %s</string>
     <string name="power_center_batteryrank_software">Programinės įrangos akumuliatoriaus naudojimas %s</string>
-    <string name="power_center_batteryscan_normal">Neaptikta akumuliatoriaus naudojimo problemų. Išsamiau.</string>
+    <string name="power_center_batteryscan_normal">Viskas atrodo gerai. Žiūrėti rezultatus.</string>
     <string name="power_center_charge_status">Įkraunama</string>
     <string name="power_center_charge_time">%1$s iki pilno įkrovimo</string>
     <string name="power_center_consume_fast">Akumuliatoriaus sekinimas</string>
@@ -3470,6 +3491,11 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_center_dialog_msg_top">Kai įjungtas Energijos taupymas, bus atlikti toliau nurodyta optimizacija:</string>
     <string name="power_center_hints_scan_danger_result">Galite išspręsti akumuliatoriaus problemas dabar</string>
     <string name="power_center_list_item_auto_brightness">Automatiškai derinti ekrano ryškumą</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">val.</string>
     <string name="power_center_list_item_close_bluetooth">Išjungti „Bluetooth“</string>
     <string name="power_center_list_item_deep_save_title">Išplėstiniai parametrai</string>
@@ -3492,7 +3518,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_center_optimize_title">Pasiūlymai</string>
     <string name="power_center_power_save_summary_text">Padidina likusį laiką iki %1$dval. %2$dmin.</string>
     <string name="power_center_power_save_title_text">Energijos taupymas</string>
-    <string name="power_center_problem_title">Ištaisyti problemas</string>
+    <string name="power_center_problem_title">Didelės energijos sąnaudos</string>
     <string name="power_center_reduce_dpi_summary">QHD+ didina energijos sąnaudas</string>
     <string name="power_center_reduce_resolution">Žemesnė ekrano skiriamoji geba</string>
     <string name="power_center_repeat">Kartoti</string>
@@ -3583,6 +3609,9 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_main_battery_last_hour_minute">liko %1$sval. %2$smin.</string>
     <string name="power_main_battery_last_hour_minute_screen_on">Liko %1$s %2$s ekrano laiko</string>
     <string name="power_main_open_last_hour_minute_screen_on">Įjunkite norėdami pridėti %1$s %2$s ekrano laiko</string>
+    <string name="power_ntc_dialog_btn_finish">Supratau</string>
+    <string name="power_ntc_dialog_msg">Atjunkite įkroviklį dabar. Išvalykite ir išdžiovinkite įkrovimo prievadą prieš vėl naudodami.</string>
+    <string name="power_ntc_dialog_title">Aptiktas pašalinis daiktas arba skystis</string>
     <string name="power_off_warning_button_ok">Supratau</string>
     <string name="power_off_warning_message">Žemas akumuliatoriaus lygis. Įrenginys išsijungs po %d sekundžių. Prijunkite kroviklį.</string>
     <string name="power_off_warning_notification_title">Ruošiamasi išsijungimui</string>
@@ -3725,11 +3754,16 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pp_app_warning_permission_tips">Priminimai apie slaptus leidimus</string>
     <string name="pp_app_warning_permission_tips_detail">Rodyti priminimą, kai programa prašo vietos, fotoaparato ar mikrofono leidimų</string>
     <string name="pp_clipboard">Iškarpinė</string>
+    <string name="pp_none_read_clipboard_item">Nepraneštis</string>
+    <string name="pp_privacy_lab_clipboard_summary">Leiskite įrenginiui nuspręsti, ar programa gali pasiekti iškarpinę ir gauti pranešimus</string>
     <string name="pp_privacy_lab_operator_get_number_summary">Reikalauti, kad programos prašytų jūsų leidimo, kai nori pasiekti jūsų telefono numerį, kad būtų galima prisijungti</string>
     <string name="pp_privacy_protection">Apsauga</string>
+    <string name="pp_protect_read_clipboard_item">Apsaugoti</string>
     <string name="pp_read_phone_info_summary">Prieiga prie SIM informacijos</string>
     <string name="pp_sms_and_contacts">Kontaktai ir žinutės</string>
     <string name="pp_special_permission_settings">Specialūs leidimai</string>
+    <string name="pp_toast_read_clipboard">Įspėti, kai programos pasiekia iškarpinės elementus</string>
+    <string name="pp_toast_read_clipboard_item">Priminti</string>
     <string name="precise_location_title">Tiksli vieta</string>
     <string name="pref_about_traffic_title">Duomenų naudojimo parametrai</string>
     <string name="pref_adjust_data_usage">Operatoriaus pranešimo šablonas</string>
@@ -3774,6 +3808,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pref_normal_traffic_limit">Išnaudojus duomenų planą</string>
     <string name="pref_open_adjust_traffic">Kasdien atnaujinti duomenų vartojimo informaciją iš jūsų operatoriaus</string>
     <string name="pref_operator_not_set">Paslaugų tiekėjas nenustatytas</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kai viršijate duomenų plano limitą</string>
     <string name="pref_package_traffic_settings">Duomenų planas</string>
     <string name="pref_pkg_begin_date">Mėnesinio vartojimo atstatymo data</string>
@@ -4007,6 +4042,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_risk_result_protection">Privatumo apsauga</string>
     <string name="privacy_risk_result_screen_fuzzy">Sulieti programų peržiūrą</string>
     <string name="privacy_risk_result_screen_fuzzy_msg">Sulieti slaptų programų peržiūrą, rodomą „Naujausi“</string>
+    <string name="privacy_risk_result_screen_shield_msg">Programos, kuriose yra neskelbtinos asmeninės informacijos, bus rodomos skiltyje „Naujausi“, o jų peržiūros bus užmaskuotos</string>
     <string name="privacy_risk_result_set_btn">Parametrai</string>
     <string name="privacy_risk_result_success_empty_msg">Viskas atrodo gerai!</string>
     <string name="privacy_risk_result_success_msg">Išspręstos visos problemos. Valio!</string>
@@ -4074,6 +4110,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_using_record">Garso įrašymas</string>
     <string name="privacyapp_number_masked_text">Pranešimo turinys – paslėptas</string>
     <string name="privacyapp_number_unmasked_text">Pranešimo turinys negali būti paslėptas</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medijų serveris</string>
     <string name="process_vpnsdkmanager_label">Turbo žaidimai</string>
     <string name="promotion">Reklama</string>
@@ -4087,10 +4124,10 @@ Atšaukti sutikimą dabar?"</string>
     <string name="qucick_replay_instrument">Pasirinktuose „Messenger“ (pvz., „WhatsApp, „WeChat“, „QQ“) naudoti greituosius atsakus</string>
     <string name="quick_optimize_checking">Nuskaitoma</string>
     <string name="quick_optimize_no_fix_issue_subtitle">Nepavyko prailginti baterijos veikimo trukmės</string>
-    <string name="quick_optimize_no_fix_issue_title">Nepavyko išspręsti baterijos problemų</string>
+    <string name="quick_optimize_no_fix_issue_title">Nepavyko optimizuoti elementų su didelėmis energijos sąnaudomis</string>
     <string name="quick_optimize_no_issue">Baterijos problemų nėra</string>
     <string name="quick_optimize_no_issue_subtitle">Viskas atrodo gerai</string>
-    <string name="quick_optimize_no_issue_title">Nepavyko aptikti baterijos sutrikimų</string>
+    <string name="quick_optimize_no_issue_title">Nėra elementų su didelėmis energijos sąnaudomis</string>
     <string name="quick_optimize_sub_battery_text">Liko apie %s</string>
     <string name="quick_optimize_sub_summary_text">Baterijos veikimo laikas pailgėjo %s</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Pridėta %1$s, liko apie %2$s</string>
@@ -4270,7 +4307,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="settings">Duomenų naudojimo parametrai</string>
     <string name="settings_battery_consume_abnormal_summary">Gauti perspėjimus, kai baterija senka greitai</string>
     <string name="settings_battery_consume_abnormal_title">Perspėjimas apie senkančią bateriją</string>
-    <string name="settings_battery_power_save_suggest_title">Energijos taupymo pasiūlymai ir įspėjimai</string>
+    <string name="settings_battery_power_save_suggest_title">Patarimai dėl energijos taupymo</string>
     <string name="settings_camera_subtitle_no">Jokių metaduomenų</string>
     <string name="settings_category_other">Kiti parametrai</string>
     <string name="settings_category_overheat">Perkaitimas</string>
@@ -4692,6 +4729,8 @@ Norėdami naudoti šią ^1, pirmiausia ją įdėkite."</string>
     <string name="storage_dialog_unsupported">"Šis įrenginys nepalaiko šios(-io) ^1.
 
 Norėdami naudoti šią ^1 šiame įrenginyje, pirmiausia ją įdiekite."</string>
+    <string name="storage_fbo_clear">Saugyklos atnaujinimas</string>
+    <string name="storage_fbo_des">Vidinė saugykla pasireiškia fragmentacija, kuri gali ženkliai sulėtinti jūsų įrenginį. Saugyklos atnaujinimas atliekamas automatiškai jums nesinaudojant įrenginiu, jo metu failai fiziškai sudėliojami į mažesnį fragmentų skaičių ir taip sumažinamas delsos laikas.</string>
     <string name="storage_fbo_number_tip">Apdorota per %1$s</string>
     <string name="storage_fbo_tools">Saugyklos optimizavimas</string>
     <string name="storage_file_delete_tip">Negrįžtamai ištrinti pasirinktus elementus? Kai kuriuos iš jų prireikus vėl bus galima įkelti.</string>
@@ -4783,6 +4822,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="summary_usb">Neleisti kenkėjiškoms programoms plisti per USB</string>
     <string name="summary_virus">Pašalinti virusus, kad išlaikyti jūsų prietaisą saugų</string>
     <string name="summary_virus_cloudscan">Siųsti programų pavadinimus ir išsamią informaciją, bei patikrinti internetiniuose virusų atpažinimo aprašymuose</string>
+    <string name="summary_virus_scan_model">Kaip įmanoma greičiau pašalinkite šias saugumo rizikas</string>
     <string name="summary_virus_update">Automatiškai gauti naujausius virusų aprašus</string>
     <string name="summary_xiaomi_roaming">CNY 0.01/MB už mob. duomenis tarptinkliniu ryšiu.</string>
     <string name="sunday">Sekmadienis</string>
@@ -5240,6 +5280,7 @@ Rolled over extra data"</string>
     <string name="vb_movie_power_hint">"Teatro būsena sukuria įtraukiančius vaizdus.
 Jūsų įrenginys gali įkaisti ir sunaudoti daugiau galios."</string>
     <string name="vb_movie_subtitle">Reikia didelio našumo</string>
+    <string name="vb_mv_style_close_toast">Stilius išjungtas</string>
     <string name="vb_power_performance_mode_conflict_toast">Negalite naudoti šios funkcijos, kai įjungtas efektyvumo režimas</string>
     <string name="vb_power_save_mode_conflict_toast">Negalite naudoti šios funkcijos, kai įjungtas energijos taupymas</string>
     <string name="vb_quick_func_auto_bgm">Atpažinti foninę muziką</string>
@@ -5313,6 +5354,7 @@ Jūsų įrenginys gali įkaisti ir sunaudoti daugiau galios."</string>
 Vienos iš šių funkcijų įjungimas automatiškai išjungs kitą."</string>
     <string name="vb_video_super_division_tips">"Nepakanka ryškumo?
 Išbandykite skiriamosios raiškos didinimą!"</string>
+    <string name="vb_vison_dynamic_enhance_close_toast">Patobulinta animacija išjungta</string>
     <string name="vb_voice_adjust">Teatrinis garsas</string>
     <string name="video_repeat">Paleisti dar kartą</string>
     <string name="videobox_hangup_tips_content">Įjungus šią funkciją, ekranas bus užrakintas, bet programa ir toliau veiks fone. Norėdami iš naujo įjungti ekraną, paspauskite maitinimo mygtuką. Įjungti šią funkciją dabar?</string>

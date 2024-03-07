@@ -438,6 +438,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_main_space">„Pirmoji erdvė“</string>
     <string name="other_device_second_space">„Antroji erdvė“</string>
     <string name="page_title_more_backup_options">Papildomos atsarginių kopijų kūrimo paslaugos</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Nepavyksta atkurti elementų PC režimu. Išjunkite PC režimą ir bandykite dar kartą.</string>
     <string name="permission_to_use">Leidimų informacija</string>
     <string name="pm">Popiet</string>
@@ -449,6 +451,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="provision_error_connect_title">Nepavyko prisijungti</string>
     <string name="provision_next">Kitas</string>
     <string name="provision_restore_data">Atkuriami elementai</string>
+    <string name="provision_restore_item_backup_name_with_size">%1$s | ≈%2$s</string>
     <string name="provision_skip_underline">Praleisti</string>
     <string name="query_restore_description">Jei atkursite pagrindinio ekrano išdėstymą ir parametrus, jau įdiegtos programos bus atkurtos į pradines vietas pagrindiniame ekrane. Programos, kurios nėra šios atsarginės kopijos dalis, bus perkeltos į paskutinį pagrindinio ekrano puslapį.</string>
     <string name="query_restore_summary">Aptikta atsarginė šio įrenginio kopija „Xiaomi debesyje“. Atkurti pagrindinio ekrano programas ir parametrus ar naudoti įrenginį – kaip naują ir pašalinti ankstesnes „Xiaomi debesies“ kopijas?</string>

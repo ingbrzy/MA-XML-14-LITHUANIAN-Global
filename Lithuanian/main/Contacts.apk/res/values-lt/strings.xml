@@ -33,7 +33,7 @@
     <string name="account_default">Vietinis</string>
     <string name="account_dual_sdn">SDN %s</string>
     <string name="account_dual_sim">SIM kortelė: %s</string>
-    <string name="account_phone">Device-only, unsynced</string>
+    <string name="account_phone">Tik įrenginiai, nesinchronizuota</string>
     <string name="account_sdn">SDN</string>
     <string name="account_sim">SIM kortelė</string>
     <string name="account_type_format">%1$s kontaktas</string>
@@ -62,7 +62,6 @@
     <string name="attach_photo_dialog_title">Kontakto nuotrauka</string>
     <string name="audio_chat">Balso pokalbis</string>
     <string name="auto_nickname">Auto</string>
-    <string name="auto_record_yellowpage">Žinynas</string>
     <string name="auto_set_nickname">Auto</string>
     <string name="back_description">Atgal</string>
     <string name="back_view_description">Grįžti</string>
@@ -92,6 +91,8 @@
     <string name="call_feature_vowifi">„VoWiFi“</string>
     <string name="call_home">Namų telefonu</string>
     <string name="call_isdn">Skambinti ISDN</string>
+    <string name="call_limit">Skambučių apribojimai</string>
+    <string name="call_limit_content">Nepavyko skambinti į „%s“. Galite skambinti tik patvirtintiems ir kontaktų sąrašę esantiems numeriams.</string>
     <string name="call_main">Skambinti pagrindiniu</string>
     <string name="call_mms">Skambinti į MMS centrą</string>
     <string name="call_mobile">Į Mobilųjį telefoną</string>
@@ -99,40 +100,6 @@
     <string name="call_other_fax">Skambinti į faksą</string>
     <string name="call_pager">Skambinti į pranešimų gaviklį</string>
     <string name="call_radio">Radijo telefonas</string>
-    <string name="call_record_add_numbers">Pridėti telefono numerius</string>
-    <string name="call_record_auto_always">Visi skambučiai</string>
-    <string name="call_record_auto_scenario_title">Įrašyti skambučiai</string>
-    <string name="call_record_auto_summary">Įrašyti skambučius automatiškai</string>
-    <string name="call_record_auto_title">Įrašyti automatiškai</string>
-    <string name="call_record_auto_unknown_number">Nežinomas numeris</string>
-    <string name="call_record_auto_whitelist">Pasirinkti telefono numeriai</string>
-    <string name="call_record_content_search">Balso skambučių ieška</string>
-    <string name="call_record_content_search_summary">Įrašyti ir transkribuoti skambučius automatiška, siekiant rasti skambučius paminėjus konkrečius raktažodžius</string>
-    <string name="call_record_content_summary">Siekiant užtikrinti jūsų privatumo apsaugą, jūsų skambučių garso įrašai kartu su transkribuotu tekstu bus užšifruoti ir saugomi vietinėje jūsų įrenginio sistemoje. Kitos programos negalės pasiekti šių elementų.</string>
-    <string name="call_record_content_title">Skambučių įrašų transkribavimas</string>
-    <string name="call_record_content_type">Įrašai išsaugoti</string>
-    <string name="call_record_content_type_audio">Tik garsas</string>
-    <string name="call_record_content_type_audio_text">Garsas ir tekstas</string>
-    <string name="call_record_content_type_text">Tik tekstas</string>
-    <string name="call_record_history">Skambučių įrašai</string>
-    <string name="call_record_password">Privatumo saugos slaptažodis</string>
-    <string name="call_record_password_closed">Išj.</string>
-    <string name="call_record_password_opened">Įj.</string>
-    <string name="call_record_password_summary">Apsaugoti skambučių įrašus papildomu slaptažodžiu</string>
-    <string name="call_record_storage_list">Skambučių įrašai</string>
-    <string name="call_record_text_auto_delete">Trinti skambučių įrašus automatiškai</string>
-    <string name="call_record_text_auto_delete_half_year">Po %d mėnesių</string>
-    <string name="call_record_text_auto_delete_never">Niekada</string>
-    <string name="call_record_text_auto_delete_one_month">Po %d mėnesio</string>
-    <string name="call_record_user_notice_all_purpose">Rasti skambučius pagal konkrečius, paminėtus raktažodžius</string>
-    <string name="call_record_user_notice_permission_desc_microphone">Skambučių įrašymas</string>
-    <string name="call_record_user_notice_permission_desc_storage">Įrašų išsaugojimas</string>
-    <string name="call_record_user_notice_title">Balso skambučių ieška</string>
-    <string name="call_record_whitelist_custom">Pasirinkti skambučiai</string>
-    <string name="call_recording_notification_summary">Gauti pranešimą po skambučio įrašymo</string>
-    <string name="call_recording_notification_title">Pranešti apie įrašytus skambučius</string>
-    <string name="call_recording_notification_title_error">Nepavyko įrašyti skambučio</string>
-    <string name="call_recording_setting">Skambučių įrašai</string>
     <string name="call_sim1_description">SIM 1</string>
     <string name="call_sim1_menu_title">Skambinti per SIM 1</string>
     <string name="call_sim2_description">SIM 2</string>
@@ -157,6 +124,9 @@
     <string name="callrecordview_item_op_time_rejected">Atmestas</string>
     <string name="callrecordview_item_op_time_short_incoming">"Įeinantis: "</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Išeinantis: "</string>
+    <string name="callrecordview_item_op_time_xiaoai_automatic_answer">Automatinis atsiliepimas</string>
+    <string name="callrecordview_item_op_time_xiaoai_call">DI skambučių asistentas</string>
+    <string name="callrecordview_item_op_time_xiaoai_manual_answer">Rankinis pakėlimas</string>
     <string name="callrecordview_item_op_video">Video</string>
     <string name="callrecordview_menu_add_call_note">Pridėti skambučio pastabą</string>
     <string name="callrecordview_menu_aiphone">DI skambučiai</string>
@@ -339,8 +309,6 @@
     <string name="description_send_message">Siųsti teksto žinutę %1$s</string>
     <string name="deselect_all">Atžymėti viską</string>
     <string name="device_import_account_dialog_title">Pasirinkite paskyrą</string>
-    <string name="device_import_account_dialog_title_suffix">"
-(rasta %1$s kontaktų)"</string>
     <string name="device_import_local_account">Vietinė paskyra</string>
     <string name="device_import_message">Importuojama</string>
     <string name="device_import_progress_begin_message">Importuojama…</string>
@@ -419,7 +387,7 @@
     <string name="event_edit_field_hint_text">Data</string>
     <string name="expandCloseViewDescription">Suskleisti</string>
     <string name="expandOpenViewDescription">Išplėsti</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="export_sim_contact_finish">Kontaktai eksportuoti</string>
     <string name="export_sim_contact_finish_msg">%1$d perkelta | %2$d identiškų | %3$d liko %4$s</string>
     <string name="export_to_sdcard">Eksportuoti į saugyklą</string>
@@ -433,15 +401,15 @@ Priežastis: \"%s\""</string>
     <string name="exporting_contact_failed_title">Nepavyko eksportuoti</string>
     <string name="exporting_contact_list_message">Eksportuojama į %s.</string>
     <string name="exporting_contact_list_title">Eksportuojami kontaktiniai duomenys</string>
-    <string name="exporting_vcard_canceled_title">%s eksportavimas atšauktas.</string>
-    <string name="exporting_vcard_finished_title">%s eksportas baigtas.</string>
+    <string name="exporting_vcard_canceled_title">%s eksportas atšauktas</string>
+    <string name="exporting_vcard_finished_title">Eksportas baigtas %s</string>
     <string name="external_profile_title">Mano %1$s profilis</string>
-    <string name="fail_reason_could_not_initialize_exporter">Nepavyko pradėti eksportuoti: \"%s\".</string>
-    <string name="fail_reason_could_not_open_file">Nepavyko atverti \"%1$s\": %2$s.</string>
-    <string name="fail_reason_error_occurred_during_export">Eksportavimo metu įvyko klaida: \"%s\".</string>
+    <string name="fail_reason_could_not_initialize_exporter">Nepavyko inicijuoti eksporto: \"%s</string>
+    <string name="fail_reason_could_not_open_file">Nepavyko atidaryti %1$s\": %2$s</string>
+    <string name="fail_reason_error_occurred_during_export">Eksportavimo metu įvyko klaida: %s</string>
     <string name="fail_reason_io_error">I/O klaida</string>
     <string name="fail_reason_low_memory_during_import">Trūksta atminties. Failas gali būti per didelis.</string>
-    <string name="fail_reason_no_exportable_contact">Nėra kontaktų galimų eksportuoti.</string>
+    <string name="fail_reason_no_exportable_contact">Nerasta eksportuojamų kontaktų</string>
     <string name="fail_reason_not_supported">Formatas nepalaikomas.</string>
     <string name="fail_reason_too_long_filename">Failo pavadinimas per ilgas(\"%s\").</string>
     <string name="fail_reason_too_many_vcard">Per daug vCard failų atmintinėje.</string>
@@ -506,6 +474,7 @@ Priežastis: \"%s\""</string>
     <string name="friday">Penktadienis</string>
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Vardas</string>
     <string name="gallery">Galerija</string>
     <string name="ghostData_company">Įmonė</string>
@@ -522,15 +491,14 @@ Priežastis: \"%s\""</string>
     <string name="group_rename_dialog_title">Pervadinti grupę</string>
     <string name="group_rename_fail_toast">Nepavyko pervadinti grupės</string>
     <string name="group_rename_success_toast">Grupė pervadinta</string>
-    <string name="group_sms_error_message">SMS negali turėti daugiau nei %s gavėjų.</string>
     <string name="group_sms_progress_msg">Grupuojama…</string>
     <string name="groupsLabel">Grupės</string>
     <string name="groups_list_empty">Grupių nėra</string>
     <string name="hide_app_description_content">„Kontaktai“ – sisteminė programa. Pašalinus pagrindinio ekrano nuorodą, programą toliau galėsite pasiekti naudodami „Telefono“ programą.</string>
     <string name="hide_app_description_title">Pašalinti „Kontaktus“ iš pagrindinio ekrano?</string>
-    <string name="hint_distance" />
+    <string name="hint_distance">Importavimo proceso metu abu įrenginius laikykite arti vienas kito, kad jie liktų prijungti.</string>
     <string name="hint_findContacts">Rasti kontaktus</string>
-    <string name="hint_more_contact">Sulieti pasikartojančius kontaktus</string>
+    <string name="hint_more_contact">Jei importuojant sukuriami pasikartojantys kontaktai, naudokite funkciją „Sujungti pasikartojančius kontaktus“.</string>
     <string name="hybrid_check_network">Tinklo parametrai</string>
     <string name="hybrid_data_error">Įvyko klaida</string>
     <string name="hybrid_locating_fail">Nepavyko nustatyti jūsų vietovės</string>
@@ -564,7 +532,7 @@ Priežastis: \"%s\""</string>
     <string name="import_to_xiaomi_account_progress_message">Importuojama…</string>
     <string name="import_to_xiaomi_account_title">Importuoti į „Xiaomi“ paskyrą</string>
     <string name="import_vcard_dialog_message">Importuoti vCard?</string>
-    <string name="importing_sim_contacts_miui">Importuojami kontaktai iš SIM kortelės…</string>
+    <string name="importing_sim_contacts_miui">Importuojami kontaktai iš SIM kortelės</string>
     <string name="importing_sim_contacts_miui_prepare">Ruošiami kontaktai…</string>
     <string name="importing_vcard_canceled_title">Importavimas %s atšauktas</string>
     <string name="importing_vcard_description">Importuojama %s</string>
@@ -579,6 +547,7 @@ Priežastis: \"%s\""</string>
     <string name="item_offical">Oficialu</string>
     <string name="keep_local">Nesinchronizuoti</string>
     <string name="keep_local_btn">Naudoti įrenginio vidinę talpyklą</string>
+    <string name="know">Supratau</string>
     <string name="label_custom_type">Savas</string>
     <string name="label_no_duplicate_contacts">Pasikartojančių kontaktų nerasta</string>
     <string name="label_notes">Pastabos</string>
@@ -639,6 +608,7 @@ Priežastis: \"%s\""</string>
     <string name="menu_sync_remove">Pašalinti sinchronizuotą grupę</string>
     <string name="midnight">Naktis</string>
     <string name="miprofile_account_type">Kontaktų kortelės</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redaguoti profilį</string>
     <string name="miprofile_name">Mano profilis</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -647,7 +617,7 @@ Priežastis: \"%s\""</string>
     <string name="missing_name">(Be vardo)</string>
     <string name="missing_required_permission">Jūs išjungėte reikalingą prieigą.</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
@@ -657,13 +627,16 @@ Priežastis: \"%s\""</string>
     <string name="miuix_appcompat_cloud_state_syncing">Sinchronizuojama su debesimi…</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_navigator_content_switch_description">Rodyti šoninę juostą</string>
+    <string name="miuix_navigator_multiple_choice">Pasirinkti</string>
+    <string name="miuix_navigator_navigator_switch_description">Slėpti šoninę juostą</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -766,6 +739,8 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="notification_missedCall_call_back">Atskambinti</string>
     <string name="notification_missedCall_message">Siųsti SMS žinutę</string>
     <string name="notification_missedCallsTitle">Praleisti skambučiai</string>
+    <string name="notification_title_export">Eksportuoti kontaktus</string>
+    <string name="notification_title_import">Importuoti kontaktus</string>
     <string name="open_contact">Peržiūrėti kontaktą</string>
     <string name="open_dial_pad_description">Atverti rinkiklį</string>
     <string name="option_delete_contact">Trinti</string>
@@ -799,6 +774,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="permission_retry_dialog_msg_pad">Kad galėtumėte naudoti savo SIM kortelę su šia programa ir valdyti kontaktus, leiskite šiai programai pasiekti ir redaguoti jūsų kontaktus, taip pat prieigą prie įrenginio informacijos.</string>
     <string name="permission_retry_setting">Parametrai</string>
     <string name="phoneLabelsGroup">Telefono numeris</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numeris per ilgas</string>
     <string name="phone_primary">Pagrindinis</string>
     <string name="photoPickerNotFoundText">Įrenginyje nėra pasiekiamų vaizdų.</string>
@@ -872,14 +848,6 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="presentation_private">Privatus numeris</string>
     <string name="presentation_unknown">Nežinomas numeris</string>
     <string name="previous">Atgal</string>
-    <string name="privacy_password_message1">Privatumo saugos slaptažodis apsaugo nuotraukas, užrašus, ir paslėptus aplankus.</string>
-    <string name="privacy_password_message2">Naudoti privatumo saugos slaptažodį. Jis apsaugo nuotraukas, užrašus ir paslėptus aplankus.</string>
-    <string name="privacy_password_message3">Jūsų slaptažodis bus pakeistas į privatumo saugos slaptažodį, kuris bus naudojamas nuotraukoms, užrašams ir paslėptiems aplankams.</string>
-    <string name="privacy_password_set_password">Nustatyti</string>
-    <string name="privacy_password_title1">Nustatyti slaptažodį</string>
-    <string name="privacy_password_title2">Naudoti privatumo saugos slaptažodį</string>
-    <string name="privacy_password_title3">Atnaujinkite slaptažodį</string>
-    <string name="privacy_password_title4">Slaptažodis atnaujintas</string>
     <string name="privacy_settings_blue_scan_connect">Prisijungti prie įrenginių netoliese</string>
     <string name="privacy_settings_call_phone">Skambinimas</string>
     <string name="privacy_settings_call_phone_description">Skambinimas naudojant pagrindinio ekrano nuorodas</string>
@@ -944,9 +912,9 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="remove_blacklist">Atblokuoti</string>
     <string name="remove_blacklist_dialog_message">Rodyti visus šio numerio skambučius ir žinutes?</string>
     <string name="remove_blacklist_dialog_title">Atblokuoti šį telefono numerį?</string>
-    <string name="remove_duplicate">"MIUI padės jums atrasti ir sulieti besikartojančius kontaktus.
+    <string name="remove_duplicate">"Ši funkcija padeda rasti ir sulieti pasikartojančius kontaktus.
 
- Norėdami pradėti, palieskite ekrano apačioje esančią piktogramą Sulieti."</string>
+Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission.POST_NOTIFICATIONS</string>
     <string name="restore_app_btn_cancel">Atšaukti</string>
     <string name="restore_app_btn_restore">Gerai</string>
@@ -970,7 +938,8 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="scan_business_card">Nuskaityti vizitinę kortelę</string>
     <string name="scan_bussiness_card_merge_tip">Prieštaringi duomenys pakeisti</string>
     <string name="scan_merge">\"Ieškoma pasikartojančių kontaktų…\"</string>
-    <string name="scan_not_installed">Pirmiausia įdiekite skaitytuvą</string>
+    <string name="scan_not_installed_china">Pirmiausia įdiekite „Mi“ DI skaitytuvą</string>
+    <string name="scan_not_installed_global">Pirmiausia įdiekite skaitytuvą</string>
     <string name="scan_qrcode_card_hint1">Nuskaitykite viršuje esantį QR kodą</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Priežastis: \"%s\".</string>
@@ -978,14 +947,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="sdnContacts_empty">Nėra SDN</string>
     <string name="sdnContacts_emptyLoading">Įkeliama SDN…</string>
     <string name="searchHint">Ieškoti kontaktuose</string>
-    <string name="search_group_call">Skambučiai</string>
-    <string name="search_group_call_search_tip">Rasti rezultatai šiame skambutyje. Peržiūrai bakstelėkite.</string>
-    <string name="search_group_contacts">Kontaktai</string>
     <string name="search_menu_title">Ieškoti</string>
-    <string name="search_new_funcation">Apie šią funkciją</string>
-    <string name="search_open_new_funcation">Įjungti</string>
-    <string name="search_open_new_funcation_tip">Kai ši funkcija įjungta, jūsų skambučiai bus įrašomi automatiškai ir tai jums padės rasti skambučius paminėjus konkrečius raktažodžius.</string>
-    <string name="search_open_new_funcation_title">Balso skambučių ieška</string>
     <string name="search_results_searching">Ieškoma…</string>
     <string name="search_settings_description">Jūsų kontaktų vardai</string>
     <string name="searching_vcard_message">Ieškoma įrenginyje esančių „vCard“ duomenų…</string>
@@ -1044,6 +1006,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Grupės narių nėra</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Įmonės</string>
     <string name="smart_group_company_unavailable">Nėra įmonės informacijos</string>
     <string name="smart_group_frequency_1">Pastarąjį mėnesį</string>
@@ -1085,6 +1048,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="starred_contacts">Mėgstamiausi</string>
     <string name="status_available">Prisijungęs</string>
     <string name="status_away">Pasišalinęs</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Užsiėmęs</string>
     <string name="strequentList">Mėgstamiausi</string>
     <string name="success_message_import_from_account">Kontaktas importuotas</string>
@@ -1181,7 +1145,6 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="two_letter">ABC</string>
     <string name="type_mx_msg">Mi Žinutė</string>
     <string name="unable_get_device_id">Nepavyko gauti IMEI</string>
-    <string name="undefined">Nenustatyta</string>
     <string name="unknow_phone_number_call_failed">Negalima skambinti neatpažintiems numeriams</string>
     <string name="unknow_phone_number_mms_failed">Negalima siųsti žinučių į neatpažintus numerius</string>
     <string name="unknown">Nežinomas numeris</string>

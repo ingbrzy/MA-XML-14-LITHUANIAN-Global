@@ -9,7 +9,7 @@
         <item>Nepavyko pasiekti tinklo. Iš naujo prisijunkite prie „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Prastas „Wi-Fi“ ryšys. Perjunkite bevielio ryšio juostas arba perkraukite maršrutizatorių.</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Tinklo prieiga apribota. Suderinkite šio įrenginio laiką ir patikrinkite maršrutizatoriaus tinklo parametrus.</item>
         <item>Tinklo klaida. Patikrinkite HTTP įgaliotojo serverio parametrus.</item>
         <item>Tinklo klaida. Patikrinkite, ar maršrutizatorius gali pasiekti internetą.</item>
-        <item>Nepavyksta prisijungti prie tinklo. Iš naujo prisijunkite prie „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
+        <item>Nepavyko pasiekti tinklo. Iš naujo prisijunkite prie „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Autentikacijai būtina tinklo prieiga</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>DNS serverio klaida. Patikrinkite maršrutizatoriaus DNS konfigūraciją.</item>
         <item>Didelis delsimas iš DNS serverio. Patikrinkite maršrutizatoriaus DNS konfigūraciją.</item>
-        <item>Nepavyko pasiekti tinklų sąsajos. Perjunkite į „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
+        <item>Nepavyko pasiekti tinklo. Iš naujo prisijunkite prie „Wi-Fi“ arba perkraukite maršrutizatorių.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>DNS serverio klaida. Patikrinkite maršrutizatoriaus DNS konfigūraciją.</item>

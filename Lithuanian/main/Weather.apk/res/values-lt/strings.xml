@@ -33,7 +33,7 @@
     <string name="abrupt_weather_settings_summary_type">Gauti įspėjimus apie numatomą stiprų lietų, oro kokybės pokyčius ir kitus reikšmingus pokyčius</string>
     <string name="act_find_city_hint">Įvesti vietą</string>
     <string name="act_find_city_hot_city_title">Populiarūs miestai</string>
-    <string name="act_location_error_to_find_city">Nepavyko gauti vietos informacijos. Galite pridėti miestą rankiniu būdu.</string>
+    <string name="act_location_error_to_find_city">Nepavyko gauti vietos informacijos. Galite pridėti vietovę rankiniu būdu.</string>
     <string name="act_set_city_find_side">Nustatoma</string>
     <string name="act_set_city_find_side_error">Nepavyko aptikti įrenginio vietovės</string>
     <string name="act_weather_find_city_added">Pridėta</string>
@@ -78,17 +78,11 @@
     <string name="aqi_fifteen_dates_time_format">M-d</string>
     <string name="aqi_publish_time">Atnaujinta %1$s</string>
     <string name="aqi_quality_co_desc">Anglies monoksidas</string>
-    <string name="aqi_quality_co_pad">CO: %1$s</string>
     <string name="aqi_quality_no2_desc">Azoto dioksidas</string>
-    <string name="aqi_quality_no2_pad">NO₂: %1$s</string>
     <string name="aqi_quality_o3_desc">Ozonas</string>
-    <string name="aqi_quality_o3_pad">O₃: %1$s</string>
     <string name="aqi_quality_pm10_desc">Įkvepiamos stambiosios dalelės</string>
-    <string name="aqi_quality_pm10_pad">PM10: %1$s</string>
     <string name="aqi_quality_pm25_desc">Gerosios dalelės</string>
-    <string name="aqi_quality_pm25_pad">PM2.5: %1$s</string>
     <string name="aqi_quality_so2_desc">Sieros dioksidas</string>
-    <string name="aqi_quality_so2_pad">SO₂: %1$s</string>
     <string name="aqi_station_best_quality_station">Geriausia aplinkui</string>
     <string name="aqi_station_min_distance_station">Artimiausia stotis</string>
     <string name="aqi_title_pad">OKI: %1$s</string>
@@ -163,6 +157,7 @@
     <string name="dynamic_weather">Orai</string>
     <string name="early_morning">Rytas</string>
     <string name="edit_city">Keisti miestus</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Naujinama…</string>
     <string name="empty_view_net_unavailable">Nepavyksta prisijungti prie tinklo</string>
     <string name="empty_view_refresh">Pakartoti</string>
@@ -201,7 +196,7 @@
     <string name="exo_track_surround_5_point_1">5.1 erdvinis garsas</string>
     <string name="exo_track_surround_7_point_1">7.1 erdvinis garsas</string>
     <string name="exo_track_unknown">Nežinomas</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="feedback">Pranešti apie klaidingą orų informaciją</string>
     <string name="feedback_cloudy">Debesuota</string>
     <string name="feedback_foggy">Rūkas</string>
@@ -214,7 +209,7 @@
     <string name="feedback_result_fail_no_reason">Dėkojame už jūsų atsiliepimą!</string>
     <string name="feedback_result_fail_same_type">Panašu, kad ataskaita nesiskiria nuo dabartinio oro. Pabandykite vėliau.</string>
     <string name="feedback_result_success">Pateikta sėkmingai. Dėkojame už jūsų atsiliepimą.</string>
-    <string name="feedback_sandy">Smėlėta</string>
+    <string name="feedback_sandy">Dulkių audra</string>
     <string name="feedback_sunny">Giedra</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -272,18 +267,21 @@
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
     <string name="hourly_forcast_now">Dabar</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M-d</string>
     <string name="index_item_experience_now">Įdiegti dabar</string>
     <string name="indices_title_chance_of_rain">Lietaus galimybė</string>
     <string name="indices_title_feel">Jaučiama</string>
     <string name="indices_title_pressure">Slėgis</string>
     <string name="indices_title_uv">UV</string>
-    <string name="indices_title_wind_speed">Vėjo greitis</string>
     <string name="indices_wind_direction_east">R</string>
     <string name="indices_wind_direction_north">Š</string>
     <string name="indices_wind_direction_south">P</string>
     <string name="indices_wind_direction_west">V</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV indeksas</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Įjungti vietovės paslaugas</string>
     <string name="location_tag">Nustatyti vietą</string>
     <string name="manager_city_option_add_home">Pridėti į pradinį puslapį</string>
@@ -294,16 +292,15 @@
     <string name="minute_rain_feedback_title">Atrodo, kad pateikta orų informacija nėra teisinga.</string>
     <string name="minute_rain_now">Dabar</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
-    <string name="missing_required_permission">Jūs išjungėte reikalingą prieigą.</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -392,8 +389,8 @@
     <string name="privacy_grant_or_revoke_settings">Sutikimo atšaukimas</string>
     <string name="privacy_grant_success">Leidimas sėkmingai suteiktas</string>
     <string name="privacy_policy">Privatumo politika</string>
-    <string name="privacy_policy_msg">&lt;Data>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Konkrečios vietos orų informacija&lt;br/>• Orų prognozė&lt;br/>• Įspėjimai apie orus&lt;br/>&lt;br/> Pagrindinėms orų paslaugoms teikti reikalinga būtinoji jūsų asmeninė informacija. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti orus, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimus galite bet kada atšaukti programos parametruose.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Konkrečios vietos orų informacija&lt;br/>• Orų prognozės&lt;br/>• Įspėjimai apie orus&lt;br/>&lt;br/> Pagrindinėms orų paslaugoms teikti reikalinga būtinoji jūsų asmeninė informacija, apimanti jūsų vieto duomenis, kuri gali būti reikalinga šių funkcijų įgalinimui net tuo metu, kai programa uždaryta arba nėra naudojama. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti orus, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimų galite bet kada atsisakyti „Orų“ programos parametruose.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Konkrečios vietos orų informacija&lt;br/>• Orų prognozė&lt;br/>• Įspėjimai apie orus&lt;br/>&lt;br/> Pagrindinėms orų paslaugoms teikti reikalinga būtinoji jūsų asmeninė informacija. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti orus, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimus galite bet kada atšaukti programos parametruose.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Konkrečios vietos orų informacija&lt;br/>• Orų prognozės&lt;br/>• Įspėjimai apie orus&lt;br/>&lt;br/> Pagrindinėms orų paslaugoms teikti reikalinga būtinoji jūsų asmeninė informacija, apimanti jūsų vieto duomenis, kuri gali būti reikalinga šių funkcijų įgalinimui net tuo metu, kai programa uždaryta arba nėra naudojama. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti orus, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimų galite bet kada atsisakyti „Orų“ programos parametruose.</Data></string>
     <string name="privacy_revoke_success">Autorizacija sėkmingai panaikinta</string>
     <string name="privacy_settings">Privatumo politika</string>
     <string name="pull_fresh_updated">Sėkmingai atnaujinta</string>
@@ -412,10 +409,6 @@
     <string name="realtime_wind_default_title">Vėjas</string>
     <string name="refresh_fail">Nepavyko prisijungti prie tinklo</string>
     <string name="reminder_from_xiaomi_weather_app">„Mi“ orų įspėjimai</string>
-    <string name="request_cta_connect_net">Leisti šiai programai prisijungti prie interneto ir suteikti privalomus pirmiau nurodytus leidimus.</string>
-    <string name="request_permission_location_dialog_content">Atitinkamos orų informacijos rodymas pagal jūsų dabartinę vietovę</string>
-    <string name="request_permission_main_purpose">Orų informacijos rodymas</string>
-    <string name="request_permission_storage_dialog_content">Orų informacijos bendrinimas vaizdo formatu</string>
     <string name="revoke_fail">Nepavyksta prisijungti prie tinklo</string>
     <string name="revoke_privacy_policy_title">Sutikimo atšaukimas</string>
     <string name="saturday">Šeštadienis</string>
@@ -441,7 +434,7 @@
     <string name="share_button">Bendrinti</string>
     <string name="share_menu_title">Bendrinti</string>
     <string name="share_subject">Bendrinti</string>
-    <string name="share_weather_desc">\#MIUI Orai#Šiandien %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Nepavyko įamžinti ekranvaizdžio</string>
     <string name="shortcut_short_label_24_hour_forecast">%d valandų prognozė</string>
@@ -568,9 +561,6 @@
     <string name="user_agreement">Naudotojo sutartis</string>
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
-    <string name="video_banner_regional_weather_update">Regioniniai orų naujinimai</string>
-    <string name="video_banner_weather_forecast">Orų prognozė</string>
-    <string name="video_banner_weather_update">Naujausi orų naujinimai</string>
     <string name="view_forecast_item_yesterday">Vakar</string>
     <string name="view_indexes_item_today">Šiandien</string>
     <string name="view_indexes_item_tommorrow">Rytoj</string>
@@ -591,9 +581,7 @@
     <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">„Orai“ yra sisteminė programėlė. Išdiegę šią programėlę, nebegalėsite peržiūrėti orų prognozės ar naudotis susijusiais valdikliais.</string>
-    <string name="xiaomi_weather_description_content_remove">„Orai“ yra sisteminė programėlė. Pašalinę pagrindinio ekrano nuorodą, nebegalėsite peržiūrėti orų prognozių ae naudotis susijusiais valdikliais.</string>
     <string name="xiaomi_weather_description_title">Išdiegti „Orai“?</string>
-    <string name="xiaomi_weather_description_title_remove">Pašalinti „Orus“ iš pagrindinio ekrano?</string>
     <string name="yes_vote_ratio">Už %1$s%%</string>
     <string name="yesterday">Vakar</string>
 </resources>

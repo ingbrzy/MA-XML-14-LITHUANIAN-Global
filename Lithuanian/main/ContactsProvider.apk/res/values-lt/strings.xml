@@ -16,7 +16,6 @@
     <string name="provider_label">Kontaktai</string>
     <string name="sharedUserLabel">„Android“ svarbiausios programos</string>
     <string name="sim_state_changed">SIM kortelė buvo pakeista</string>
-    <string name="third_party_delete_contact_info">\"%s\" bando ištrinti jūsų kontaktus. Šis veiksmas neleidžiamas trečiųjų šalių programoms. Vietoj to, norėdami pašalinti kontaktus, naudokite integruotą MIUI kontaktų programą.</string>
     <string name="update_accounts_changed">Pakeistos paskyros</string>
     <string name="upgrade_out_of_memory_notification_text">Palieskite atnaujinimo užbaigimui.</string>
     <string name="upgrade_out_of_memory_notification_ticker">Atnaujinimui reikia daugiau atminties.</string>

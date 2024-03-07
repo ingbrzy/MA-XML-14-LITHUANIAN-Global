@@ -396,6 +396,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="sns_access_token_expired_warning">Seanso laikas baigėsi. Prisijunkite dar kartą.</string>
     <string name="sns_bind_limit">Per daug bandymų. Pamėginkite kitus prisijungimo būdus.</string>
     <string name="sns_sign_in">Kiti prisijungimo būdai</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>

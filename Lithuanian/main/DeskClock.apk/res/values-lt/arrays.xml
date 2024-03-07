@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Žadintuvas mažiau nei po 1 minutės</item>
+    <string-array name="alarm_in_furture_new_array">
+        <item>Žadintuvas už mažiau nei %d minutės</item>
         <item>Žadintuvas po %1$s</item>
         <item>Žadintuvas po %2$s</item>
         <item>Žadintuvas po %1$s %2$s</item>
@@ -24,15 +24,15 @@
         <item>Pr - Pn</item>
         <item>Individualus</item>
     </string-array>
-    <string-array name="alarm_set">
-        <item>Žadintuvas suskambės po mažiau nei minutės.</item>
-        <item>Žadintuvas skambės po %1$s.</item>
-        <item>Žadintuvas skambės po %2$s.</item>
-        <item>Žadintuvas skambės po %1$s%2$s.</item>
-        <item>Žadintuvas skambės po %3$s.</item>
-        <item>Žadintuvas skambės po %1$s ir %3$s.</item>
-        <item>Žadintuvas skambės po %2$s ir %3$s.</item>
-        <item>Žadintuvas skambės po %1$s %2$s ir %3$s.</item>
+    <string-array name="alarm_set_new_array">
+        <item>Žadintuvas išsijungs už mažiau nei %d minutės.</item>
+        <item>Žadintuvas išsijungs po %1$s.</item>
+        <item>Žadintuvas išsijungs po %2$s.</item>
+        <item>Žadintuvas išsijungs po %1$s ir %2$s.</item>
+        <item>Žadintuvas išsijungs po %3$s.</item>
+        <item>Žadintuvas išsijungs po %1$s ir %3$s.</item>
+        <item>Žadintuvas išsijungs po %2$s ir %3$s.</item>
+        <item>Žadintuvas išsijungs po %1$s %2$s ir %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>Geras</item>
@@ -42,20 +42,19 @@
         <item>Labai prastas</item>
         <item>Kenksmingas</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Niekada</item>
-        <item>1 minutė</item>
-        <item>5 minutės</item>
-        <item>10 minučių</item>
-        <item>15 minučių</item>
-        <item>20 minučių</item>
-        <item>25 minutės</item>
-        <item>30 minučių</item>
-    </string-array>
     <string-array name="bedtime_guide_repeat_type">
         <item>Nuo pirmadienio iki penktadienio</item>
         <item>Kasdien</item>
         <item>Darbo dienomis</item>
+    </string-array>
+    <string-array name="bedtime_guide_repeat_type_international">
+        <item>Pr. – Pn.</item>
+        <item>Kasdien</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entires_international">
+        <item>Kasdien</item>
+        <item>Pr. – Pn.</item>
+        <item>Tinkinti</item>
     </string-array>
     <string-array name="bedtime_repeat_entries">
         <item>Kasdien</item>
@@ -351,11 +350,6 @@
         <item>Paramaribas</item>
         <item>Kitas</item>
     </string-array>
-    <string-array name="clock_bg_setting_entries">
-        <item>Balta</item>
-        <item>Juoda</item>
-        <item>Automatinis</item>
-    </string-array>
     <string-array name="countries_names_miui">
         <item>Dramblio Kaulo Krantas</item>
         <item>Gana</item>
@@ -644,40 +638,6 @@
         <item>Surinamas</item>
         <item>Ekvadoras</item>
     </string-array>
-    <string-array name="days_of_week">
-        <item>Sk</item>
-        <item>Pr</item>
-        <item>An</item>
-        <item>Tr</item>
-        <item>Kt</item>
-        <item>Pn</item>
-        <item>Št</item>
-    </string-array>
-    <string-array name="notification_adv_time_entries">
-        <item>Nustatytu laiku</item>
-        <item>Prieš 15 minučių</item>
-        <item>Prieš 30 minučių</item>
-        <item>Prieš 1 valandą</item>
-        <item>Jokio</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minutę</item>
-        <item>5 minutes</item>
-        <item>10 minučių</item>
-        <item>15 minučių</item>
-        <item>20 minučių</item>
-        <item>25 minutes</item>
-        <item>30 minučių</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="time">
         <item>%1$s</item>
         <item>%2$s</item>
@@ -700,10 +660,5 @@
         <item>Jokio veiksmo</item>
         <item>Prim. vėliau</item>
         <item>Išjungimas</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

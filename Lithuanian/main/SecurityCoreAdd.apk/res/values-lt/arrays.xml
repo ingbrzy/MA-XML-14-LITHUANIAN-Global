@@ -5,6 +5,23 @@
         <item>Numatytoji programa</item>
         <item>Dviguba programa</item>
     </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
+    </string-array>
+    <string-array name="screen_key_position_action">
+        <item>Meniu mygtukas – kairėje, grįžimo mygtukas – dešinėje</item>
+        <item>Grįžimo mygtukas – kairėje, „Meniu“ mygtukas – dešinėje</item>
+    </string-array>
+    <string-array name="screen_key_press_action">
+        <item>Rodyti naujausių programų dėklą</item>
+        <item>Rodyti meniu</item>
+    </string-array>
     <string-array name="switch_apps_entries">
         <item>Naudoti „Pirmoje erdvėje“</item>
         <item>Naudoti dabartinėje erdvėje</item>

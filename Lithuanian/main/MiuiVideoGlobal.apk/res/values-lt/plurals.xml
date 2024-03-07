@@ -7,10 +7,10 @@
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Dabar</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -50,9 +50,9 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
     </plurals>
     <plurals name="comment_model_watch_reply">
         <item quantity="other">Peržiūrėti %d atsakymų</item>
@@ -77,12 +77,6 @@
         <item quantity="one">Atsukti atgal %d sekundę</item>
         <item quantity="few">Atsukti atgal %d sekundes</item>
         <item quantity="many">Atsukti atgal %d sekundės</item>
-    </plurals>
-    <plurals name="fcmpts_dialog_one">
-        <item quantity="other">Peržiūrėkite vaizdo įrašą dar %s sekundžių, gaukite taškų ir juos panaudokite</item>
-        <item quantity="one">Peržiūrėkite vaizdo įrašą dar %s sekundę, gaukite taškų ir juos panaudokite</item>
-        <item quantity="few">Peržiūrėkite vaizdo įrašą dar %s sekundes, gaukite taškų ir juos panaudokite</item>
-        <item quantity="many">Peržiūrėkite vaizdo įrašą dar %s sekundžių, gaukite taškų ir juos panaudokite</item>
     </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
@@ -126,52 +120,6 @@
         <item quantity="few">po %d minučių</item>
         <item quantity="many">po %d minučių</item>
     </plurals>
-    <plurals name="incentive_dialog_congratulation_get_credits_title">
-        <item quantity="other">Gavote %d taškų!</item>
-        <item quantity="one">Gavote %d tašką!</item>
-        <item quantity="few">Gavote %d taškus!</item>
-        <item quantity="many">Gavote %d taškų!</item>
-    </plurals>
-    <plurals name="incentive_dialog_credits">
-        <item quantity="other">%d taškų</item>
-        <item quantity="one">%d taškas</item>
-        <item quantity="few">%d taškai</item>
-        <item quantity="many">%d taškų</item>
-    </plurals>
-    <plurals name="incentive_dialog_login_and_get_credits_message">
-        <item quantity="other">Prisijunkite, kad gautumėte %d papildomų taškų!</item>
-        <item quantity="one">Prisijunkite, kad gautumėte %d papildomą tašką</item>
-        <item quantity="few">Prisijunkite, kad gautumėte %d papildomus taškus!</item>
-        <item quantity="many">Prisijunkite, kad gautumėte %d papildomų taškų!</item>
-    </plurals>
-    <plurals name="incentive_dialog_seconds">
-        <item quantity="other">%d sekundžių</item>
-        <item quantity="one">%d sekundė</item>
-        <item quantity="few">%d sekundės</item>
-        <item quantity="many">%d sekundžių</item>
-    </plurals>
-    <plurals name="incentive_guide_all_time_tip">
-        <item quantity="other">Peržiūrėkite iš viso %d minučių, kad gautumėte taškų! Atlikti užduotį dabar?</item>
-        <item quantity="one">Peržiūrėkite iš viso %d minutę, kad gautumėte taškų! Atlikti užduotį dabar?</item>
-        <item quantity="few">Peržiūrėkite iš viso %d minutes, kad gautumėte taškų! Atlikti užduotį dabar?</item>
-        <item quantity="many">Peržiūrėkite iš viso %d minučių, kad gautumėte taškų! Atlikti užduotį dabar?</item>
-    </plurals>
-    <plurals name="incentive_guide_coins_tip">
-        <item quantity="other">"Jums priklauso %d taškų
-Tik šiandien"</item>
-        <item quantity="one">"Jums priklauso %d taškas
-Tik šiandien"</item>
-        <item quantity="few">"Jums priklauso %d taškai
-Tik šiandien"</item>
-        <item quantity="many">"Jums priklauso %d taškų
-Tik šiandien"</item>
-    </plurals>
-    <plurals name="incentive_guide_current_time_tip">
-        <item quantity="other">Šiandien peržiūrėjote %d minučių</item>
-        <item quantity="one">Šiandien peržiūrėjote %d minutę</item>
-        <item quantity="few">Šiandien peržiūrėjote %d minutes</item>
-        <item quantity="many">Šiandien peržiūrėjote %d minučių</item>
-    </plurals>
     <plurals name="incentive_popup_window_share_success">
         <item quantity="other">Sėkmingai užsiprenumeravote. Uždirbote %d taškus.</item>
         <item quantity="one">Sėkmingai užsiprenumeravote. Uždirbote %d tašką.</item>
@@ -184,48 +132,6 @@ Tik šiandien"</item>
         <item quantity="few">Sėkmingai užsiprenumeravote. Uždirbote %d taškų.</item>
         <item quantity="many">Sėkmingai užsiprenumeravote. Uždirbote %d taškus.</item>
     </plurals>
-    <plurals name="incentive_task_watchvideo_begin">
-        <item quantity="other">Uždirbkite %d taškų!</item>
-        <item quantity="one">Uždirbkite %d tašką!</item>
-        <item quantity="few">Uždirbkite %d taškus!</item>
-        <item quantity="many">Uždirbkite %d taškų!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_finish">
-        <item quantity="other">Šiandienos užduotys baigtos! Uždirbote %d taškų.</item>
-        <item quantity="one">Šiandienos užduotys baigtos! Uždirbote %d tašką.</item>
-        <item quantity="few">Šiandienos užduotys baigtos! Uždirbote %d taškus.</item>
-        <item quantity="many">Šiandienos užduotys baigtos! Uždirbote %d taškų.</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_of_one">
-        <item quantity="other">Peržiūrėjote %1$1d sek. ir uždirbote %2$2d taškų!</item>
-        <item quantity="one">Peržiūrėjote %1$1d sek. ir uždirbote %2$2d tašką!</item>
-        <item quantity="few">Peržiūrėjote %1$1d sek. ir uždirbote %2$2d taškus!</item>
-        <item quantity="many">Peržiūrėjote %1$1d sek. ir uždirbote %2$2d taškų!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip1">
-        <item quantity="other">Peržiūrėkite atsitiktinį vaizdo įrašą ir uždirbkite %d taškų</item>
-        <item quantity="one">Peržiūrėkite atsitiktinį vaizdo įrašą ir uždirbkite %d tašką</item>
-        <item quantity="few">Peržiūrėkite atsitiktinį vaizdo įrašą ir uždirbkite %d taškus</item>
-        <item quantity="many">Peržiūrėkite atsitiktinį vaizdo įrašą ir uždirbkite %d taškų</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip2">
-        <item quantity="other">Peržiūrėkite %1$1d sekundžių vaizdo įrašo ir uždirbkite %2$2d taškų</item>
-        <item quantity="one">Peržiūrėkite %1$1d sekundžių vaizdo įrašo ir uždirbkite %2$2d tašką</item>
-        <item quantity="few">Peržiūrėkite %1$1d sekundžių vaizdo įrašo ir uždirbkite %2$2d taškus</item>
-        <item quantity="many">Peržiūrėkite %1$1d sekundžių vaizdo įrašo ir uždirbkite %2$2d taškų</item>
-    </plurals>
-    <plurals name="incentive_toast_share_success">
-        <item quantity="other">Gavote %d taškų. Toliau bendrinkite, kad gautumėte daugiau.</item>
-        <item quantity="one">Gavote %d tašką. Toliau bendrinkite, kad gautumėte daugiau.</item>
-        <item quantity="few">Gavote %d taškus. Toliau bendrinkite, kad gautumėte daugiau.</item>
-        <item quantity="many">Gavote %d taškų. Toliau bendrinkite, kad gautumėte daugiau.</item>
-    </plurals>
-    <plurals name="incentive_toast_subscribe_success">
-        <item quantity="other">Gavote %d taškų. Toliau prenumeruokite, kad gautumėte daugiau.</item>
-        <item quantity="one">Gavote %d tašką. Toliau prenumeruokite, kad gautumėte daugiau.</item>
-        <item quantity="few">Gavote %d taškus. Toliau prenumeruokite, kad gautumėte daugiau.</item>
-        <item quantity="many">Gavote %d taškų. Toliau prenumeruokite, kad gautumėte daugiau.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
         <item quantity="one">Ką tik</item>
@@ -237,6 +143,12 @@ Tik šiandien"</item>
         <item quantity="one">%d vaizdo įrašas</item>
         <item quantity="few">%d vaizdo įrašaI</item>
         <item quantity="many">%d vaizdo įrašų</item>
+    </plurals>
+    <plurals name="local_longpress_speed_chenge_tip">
+        <item quantity="other">Grojama %sX greičiu. Atleiskite grojimui įprastu greičiu.</item>
+        <item quantity="one">Grojama %sX greičiu. Atleiskite grojimui įprastu greičiu.</item>
+        <item quantity="few">Grojama %sX greičiu. Atleiskite grojimui įprastu greičiu.</item>
+        <item quantity="many">Grojama %sX greičiu. Atleiskite grojimui įprastu greičiu.</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d aplankų</item>
@@ -273,12 +185,6 @@ Tik šiandien"</item>
         <item quantity="one">Dydis: %.2fKB</item>
         <item quantity="few">Dydis: %.2fKB</item>
         <item quantity="many">Dydis: %.2fKB</item>
-    </plurals>
-    <plurals name="lv_video_count">
-        <item quantity="other">%d vaizdo įrašų</item>
-        <item quantity="one">%d vaizdo įrašas</item>
-        <item quantity="few">%d vaizdo įrašai</item>
-        <item quantity="many">%d vaizdo įrašai</item>
     </plurals>
     <plurals name="mangotv_feature_list_title1">
         <item quantity="other">Galimos %1$1d iš %2$2d serijų</item>
@@ -322,18 +228,6 @@ Tik šiandien"</item>
         <item quantity="few">%d dainos</item>
         <item quantity="many">%d dainų</item>
     </plurals>
-    <plurals name="new_incentive_toast_share_success">
-        <item quantity="other">Bendrinote sėkmingai. Gavote %d taškus. Išsiimkite juos taškų išdavimo centre.</item>
-        <item quantity="one">Bendrinote sėkmingai. Gavote %d tašką. Išsiimkite jį taškų išdavimo centre.</item>
-        <item quantity="few">Bendrinote sėkmingai. Gavote %d taškus. Išsiimkite juos taškų išdavimo centre.</item>
-        <item quantity="many">Bendrinote sėkmingai. Gavote %d taškų. Išsiimkite juos taškų išdavimo centre.</item>
-    </plurals>
-    <plurals name="new_incentive_toast_subscribe_success">
-        <item quantity="other">Užsiprenumeravote sėkmingai. Gavote %d taškų. Išsiimkite juos taškų išdavimo centre.</item>
-        <item quantity="one">Užsiprenumeravote sėkmingai. Gavote %d tašką. Išsiimkite jį taškų išdavimo centre.</item>
-        <item quantity="few">Užsiprenumeravote sėkmingai. Gavote %d taškus. Išsiimkite juos taškų išdavimo centre.</item>
-        <item quantity="many">Užsiprenumeravote sėkmingai. Gavote %d taškų. Išsiimkite juos taškų išdavimo centre.</item>
-    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Jūsų turinyje yra elementų (%1$s), pažeidžiančių mūsų bendrijos standartus. Jūsų paskyra sustabdyta %2$d dienų iki %3$s.</item>
         <item quantity="one">Jūsų turinyje yra elementų (%1$s), pažeidžiančių mūsų bendrijos standartus. Jūsų paskyra sustabdyta %2$d dienai iki %3$s.</item>
@@ -351,18 +245,6 @@ Tik šiandien"</item>
         <item quantity="one">Prieš 1 minutę</item>
         <item quantity="few">Prieš %d minutes</item>
         <item quantity="many">Prieš %d minutes</item>
-    </plurals>
-    <plurals name="ovp_detail_v_video_count">
-        <item quantity="other">%d vaizdo įrašų</item>
-        <item quantity="one">%d vaizdo įrašas</item>
-        <item quantity="few">%d vaizdo įrašai</item>
-        <item quantity="many">%d vaizdo įrašai</item>
-    </plurals>
-    <plurals name="ovp_home_item_unit">
-        <item quantity="other">%d vaizdo įrašų</item>
-        <item quantity="one">%d vaizdo įrašas</item>
-        <item quantity="few">%d vaizdo įrašai</item>
-        <item quantity="many">%d vaizdo įrašai</item>
     </plurals>
     <plurals name="plus_edit_delete_comfire_text">
         <item quantity="other">Trinti %s elementų?</item>
@@ -447,12 +329,6 @@ Tik šiandien"</item>
         <item quantity="one">Pridėkite iki %d žymės</item>
         <item quantity="few">Pridėkite iki %d žymių</item>
         <item quantity="many">Pridėkite iki %d žymių</item>
-    </plurals>
-    <plurals name="v_confirm_hide_videos_new">
-        <item quantity="other">Slėpti %d pasirinktus failus?</item>
-        <item quantity="one">Slėpti %d pasirinktų failų?</item>
-        <item quantity="few">Slėpti %d pasirinktus failus?</item>
-        <item quantity="many">Slepti %d pasirinktų failų?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s žymėjimų „patinka“</item>

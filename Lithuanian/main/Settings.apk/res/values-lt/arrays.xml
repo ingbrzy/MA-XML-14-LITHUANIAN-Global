@@ -36,12 +36,12 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animacija išjungta</item>
-        <item>Animacijos mastelis .5x</item>
-        <item>Animacijos mastelis 1x</item>
-        <item>Animacijos mastelis 1.5x</item>
-        <item>Animacijos mastelis 2x</item>
-        <item>Animacijos mastelis 5x</item>
-        <item>Animacijos mastelis 10x</item>
+        <item>Animacijos mastelis 0,5 x</item>
+        <item>Animacijos mastelis 1 x</item>
+        <item>Animacijos mastelis 1,5 x</item>
+        <item>Animacijos mastelis 2 x</item>
+        <item>Animacijos mastelis 5 x</item>
+        <item>Animacijos mastelis 10 x</item>
     </string-array>
     <string-array name="ap_identify">
         <item>Numatytasis</item>
@@ -57,18 +57,6 @@
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4 / IPv6</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Vidinė įrenginio saugykla</item>
-        <item>Keičiama SD kortelė</item>
-        <item>Leisti nuspręsti sistemai</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Vieta</item>
-        <item>Asmeninės</item>
-        <item>Susirašinėjimas</item>
-        <item>Medija</item>
-        <item>Įrenginys</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Vietovė</item>
@@ -205,8 +193,8 @@
         <item>pritaikymo neįgaliesiems garsas</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standartinis ribojimas</item>
-        <item>Nėra foninių procesų</item>
+        <item>Standartinis apribojimas</item>
+        <item>Nėra fono procesų</item>
         <item>Daugiausia 1 procesas</item>
         <item>Daugiausia 2 procesai</item>
         <item>Daugiausia 3 procesai</item>
@@ -223,12 +211,17 @@
         <item>Daugiau nei 90 dienų</item>
     </string-array>
     <array name="avatar_image_descriptions" />
-    <array name="avatar_images" />
     <string-array name="battery_indicator_style_entries">
         <item>Grafinis</item>
         <item>Procentinis (piktogramoje)</item>
         <item>Procentinis (šalia piktogramos)</item>
         <item>Juostoje viršuje</item>
+    </string-array>
+    <string-array name="battery_indicator_style_summaries">
+        <item>Grafinis</item>
+        <item>Procentinis (piktogramoje)</item>
+        <item>Procentinis (šalia piktogramos)</item>
+        <item>Progreso juosta</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0 %</item>
@@ -263,32 +256,32 @@
         <item>Žemos gaišties režimas</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>16 bitų/pavyzdį</item>
-        <item>24 bitai/pavyzdį</item>
-        <item>32 bitai/pavyzdį</item>
+        <item>Naudoti sistemos pasirink. (numatytasis)</item>
+        <item>16 bitų pavyzdyje</item>
+        <item>24 bitai pavyzdyje</item>
+        <item>32 bitai pavyzdyje</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>16 bitų/pavyzdį</item>
-        <item>24 bitai/pavyzdį</item>
-        <item>32 bitai/pavyzdį</item>
+        <item>Naudoti sistemos pasirink. (numatytasis)</item>
+        <item>16 bitų pavyzdyje</item>
+        <item>24 bitai pavyzdyje</item>
+        <item>32 bitai pavyzdyje</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>Mono</item>
-        <item>Stereo</item>
+        <item>Naudoti sistemos pasirink. (numatytasis)</item>
+        <item>Monofoninis garsas</item>
+        <item>Stereofoninis garsas</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>Mono</item>
-        <item>Stereo</item>
+        <item>Naudoti sistemos pasirink. (numatytasis)</item>
+        <item>Monofoninis garsas</item>
+        <item>Stereofoninis garsas</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Optimizuota garso kokybė</item>
         <item>Subalansuota garso ir ryšio kokybė</item>
         <item>Optimizuota ryšio kokybė</item>
-        <item>Geriausias efektas (prisitaikanti sparta bitais)</item>
+        <item>Geriausias rezultatas (adaptyvusis pralaidumas)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Optimizuota garso kokybei (990kbps/909kbps)</item>
@@ -320,20 +313,6 @@
         <item>Subalansuota garso ir ryšio kokybė (500/560 kbps)</item>
         <item>Geriausias efektas (prisitaikanti sparta bitais)</item>
     </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Naudoti sistemos nuostatas (numatytasis)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Naudoti sistemos nuostatas (numatytasis)</item>
         <item>SBC</item>
@@ -343,6 +322,7 @@
         <item>LDAC</item>
         <item>„Qualcomm®“ aptX™ adaptyvusis garsas</item>
         <item>„Qualcomm®“ aptX™ TWS+ garsas</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -358,6 +338,7 @@
         <item>LDAC</item>
         <item>„Qualcomm®“ aptX™ adaptyvusis garsas</item>
         <item>„Qualcomm®“ aptX™ TWS+ garsas</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -370,6 +351,11 @@
         <item>" | Aktyvus (medija)"</item>
         <item>" | Aktyvus (įrenginys)"</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Naudoti numatytąją programą</item>
+        <item>Leisti klausos įrenginyje</item>
+        <item>Leisti telefono garsiakalbyje</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp15</item>
         <item>avrcp13</item>
@@ -377,9 +363,9 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (numatytasis)</item>
+        <item>AVRCP 1.5 (numatytoji)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -388,9 +374,9 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>„MAP“ 1.2 (numatytasis)</item>
-        <item>MAP 1.3</item>
-        <item>MAP 1.4</item>
+        <item>1.2 versijos MRK (numatytoji)</item>
+        <item>1.3 versijos MRK</item>
+        <item>1.4 versijos MRK</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Naudoti numatytuosius sistemos nustatymus: %1$d</item>
@@ -400,18 +386,21 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 min.</item>
-        <item>5 min.</item>
-        <item>1 val.</item>
-        <item>Nėra skirtojo laiko pabaigos</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Išjungta</item>
-        <item>Filtruojama</item>
-        <item>Įjungta</item>
-        <item>Antraštės filtruojamos</item>
-        <item>Medijų paketai filtruojami</item>
+        <item>Įgalinta filtruota</item>
+        <item>Įgalinta</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Palikti tik ACL antraštes</item>
+        <item>Filtruoti A2DP medijos paketus</item>
+        <item>Filtruoti RFCOMM kanalą</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Išjungti</item>
+        <item>Užpildyti simbolių juosta</item>
+        <item>Palikti tik antraštę</item>
+        <item>Visiškai pašalinti</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 sekundė</item>
@@ -482,306 +471,40 @@
         <item>PIN</item>
         <item>Slaptažodis</item>
     </string-array>
-    <string-array name="city_name">
-        <item>Abidžanas</item>
-        <item>Akra</item>
-        <item>Adis Abeba</item>
-        <item>Alžyras</item>
-        <item>Blantairas</item>
-        <item>Brazavilis</item>
-        <item>Kairas</item>
-        <item>Kasablanka</item>
-        <item>Konakris</item>
-        <item>Dakaras</item>
-        <item>Dar es Salamas</item>
-        <item>Džibutis</item>
-        <item>Fritaunas</item>
-        <item>Gaboronas</item>
-        <item>Hararė</item>
-        <item>Johanesburgas</item>
-        <item>Kampala</item>
-        <item>Chartumas</item>
-        <item>Kigalis</item>
-        <item>Kinšasa</item>
-        <item>Lagosas</item>
-        <item>Maseru</item>
-        <item>Mogadišas</item>
-        <item>Nairobis</item>
-        <item>San Tomė</item>
-        <item>Timbuktu</item>
-        <item>Tripolis</item>
-        <item>Tunisas</item>
-        <item>Ankoridžas</item>
-        <item>Mendosa</item>
-        <item>Aruba</item>
-        <item>Asunsjonas</item>
-        <item>Barbadosas</item>
-        <item>Belizas</item>
-        <item>Bogota</item>
-        <item>Buenos Airės</item>
-        <item>Kankunas</item>
-        <item>Karakasas</item>
-        <item>Kaimanų Salos</item>
-        <item>Čikaga</item>
-        <item>Kosta Rika</item>
-        <item>Kiurasao</item>
-        <item>Doson Krikas</item>
-        <item>Denveris</item>
-        <item>Detroitas</item>
-        <item>Dominika</item>
-        <item>Edmontonas</item>
-        <item>Salvadoras</item>
-        <item>Fortaleza</item>
-        <item>Grand Terkas</item>
-        <item>Grenada</item>
-        <item>Gvatemala</item>
-        <item>Gajana</item>
-        <item>Halifaksas</item>
-        <item>Havana</item>
-        <item>Indianapolis</item>
-        <item>Noks Sitis</item>
-        <item>Sankt Peterburgas</item>
-        <item>Tel Sitis</item>
-        <item>Vivis</item>
-        <item>Vensenas</item>
-        <item>Vinamakas</item>
-        <item>Kingstonas</item>
-        <item>Nuestra Senjora de la Pasas</item>
-        <item>Lima</item>
-        <item>Los Andželas</item>
-        <item>Luisvilis</item>
-        <item>Managva</item>
-        <item>Martinika</item>
-        <item>Metlakatla</item>
-        <item>Meksikas</item>
-        <item>Monterėjus</item>
-        <item>Montevidėjas</item>
-        <item>Monrealis</item>
-        <item>Nasau</item>
-        <item>Niujorkas</item>
-        <item>Bjula</item>
-        <item>Naujasis Salemas</item>
-        <item>Panama</item>
-        <item>Finiksas</item>
-        <item>Port of Speinas</item>
-        <item>Port o Prensas</item>
-        <item>Puerto Rikas</item>
-        <item>Santo Domingas</item>
-        <item>San Paulas</item>
-        <item>Sent Džonsas</item>
-        <item>Sent Kitsas</item>
-        <item>Sent Lusija</item>
-        <item>Sent Tomas</item>
-        <item>Tichuana</item>
-        <item>Torontas</item>
-        <item>Vankuveris</item>
-        <item>Vinipegas</item>
-        <item>Pietų ašigalis</item>
-        <item>Longjyrbienas</item>
-        <item>Almata</item>
-        <item>Amanas</item>
-        <item>Anadyras</item>
-        <item>Aktau</item>
-        <item>Bagdadas</item>
-        <item>Bahreinas</item>
-        <item>Baku</item>
-        <item>Bankokas</item>
-        <item>Beirutas</item>
-        <item>Kalkuta</item>
-        <item>Damaskas</item>
-        <item>Daka</item>
-        <item>Dubajus</item>
-        <item>Gaza</item>
-        <item>Hebronas</item>
-        <item>Hošiminas</item>
-        <item>Honkongas</item>
-        <item>Džakarta</item>
-        <item>Jeruzalė</item>
-        <item>Kabulas</item>
-        <item>Karačis</item>
-        <item>Katmandu</item>
-        <item>Kvala Lumpūras</item>
-        <item>Kuveitas</item>
-        <item>Makao</item>
-        <item>Manila</item>
-        <item>Muskatas</item>
-        <item>Pnompenis</item>
-        <item>Pchenjanas</item>
-        <item>Kataras</item>
-        <item>Rangūnas</item>
-        <item>Rijadas</item>
-        <item>Seulas</item>
-        <item>Šanchajus</item>
-        <item>Singapūras</item>
-        <item>Taipėjus</item>
-        <item>Teheranas</item>
-        <item>Tel Avivas</item>
-        <item>Tokijas</item>
-        <item>Ulan Batoras</item>
-        <item>Bermuda</item>
-        <item>Kanarų salos</item>
-        <item>Žaliasis Kyšulys</item>
-        <item>Reikjavikas</item>
-        <item>Adelaidė</item>
-        <item>Brisbenas</item>
-        <item>Kanbera</item>
-        <item>Darvinas</item>
-        <item>Melburnas</item>
-        <item>Naujasis Pietų Velsas</item>
-        <item>Pertas</item>
-        <item>Kvinslandas</item>
-        <item>Sidnėjus</item>
-        <item>Viktorija</item>
-        <item>Niufaundlandas</item>
-        <item>Saskačevanas</item>
-        <item>Velykų sala</item>
-        <item>Amsterdamas</item>
-        <item>Andora</item>
-        <item>Atėnai</item>
-        <item>Belfastas</item>
-        <item>Belgradas</item>
-        <item>Berlynas</item>
-        <item>Bratislava</item>
-        <item>Briuselis</item>
-        <item>Bukareštas</item>
-        <item>Budapeštas</item>
-        <item>Kišiniovas</item>
-        <item>Kopenhaga</item>
-        <item>Dublinas</item>
-        <item>Gibraltaras</item>
-        <item>Helsinkis</item>
-        <item>Meno sala</item>
-        <item>Stambulas</item>
-        <item>Lisabona</item>
-        <item>Londonas</item>
-        <item>Liuksemburgas</item>
-        <item>Madridas</item>
-        <item>Malta</item>
-        <item>Minskas</item>
-        <item>Monakas</item>
-        <item>Maskva</item>
-        <item>Oslas</item>
-        <item>Paryžius</item>
-        <item>Praha</item>
-        <item>Ryga</item>
-        <item>Roma</item>
-        <item>San Marinas</item>
-        <item>Sarajevas</item>
-        <item>Simferopolis</item>
-        <item>Skopjė</item>
-        <item>Sofija</item>
-        <item>Stokholmas</item>
-        <item>Talinas</item>
-        <item>Vatikanas</item>
-        <item>Viena</item>
-        <item>Vilnius</item>
-        <item>Varšuva</item>
-        <item>Zagrebas</item>
-        <item>Ciurichas</item>
-        <item>Antananaryvas</item>
-        <item>Maldyvai</item>
-        <item>Mauricijus</item>
-        <item>Ouklendas</item>
-        <item>Fidžis</item>
-        <item>Guamas</item>
-        <item>Honolulu</item>
-        <item>Kiritimatis</item>
-        <item>Numėja</item>
-        <item>Samoa</item>
-        <item>Tahitis</item>
-        <item>Antigva</item>
-        <item>Ostinas</item>
-        <item>Bostonas</item>
-        <item>Kalgaris</item>
-        <item>Kolumbas</item>
-        <item>Dalasas</item>
-        <item>Noksvilis</item>
-        <item>Memfis</item>
-        <item>Majamis</item>
-        <item>Mineapolis</item>
-        <item>Otava</item>
-        <item>Filadelfija</item>
-        <item>Portlandas</item>
-        <item>San Diegas</item>
-        <item>San Fransiskas</item>
-        <item>Solt Leik Sitis</item>
-        <item>San Chosė</item>
-        <item>Sietlas</item>
-        <item>Sent Luisas</item>
-        <item>Vašingtonas</item>
-        <item>Hiustonas</item>
-        <item>San Antonijus</item>
-        <item>Džeksonvilis</item>
-        <item>Baltimorė</item>
-        <item>Našvilis</item>
-        <item>Milvokis</item>
-        <item>Oklahoma Sitis</item>
-        <item>Las Vegasas</item>
-        <item>Albukerkė</item>
-        <item>Tuksonas</item>
-        <item>Sakramentas</item>
-        <item>Atlanta</item>
-        <item>Klivlendas</item>
-        <item>Naujasis Orleanas</item>
-        <item>Tampa</item>
-        <item>Pitsburgas</item>
-        <item>Sinsinatis</item>
-        <item>Mauntin Vju</item>
-        <item>Rynas</item>
-        <item>Doha</item>
-        <item>Pekinas</item>
-        <item>Mumbajus</item>
-        <item>Delis</item>
-        <item>Osaka</item>
-        <item>Lahoras</item>
-        <item>Sana</item>
-        <item>Barselona</item>
-        <item>Miunchenas</item>
-        <item>Milanas</item>
-        <item>Frankfurtas</item>
-        <item>Hanojus</item>
-        <item>Ankara</item>
-        <item>Bengalūras</item>
-        <item>Brazilija</item>
-        <item>Keiptaunas</item>
-        <item>Islamabadas</item>
-        <item>Rio de Žaneiras</item>
-        <item>An Arboras</item>
-        <item>Boulder Sitis</item>
-        <item>Kembridžas</item>
-        <item>Kirklandas</item>
-        <item>Medisonas</item>
-        <item>Guangdžou</item>
-        <item>Haidarabadas</item>
-        <item>Restonas</item>
-        <item>Belo Horizontė</item>
-        <item>Santjagas</item>
-        <item>Monrovija</item>
-        <item>Kolombas</item>
-        <item>Čihuahua</item>
-        <item>Gurgaunas</item>
-        <item>Mančesteris</item>
-        <item>Kijevas</item>
-        <item>Sankt Peterburgas</item>
-        <item>Krokuva</item>
-        <item>Vroclavas</item>
-        <item>Hamburgas</item>
-        <item>Oulu</item>
-        <item>Haifa</item>
-        <item>San Chuanas</item>
-        <item>Tegusigalpa</item>
-        <item>Paramaribas</item>
-        <item>Kitas</item>
-    </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
-        <item>Paryškintų spalvų</item>
-        <item>Natūralių spalvų lyg matomų akimis</item>
-        <item>Spalvų, optimizuotų skaitmeniniam turiniui</item>
+        <item>Patobulintos spalvos</item>
+        <item>Natūralios spalvos</item>
+        <item>Skaitmeniniam turiniui optimizuotos spalvos</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Spalvingas (numatytasis)</item>
+        <item>Ryškus (numatytasis)</item>
         <item>Natūralus</item>
-        <item>Įprastas</item>
+        <item>Standartinis</item>
     </string-array>
     <string-array name="color_picker">
         <item>Žalsvai mėlyna</item>
@@ -808,12 +531,8 @@
         <item>1</item>
     </string-array>
     <string-array name="dark_ui_mode_entries">
-        <item>Tamsi</item>
-        <item>Šviesi</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>Pastarosios 30 dienų</item>
-        <item>Nustatyti naudojimo ciklą...</item>
+        <item>Tamsus</item>
+        <item>Šviesus</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Šiandien (mobiliųjų duomenų) "</item>
@@ -834,19 +553,9 @@
         <item>"Praėjusį mėnesį: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Išj.</item>
-        <item>Rodyti persidengiančias sritis</item>
-        <item>Rodyti deuteranomalija pažymėtas vietas</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Niekada</item>
-        <item>15 sek.</item>
-        <item>30 sek.</item>
-        <item>1 min.</item>
-        <item>2 min.</item>
-        <item>5 min.</item>
-        <item>10 min.</item>
-        <item>30 min.</item>
+        <item>Išjungta</item>
+        <item>Rodyti perdangos sritis</item>
+        <item>Rodyti deuteranomalijos sritis</item>
     </string-array>
     <string-array name="eap_ocsp_type">
         <item>Nepatvirtinti</item>
@@ -854,16 +563,10 @@
         <item>Reikalauti sertifikato būsenos</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Jokio</item>
-        <item>„Logcat“</item>
-        <item>„Systrace“ (Grafika)</item>
-        <item>„glGetError“ iškvietimų dėklas</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Mažas</item>
-        <item>Numatytasis</item>
-        <item>Didelis</item>
-        <item>Didžiausias</item>
+        <item>Nėra</item>
+        <item>Logcat</item>
+        <item>„Systrace“ (grafika)</item>
+        <item>Kreipinių dėklas „glGetError“</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Šio pakeitimo pritaikymui paleisti įrenginį iš naujo?</item>
@@ -890,7 +593,7 @@
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Niekada nenaudoti HDCP tikrinimo</item>
-        <item>Naudoti HDCP tikrinimą tik DRM turiniui</item>
+        <item>Taikyti HDCP tikrinimą tik DRM turiniui</item>
         <item>Visada naudoti HDCP tikrinimą</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -901,6 +604,20 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Nežadinti ekrano</item>
@@ -945,6 +662,43 @@
         <item>Po 5 minučių</item>
         <item>Niekada</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_list_titles">
         <item>Trumpa</item>
         <item>Vidutinė</item>
@@ -1018,6 +772,14 @@
         <item>"Išdiegti įrenginį: fusermount -u /media/mtp
 Pastaba: Tik „Ubuntu“ 8.04!"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Įdiekite „Mi PC Suite“ iš naujo</item>
@@ -1034,6 +796,14 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Tinklas yra lėtas, nes ryšys – silpnas</item>
         <item>Perkeliama…</item>
     </string-array>
+    <string-array name="nfc_notification_mode_summaries">
+        <item>Mokėjimo, prieigos ir išmaniųjų namų kortelės</item>
+        <item>„Bluetooth“ susiejimas, belaidis ryšys ir išmaniųjų namų kortelės</item>
+    </string-array>
+    <string-array name="nfc_notification_mode_titles">
+        <item>Visos kortelės</item>
+        <item>Sistemos atpažintos kortelės</item>
+    </string-array>
     <string-array name="nfc_payment_favor">
         <item>Visada</item>
         <item>Išskyrus atvejus, kai kita mokėjimo programa yra atidaryta</item>
@@ -1043,6 +813,11 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>1</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
+        <item>Grafinis</item>
+        <item>Procentinis (piktogramoje)</item>
+        <item>Procentinis (šalia piktogramos)</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_summaries">
         <item>Grafinis</item>
         <item>Procentinis (piktogramoje)</item>
         <item>Procentinis (šalia piktogramos)</item>
@@ -1104,18 +879,18 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>zw</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Jokio</item>
-        <item>480p</item>
-        <item>480p (saugus)</item>
-        <item>720p</item>
-        <item>720p (saugus)</item>
-        <item>1080p</item>
-        <item>1080p (saugus)</item>
+        <item>Nėra</item>
+        <item>480 piks.</item>
+        <item>480 piks. (saugus)</item>
+        <item>720 piks.</item>
+        <item>720 piks. (saugus)</item>
+        <item>1 080 piks.</item>
+        <item>1 080 piks. (saugus)</item>
         <item>4K</item>
         <item>4K (saugus)</item>
-        <item>4K (ištemptas)</item>
-        <item>4K (ištemptas, saugus)</item>
-        <item>720p, 1080p (dvigubas ekranas)</item>
+        <item>4K (didesnio mastelio)</item>
+        <item>4K (didesnio mastelio, saugus)</item>
+        <item>720 piks., 1 080 piks. (dvig. ekr.)</item>
     </string-array>
     <string-array name="paper_color_values">
         <item>Visos spalvos</item>
@@ -1131,6 +906,97 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Vienetinio mikrofono triukšmo mažinimas</item>
         <item>Dvigubo mikrofono triukšmo mažinimas</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Efektyvumas</item>
         <item>Subalansuotas</item>
@@ -1192,28 +1058,6 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Failai</item>
         <item>Užrašai</item>
     </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Įprasta</item>
-        <item>Vidutinė</item>
-        <item>Maža</item>
-        <item>Kritinė</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Nuolatinė</item>
-        <item>Populiariausia veikla</item>
-        <item>Svarbu (priekinis planas)</item>
-        <item>Svarbu (antrasis planas)</item>
-        <item>Atsarginė kopija</item>
-        <item>Sunkus</item>
-        <item>Paslauga (veikia)</item>
-        <item>Paslauga (paleidžiama iš naujo)</item>
-        <item>Imtuvas</item>
-        <item>Pagrindinis</item>
-        <item>Pastaroji veikla</item>
-        <item>Išsaugota talpykloje (veikla)</item>
-        <item>Išsaugota talpykloje (veiklos kliento programa)</item>
-        <item>Išsaugota talpykloje (tuščia)</item>
-    </string-array>
     <string-array name="ram_states">
         <item>Įprasta</item>
         <item>Vidutiniška</item>
@@ -1254,6 +1098,11 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Sodrios</item>
         <item>Standartinis</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1282,44 +1131,60 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Niekada neleisti</item>
         <item>Visada leisti</item>
     </string-array>
+    <string-array name="select_gpo_version_summaries">
+        <item>Išjungta</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_gpo_version_titles">
+        <item>Išjungta</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Išj.</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>Išjungta</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Išj.</item>
-        <item>64K per registro buferį</item>
-        <item>256K per registro buferį</item>
-        <item>1M per registro buferį</item>
-        <item>4M per registro buferį</item>
-        <item>8M per log buffer</item>
+        <item>Išjungta</item>
+        <item>64 KB žurnalo buferis</item>
+        <item>256 KB žurnalo buferis</item>
+        <item>1 MB žurnalo buferis</item>
+        <item>4 MB žurnalo buferis</item>
+        <item>8 MB žurnalo buferis</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Išj.</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>8M</item>
+        <item>Išjungta</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Išjungta</item>
-        <item>Visi registro buferiai</item>
-        <item>Visa išskyrus radijo registrų buferius</item>
-        <item>Tik branduolio registro buferis</item>
+        <item>Visi žurnalų buferiai</item>
+        <item>Visi, išskyrus radijo ryšio žurnalų buferius</item>
+        <item>tik branduolio žurnalo buferis</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Išj.</item>
-        <item>Visi</item>
-        <item>Viskas išskyrus radiją</item>
-        <item>Tik branduolys</item>
+        <item>Išjungta</item>
+        <item>Viskas</item>
+        <item>Viskas, išsk. rad. r.</item>
+        <item>tik branduolys</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Išj.</item>
-        <item>Spalvinti nestačiakampio formos iškarpinės plotą mėlynai</item>
-        <item>Paryškinti patikrintas piešimo komandas žaliai</item>
+        <item>Išjungta</item>
+        <item>Piešti ne stačiak. reg. mėlyna sp.</item>
+        <item>Paryš. išban. pieš. kom. žalia sp.</item>
+    </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Visada</item>
@@ -1339,6 +1204,24 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>4</item>
         <item>1</item>
     </string-array>
+    <string-array name="smart_device_control_entries">
+        <item>@string/mi_smart_hub_entry_title</item>
+        <item>Išmanūs namai</item>
+        <item>Jokio</item>
+    </string-array>
+    <string-array name="smart_device_control_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="smart_home_entries">
+        <item>Išmanūs namai</item>
+        <item>Jokio</item>
+    </string-array>
+    <string-array name="smart_home_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Leisti</item>
         <item>Uždrausti</item>
@@ -1347,15 +1230,19 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>1</item>
         <item>0</item>
     </string-array>
-    <string-array name="switch_to_user_zero_when_docked_timeout_entries">
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
         <item>Niekada</item>
-        <item>Po 1 minutės</item>
-        <item>Po 5 minučių</item>
+        <item>Po vienos minutės</item>
+        <item>Po penkių minučių</item>
     </string-array>
     <string-array name="tabs_taptic_detail">
         <item>Aiškus</item>
         <item>Bazinis</item>
         <item>Pop</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail_m2">
+        <item>Aiškus</item>
+        <item>Tvirtas</item>
     </string-array>
     <string-array name="tare_modifiers_subfactors">
         <item>Įkrovimas</item>
@@ -1363,24 +1250,40 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Energijos tausojimo režimas</item>
         <item>Apdorojimo būsena</item>
     </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12 valandų 1:00</item>
         <item>24 valandų 13:00</item>
         <item>Automat. (pagal sisteminę kalbą)</item>
     </string-array>
-    <string-array name="timezone_filters">
-        <item>Amerika</item>
-        <item>Europa</item>
-        <item>Afrika</item>
-        <item>Azija</item>
-        <item>Australija</item>
-        <item>Ramiojo vandenyno</item>
-        <item>Visi</item>
-    </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Išj.</item>
-        <item>Ekrane kaip juostos</item>
-        <item>adb shell dumpsys gfxinfo</item>
+        <item>Išjungta</item>
+        <item>Ekrane (stulpeliai)</item>
+        <item>Po adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
         <item>Išj.</item>
@@ -1398,9 +1301,9 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animacija išjungta</item>
-        <item>Animacijos mastelis .5x</item>
-        <item>Animacijos mastelis 1x</item>
-        <item>Animacijos mastelis 1.5x</item>
+        <item>Animacijos mastelis 0,5x</item>
+        <item>Animacijos mastelis 1 x</item>
+        <item>Animacijos mastelis 1,5x</item>
         <item>Animacijos mastelis 2x</item>
         <item>Animacijos mastelis 5x</item>
         <item>Animacijos mastelis 10x</item>
@@ -1416,26 +1319,15 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Originali spalva</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Labai lėtas</item>
-        <item>Lėtas</item>
-        <item>Įprastas</item>
-        <item>Greitas</item>
-        <item>Greitesnis</item>
-        <item>Labai greitas</item>
-        <item>Spartus</item>
-        <item>Labai spartus</item>
-        <item>Greičiausias</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>60 proc.</item>
+        <item>80 proc.</item>
+        <item>100 proc.</item>
+        <item>150 proc.</item>
+        <item>200 proc.</item>
+        <item>250 proc.</item>
+        <item>300 proc.</item>
+        <item>350 proc.</item>
+        <item>400 proc.</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Labai lėtas</item>
@@ -1444,16 +1336,22 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Greitas</item>
         <item>Greitesnis</item>
     </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Naudojimo laikas</item>
-        <item>Paskutinį kartą naudota</item>
-        <item>Programos pavadinimas</item>
+    <string-array name="typing_style_entries">
+        <item>Įprastas</item>
+        <item>Lietimas</item>
+        <item>Tiesioginis lietimas</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Kairėn</item>
+        <item>Žemyn</item>
+        <item>Dešinėn</item>
+        <item>Aukštyn</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>Įkraunama</item>
+        <item>Kraunama</item>
         <item>MTP (medijos perdavimo protokolas)</item>
-        <item>PTP (paveikslėlių perdavimo protokolas)</item>
-        <item>RNDIS (USB „Ethernet“)</item>
+        <item>PTP (nuotraukų perdavimo protokolas)</item>
+        <item>RNDIS (USB eternetas)</item>
         <item>Garso šaltinis</item>
         <item>MIDI</item>
     </string-array>
@@ -1486,16 +1384,9 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Skirtasis laikas</item>
         <item>Nepavyko</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP / „IPSec“ VPN su iš anksto bendrinamais raktais</item>
-        <item>L2TP / „IPSec“ VPN su sertifikatais</item>
-        <item>„IPSec“ VPN su iš anksto bendrinamais raktais ir „Xauth“ autentifikavimu</item>
-        <item>„IPSec“ VPN su sertifikatais ir „Xauth“ autentifikavimu</item>
-        <item>„IPSec“ VPN su sertifikatu ir hibridiniu autentifikavimu</item>
-        <item>„IKEv2“ / „IPSec“ VPN su sertifikatais ir naudotojo vardo / slaptažodžio autentifikavimu</item>
-        <item>„IKEv2“ / „IPSec“ VPN su iš anksto bendrinamais raktais</item>
-        <item>„IKEv2“ / „IPSec“ VPN su sertifikatais</item>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Pradedamas seansas…</item>
@@ -1516,6 +1407,14 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Procentinis (piktogramoje)</item>
         <item>Procentinis (šalia pranešimų juostos)</item>
     </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
+    </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
@@ -1533,12 +1432,6 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Prisijungti automatiškai</item>
         <item>Prisijungti rankiniu būdu</item>
         <item>Visada klausti</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Ne</item>
@@ -1568,11 +1461,6 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Pasiekiamas</item>
         <item>Nepasiekiama</item>
     </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Mygtuko paspaudimas</item>
-        <item>PIN kodas iš susieto įrenginio</item>
-        <item>Šio įreng. PIN kodas</item>
-    </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
         <item>GTC</item>
@@ -1592,6 +1480,12 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
         <item>Nėra</item>
         <item>Neautomatiškai</item>
         <item>Aut. tarp. serv. konfig.</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Prastas</item>
@@ -1654,9 +1548,9 @@ Pastaba: Tik „Ubuntu“ 8.04!"</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animacija išjungta</item>
-        <item>Animacijos mastelis .5x</item>
+        <item>Animacijos mastelis 0,5x</item>
         <item>Animacijos mastelis 1x</item>
-        <item>Animacijos mastelis 1.5x</item>
+        <item>Animacijos mastelis 1,5x</item>
         <item>Animacijos mastelis 2x</item>
         <item>Animacijos mastelis 5x</item>
         <item>Animacijos mastelis 10x</item>

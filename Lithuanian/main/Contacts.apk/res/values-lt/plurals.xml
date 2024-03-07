@@ -7,10 +7,10 @@
         <item quantity="many">Prieš 1 valandą</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Prieš 1 valandą</item>
-        <item quantity="one">Prieš 1 valandą</item>
-        <item quantity="few">Prieš 1 valandą</item>
-        <item quantity="many">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš %d valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandų</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Prieš pusvalandį</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Po 1 valandos</item>
-        <item quantity="one">Po 1 valandos</item>
-        <item quantity="few">Po 1 valandos</item>
-        <item quantity="many">Po 1 valandos</item>
+        <item quantity="other">Po %d valandų</item>
+        <item quantity="one">Po %d valandos</item>
+        <item quantity="few">Po %d valandų</item>
+        <item quantity="many">Po %d valandų</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Po pusvalandžio</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Immediately</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">po %d min.</item>
-        <item quantity="one">po 1 min</item>
-        <item quantity="few">po %d min.</item>
-        <item quantity="many">po %d min.</item>
+        <item quantity="other">Po %d minučių</item>
+        <item quantity="one">Po %d minutės</item>
+        <item quantity="few">Po %d minučių</item>
+        <item quantity="many">Po %d minučių</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>
@@ -50,9 +50,9 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Prieš %d minučių</item>
-        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="one">Prieš %d minutę</item>
         <item quantity="few">Prieš %d minutes</item>
-        <item quantity="many">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minučių</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Pašalinti %1$d kontaktų?</item>
@@ -71,18 +71,6 @@
         <item quantity="one">%1$d praleistas skambutis</item>
         <item quantity="few">%1$d praleisti skambučiai</item>
         <item quantity="many">%1$d praleistų skambučių</item>
-    </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d telefono numerių</item>
-        <item quantity="one">%d telefono numeris</item>
-        <item quantity="few">%d telefono numeriai</item>
-        <item quantity="many">%d telefono numeriai</item>
-    </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">Trinti %d telefono numerių?</item>
-        <item quantity="one">Trinti %d telefono numerį?</item>
-        <item quantity="few">Trinti %d telefono numerius?</item>
-        <item quantity="many">Trinti %d telefono numerius?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontaktų arba nuotraukų nebuvo sinchronizuota</item>
@@ -168,17 +156,17 @@
         <item quantity="few">%1$d numeriai</item>
         <item quantity="many">%1$d numbers</item>
     </plurals>
+    <plurals name="group_sms_error_message">
+        <item quantity="other">SMS negali turėti daugiau nei %d gavėjų.</item>
+        <item quantity="one">SMS negali turėti daugiau nei %d gavėjo.</item>
+        <item quantity="few">SMS negali turėti daugiau nei %d gavėjų.</item>
+        <item quantity="many">SMS negali turėti daugiau nei %d gavėjų.</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
         <item quantity="one">Prieš pusvalandį</item>
         <item quantity="few">Prieš pusvalandį</item>
         <item quantity="many">Prieš pusvalandį</item>
-    </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d elementų</item>
-        <item quantity="one">%1$d elementas</item>
-        <item quantity="few">%1$d elementai</item>
-        <item quantity="many">%1$d elementai</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontaktų</item>
@@ -311,12 +299,6 @@
         <item quantity="one">Rastas: %d</item>
         <item quantity="few">Rasti: %d</item>
         <item quantity="many">Rasti: %d</item>
-    </plurals>
-    <plurals name="search_group_contacts_result">
-        <item quantity="other">%s rezultatų</item>
-        <item quantity="one">%s rezultatas</item>
-        <item quantity="few">%s rezultatai</item>
-        <item quantity="many">%s rezultatai</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Pažymėkite ne daugiau kaip %1$d, visko žymėti negalima</item>

@@ -272,7 +272,9 @@
     <string name="opp_notification_group">„Bluetooth“ bendrinimas</string>
     <string name="outbound_history_title">Siunčiami perkėlimai</string>
     <string name="outbound_noti_title">„Bluetooth“ bendrinimas: išsiųsti failai</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Baigėsi skirtasis ryšio su %1$s priėmimo laikas</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Baigėsi įvesties sesijos rakto su %1$s laikas</string>
     <string name="pbap_notification_group">„Bluetooth“ kontaktų bendrinimas</string>
     <string name="pbap_session_key_dialog_header">Reikalingas „Bluetooth“ sesijos raktas</string>

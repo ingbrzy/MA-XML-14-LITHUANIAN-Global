@@ -32,6 +32,7 @@
     <string name="allow">Leisti</string>
     <string name="allowed">Suteikta</string>
     <string name="altitude">%.1f</string>
+    <string name="altitude_format">%.1f m</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="altitude_title">Aukštis</string>
     <string name="altitude_uncalibrate_cancel">Atšaukti</string>
@@ -44,9 +45,9 @@
     <string name="app_description_content">Kompasas – sisteminė programa. JIšdiegus šią programą, nebegalėsite patikrinti kelių instrukcijų, koordinačių, atmosferos slėgio ar dabartinio aukščio.</string>
     <string name="app_description_title">Išdiegti kompasą?</string>
     <string name="app_label">Kompasas</string>
-    <string name="calibrate_failed">Aukščio kalibracija nepavyko</string>
-    <string name="calibrate_failed_no_location">Neįmanoma sukalibruoti</string>
-    <string name="calibrate_failed_timeout">Nepavyko prisijungti prie serverio</string>
+    <string name="calibrate_failed">Nepavyko sukalibruoti aukščio</string>
+    <string name="calibrate_failed_no_location">Nepavyko sukalibruoti. Įvyko vietos klaida.</string>
+    <string name="calibrate_failed_timeout">Nepavyko sukalibruoti. Įvyko serverio klaida.</string>
     <string name="calibrate_new_tip">Staigiais judesiais judinkite įrenginį ratu, lyg ridentumėte rutulį</string>
     <string name="calibrate_rotate_again">Bandyti dar kartą</string>
     <string name="calibrate_success">Sukalibruota</string>
@@ -86,7 +87,7 @@
     <string name="error_camera_unavailable">Patikrinkite ar fotoaparatas nėra naudojamas kitoje programoje.</string>
     <string name="error_camera_unavailable_title">Fotoaparatas nepasiekiamas</string>
     <string name="evening">Popietė</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="first_using_dialog_message">Siekiant užtikrinti kompaso funkcionalumą, reikalinga interneto, fotoaparato ir vietovės prieiga.</string>
     <string name="first_using_dialog_message_no_camera">Kompaso funkcionalumui užtikrinti reikalinga interneto ir vietos informacijos prieiga. Suteikti?</string>
     <string name="first_using_dialog_title">Prieigos teisė</string>
@@ -148,7 +149,12 @@
     <string name="get_location">Vietos prieiga</string>
     <string name="gradienter_title">Nivelyras</string>
     <string name="guide_toast">Norėdami kalibruoti, sukite įrenginį kaip nurodyta žemiau.</string>
+    <string name="invisible_mode_dialog_message">Dabar negalite naudoti kameros. Išjunkite nežinomo asmens būseną nustatymuose ir tuomet galėsite naudotis kamera.</string>
+    <string name="invisible_mode_dialog_negative">Atšaukti</string>
+    <string name="invisible_mode_dialog_positive">Parametrai</string>
+    <string name="invisible_mode_dialog_title">Jūs inkognito režime</string>
     <string name="latitude">Plat</string>
+    <string name="live_action">Peržiūra realiuoju laiku</string>
     <string name="location_east">R</string>
     <string name="location_enable">Leisti</string>
     <string name="location_enable_later">Vėliau</string>
@@ -157,19 +163,21 @@
     <string name="location_not_enabled_summary">Kad taisyklingai rodyti koordinates ir aukštį, kompasui reikalingi jūsų vietovės duomenys.</string>
     <string name="location_not_enabled_summary_no_pressure_sensor">Siekiant taisyklingai rodyti dabartines jūsų koordinates, kompasui reikalingi jūsų vietovės duomenys.</string>
     <string name="location_not_enabled_title">Vietovės paslaugos</string>
+    <string name="location_permission_tip_one">Bakstelėkite suteikti vietos leidimus, kad galėtumėte peržiūrėti platumą, ilgumą, oro slėgį ir aukštį.</string>
+    <string name="location_permission_tip_two">Bakstelėkite suteikti vietos leidimus, kad galėtumėte peržiūrėti platumą ir ilgumą.</string>
     <string name="location_south">P</string>
     <string name="location_west">V</string>
     <string name="longitude">Ilg</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -227,7 +235,13 @@
     <string name="month_september_shortest">Rgs.</string>
     <string name="more">Daugiau</string>
     <string name="morning">Rytas</string>
+    <string name="network_dialog_message">Kompasas turi prisijungti prie interneto, kad gautų tikslesnius aukščio duomenis. Leisti dabar?</string>
+    <string name="network_dialog_negative">Neleisti</string>
+    <string name="network_dialog_positive">Leisti</string>
+    <string name="network_dialog_title">Reikalingi leidimai</string>
     <string name="new_cta_app_purpose">peržiūrėti nuorodas ir koordinates</string>
+    <string name="new_cta_app_purpose_one">Sveiki atvykę į „Kompasą“! Galite naudoti šią programą norėdami nustatyti pagrindines kryptis, platumą, ilgumą, sužinoti oro slėgį ir aukštį virš jūros lygio. Kad galėtų teikti paslaugas, šiai programai reikalinga interneto prieiga.</string>
+    <string name="new_cta_app_purpose_two">Sveiki atvykę į „Kompasą“! Galite naudoti šią programą norėdami nustatyti pagrindines kryptis, platumą ir ilgumą. Kad galėtų teikti paslaugas, šiai programai reikalinga interneto prieiga.</string>
     <string name="new_cta_v2_app_purpose">Krypčių rodymas, koordinatės, atmosferos slėgis ir dabartinis aukštis virš jūros lygio</string>
     <string name="new_permission_camera_desc">Peržiūrų realiuoju laiku rodymas</string>
     <string name="new_permission_location_desc">Koordinačių rodymas</string>
@@ -250,6 +264,7 @@
     <string name="preference_privacy_setting">Privatumas</string>
     <string name="preference_privacy_title">Privatumo politika</string>
     <string name="pressure">%.1f</string>
+    <string name="pressure_format">%.1f hPa</string>
     <string name="pressure_title">Slėgis</string>
     <string name="pressure_unit">hPa</string>
     <string name="remove_icon_description_content">Kompasas – sisteminė programa. Pašalinus pagrindinio ekrano nuorodą, nebegalėsite tikrinti nuorodų, koordinačių, atmosferos slėgio ar dabartinio aukščio.</string>
@@ -319,6 +334,8 @@
     <string name="unit_degree">Laipsniai</string>
     <string name="using_camera_confirm_cancel">Išeiti</string>
     <string name="using_camera_confirm_ok">Sutinku</string>
+    <string name="v2_permission_location_desc_one">Platumo, ilgumo, aukščio ir oro slėgio rodymas</string>
+    <string name="v2_permission_location_desc_two">Platumo ir ilgumo rodymas</string>
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="wednesday">Trečiadienis</string>

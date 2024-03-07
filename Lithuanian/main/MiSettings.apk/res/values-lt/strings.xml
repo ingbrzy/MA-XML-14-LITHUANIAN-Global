@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Nemirksėjimo</string>
     <string name="anti_flicker_mode_categroy">Režimai</string>
     <string name="anti_flicker_mode_summary">Vengti stipraus mirgėjimo ir sumažinti akių įtampą prasto apšvietimo sąlygomis</string>
+    <string name="anti_flicker_mode_summary_new">Esant silpnam apšvietimui, naudokite DC pritemdymą, kad sumažintumėte krūvį akims</string>
     <string name="anti_flicker_title">Mirgėjimo mažinimo režimas</string>
     <string name="app_name">Parametrai</string>
+    <string name="app_use">Programos ekrano laikas</string>
     <string name="application_sound">Programų pranešimai</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Įvykių priminimai</string>
-    <string name="calendar_tip">Įvykių priminimų garsai veikia kalendoriaus priminimams, užrašams ir užduotims</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -244,7 +245,7 @@ nesugeneruota Antrojoje erdvėje"</string>
     <string name="exo_track_surround_5_point_1">5.1 erdvinis garsas</string>
     <string name="exo_track_surround_7_point_1">7.1 erdvinis garsas</string>
     <string name="exo_track_unknown">Nežinomas</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="first_unlock_time">"Pirmą kartą atrakinta: "</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -307,6 +308,10 @@ nesugeneruota Antrojoje erdvėje"</string>
     <string name="focus_time_exception_tip">Atrodo, sisteminis laikas pasikeitė. Susikaupimo režimas išjungtas.</string>
     <string name="follow_apps_settings">Pagal programos parametrus</string>
     <string name="follow_sim1">Taikyti SIM 1 parametrus</string>
+    <string name="footer_global_fps">"
+%1$d. Kai įjungiate Efektyvumo režimą, naujinimo dažnis bus pakeistas iki %2$d Hz sistemos didžiausios vertės. Aukšti naujinimo dažnio programos parametrai bus laikinai nepasiekiami."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Naujinimo dažnį galite pareguliuoti iki %s Hz palaikomoms programėlėms ir žaidimams."</string>
     <string name="force_rest">Naudoti sesijos pertraukas</string>
     <string name="force_rest_summary">Taikyti privalomas pertraukas, kai sesija pasiekia limitą</string>
     <string name="force_rest_time">Pertraukos trukmė</string>
@@ -419,17 +424,20 @@ nesugeneruota Antrojoje erdvėje"</string>
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">Iki %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Palaikomi įvairių įmonių įrenginiai</string>
+    <string name="mi_transfer_banner_title">Perkelti elementus iš seno įrenginio</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -582,6 +590,7 @@ nesugeneruota Antrojoje erdvėje"</string>
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (Energijos taupymas)</string>
     <string name="screen_fps_unit_smooth">%d Hz (Geresnė kokybė)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Patobulinta</string>
     <string name="screen_original_gamut_summary">Rodyti visą ekrano turinį naudojant kuo platesnę spalvų gamą</string>
     <string name="screen_paper_mode_apps_loading">Sekundėlę…</string>
@@ -640,6 +649,7 @@ nesugeneruota Antrojoje erdvėje"</string>
     <string name="stop_summary">Išjungus šią funkciją, visa ekrano laiko statistika ir duomenys bus ištrinti</string>
     <string name="suggestion">Atsiliepimas</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Reguliuokite atnaujinimo dažnį dinamiškai iki %s Hz pagal scenarijus, kuriais siekiama suderinti našumą ir enerijos sunaudojimą.</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
@@ -794,7 +804,7 @@ Programos funkcionalumui užtikrinti reikalingi ekrano laiko informacijos duomen
 Šiai programai taip pat reikalinga interneto prieiga ir toliau išvardyti asmeninės informacijos rinkimo leidimai:"</string>
     <string name="usage_home_premission_second_summary">Siekiant užtikrinti programos funkcionalumą, programai reikalingas jūsų asmeninės informacijos rinkimas. Mes užtikrinsime jūsų asmeninės informacijos apsaugą laikydamiesi atitinkamų įstatymų, reglamentų ir privatumo politikų.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Mes užtikrinsime jūsų asmeninės informacijos apsaugą laikydamiesi atitinkamų įstatymų, reglamentų ir privatumo politikų. Jei nesutinkate suteikti šių leidimų arba bendrinti ir įkelti asmeninės informacijos, negalėsite naudotis šia programa. Įgaliojimų galite atsisakyti skiltyje „Ekrano laikas“ > „Parametrai“ > „Išjungti ekrano laiką“.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href='%1s'>naudotojo sutartimi&lt;/a> ir &lt;a href='%2s'>privatumo politika&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href='%1s'>naudotojo sutartimi&lt;/a> ir &lt;a href='%2s'>privatumo politika&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Mes užtikrinsime jūsų asmeninės informacijos apsaugą laikydamiesi atitinkamų įstatymų, reglamentų ir privatumo politikų. Jei nesutinkate suteikti šių leidimų arba bendrinti ir įkelti asmeninės informacijos, negalėsite naudotis šia programa. Įgaliojimų galite atsisakyti skiltyje „Ekrano laikas“ > „Parametrai“ > „Išjungti ekrano laiką“. Jei turite daugiau klausimų apie privatumą, galite su mumis susisiekti adresu privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Nustatyti programėlės naudojimo limitus šioje kategorijoje</string>
     <string name="usage_new_category_limit_title">Apriboti naudojimą programėlės kategorijai</string>
@@ -842,7 +852,7 @@ Programos funkcionalumui užtikrinti reikalingi ekrano laiko informacijos duomen
     <string name="usage_optional_title">Pasirenkamieji leidimai</string>
     <string name="usage_permisison_agree_desc_o">Siekiant jums teikti „Ekrano laiko“ statistiką, šiai programai reikalingi toliau nurodyti duomenys: įrenginio atrakinimų skaičius, programų sąrašas kartu su atitinkamų programų naudojimo trukme.</string>
     <string name="usage_permisison_agree_desc_p">Siekiant jums teikti „Ekrano laiko“ ir „Susikaupimo režimo“ statistiką, šiai programai reikalingi toliau nurodyti duomenys: įrenginio atrakinimų skaičius, programų sąrašas kartu su atitinkamų programų naudojimo trukme, ekrano nušvitimų skaičius, „Susikaupimo režimo“ parametrai.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Šios programos funkcionalumui užtikrinti reikalinga interneto prieiga ir privalomieji jūsų asmeniniai duomenys. Norėdami visiškai suprasti savo teises, kaip naudotojas, taip pat, kokiais būdais naudojame jūsų duomenis, perskaitykite ir sutikite su mūsų &lt;a href='%1s'>naudotojo sutartimi&lt;/a> ir &lt;a href='%2s'>privatumo politika&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Šios programos funkcionalumui užtikrinti reikalinga interneto prieiga ir privalomieji jūsų asmeniniai duomenys. Norėdami visiškai suprasti savo teises, kaip naudotojas, taip pat, kokiais būdais naudojame jūsų duomenis, perskaitykite ir sutikite su mūsų &lt;a href='%1s'>naudotojo sutartimi&lt;/a> ir &lt;a href='%2s'>privatumo politika&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Sveiki atvykę į „Ekrano laiką“!
 Šios programos funkcionalumui užtikrinti programai reikalingas interneto ryšys ir toliau nurodyti leidimai:"</string>
     <string name="usage_permission_title">Dėmesio</string>

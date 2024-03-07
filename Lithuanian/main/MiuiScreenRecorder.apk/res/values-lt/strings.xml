@@ -32,9 +32,8 @@
     <string name="am">Priešpiet</string>
     <string name="app_name">Ekrano įrašymas</string>
     <string name="app_notification_channel_record_complete">Pranešimai apie baigtus įrašus</string>
-    <string name="app_notification_info">Ekrano įrašymas veikia fone</string>
-    <string name="app_notification_record_saved">"Sėkmingai įrašyta.
-Bakstelėkite, kad peržiūrėtumėte"</string>
+    <string name="app_notification_info">Šiuo metu įrašomas ekranas…</string>
+    <string name="app_notification_record_saved">Ekrano įrašas išsaugotas. Bakstelėkite, norėdami peržiūrėti.</string>
     <string name="app_notification_title">Ekrano įrašymas</string>
     <string name="auto_stop_title">Vaizdo įrašas sėkmingai išsaugotas</string>
     <string name="battery_not_allowed_warning">Negalima įrašyti, kai akumuliatoriaus lygis mažesnis nei %1$s. Įsitikinkite, kad akumuliatorius įkrautas bent iki %2$s.</string>
@@ -70,7 +69,7 @@ Bakstelėkite, kad peržiūrėtumėte"</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="error_open_file_failed_no_app_found">Nėra programų, galinčių atverti šio tipo failą</string>
     <string name="evening">Popietė</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="first_using_mic_dialog_message">„Ekrano įrašymui“ reikalinga mikrofono prieiga, siekiant įrašyti garsus. Leisti?</string>
     <string name="first_using_mic_dialog_title">Reikalingi leidimai</string>
     <string name="fixed_frame_rate">Fiksuotas kadrų dažnis</string>
@@ -158,14 +157,14 @@ Bakstelėkite, kad peržiūrėtumėte"</string>
     <string name="mic_sound">Mikrofonas</string>
     <string name="midnight">Naktis</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
     <string name="miuix_appcompat_delete_description">Trinti</string>
-    <string name="miuix_appcompat_deselect_all">Atžymėti</string>
+    <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
@@ -236,7 +235,9 @@ Bakstelėkite, kad peržiūrėtumėte"</string>
     <string name="pm">Popiet</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
     <string name="privacy_settings">Privatumas</string>
+    <string name="protect_oneself_when_recording">Skambučio įrašymas. Naudodami šią funkciją saugokite savo ir kitų žmonių privatumą.</string>
     <string name="quit_recording">Ekrano įrašymas sustabdytas</string>
+    <string name="record_time_too_short">Įrašytas vaizdo įrašas per trumpas</string>
     <string name="recording_failure">Nepavyko įrašyti, pradėkite iš naujo</string>
     <string name="recording_max_size">Įrašymas buvo sustabdytas ir išsaugotas, nes buvo pasiektas video failo dydžio limitas. Norėdami tęsti –pradėkite įrašinėti ten, kur sustojote.</string>
     <string name="recording_without_mic">Mikrofonas yra naudojamas ir dabar negali įrašyti garso.</string>
@@ -250,7 +251,7 @@ Bakstelėkite, kad peržiūrėtumėte"</string>
     <string name="screen_record_option">Įrašymo nustatymai</string>
     <string name="screen_record_params">Įrašymo nuostatai</string>
     <string name="search_menu_title">Ieškoti</string>
-    <string name="select_all">Žymėti viską</string>
+    <string name="select_all">Pasirinkti visus</string>
     <string name="send">Siųsti</string>
     <string name="settings">Parametrai</string>
     <string name="settings_other">Kita</string>
@@ -342,7 +343,7 @@ Bakstelėkite, kad peržiūrėtumėte"</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="view_privacy">Peržiūrėti privatumo politiką</string>
     <string name="view_recorded_file">Bakstelėkite įrašyto failo peržiūrai</string>
-    <string name="view_recorded_videos">Peržiūrėkite įrašus</string>
+    <string name="view_recorded_videos">Peržiūrėti įrašus</string>
     <string name="warning_recording_when_a2dp_connect">Jūsų įrenginys nepalaiko sisteminių garsų įrašymo, kai naudojamos „Bluetooth“ ausinės.</string>
     <string name="wednesday">Trečiadienis</string>
     <string name="wednesday_short">Tr.</string>

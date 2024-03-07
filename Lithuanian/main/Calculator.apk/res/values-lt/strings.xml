@@ -76,7 +76,7 @@
     <string name="currency_update_time_format">Valiutų kursus teikia „Webull“ (%s)</string>
     <string name="currency_update_updating">Atnaujinami kursai…</string>
     <string name="data_analysis">Analizė</string>
-    <string name="date_format">yyyy-MM-dd</string>
+    <string name="date_format">"yyyy 'm.' MMM d 'd.'"</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -126,7 +126,7 @@
     <string name="factorialDesc">faktorialas</string>
     <string name="fat">Viršsvoris</string>
     <string name="female">Lytis: Moteris</string>
-    <string name="finance_interest">Interest rate (%s)</string>
+    <string name="finance_interest">Palūkanų norma (%s)</string>
     <string name="float_window">Sumažinti</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -185,7 +185,7 @@
     <string name="friday_shortest">Pn.</string>
     <string name="fund_loan">Paskolos fondas</string>
     <string name="further_education">Papildomas ugdymas</string>
-    <string name="get_loaction_permission_title">Nustatyti vietą</string>
+    <string name="get_loaction_permission_title">Vietos prieiga</string>
     <string name="get_location_fail_prompt">Nepavyko nustatyti vietovės</string>
     <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
@@ -232,11 +232,12 @@
     <string name="label_days">Dienos</string>
     <string name="label_emi">EPI</string>
     <string name="label_from_date">Nuo</string>
-    <string name="label_interest">Palūkanos (%)</string>
+    <string name="label_interest">Palūkanos (procentai)</string>
     <string name="label_investment_duration">Trukmė</string>
     <string name="label_months">Mėnesiai</string>
     <string name="label_powered_by">Teikia „Mi Calculator“</string>
     <string name="label_principal">Suma</string>
+    <string name="label_share">Bendrinti</string>
     <string name="label_statistics">Statistika</string>
     <string name="label_to_date">Iki</string>
     <string name="label_total_interest">Bendros palūkanos</string>
@@ -356,13 +357,13 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="mt_max">Jūsų įvesta suma yra per didelė</string>
     <string name="mulDesc">dauginti</string>
     <string name="n_a">Nėra</string>
-    <string name="name_cgst" formatted="false">CGST/SGST: %s %</string>
+    <string name="name_cgst">CGST/SGST: 2.5</string>
     <string name="name_discount">Nuolaida (%)</string>
     <string name="name_original">Originali kaina</string>
     <string name="name_price">Galutinė kaina</string>
     <string name="name_save">"Sutaupote "</string>
     <string name="negDesc">Perjungti į temperatūrą žemiau arba virš nulio</string>
-    <string name="new_privacy_string">&lt;Data>Sveiki atvykę į skaičiuotuvo programą!&lt;br/>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Įprastas skaičiuotuvas&lt;br/>• Mokslinis skaičiuotuvas&lt;br/>• Daugiafunkcinis keitiklis (pvz., valiutos, matavimo vienetai ir kt.)&lt;br/>• Skaičiuotuvo paskolų, investicijų, EPI ir kt. šablonai&lt;br/> Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti skaičiuotuvą, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimus galite bet kada atšaukti skaičiuotuvo programos parametruose. Nesutikus su mūsų privatumo politika, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data></string>
+    <string name="new_privacy_string"><Data>Sveiki atvykę į skaičiuotuvo programą!&lt;br/>Šioje programoje pateikiamos toliau nurodytos funkcijos:&lt;br/>• Įprastas skaičiuotuvas&lt;br/>• Mokslinis skaičiuotuvas&lt;br/>• Daugiafunkcinis keitiklis (pvz., valiutos, matavimo vienetai ir kt.)&lt;br/>• Skaičiuotuvo paskolų, investicijų, EPI ir kt. šablonai&lt;br/> Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti skaičiuotuvą, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>. Privatumo politikos įgaliojimus galite bet kada atšaukti skaičiuotuvo programos parametruose. Nesutikus su mūsų privatumo politika, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.</Data></string>
     <string name="night">Vakaras</string>
     <string name="none">Nėra</string>
     <string name="noon">Vidurdienis</string>
@@ -376,7 +377,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="permission_location_miui12">Vietovės prieiga</string>
     <string name="permission_option_desc_miui12">Šie leidimai būtini papildomų funkcijų naudojimui.</string>
     <string name="permission_option_miui12">Pasirinktiniai leidimai</string>
-    <string name="permission_privacy_link">&lt;Data>Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data></string>
+    <string name="permission_privacy_link"><Data>Prieš pradėdami naudoti šią programą, susipažinkite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.</Data></string>
     <string name="permission_purpose_miui12_system">Sveiki atvykę į „Skaičiuotuvą“! Ši programa apjungia įprato skaičiuotuvo funkcijas su keletu keitiklių ir kitomis kasdienio gyvenimo funkcijomis.</string>
     <string name="permission_remove_desc_miui12">Siekiant išnaudoti visas šios programos teikiamas funkcijas, leiskite šiai programai prisijungti prie interneto ir suteikite pasirinktinius leidimus.</string>
     <string name="permission_title_miui12">Dėmesio</string>
@@ -408,7 +409,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="preference_use_voice_title">Kalbos išvestis</string>
     <string name="preference_user_feedback_title">Atsiliepimas</string>
     <string name="preference_view_privacy_title">Peržiūrėti privatumo politiką</string>
-    <string name="privacy_dialog_title">Dėmesio</string>
+    <string name="privacy_dialog_title">Privatumas</string>
     <string name="privacy_revoke_error">Nepavyko atsisakyti. Pabandykite dar kartą.</string>
     <string name="privacy_revoke_progress">Atsisakoma…</string>
     <string name="privacy_switch">Sutikimo atšaukimas</string>
@@ -428,7 +429,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="search_menu_title">Ieškoti</string>
     <string name="secondFunctionDesc">Perjungti į antrąją funkciją</string>
     <string name="send">Siųsti</string>
-    <string name="settingsDesc">parametrai</string>
+    <string name="settingsDesc">Parametrai</string>
     <string name="sinDesc">sinusas</string>
     <string name="sqrtDesc">kvadratinė šaknis</string>
     <string name="statistic_label_balance">Likutis</string>
@@ -573,6 +574,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_display_currency_btn">Butano ngultrumas</string>
     <string name="unit_data_display_currency_bwp">Botsvanos pula</string>
     <string name="unit_data_display_currency_byn">Baltarusijos rublis</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Kanados doleris</string>
     <string name="unit_data_display_currency_cdf">Kongo frankas</string>
     <string name="unit_data_display_currency_chf">Šveicarijos frankas</string>
@@ -762,16 +764,16 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_short_area_sq.cm">cm²</string>
     <string name="unit_data_short_area_sq.cun">cun²</string>
     <string name="unit_data_short_area_sq.dm">dm²</string>
-    <string name="unit_data_short_area_sq.ft">ft²</string>
+    <string name="unit_data_short_area_sq.ft">pėd.²</string>
     <string name="unit_data_short_area_sq.gongli">gongli²</string>
-    <string name="unit_data_short_area_sq.in">in²</string>
+    <string name="unit_data_short_area_sq.in">col.²</string>
     <string name="unit_data_short_area_sq.km">km²</string>
     <string name="unit_data_short_area_sq.m">m²</string>
-    <string name="unit_data_short_area_sq.mi">mile²</string>
+    <string name="unit_data_short_area_sq.mi">mylia²</string>
     <string name="unit_data_short_area_sq.mm">mm²</string>
     <string name="unit_data_short_area_sq.rd">rd²</string>
     <string name="unit_data_short_area_sq.um">μm²</string>
-    <string name="unit_data_short_area_sq.yd">yd²</string>
+    <string name="unit_data_short_area_sq.yd">jard.²</string>
     <string name="unit_data_short_data_b">B</string>
     <string name="unit_data_short_data_gb">GB</string>
     <string name="unit_data_short_data_kb">KB</string>
@@ -785,11 +787,11 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_short_length_dm">dm</string>
     <string name="unit_data_short_length_fen">fen</string>
     <string name="unit_data_short_length_fm">ftm</string>
-    <string name="unit_data_short_length_ft">ft</string>
+    <string name="unit_data_short_length_ft">pėd.</string>
     <string name="unit_data_short_length_fur">fur</string>
     <string name="unit_data_short_length_gongli">gongli</string>
     <string name="unit_data_short_length_hao">hao</string>
-    <string name="unit_data_short_length_in">in</string>
+    <string name="unit_data_short_length_in">col.</string>
     <string name="unit_data_short_length_km">km</string>
     <string name="unit_data_short_length_ld">ld</string>
     <string name="unit_data_short_length_li">li</string>
@@ -820,24 +822,24 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_short_time_week">sav.</string>
     <string name="unit_data_short_time_yr">m.</string>
     <string name="unit_data_short_velocity_c">c</string>
-    <string name="unit_data_short_velocity_ftps">fps</string>
-    <string name="unit_data_short_velocity_inps">ips</string>
+    <string name="unit_data_short_velocity_ftps">pėd./s</string>
+    <string name="unit_data_short_velocity_inps">col./s</string>
     <string name="unit_data_short_velocity_kmph">km/h</string>
     <string name="unit_data_short_velocity_kmps">km/s</string>
     <string name="unit_data_short_velocity_mach">Ma</string>
-    <string name="unit_data_short_velocity_mileph">mph</string>
+    <string name="unit_data_short_velocity_mileph">myl./h</string>
     <string name="unit_data_short_velocity_mps">m/s</string>
-    <string name="unit_data_short_velocity_nmiph">kn</string>
+    <string name="unit_data_short_velocity_nmiph">mazg.</string>
     <string name="unit_data_short_volume_cl">cl</string>
     <string name="unit_data_short_volume_cu.af">af³</string>
     <string name="unit_data_short_volume_cu.cm">cm³</string>
     <string name="unit_data_short_volume_cu.dm">dm³</string>
-    <string name="unit_data_short_volume_cu.ft">ft³</string>
-    <string name="unit_data_short_volume_cu.in">in³</string>
+    <string name="unit_data_short_volume_cu.ft">pėd.³</string>
+    <string name="unit_data_short_volume_cu.in">col.³</string>
     <string name="unit_data_short_volume_cu.m">m³</string>
     <string name="unit_data_short_volume_cu.mm">mm³</string>
     <string name="unit_data_short_volume_cu.um">μm³</string>
-    <string name="unit_data_short_volume_cu.yd">yd³</string>
+    <string name="unit_data_short_volume_cu.yd">jard.³</string>
     <string name="unit_data_short_volume_dl">dl</string>
     <string name="unit_data_short_volume_hl">hl</string>
     <string name="unit_data_short_volume_l">l</string>
@@ -858,7 +860,7 @@ Vienerių ir penkerių metų BN bus pateikiami Kinijos liaudies banko tinklalapy
     <string name="unit_data_short_weight_qian">qian</string>
     <string name="unit_data_short_weight_st">sh.t</string>
     <string name="unit_data_short_weight_t">t</string>
-    <string name="unit_data_short_weight_taijin">jin(tw)</string>
+    <string name="unit_data_short_weight_taijin">jin (Taivanas)</string>
     <string name="unit_data_short_weight_ug">μg</string>
     <string name="unit_data_short_weight_uk.cwt">cwt</string>
     <string name="unit_data_short_weight_uk.st">st</string>
