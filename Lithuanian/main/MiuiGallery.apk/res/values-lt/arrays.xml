@@ -119,11 +119,6 @@
         <item>Nauji draugai ir seni bičiuliai</item>
         <item>Praėjusių metų susibūrimai</item>
     </string-array>
-    <string-array name="menu_copy_or_move">
-        <item>Perkelti</item>
-        <item>Kopijuoti</item>
-        <item>@string/cancel</item>
-    </string-array>
     <string-array name="month">
         <item>Sausio</item>
         <item>Vasario</item>

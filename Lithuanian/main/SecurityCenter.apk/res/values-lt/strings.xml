@@ -969,7 +969,6 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="card_main_private_space_summary">„Antrosios erdvės“ naudojimas prilygsta dviejų telefonų turėjimui</string>
     <string name="card_main_private_space_title">„Antroji erdvė“</string>
     <string name="card_main_sectool_title">Įrankiai</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Valdyti vaizdo įrašus</string>
     <string name="card_main_whatsappclean_title">„WhatsApp“ valymas</string>
     <string name="card_main_xspace_action">Sukurti</string>
@@ -1340,7 +1339,6 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="dynamic_performance_optimization_title">Dinaminė sparta</string>
     <string name="early_morning">Rytas</string>
     <string name="edit_phone_num">Redaguoti SIM telefono numerį</string>
-    <string name="ellipsis">…</string>
     <string name="email">El. paštas</string>
     <string name="empty" />
     <string name="empty_app">Nėra programų</string>
@@ -1418,9 +1416,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -2605,7 +2601,6 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_license_manager">Leidimai</string>
     <string name="menu_text_networkassistants">Duomenų naudojimas</string>
     <string name="menu_text_networkassistants_danger">virš %s</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">liko %s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2614,7 +2609,6 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_text_optimize_manage">Spartinimas</string>
     <string name="menu_text_optimize_manage_1">Spartinimas</string>
     <string name="menu_text_power_manager">Akumuliatorius</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Pašalinti iš išimčių</string>
     <string name="menu_white">Įtraukti į išimtis</string>
     <string name="mi_ime_not_used">Naudokite „Xiaomi“ atestuotą klaviatūrą</string>
@@ -2723,7 +2717,6 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -3491,11 +3484,6 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="power_center_dialog_msg_top">Kai įjungtas Energijos taupymas, bus atlikti toliau nurodyta optimizacija:</string>
     <string name="power_center_hints_scan_danger_result">Galite išspręsti akumuliatoriaus problemas dabar</string>
     <string name="power_center_list_item_auto_brightness">Automatiškai derinti ekrano ryškumą</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">val.</string>
     <string name="power_center_list_item_close_bluetooth">Išjungti „Bluetooth“</string>
     <string name="power_center_list_item_deep_save_title">Išplėstiniai parametrai</string>
@@ -3808,7 +3796,6 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pref_normal_traffic_limit">Išnaudojus duomenų planą</string>
     <string name="pref_open_adjust_traffic">Kasdien atnaujinti duomenų vartojimo informaciją iš jūsų operatoriaus</string>
     <string name="pref_operator_not_set">Paslaugų tiekėjas nenustatytas</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kai viršijate duomenų plano limitą</string>
     <string name="pref_package_traffic_settings">Duomenų planas</string>
     <string name="pref_pkg_begin_date">Mėnesinio vartojimo atstatymo data</string>
@@ -4110,7 +4097,6 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_using_record">Garso įrašymas</string>
     <string name="privacyapp_number_masked_text">Pranešimo turinys – paslėptas</string>
     <string name="privacyapp_number_unmasked_text">Pranešimo turinys negali būti paslėptas</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medijų serveris</string>
     <string name="process_vpnsdkmanager_label">Turbo žaidimai</string>
     <string name="promotion">Reklama</string>

@@ -183,7 +183,6 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
-    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="date_today">" (šiandien)"</string>
     <string name="date_view">Data</string>
