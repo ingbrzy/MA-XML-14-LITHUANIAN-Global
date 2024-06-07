@@ -93,18 +93,14 @@
     <string name="binded">Prisijungta</string>
     <string name="binded_description" formatted="false">"%s prijungta prie jūsų „Xiaomi“ paskyros.
 Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string>
-    <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
     <string name="button_agree">Sutinku</string>
     <string name="button_close">Uždaryti</string>
     <string name="button_refuse">Nesutinku</string>
     <string name="button_unbind">Atsijungti</string>
     <string name="cancel">Atšaukti</string>
     <string name="change_password">Pakeisti slaptažodį</string>
-    <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
-    <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="check_apk_update">Tikrinti, ar yra naujinimų</string>
     <string name="child_account_system_ad_disable_hint">Ši funkcija nėra palaikoma vaikų paskyrose</string>
-    <string name="clear_text_end_icon_content_description">Išvalyti tekstą</string>
     <string name="clearable_edittext_clear_description">Išvalyti</string>
     <string name="close">Uždaryti</string>
     <string name="close_drawer">Uždaryti naršymo meniu</string>
@@ -185,13 +181,11 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="error_dup_binded_email">Šis el. pašto adresas jau yra susietas su kita „Xiaomi“ paskyra.</string>
-    <string name="error_icon_content_description">Klaida</string>
     <string name="error_invalid_bind_address">El. pašto adresas, kurį įvedėte, yra nekorektiškas.</string>
     <string name="evening">Popietė</string>
     <string name="exceed_binded_phone_times_notice">Šis telefono numeris jau yra susietas su kita „Xiaomi“ paskyra.</string>
     <string name="exit">Išeiti</string>
-    <string name="expand_button_title">Išplėstinė</string>
-    <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Prisijungti naudojant „Facebook“</string>
     <string name="failed_dup_secure_phone_number">Šis telefono numeris jau yra susietas su kita „Xiaomi“ paskyra</string>
@@ -318,7 +312,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="help_center">Pagalba</string>
     <string name="i_agree">Gerai</string>
     <string name="i_agree_continue">Sutikti</string>
-    <string name="icon_content_description">Dialogo lango piktograma</string>
     <string name="identity">Identifikavimas</string>
     <string name="in_progress">Vyksta</string>
     <string name="inconsistent_pwd">Slaptažodžiai nesutampa</string>
@@ -327,7 +320,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="input_new_pwd">Įveskite naują slaptažodį</string>
     <string name="input_ps">Įveskite slaptažodį</string>
     <string name="io_error_title">Patvirtinkite tinklą</string>
-    <string name="item_view_role_description">Skirtukas</string>
     <string name="just_a_second">Sekundėlę…</string>
     <string name="keep_phone_ticket_login">Prisijungti su patvirtinimo kodu</string>
     <string name="kr_license_desc">Prieš naudodamiesi „Xiaomi“ paskyra ir „Xiaomi debesies“ paslaugomis, privalote sutikti su mūsų naudotojo sutartimi ir privatumo politika.</string>
@@ -347,18 +339,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="login_with_other">Daugiau parinkčių</string>
     <string name="logout_account">Atsijungti</string>
     <string name="logout_failed">Nepavyko atsijungti</string>
-    <string name="material_clock_toggle_content_description">Pasirinkite „iki pietų“ arba „po pietų“</string>
-    <string name="material_hour_selection">Pasirinkite valandą</string>
-    <string name="material_hour_suffix">%1$s val.</string>
-    <string name="material_minute_selection">Pasirinkite minutes</string>
-    <string name="material_minute_suffix">%1$s min.</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">Laiko įvestį pateikti perjungus į laikrodžio režimą.</string>
-    <string name="material_timepicker_hour">Valanda</string>
-    <string name="material_timepicker_minute">Minutė</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">Pasirinkite laiką</string>
-    <string name="material_timepicker_text_input_mode_description">Laiko įvestį pateikti perjungus į teksto įvesties režimą.</string>
     <string name="mi_account">Mano paskyra</string>
     <string name="mi_health">„Xiaomi Health“</string>
     <string name="midnight">Naktis</string>
@@ -375,6 +355,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="miuix_appcompat_delete_description">Trinti</string>
     <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
+    <string name="miuix_appcompat_edit">Redaguoti</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
@@ -429,38 +410,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="month_september_shortest">Rgs.</string>
     <string name="more">Daugiau</string>
     <string name="morning">Rytas</string>
-    <string name="mtrl_badge_numberless_content_description">Naujas pranešimas</string>
-    <string name="mtrl_chip_close_icon_content_description">Pašalinti %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Naujų pranešimų: daugiau nei %1$d</string>
-    <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
-    <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
-    <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
-    <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
-    <string name="mtrl_picker_day_of_week_column_header">Dienų stulpelis: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Netinkamas formatas.</string>
-    <string name="mtrl_picker_invalid_format_example">Pavyzdys: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Naudoti: %1$s</string>
-    <string name="mtrl_picker_invalid_range">Netinkamas diapazonas.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Eiti į %1$s metus</string>
-    <string name="mtrl_picker_out_of_range">Nepatenka į diapazoną: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Pradžios data–%1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s–pabaigos data</string>
-    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
-    <string name="mtrl_picker_range_header_title">Pasirinkite diapazoną</string>
-    <string name="mtrl_picker_range_header_unselected">Pradžios data–pabaigos data</string>
-    <string name="mtrl_picker_save">Išsaugoti</string>
-    <string name="mtrl_picker_text_input_date_hint">Data</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Pabaigos data</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Pradžios data</string>
-    <string name="mtrl_picker_text_input_day_abbr">d</string>
-    <string name="mtrl_picker_text_input_month_abbr">m</string>
-    <string name="mtrl_picker_text_input_year_abbr">y</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Perjungti į kalendoriaus įvesties režimą</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Palieskite, kad perjungtumėte į dienos pasirinkimą</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Perjungti į teksto įvesties režimą</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Palieskite, kad perjungtumėte į metų pasirinkimą</string>
     <string name="multi_user_not_show_sync_activity_message_1">Panašu, kad naudojate „Pirmosios erdvės“ „Xiaomi“ paskyrą.</string>
     <string name="multi_user_not_show_sync_activity_message_2">Tokiu atveju, visi duomenys bus sinchronizuoti su jūsų „Antrąja erdve“. Siekdami to išvengti, nejunkite sinchronizacijos su debesimi.</string>
     <string name="multi_user_not_show_sync_activity_title">Nejunkite sinchronizacijos su debesimi</string>
@@ -797,7 +746,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="passport_wrong_phone_number_format">Neteisingas įvesto telefono numerio formatas</string>
     <string name="passport_wrong_vcode">Kodas, kurį įvedėte, yra neteisingas</string>
     <string name="passport_wrong_voice">Kodas, kurį įvedėte, yra neteisingas</string>
-    <string name="password_toggle_content_description">Rodyti slaptažodį</string>
     <string name="password_view_hide_password">Slėpti slaptažodį</string>
     <string name="password_view_show_password">Rodyti slaptažodį</string>
     <string name="permission_group_contacts">Kontaktai</string>
@@ -959,7 +907,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
 %2$d. Jei negalite atstatyti slaptažodžio arba kas nors užrakino jūsų įrenginį, eikite į i.mi.com, kad jį atrakintumėte.
 %3$d. Jūsų atrakinimo numeris: %4$s"</string>
     <string name="update_apk_version_later">Ne dabar</string>
-    <string name="update_apk_version_now">Naujinti</string>
+    <string name="update_apk_version_now">Įdiegti</string>
     <string name="update_email_address_dialog_message">Prieš atnaujinant el. paštą yra reikalinga tapatybės identifikacija.</string>
     <string name="update_email_address_dialog_title">Atnaujinti El. Paštą</string>
     <string name="update_phone_notice">Keisti saugumo parametrus</string>
@@ -971,7 +919,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="user_agreement_read_phone_permission_desc">Prisijungimas naudojant telefono numerį</string>
     <string name="user_agreement_read_phone_permission_title">Skaityti telefono numerius</string>
     <string name="user_agreement_use_account_msg">„Xiaomi“ paskyra leidžia pasiekti visas „Xiaomi“ teikiamas paslaugas.</string>
-    <string name="user_agreement_wifi_permission_title">„Wi-Fi“ įjungimas ir išjungimas</string>
     <string name="user_agreement_wlan_permission_desc">Prisijungimo aplinkos patikrinimas dėl saugumo problemų</string>
     <string name="user_agreement_wlan_permission_title_china">WLAN įjungimas ir išjungimas</string>
     <string name="user_avatar_update_title">Keisti profilio nuotrauką</string>

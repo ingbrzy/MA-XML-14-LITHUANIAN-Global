@@ -102,7 +102,7 @@
     <string name="error_p2p_create_group_failure_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
     <string name="error_p2p_recv_connect_timeout">Nepavyko prisijungti. Iš naujo prisijunkite prie „Wi-Fi“ abiejuose įrenginiuose ir pabandykite dar kartą.</string>
     <string name="error_p2p_recv_connect_timeout_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
-    <string name="error_permission_denied">Norėdami naudoti šią funkciją, suteikite „Mi Share“ visus reikiamus leidimus parametruose.</string>
+    <string name="error_permission_denied">Norėdami naudoti šią funkciją, suteikite „Xiaomi Share“ visus reikiamus leidimus parametruose.</string>
     <string name="error_receive_file_cannot_read">Nepavyko gauti failo</string>
     <string name="error_receive_file_changed">Nepavyksta gauti. Elementas buvo pakeistas.</string>
     <string name="error_receive_file_file_opened">Šio elemento gauti nepavyko. Atrodo, jis šiuo metu naudojamas.</string>
@@ -121,8 +121,8 @@
     <string name="error_send_file_service_disabled">Išeinantis perdavimas atšauktas</string>
     <string name="error_send_transfer_error">Nepavyko išsiųsti elementų. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="error_send_transfer_pc_error">Transfer timed out. Update Xiaomi PC Manager to the latest version and try again.</string>
-    <string name="error_slave_wifi_in_use">„Mi Share“ neveikia, kai įjungtas dvigubas „Wi-Fi“. Išjunkite dvigubą „Wi-Fi“ parametruose ir pabandykite dar kartą.</string>
-    <string name="error_slave_wifi_in_use_china">„Mi Share“ neveikia, kai įjungtas dvigubas „WLAN“. Išjunkite dvigubą „WLAN“ nustatymuose ir pabandykite dar kartą.</string>
+    <string name="error_slave_wifi_in_use">„Xiaomi Share“ neveikia, kai įjungtas dvigubas „Wi-Fi“. Išjunkite dvigubą „Wi-Fi“ parametruose ir pabandykite dar kartą.</string>
+    <string name="error_slave_wifi_in_use_china">„Xiaomi Share“ neveikia, kai įjungtas dvigubas „WLAN“. Išjunkite dvigubą „WLAN“ parametruose ir pabandykite dar kartą.</string>
     <string name="error_timeout">Seanso laikas baigėsi. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="error_user_refuse">Nepavyksta išsiųsti. Perdavimas atmestas.</string>
     <string name="error_wifi_display_in_use">Perdavimo metu failų siuntimas į kitus įrenginius negalimas</string>
@@ -201,17 +201,17 @@
     <string name="go_to_settings">Parametrai</string>
     <string name="guide_summary_1">Kitas asmuo gali bakstelėti jungiklį pranešimų juostoje</string>
     <string name="guide_summary_2">Pasirinkite įrenginį, į kurį norėtumėte siųsti elementus ir bakstelėkite jo piktogramą</string>
-    <string name="guide_title_1">Abiejuose įrenginiuose įjunkite „Mi Share“</string>
+    <string name="guide_title_1">Abiejuose įrenginiuose įjunkite „Xiaomi Share“</string>
     <string name="guide_title_2">Pasirinkite įrenginį bendrinimui</string>
     <string name="help">Nepavyksta rasti įrenginių?</string>
-    <string name="help_content">Jei nepavyksta rasti reikiamo įrenginio, paprašykite kito asmens įjungti „Mi Share“.</string>
+    <string name="help_content">Jei nepavyksta rasti reikiamo įrenginio, paprašykite kito asmens įjungti „Xiaomi Share“.</string>
     <string name="hide">Slėpti</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="i_know">Supratau</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
-    <string name="location_enabled">„Mi Share“ vietos paslaugos sėkmingai įjungtos įrenginių aptikimui netoliese</string>
+    <string name="location_enabled">„Xiaomi Share“ vietos paslaugos sėkmingai įjungtos įrenginių aptikimui netoliese</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Leidimų informacija</string>
@@ -231,7 +231,7 @@
     <string name="mi_9_lite">„Mi 9 Lite“</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
-    <string name="mi_drop">„Mi Share“</string>
+    <string name="mi_drop">„Xiaomi Share“</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="mi_pad_5">Xiaomi Pad 5</string>
     <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
@@ -239,14 +239,14 @@
     <string name="mi_share_turbo_mode">Turbo perdavimas</string>
     <string name="midnight">Naktis</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
-    <string name="mishare_folder_in_file_explorer">„Failų tvarkyklė“ > „MiShare“</string>
-    <string name="mishare_service_channel_desc">Pranešimai apie „Mi Share“ procesus</string>
-    <string name="mishare_settings_summary_international">"„Mi Share“ jums leidžia belaidžiu būdu siųsti elementus į netoliese esančius įrenginius.
+    <string name="mishare_folder_in_file_explorer">„Failų tvarkyklė“ > „Xiaomi Share“</string>
+    <string name="mishare_service_channel_desc">Pranešimai apie „Xiaomi Share“ procesus</string>
+    <string name="mishare_settings_summary_international">"„Xiaomi Share“ jums leidžia belaidžiu būdu siųsti elementus į netoliese esančius įrenginius.
 Šią funkciją palaiko „OPPO“, „vivo“, „realme“ ir kiti išmaniųjų telefonų gamintojai. Palaikomų įrenginių sąrašą galite rasti bet kurio pasirinkto prekės ženklo oficialiame tinklapyje."</string>
-    <string name="mishare_state_protection">Įjungti „Mi Share“ automatiškai</string>
-    <string name="mishare_state_protection_summary">Įjungti „Mi Share“ automatiškai, kai „Bluetooth“ arba „Wi-Fi“ bus vėl įjungti</string>
-    <string name="mishare_state_protection_summary_china">Automatiškai įjungti „Mi Share“, kai „Bluetooth“ arba „WLAN“ įjungti iš naujo</string>
-    <string name="mishare_transefer_channel_desc">Pranešimai apie „Mi Share“ gautus ir išsiųstus elementus</string>
+    <string name="mishare_state_protection">Automatiškai įjungti „Xiaomi Share“</string>
+    <string name="mishare_state_protection_summary">Įjungti „Xiaomi Share“ automatiškai, kai „Bluetooth“ arba „Wi-Fi“ yra įjungiami iš naujo</string>
+    <string name="mishare_state_protection_summary_china">Automatiškai įjungti „Xiaomi Share“, kai „Bluetooth“ arba WLAN yra įjungiami iš naujo</string>
+    <string name="mishare_transefer_channel_desc">Pranešimai apie „Xiaomi Share“ gautus ir išsiųstus elementus</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
@@ -317,8 +317,8 @@
     <string name="nfc_check_the_touch_device">Norint prijungti įrenginius, „Wi-Fi“ ir „Bluetooth“ turi būti įjungti ir ant kitų įrenginių. Patikrinkite, ar jungtis kituose įrenginiuose leistina, eidami į: Parametrai > Prisijungimas ir bendrinimas > Prijungti įrenginiai ir bandykite dar kartą.</string>
     <string name="nfc_check_the_touch_device_china">Norint prijungti įrenginius, „WLAN“ ir „Bluetooth“ turi būti įjungti ir ant kitų įrenginių. Patikrinkite, ar jungtis kituose įrenginiuose leistina, eidami į: Parametrai > Prisijungimas ir bendrinimas > Prijungti įrenginiai ir bandykite dar kartą.</string>
     <string name="nfc_connect_fail">Nepavyko prisijungti. Minutėlę palaukite ir pabandykite dar kartą.</string>
-    <string name="nfc_connect_fail_lyra_secure">„Mi Share“ galite įjungti įrenginio valdymo centre.</string>
-    <string name="nfc_connect_fail_lyra_secure_title">„Mi Share“ išjungtas</string>
+    <string name="nfc_connect_fail_lyra_secure">„Xiaomi Share“ galite įjungti įrenginio valdymo centre.</string>
+    <string name="nfc_connect_fail_lyra_secure_title">„Xiaomi Share“ išjungtas</string>
     <string name="nfc_connect_fail_pad">Nepavyko prisijungti</string>
     <string name="nfc_connecting">Jungiamasi…</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan">Norėdami prijungti įrenginius, pirmiausia šiame įrenginyje įjunkite „Wi-Fi“ ir „Bluetooth“. Įjungti dabar?</string>
@@ -344,16 +344,16 @@
     <string name="pc_device_model_name">Kompiuteris</string>
     <string name="pc_redmi_device_model_name">„Redmi“ nešiojamasis kompiuteris</string>
     <string name="pc_xiaomi_device_model_name">„Xiaomi“ nešiojamasis kompiuteris</string>
-    <string name="permission_apply_purpose">Leisti „Mi Share“ rasti ir susijungti su netoliese esančiais įrenginiais, kad galėtų persiųsti failus.</string>
-    <string name="permission_denied_hint">Suteikti „Mi Share“ naudojimui būtinus leidimus</string>
+    <string name="permission_apply_purpose">Leisti „Xiaomi Share“ rasti ir prisijungti prie netoliese esančių įrenginių failų persiuntimui.</string>
+    <string name="permission_denied_hint">Suteikti „Xiaomi Share“ naudojimui būtinus leidimus</string>
     <string name="permission_related">Leidimai</string>
     <string name="pm">Popiet</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
     <string name="privacy_authorize">Įgaliojimas</string>
     <string name="progress_ratio">%1$d%%</string>
-    <string name="purpose">"Sveiki atvykę į „Mi Share“! Šią programą galite naudoti failų perdavimui tarp įrenginių. Jūsų asmeninę informaciją saugome laikydamiesi atitinkamų įstatymų, reglamentų ir politikos.
-Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais leidimais, taip pat, su būtinos asmeninės informacijos rinkimu:"</string>
-    <string name="purpose_v12">Sveiki atvykę į „Mi Share“! Šią programą galite naudoti, norėdami perduoti failus iš vieno įrenginio į kitą.</string>
+    <string name="purpose">"Sveiki atvykę į „Xiaomi Share“! Šią programą galite naudoti failų perdavimui tarp įrenginių. Jūsų asmeninę informaciją saugome laikydamiesi atitinkamų įstatymų, reglamentų ir politikos.
+Prieš pradėdami naudoti „Xiaomi Share“, turite sutikti su toliau išvardytais leidimais, taip pat, su būtinos asmeninės informacijos rinkimu:"</string>
+    <string name="purpose_v12">Sveiki atvykę į „Xiaomi Share“! Šią programą galite naudoti failų perdavimui iš vieno įrenginio į kitą.</string>
     <string name="queue_full">Prieš pradedant naujus perdavimus, užbaikite vykdomus.</string>
     <string name="realme">„realme“</string>
     <string name="realme_phone">„realme“</string>
@@ -435,7 +435,7 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_title_mishare_switch">Ši funkcija automatiškai išsijungs už %d min.</string>
     <string name="sub_title_turbo_mode">Ypač greiti perdavimai tarp „Xiaomi“ telefonų ir planšetinių kompiuterių. Perdavimo metu tinklo ryšys nutrūks.</string>
-    <string name="sub_title_withdraw_privacy_policy_consent">Atšaukus sutikimą su „Mi Share“ privatumo politika, programa išsijungs</string>
+    <string name="sub_title_withdraw_privacy_policy_consent">Atšaukus sutikimą su „Xiaomi Share“ privatumo politika, programa išsijungs</string>
     <string name="success_receive_much_file_from_pc">Gauta daugiau nei %2$d failų iš %1$s. Bakstelėkite, norėdami peržiūrėti.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sekmadienis</string>
@@ -495,22 +495,20 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="time_picker_label_minute">M</string>
     <string name="tips_p2p_support_use5g">Geriausių rezultatų pasieksite naudodami 5 GHz „Wi-Fi“ tinklą.</string>
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
-    <string name="tips_prompt_enable_midrop">„Mi Share“</string>
+    <string name="tips_prompt_enable_midrop">„Xiaomi Share“</string>
     <string name="to_feedback">Pranešti</string>
-    <string name="toast_auto_close_in_minutes">„Mi Share“ automatiškai išsijungs už %d min.</string>
+    <string name="toast_auto_close_in_minutes">„Xiaomi Share“ automatiškai išsijungs po %d minučių</string>
     <string name="toast_transfering">Perkeliami elementai. Bandykite dar kartą vėliau.</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
     <string name="transfer_intercept_to_remote">Nepavyko išsiųsti: %1$s</string>
-    <string name="transfer_to_pc_summary">Naujausia „AIoT“ programinės įrangos versija įdiegta „Mi“ nešiojamajame kompiuteryje suderinama su „Mi Share“. Palaikomų nešiojamųjų kompiuterių modelių sąrašą rasite „MIUI“ tinklapyje. Jei jūsų nešiojamasis kompiuteris nurodytas sąraše, bet kompiuteryje neįdiegta „AIoT“, atnaujinkite nešiojamojo kompiuterio BIOS ir tinklo plokštės tvarkyklę ir atsisiųskite „AIoT“.</string>
-    <string name="transfer_to_pc_summary_new">&lt;Data>Naujausia MIUI+ versija įdiegta „Mi“ nešiojamame kompiuteryje yra suderinama su „Mi Share“. MIUI+ tinklalapyje (&lt;a href=%1$s>%2$s&lt;/a>) galite peržiūrėti palaikomų nešiojamų kompiuterių modelių sąrašą. Jei sąraše radote savo nešiojamą kompiuterį, tačiau jame neįdiegta MIUI+, atnaujinkite savo kompiuterio BIOS, tinklo adapterio draiverį ir parsisiųskite MIUI+.&lt;/Data></string>
-    <string name="transfer_to_pc_summary_new_plus">&lt;Data>Xiaomi PC Manager now supports Mi Share! You can find a list of supported computer models &lt;a href=%1$s>here&lt;/a>.&lt;/Data></string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>„Xiaomi“ PC tvarkyklė dabar palaiko „Xiaomi Share“! Galite rasti palaikomų kompiuterių modelių sąrašą &lt;a href=%1$s>čia&lt;/a>.</Data></string>
     <string name="transfer_to_pc_title">Siųsti failus į kompiuterius</string>
-    <string name="transfer_to_phone_summary">Pranešimų juostoje įjunkite „Mi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
-    <string name="transfer_to_phone_summary_new">Norėdami lengvai siųsti ir gauti elementus, Valdymo centre įjunkite „Mi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
+    <string name="transfer_to_phone_summary">Pranešimų juostoje įjunkite „Xiaomi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
+    <string name="transfer_to_phone_summary_new">Norėdami lengvai siųsti ir gauti elementus, valdymo centre įjunkite „Xiaomi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
     <string name="transfer_to_phone_title">Siųsti failus į telefonus</string>
-    <string name="transfer_to_summary">Pranešimų juostoje įjunkite „Mi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
-    <string name="transfer_to_summary_new">Norėdami lengvai siųsti ir gauti elementus, Valdymo centre įjunkite „Mi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
+    <string name="transfer_to_summary">Pranešimų juostoje įjunkite „Xiaomi Share“ naudodami jungiklį. Po šio veiksmo, bendrindami nuotrauką arba failą galėsite aptikti netoliese esančius įrenginius. Bakstelėkite gavėjo įrenginį, kad išsiųstumėte bendrinamą elementą.</string>
+    <string name="transfer_to_summary_new">Norėdami lengvai siųsti ir gauti elementus, valdymo centre įjunkite „Xiaomi Share“. Įjungus, elementus galėsite bendrinti su netoliese esančiais įrenginiais %d min., po kurių bendrinimas automatiškai išsijungs.</string>
     <string name="transfer_to_title">Siųsti failus į mobiliuosius įrenginius</string>
     <string name="tuesday">Antradienis</string>
     <string name="tuesday_short">An.</string>
@@ -519,8 +517,8 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="unrecognized_manufacture">Nežinomas</string>
     <string name="unrecognized_model">Nežinomas įrenginys</string>
     <string name="user_instructions">Dėmesio</string>
-    <string name="uwb_guide_summary_1">Jei nerandate įrenginio, paprašykite, kad kitas asmuo valdymo centre paspaustų „Mi Share“ jungiklį.</string>
-    <string name="uwb_guide_title_1">Paprašykite, kad kitas asmuo įjungtų „Mi Share“</string>
+    <string name="uwb_guide_summary_1">Jei nerandate reikiamo įrenginio, paprašykite, kad kitas asmuo valdymo centre paspaustų „Xiaomi Share“ jungiklį.</string>
+    <string name="uwb_guide_title_1">Paprašykite, kad kitas asmuo įsijungtų „Xiaomi Share“</string>
     <string name="uwb_guide_title_2">Raskite įrenginį greičiau su spinduliu</string>
     <string name="uwb_setting_guide">Sužinokite daugiau</string>
     <string name="uwb_setting_guide_summary">Spindulys naudoja UWB technologiją, kad bevieliu būdu atpažintų įrenginius. Kai įrenginys atpažįstamas, piktograma nusikelia į priekinį foną.</string>
@@ -542,7 +540,7 @@ Prieš pradėdami naudoti „Mi Share“, turite sutikti su toliau išvardytais 
     <string name="wifi_is_not_enabled">Pirmiausia įjunkite „Wi-Fi“</string>
     <string name="wifi_is_not_enabled_china">Pirmiausia įjunkite „WLAN“</string>
     <string name="withdraw">Atšaukti</string>
-    <string name="withdraw_consent_message">Jei tęsite, tai reikš, kad atšaukiate sutikimą su „Mi Share“ privatumo politika. Surinkta ir išsaugota asmeninė informacija bus ištrinta per tam tikrą laikotarpį pagal galiojančius įstatymus ir teisės aktus, nebent numatyta kitaip. Kadangi „Mi Share“ teikia paslaugas remiantis būtinos asmeninės informacijos rinkimu, jūsų sutikimo atšaukimas bus laikomas atsisakymu priimti „Mi Share“ paslaugas.</string>
+    <string name="withdraw_consent_message">Jei tęsite, tai reikš, kad atsisakote „Xiaomi Share“ privatumo politikos įgaliojimų. Surinkta ir išsaugota asmeninė informacija bus ištrinta per tam tikrą laikotarpį pagal galiojančius įstatymus ir teisės aktus, nebent numatyta kitaip. Kadangi „Xiaomi Share“ teikia paslaugas remiantis būtinos asmeninės informacijos rinkimu, jūsų sutikimo atšaukimas bus laikomas atsisakymu priimti „Xiaomi Share“ paslaugas.</string>
     <string name="withdraw_consent_title">Sutikimo atšaukimas</string>
     <string name="withdraw_with_time">Atšaukti (%1$dsek.)</string>
     <string name="xiaomi">Mi</string>

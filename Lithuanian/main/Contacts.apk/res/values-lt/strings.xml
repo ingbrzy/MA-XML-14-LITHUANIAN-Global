@@ -383,7 +383,7 @@
     <string name="eras_bc">Pr. Kr.</string>
     <string name="evening">Popietė</string>
     <string name="eventLabelsGroup">Gimtadienis</string>
-    <string name="eventTypeCustom">Savas</string>
+    <string name="eventTypeCustom">Pasirinktinis</string>
     <string name="event_edit_field_hint_text">Data</string>
     <string name="expandCloseViewDescription">Suskleisti</string>
     <string name="expandOpenViewDescription">Išplėsti</string>
@@ -474,6 +474,7 @@ Priežastis: \"%s\""</string>
     <string name="friday">Penktadienis</string>
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Vardas</string>
     <string name="gallery">Galerija</string>
     <string name="ghostData_company">Įmonė</string>
@@ -547,7 +548,7 @@ Priežastis: \"%s\""</string>
     <string name="keep_local">Nesinchronizuoti</string>
     <string name="keep_local_btn">Naudoti įrenginio vidinę talpyklą</string>
     <string name="know">Supratau</string>
-    <string name="label_custom_type">Savas</string>
+    <string name="label_custom_type">Pasirinktinis</string>
     <string name="label_no_duplicate_contacts">Pasikartojančių kontaktų nerasta</string>
     <string name="label_notes">Pastabos</string>
     <string name="label_sip_address">Internetinis skambutis</string>
@@ -598,7 +599,7 @@ Priežastis: \"%s\""</string>
     <string name="menu_new_group_action_bar">Naujas</string>
     <string name="menu_not_redirect_calls_to_vm">Balso paštas nenaudojamas</string>
     <string name="menu_redirect_calls_to_vm">Visi skambučiai į balso paštą</string>
-    <string name="menu_removeStar">Nebemėgti</string>
+    <string name="menu_removeStar">Nepatinka</string>
     <string name="menu_settings">Parametrai</string>
     <string name="menu_share">Bendrinti</string>
     <string name="menu_share_qrcode">QR kodą</string>
@@ -607,6 +608,7 @@ Priežastis: \"%s\""</string>
     <string name="menu_sync_remove">Pašalinti sinchronizuotą grupę</string>
     <string name="midnight">Naktis</string>
     <string name="miprofile_account_type">Kontaktų kortelės</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redaguoti profilį</string>
     <string name="miprofile_name">Mano profilis</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -772,6 +774,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="permission_retry_dialog_msg_pad">Kad galėtumėte naudoti savo SIM kortelę su šia programa ir valdyti kontaktus, leiskite šiai programai pasiekti ir redaguoti jūsų kontaktus, taip pat prieigą prie įrenginio informacijos.</string>
     <string name="permission_retry_setting">Parametrai</string>
     <string name="phoneLabelsGroup">Telefono numeris</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numeris per ilgas</string>
     <string name="phone_primary">Pagrindinis</string>
     <string name="photoPickerNotFoundText">Įrenginyje nėra pasiekiamų vaizdų.</string>
@@ -1003,6 +1006,7 @@ Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Grupės narių nėra</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Įmonės</string>
     <string name="smart_group_company_unavailable">Nėra įmonės informacijos</string>
     <string name="smart_group_frequency_1">Pastarąjį mėnesį</string>
@@ -1044,6 +1048,7 @@ Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="starred_contacts">Mėgstamiausi</string>
     <string name="status_available">Prisijungęs</string>
     <string name="status_away">Pasišalinęs</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Užsiėmęs</string>
     <string name="strequentList">Mėgstamiausi</string>
     <string name="success_message_import_from_account">Kontaktas importuotas</string>

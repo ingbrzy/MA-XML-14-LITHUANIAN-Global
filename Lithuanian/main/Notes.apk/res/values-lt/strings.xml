@@ -478,6 +478,7 @@
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -537,6 +538,7 @@
     <string name="note_write_hint">Pradėkite rašyti</string>
     <string name="notealert_enter">Atidaryti užrašą</string>
     <string name="notealert_ok">Išjungti</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Užrašai – sisteminė programa. Ją išdiegus nebegalėsite naudoti šios programos.</string>
     <string name="notes_description_title">Išdiegti užrašus?</string>
     <string name="notification_content_add_todo_from_other_app">Pridėjote naują užduotį. Bakstelėkite, norėdami peržiūrėti.</string>

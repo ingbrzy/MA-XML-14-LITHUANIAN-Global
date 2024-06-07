@@ -182,6 +182,8 @@
     <string name="feedback_custom_hint">Apibūdinkite problemą, su kuria susidūrėte. Teikiant pasiūlymus būtume dėkingi už išsamią informaciją!</string>
     <string name="find_device">Rasti irenginį</string>
     <string name="find_device_dspt_provision">Pametus įrenginį, norėdami jį aptikti, užrakinti ar atstatyti, galite apsilankyti &lt;font color=#0097FF>%s&lt;/font>. Šią funkciją bet kada galite įjungti ar išjungti programoje „Parametrai“.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Įjungdami „Rasti įrenginį“, jūs sutinkate su mūsų <u><a href="app://com.miui.cloudservice.gdpr.license">privatumo politika</a></u>. Išjunkite šią funkciją, jei norite atšaukti savo sutikimą</string>
     <string name="find_device_operation_failure_rpc">Nepavyko atlikti operacijos dėl PRC klaidos.</string>
     <string name="find_device_permissions_footer">Bakstelėkite „Suteikti“, kad suteiktumėte pasirinktus leidimus.</string>

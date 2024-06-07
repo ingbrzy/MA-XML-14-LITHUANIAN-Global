@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>Vyras</item>
-        <item>Moteris</item>
-    </string-array>
     <string-array name="activities_title">
         <item>Ypatinga diena</item>
         <item>Įsimintina diena</item>
@@ -65,6 +61,14 @@
         <item>Į gamtą</item>
         <item>Nepažabotas ir laisvas</item>
     </string-array>
+    <string-array name="global_backup_display_title">
+        <item>@string/backup_google_name</item>
+        <item>@string/backup_onedrive_single_name</item>
+    </string-array>
+    <string-array name="global_backup_display_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="group_people_title">
         <item>Mūsų susitikimai</item>
         <item>Draugų kompanijoje</item>
@@ -119,6 +123,11 @@
         <item>Nauji draugai ir seni bičiuliai</item>
         <item>Praėjusių metų susibūrimai</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Perkelti</item>
+        <item>Kopijuoti</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="month">
         <item>Sausio</item>
         <item>Vasario</item>
@@ -158,6 +167,10 @@
         <item>Kartu</item>
         <item>Geri laikai</item>
         <item>Vienybė</item>
+    </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Vyras</item>
+        <item>Moteris</item>
     </string-array>
     <string-array name="people_travel_title">
         <item>Kur mus nuveda kelias</item>

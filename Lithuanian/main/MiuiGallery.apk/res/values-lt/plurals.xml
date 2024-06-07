@@ -96,6 +96,72 @@
         <item quantity="few">%d metai</item>
         <item quantity="many">%d metai</item>
     </plurals>
+    <plurals name="ai_create_image_queue">
+        <item quantity="other">Priešais jus %1d žmonės (-ių)</item>
+        <item quantity="one">Priešais jus %1d žmogus</item>
+        <item quantity="few">Priešais jus %1d žmonės (-ių)</item>
+        <item quantity="many">Priešais jus %1d žmonės (-ių)</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_hour">
+        <item quantity="other">Laukimo laikas: %s val.</item>
+        <item quantity="one">Laukimo laikas: %s val.</item>
+        <item quantity="few">Laukimo laikas: %s val.</item>
+        <item quantity="many">Laukimo laikas: %s val.</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_minute">
+        <item quantity="other">Laukimo laikas: %s min.</item>
+        <item quantity="one">Laukimo laikas: %s min.</item>
+        <item quantity="few">Laukimo laikas: %s min.</item>
+        <item quantity="many">Laukimo laikas: %s min.</item>
+    </plurals>
+    <plurals name="ai_creation_wait_message_time">
+        <item quantity="other">Kuriama… | Laukimo laikas: %d sek.</item>
+        <item quantity="one">Kuriama… | Laukimo laikas: %d sek.</item>
+        <item quantity="few">Kuriama… | Laukimo laikas: %d sek.</item>
+        <item quantity="many">Kuriama… | Laukimo laikas: %d sek.</item>
+    </plurals>
+    <plurals name="ai_creation_wait_queue">
+        <item quantity="other">Kuriama… | Priešais jus %d žmonės (-ių)</item>
+        <item quantity="one">Kuriama… | Priešais jus %d žmogus</item>
+        <item quantity="few">Kuriama… | Priešais jus %d žmonės (-ių)</item>
+        <item quantity="many">Kuriama… | Priešais jus %d žmonės (-ių)</item>
+    </plurals>
+    <plurals name="ai_creation_wait_time_minute">
+        <item quantity="other">Laukimo laikas: %d min.</item>
+        <item quantity="one">Laukimo laikas: %d min.</item>
+        <item quantity="few">Laukimo laikas: %d min.</item>
+        <item quantity="many">Laukimo laikas: %d min.</item>
+    </plurals>
+    <plurals name="ai_enhance_bar_waiting">
+        <item quantity="other">Kuriama… | Liko %d sek.</item>
+        <item quantity="one">Kuriama… | Liko %d sek.</item>
+        <item quantity="few">Kuriama… | Liko %d sek.</item>
+        <item quantity="many">Kuriama… | Liko %d sek.</item>
+    </plurals>
+    <plurals name="ai_hour">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+        <item quantity="few">%s val.</item>
+        <item quantity="many">%s val.</item>
+    </plurals>
+    <plurals name="ai_image_over_limit_msg">
+        <item quantity="other">Vienas asmuo gali sukurti iki %d DI vaizdų.</item>
+        <item quantity="one">Vienas asmuo gali sukurti iki %d DI vaizdo.</item>
+        <item quantity="few">Vienas asmuo gali sukurti iki %d DI vaizdų.</item>
+        <item quantity="many">Vienas asmuo gali sukurti iki %d DI vaizdų.</item>
+    </plurals>
+    <plurals name="ai_minute">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="ai_select_photo_time_count">
+        <item quantity="other">Renkamos nuotraukos (liko %d sek.)…</item>
+        <item quantity="one">Renkamos nuotraukos (liko %d sek.)…</item>
+        <item quantity="few">Renkamos nuotraukos (liko %d sek.)…</item>
+        <item quantity="many">Renkamos nuotraukos (liko %d sek.)…</item>
+    </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">Pasidalinta su %d asmenų</item>
         <item quantity="one">Pasidalinta su %d asmeniu</item>
@@ -336,11 +402,29 @@
         <item quantity="few">Praleistos %1$d nuotraukos, kurių nepavyko sugeneruoti.</item>
         <item quantity="many">Praleistos %1$d nuotraukos, kurių nepavyko sugeneruoti.</item>
     </plurals>
-    <plurals name="file_type_detail_count">
-        <item quantity="other">%1$d failų</item>
-        <item quantity="one">%1$d failas</item>
-        <item quantity="few">%1$d failai</item>
-        <item quantity="many">%1$d failai</item>
+    <plurals name="global_cloud_storage_warn_title_link">
+        <item quantity="other">Nepavyko sukurti %d elemento atsarginės kopijos dėl nepakankamos debesies saugyklos</item>
+        <item quantity="one">Nepavyko sukurti %d elemento atsarginės kopijos dėl nepakankamos debesies saugyklos</item>
+        <item quantity="few">Nepavyko sukurti %d elementų atsarginės kopijos dėl nepakankamos debesies saugyklos</item>
+        <item quantity="many">Nepavyko sukurti %d elemento atsarginės kopijos dėl nepakankamos debesies saugyklos</item>
+    </plurals>
+    <plurals name="global_sync_error_title">
+        <item quantity="other">Nesukurta %d elementų atsarginė kopija</item>
+        <item quantity="one">Nesukurta %d elemento atsarginė kopija</item>
+        <item quantity="few">Nesukurta %d elementų atsarginė kopija</item>
+        <item quantity="many">Nesukurta %d elementų atsarginė kopija</item>
+    </plurals>
+    <plurals name="global_syncing_gprs_title_link">
+        <item quantity="other">Kuriama %d elementų atsarginė kopija naudojant mobiliuosius duomenis…</item>
+        <item quantity="one">Kuriama %d elemento atsarginė kopija naudojant mobiliuosius duomenis…</item>
+        <item quantity="few">Kuriama %d elementų atsarginė kopija naudojant mobiliuosius duomenis…</item>
+        <item quantity="many">Kuriama %d elementų atsarginė kopija naudojant mobiliuosius duomenis…</item>
+    </plurals>
+    <plurals name="global_syncing_title_link">
+        <item quantity="other">Kuriama %d elementų atsarginė kopija…</item>
+        <item quantity="one">Kuriama %d elemento atsarginė kopija…</item>
+        <item quantity="few">Kuriama %d elementų atsarginė kopija…</item>
+        <item quantity="many">Kuriama %d elementų atsarginė kopija…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
@@ -517,10 +601,10 @@
         <item quantity="many">Atsiunčiami %d likę failai</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Nepavyko atsiųsti %1$d nuotraukų. Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
-        <item quantity="one">Nepavyko atsiųsti %1$d nuotraukos. Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
-        <item quantity="few">Nepavyko atsiųsti %1$d nuotraukų. Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
-        <item quantity="many">Nepavyko atsiųsti %1$d nuotraukų. Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
+        <item quantity="other">Nepavyko atsisiųsti %d failo (-ų). Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
+        <item quantity="one">Nepavyko atsisiųsti %d failo. Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
+        <item quantity="few">Nepavyko atsisiųsti %d failo (-ų). Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
+        <item quantity="many">Nepavyko atsisiųsti %d failo (-ų). Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Nepavyko atsiųsti %1$d failų (%2$d MB). Prisijunkite prie tinklo ir pabandykite dar kartą.</item>
@@ -535,16 +619,16 @@
         <item quantity="many">%1$d failai (%2$d MB) nėra atsiųsti. Atsiųsti naudojant mobiliuosius duomenis?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Nepavyko atsiųsti %1$d nuotraukų. Bandyti dar kartą?</item>
-        <item quantity="one">Nepavyko atsiųsti %1$d nuotraukos. Bandyti dar kartą?</item>
-        <item quantity="few">Nepavyko atsiųsti %1$d nuotraukų. Bandyti dar kartą?</item>
-        <item quantity="many">Nepavyko atsiųsti %1$d nuotraukų. Bandyti dar kartą?</item>
+        <item quantity="other">Nepavyko atsisiųsti %d failo (-ų). Bandyti dar kartą?</item>
+        <item quantity="one">Nepavyko atsisiųsti %d failo. Bandyti dar kartą?</item>
+        <item quantity="few">Nepavyko atsisiųsti %d failo (-ų). Bandyti dar kartą?</item>
+        <item quantity="many">Nepavyko atsisiųsti %d failo (-ų). Bandyti dar kartą?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Nepavyko atsisiųsti %1$d nuotraukų (%2$d MB), pakartoti?</item>
-        <item quantity="one">Nepavyko atsisiųsti %1$d nuotraukos (%2$d MB), pakartoti?</item>
-        <item quantity="few">Nepavyko atsisiųsti %1$d nuotraukų (%2$d MB), pakartoti?</item>
-        <item quantity="many">Nepavyko atsisiųsti %1$d nuotraukų (%2$d MB), pakartoti?</item>
+        <item quantity="other">Nepavyko atsisiųsti %1$d failo (-ų) (%2$d MB). Bandyti dar kartą?</item>
+        <item quantity="one">Nepavyko atsisiųsti %1$d failo (%2$d MB). Bandyti dar kartą?</item>
+        <item quantity="few">Nepavyko atsisiųsti %1$d failo (-ų) (%2$d MB). Bandyti dar kartą?</item>
+        <item quantity="many">Nepavyko atsisiųsti %1$d failo (-ų) (%2$d MB). Bandyti dar kartą?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Praleista %d nuotraukų, kurių nėra prietaise.</item>
@@ -594,113 +678,11 @@
         <item quantity="few">Pašalintos %1$d nuotraukos iš „%2$s“.</item>
         <item quantity="many">Removed %1$d photos from \"%2$s\".</item>
     </plurals>
-    <plurals name="send_apk_dialog_desc">
-        <item quantity="other">%2$d diegimo paketų (%3$s) iš %1$s</item>
-        <item quantity="one">%2$d diegimo paketas (%3$s) iš %1$s</item>
-        <item quantity="few">%2$d diegimo paketai (%3$s) iš %1$s</item>
-        <item quantity="many">%2$d diegimo paketai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_received">
-        <item quantity="other">Gauta %2$d diegimo paketų (%3$s) iš %1$s</item>
-        <item quantity="one">Gautas %2$d diegimo paketas (%3$s) iš %1$s</item>
-        <item quantity="few">Gauti %2$d diegimo paketai (%3$s) iš %1$s</item>
-        <item quantity="many">Gauti %2$d diegimo paketai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d diegimo paketų (%3$s) iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d diegimo paketas (%3$s) iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d diegimo paketai (%3$s) iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d diegimo paketai (%3$s) iš %1$s…</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc">
-        <item quantity="other">%2$d garso failų (%3$s) iš %1$s</item>
-        <item quantity="one">%2$d garso failas (%3$s) iš %1$s</item>
-        <item quantity="few">%2$d garso failai (%3$s) iš %1$s</item>
-        <item quantity="many">%2$d garso failai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_received">
-        <item quantity="other">Gauta %2$d garso failų (%3$s) iš %1$s</item>
-        <item quantity="one">Gautas %2$d garso failas (%3$s) iš %1$s</item>
-        <item quantity="few">Gauti %2$d garso failai (%3$s) iš %1$s</item>
-        <item quantity="many">Gauti %2$d garso failai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d garso failų (%3$s) iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d garso failas (%3$s) iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d garso failai (%3$s) iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d garso failai (%3$s) iš %1$s…</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc">
-        <item quantity="other">%2$d %3$s failų (%4$s) iš %1$s</item>
-        <item quantity="one">%2$d %3$s failas (%4$s) iš %1$s</item>
-        <item quantity="few">%2$d %3$s failai (%4$s) iš %1$s</item>
-        <item quantity="many">%2$d %3$s failai (%4$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_received">
-        <item quantity="other">Gauta %2$d %3$s failų (%4$s) iš %1$s</item>
-        <item quantity="one">Gautas %2$d %3$s failas (%4$s) iš %1$s</item>
-        <item quantity="few">Gauti %2$d %3$s failai (%4$s) iš %1$s</item>
-        <item quantity="many">Gauti %2$d %3$s failai (%4$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d %3$s failų (%4$s) iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d %3$s failas (%4$s) iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d %3$s failai (%4$s) iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d %3$s failai (%4$s) iš %1$s…</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc">
-        <item quantity="other">%2$d vaizdų iš %1$s</item>
-        <item quantity="one">%2$d vaizdas iš %1$s</item>
-        <item quantity="few">%2$d vaizdai iš %1$s</item>
-        <item quantity="many">%2$d vaizdai iš %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_received">
-        <item quantity="other">Gauta %2$d vaizdų iš %1$s</item>
-        <item quantity="one">Gautas %2$d vaizdas iš %1$s</item>
-        <item quantity="few">Gauti %2$d vaizdai iš %1$s</item>
-        <item quantity="many">Gauti %2$d vaizdai iš %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d vaizdų iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d vaizdas iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d vaizdai iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d vaizdai iš %1$s…</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc">
-        <item quantity="other">%2$d vaizdų arba vaizdo įrašų iš %1$s</item>
-        <item quantity="one">%2$d vaizdas arba vaizdo įrašas iš %1$s</item>
-        <item quantity="few">%2$d vaizdai arba vaizdo įrašai iš %1$s</item>
-        <item quantity="many">%2$d vaizdai arba vaizdo įrašai iš %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_received">
-        <item quantity="other">Gauta %2$d vaizdų arba vaizdo įrašų iš %1$s</item>
-        <item quantity="one">Gautas %2$d vaizdas arba vaizdo įrašas iš %1$s</item>
-        <item quantity="few">Gauti %2$d vaizdai arba vaizdo įrašai iš %1$s</item>
-        <item quantity="many">Gauti %2$d vaizdai arba vaizdo įrašai iš %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d vaizdų arba vaizdo įrašų iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d vaizdas arba vaizdo įrašas iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d vaizdai arba vaizdo įrašai iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d vaizdai arba vaizdo įrašai iš %1$s…</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc">
-        <item quantity="other">%2$d failų iš %1$s</item>
-        <item quantity="one">%2$d failas iš %1$s</item>
-        <item quantity="few">%2$d failai iš %1$s</item>
-        <item quantity="many">%2$d failai iš %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_received">
-        <item quantity="other">Gauta %2$d failų iš %1$s</item>
-        <item quantity="one">Gautas %2$d failas iš %1$s</item>
-        <item quantity="few">Gauti %2$d failai iš %1$s</item>
-        <item quantity="many">Gauti %2$d failai iš %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d failų iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d failas iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d failai iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d failai iš %1$s…</item>
+    <plurals name="search_title_ai">
+        <item quantity="other">Rasta elementų: %d</item>
+        <item quantity="one">Rastas %d elementas</item>
+        <item quantity="few">Rasta elementų: %d</item>
+        <item quantity="many">Rasta elementų: %d</item>
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Nepavyko bendrinti. Vis dar apdorojama %d nuotraukų…</item>
@@ -713,42 +695,6 @@
         <item quantity="one">Pasirinkite iki %d elemento išsiuntimui</item>
         <item quantity="few">Pasirinkite iki %d elementų išsiuntimui</item>
         <item quantity="many">Pasirinkite iki %d elementų išsiuntimui</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc">
-        <item quantity="other">%2$d vaizdo įrašų iš %1$s</item>
-        <item quantity="one">%2$d vaizdo įrašas iš %1$s</item>
-        <item quantity="few">%2$d vaizdo įrašai iš %1$s</item>
-        <item quantity="many">%2$d vaizdo įrašai iš %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_received">
-        <item quantity="other">Gauta %2$d vaizdo įrašų iš %1$s</item>
-        <item quantity="one">Gautas %2$d vaizdo įrašas iš %1$s</item>
-        <item quantity="few">Gauti %2$d vaizdo įrašai iš %1$s</item>
-        <item quantity="many">Gauti %2$d vaizdo įrašai iš %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d vaizdo įrašų iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d vaizdo įrašas iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d vaizdo įrašai iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d vaizdo įrašai iš %1$s…</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc">
-        <item quantity="other">%2$d archyvų (%3$s) iš %1$s</item>
-        <item quantity="one">%2$d archyvas (%3$s) iš %1$s</item>
-        <item quantity="few">%2$d archyvai (%3$s) iš %1$s</item>
-        <item quantity="many">%2$d archyvai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_received">
-        <item quantity="other">Gauta %2$d archyvų (%3$s) iš %1$s</item>
-        <item quantity="one">Gautas %2$d archyvas (%3$s) iš %1$s</item>
-        <item quantity="few">Gauti %2$d archyvai (%3$s) iš %1$s</item>
-        <item quantity="many">Gauti %2$d archyvai (%3$s) iš %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_receiving">
-        <item quantity="other">Gaunama %2$d archyvų (%3$s) iš %1$s…</item>
-        <item quantity="one">Gaunamas %2$d archyvas (%3$s) iš %1$s…</item>
-        <item quantity="few">Gaunami %2$d archyvai (%3$s) iš %1$s…</item>
-        <item quantity="many">Gaunami %2$d archyvai (%3$s) iš %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Įkelta %d nuotraukų</item>
@@ -1003,6 +949,24 @@
         <item quantity="one">%1$d failas</item>
         <item quantity="few">%1$d failai</item>
         <item quantity="many">%1$d failo</item>
+    </plurals>
+    <plurals name="video_editor_component_hint_text">
+        <item quantity="other">Pasirinkite %d vaizdo įrašų segmentus</item>
+        <item quantity="one">Pasirinkite %d vaizdo įrašo segmentą</item>
+        <item quantity="few">Pasirinkite %d vaizdo įrašų segmentus</item>
+        <item quantity="many">Pasirinkite %d vaizdo įrašų segmentų</item>
+    </plurals>
+    <plurals name="video_editor_component_imageview_content_description">
+        <item quantity="other">Vaizdo įrašo dalis %1$d, laukiama, kol bus pridėta %2$s sekundžių vaizdo įrašo dalis arba daugiau</item>
+        <item quantity="one">Vaizdo įrašo dalis %1$d, laukiama, kol bus pridėta %2$s sekundžių vaizdo įrašo dalis arba daugiau</item>
+        <item quantity="few">Vaizdo įrašo dalis %1$d, laukiama, kol bus pridėta %2$s sekundžių vaizdo įrašo dalis arba daugiau</item>
+        <item quantity="many">Vaizdo įrašo dalis %1$d, laukiama, kol bus pridėta %2$s sekundžių vaizdo įrašo dalis arba daugiau</item>
+    </plurals>
+    <plurals name="video_editor_component_next_step_disabled_content_description">
+        <item quantity="other">Norėdami tęsti, pridėkite dar %d vaizdo įrašus</item>
+        <item quantity="one">Norėdami tęsti, pridėkite dar %d vaizdo įrašą</item>
+        <item quantity="few">Norėdami tęsti, pridėkite dar %d vaizdo įrašus</item>
+        <item quantity="many">Norėdami tęsti, pridėkite dar %d vaizdo įrašų</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d vaizdo įrašai</item>

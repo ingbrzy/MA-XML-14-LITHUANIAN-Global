@@ -341,7 +341,7 @@
     <string name="friday_shortest">Pn.</string>
     <string name="fsg_assist_enable_summary">Braukite nuo ekrano kampo, norėdami naudoti „Google“ asistentą</string>
     <string name="fsg_assist_enable_title">„Google“ asistentas</string>
-    <string name="fsg_mistake_touch_summary">Tam tikrais atvejais (pvz., žaidimų arba vaizdo įrašų stebėjimo metu), gestai veikia tik, kai yra pakartojami.</string>
+    <string name="fsg_mistake_touch_summary">Tam tikrais atvejais (pvz., žaidimų arba vaizdo įrašų stebėjimo metu), gestai veikia tik tada, kai yra pakartojami.</string>
     <string name="fsg_mistake_touch_title">Gesto patvirtinimas</string>
     <string name="gadget_clear_button_label">Valymas</string>
     <string name="gadget_clock_label">Laikrodis</string>
@@ -353,6 +353,7 @@
     <string name="gadget_search_label">Ieškoti</string>
     <string name="gadget_weather_title">Orai</string>
     <string name="global_search">Paieška</string>
+    <string name="global_shelf">Programų ieškiklis</string>
     <string name="got_it_botton">Supratau</string>
     <string name="guide_install_app_msg">Ši programa nėra įdiegta jūsų įrenginyje. Rasti ir įdiegti programą dabar?</string>
     <string name="guide_install_app_title">Rasti ir įdiegti programą?</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">Paslaugos teikimo sąlygos</string>
     <string name="home_gesture_content_center">Turinio centras</string>
     <string name="home_gesture_global_search">Ieškoti</string>
+    <string name="home_gesture_global_shelf">Programų ieškiklis</string>
     <string name="home_gesture_no_action">Nenustatyta</string>
     <string name="home_gesture_notification_and_control_center">Pranešimų juosta ir Valdymo centras</string>
     <string name="home_gesture_notification_bar">Pranešimai</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">Galite perjungti šį gestą, kad atidarytumėte Valdymo centrą. Tai padaryti galite: Parametrai > Pagrindinis ekranas > Pagrindiniame ekrane braukti žemyn.</string>
     <string name="international_home_pull_down_up_btn_get">Supratau</string>
     <string name="international_home_pull_up_content">Pagrindiniame ekrane braukite aukštyn, kad atidarytumėte Turinio centrą.</string>
-    <string name="international_home_pull_up_sub_content">Norėdami atidaryti paiešką, savo Pagrindiniame ekrane braukite nuo centro žemyn.</string>
+    <string name="international_home_pull_up_sub_content">Norėdami rasti programas, pagrindiniame ekrane braukite nuo centro žemyn.</string>
     <string name="item_view_role_description">Skirtukas</string>
     <string name="jeejen_description">"Didesni UI elementai.
 Daugiau prieinamų kvietimų.
@@ -443,7 +445,7 @@ Išplėstas saugumas."</string>
     <string name="mi_wallpaper">„MIUI“ temos</string>
     <string name="midnight">Naktis</string>
     <string name="minus_one_screen">Programų saugykla</string>
-    <string name="miui_screen_config_title">Pagrindinio ekrano parametrai</string>
+    <string name="miui_screen_config_title">Pagrindinio ekrano išdėstymas</string>
     <string name="miui_setting_config_title">Pagrindinio ekrano parametrai</string>
     <string name="miui_widget_menu_replace_text">Pakeisti</string>
     <string name="miui_widget_toast_for_not_support_by_pa">Programų saugykla nepalaiko tokio dydžio valdiklių</string>
@@ -519,6 +521,7 @@ Išplėstas saugumas."</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -648,8 +651,9 @@ Išplėstas saugumas."</string>
     <string name="recent_menu_item_info">Info</string>
     <string name="recent_menu_item_lock">Užrakinti</string>
     <string name="recent_menu_item_unlock">Atrakinti</string>
-    <string name="recent_menu_item_worldcirculate">应用流转</string>
-    <string name="recent_menu_item_worldcirculate_disable">应用无法流转</string>
+    <string name="recent_menu_item_worldcirculate">Perkelti programėlės užduotis</string>
+    <string name="recent_menu_item_worldcirculate_disable">Negalime perkelti programėlės užduočių tarp sujungtų įrenginių</string>
+    <string name="recent_pin_text">Prisegta</string>
     <string name="recents_app_info_button_label">Programos informacija</string>
     <string name="recents_config_title">Naujausi</string>
     <string name="recents_dimiss_task">Valyti</string>
@@ -731,6 +735,7 @@ Išplėstas saugumas."</string>
     <string name="small_window">Laikinasis langas</string>
     <string name="start_activity_failed">Nepavyko paleisti vykdyklės</string>
     <string name="start_new_window">Naujas langas</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">Pasiekiama %1$s iš %2$s</string>
     <string name="status_bar_recent_memory_info2" />
@@ -748,8 +753,10 @@ Išplėstas saugumas."</string>
     <string name="switch_personal_assistant_app_vault">Programų saugykla</string>
     <string name="switch_personal_assistant_google">„Google Discover“</string>
     <string name="switch_personal_assistant_none">Nenustatyta</string>
+    <string name="switch_personal_assistant_summary">Pagrindiniame ekrane braukite į dešinę, kad atidarytumėte „Google Discover“</string>
     <string name="switch_screen_button_order">Mygtukų apsukimas</string>
     <string name="switch_screen_button_order_desc">Apkeisti „Grįžti“ ir „Meniu“ mygtukus</string>
+    <string name="system_sdk_disabled_toast">Sistemos SDK buvo išjungtas. Pirmiausia jį įjunkite.</string>
     <string name="system_shortcuts_edit">Redaguoti</string>
     <string name="system_shortcuts_icon_remove">Pašalinti</string>
     <string name="system_shortcuts_more_operation">Programos informacija</string>

@@ -85,7 +85,7 @@
         <item quantity="many">Prieš %1$d dienos</item>
     </plurals>
     <plurals name="delete_cloud_files">
-        <item quantity="other">Ištrinti %1$d failus iš visų įrenginių ir debesies? „Mi disko“ failus bus galima atkurti iš ką tik ištrintų elementų.</item>
+        <item quantity="other">Ištrinti %1$d failų iš visų įrenginių ir debesies? „Mi disko“ failus bus galima atkurti iš ką tik ištrintų elementų.</item>
         <item quantity="one">Ištrinti %1$d failą iš visų įrenginių ir debesies? „Mi disko“ failus bus galima atkurti iš ką tik ištrintų elementų.</item>
         <item quantity="few">Ištrinti %1$d failus iš visų įrenginių ir debesies? „Mi disko“ failus bus galima atkurti iš ką tik ištrintų elementų.</item>
         <item quantity="many">Ištrinti %1$d failų iš visų įrenginių ir debesies? „Mi disko“ failus bus galima atkurti iš ką tik ištrintų elementų.</item>
@@ -181,10 +181,10 @@
         <item quantity="many">po %d minučių</item>
     </plurals>
     <plurals name="items_picture">
-        <item quantity="other"> (%1$d elementai)</item>
+        <item quantity="other"> (%1$d elementų)</item>
         <item quantity="one"> (%1$d elementas)</item>
-        <item quantity="few"> (%1$d elementų)</item>
-        <item quantity="many"> (%1$d elementai)</item>
+        <item quantity="few"> (%1$d elementai)</item>
+        <item quantity="many"> (%1$d elementų)</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Ką tik</item>

@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Tylos režimas išjungtas. Skambučių ir pranešimų skambėjimo garsai nebus nutildomi.</string>
     <string name="kddi_miui_toast_zen_to_standard">Perjungta į tylų režimą. Skambučių ir pranešimų skambėjimo garsai bus nutildomi.</string>
     <string name="loading">Būsena nežinoma</string>
-    <string name="mi_smart_hub_entry_title">„Mi Smart Hub“</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Naktis</string>
     <string name="miplay_accessibility_cast">Pasirinkite prietaisą</string>
     <string name="miplay_accessibility_cover">Viršelis</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"„Xiaomi“ ausinių naudotojai: atidarykite įkrovimo dėžutę arba paspauskite ir palaikykite dėžutės mygtuką %d
 Ne „Xiaomi“ ausinių naudotojai: iš naujo nustatykite savo ausines „Bluetooth“ nustatymuose, tuomet prijunkite"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Pridėti ausines, kad bendrintų garsą</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Garso bendrinimas baigtas</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Pridėkite įkišamąsias ausines, kad galėtumėte bendrinti garsą</string>
     <string name="miplay_bluetooth_share_subTitle_text">Bendrinti įrenginio garsą su kitu asmeniu</string>
     <string name="miplay_bluetooth_share_title_text">Garso bendrinimas</string>
     <string name="miplay_detail_divider_title">Garsiakalbis</string>

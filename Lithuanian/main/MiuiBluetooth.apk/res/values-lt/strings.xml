@@ -88,6 +88,7 @@ Išsamesnės informacijos ieškokite parametruose."</string>
     <string name="fast_connect_device_battery">Akumuliatorius</string>
     <string name="fast_connect_device_box">Dėklas</string>
     <string name="fast_connect_device_box_name">%1$s dėžutė</string>
+    <string name="fast_connect_device_button_audio_share_fail">Supratau</string>
     <string name="fast_connect_device_connect_cancel">Atšaukti</string>
     <string name="fast_connect_device_connect_ok">Prisijungti</string>
     <string name="fast_connect_device_connect_retry">Pakartoti</string>
@@ -96,6 +97,12 @@ Išsamesnės informacijos ieškokite parametruose."</string>
     <string name="fast_connect_device_headset_l">Kairė</string>
     <string name="fast_connect_device_headset_r">Dešinė</string>
     <string name="fast_connect_device_headset_reset">Paspauskite ir laikykite nuspaudę mygtuką ant dėklo</string>
+    <string name="fast_connect_device_message_audio_share">Bendrinkite įrenginio garsą su šiomis ausinėmis</string>
+    <string name="fast_connect_device_replace_current_device">Perjungti įrenginį</string>
+    <string name="fast_connect_device_start_audio_share">Bendrinti</string>
+    <string name="fast_connect_device_title_audio_share">Klausykite kartu su %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Nepavyko prisijungti prie %1$s. Bandykite dar kartą.</string>
+    <string name="fast_connect_device_title_audio_share_success">Klausymas kartu su %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Nepavyko prisijungti prie %1$s</string>
     <string name="fast_connect_device_title_connecting">Jungiamasi…</string>
     <string name="fast_connect_device_title_find_headset">Rasti %1$s</string>

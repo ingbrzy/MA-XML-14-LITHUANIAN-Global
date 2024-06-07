@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>Vyras</item>
-        <item>Moteris</item>
-    </string-array>
     <string-array name="exo_controls_playback_speeds">
         <item>0,25 k.</item>
         <item>0,5 k.</item>
@@ -36,6 +32,10 @@
         <item>Pasąmonę veikiantys skelbimai</item>
         <item>Man tai nepatinka</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Vyras</item>
+        <item>Moteris</item>
+    </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Eiti pirmyn arba atgal</item>
         <item>Perjungti skirtukus</item>
@@ -43,20 +43,20 @@
     </string-array>
     <string-array name="pref_homepage_choices">
         <item>Numatytasis pradinis puslapis</item>
-        <item>Savas</item>
+        <item>Pasirinktinis</item>
     </string-array>
     <string-array name="pref_nav_mode_summary">
         <item>Telefonas</item>
         <item>Planšetė</item>
     </string-array>
     <string-array name="pref_navscreen_layoutstate_choices">
-        <item>Vertikalus rodinys</item>
+        <item>Vertikalus vaizdas</item>
         <item>Horizontalus rodinys</item>
     </string-array>
     <string-array name="pref_security_do_not_track_keys">
-        <item>Įj.</item>
+        <item>Įjungta</item>
         <item>Tik inkognito režime</item>
-        <item>Išj.</item>
+        <item>Išjungta</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Smulkus</item>
@@ -67,7 +67,7 @@
     </string-array>
     <string-array name="pref_ua_choices">
         <item>Android</item>
-        <item>PC</item>
+        <item>Kompiuteris</item>
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
@@ -83,10 +83,6 @@
     <string-array name="pref_web_permissions_sub_two">
         <item>Neleisti</item>
         <item>Leisti</item>
-    </string-array>
-    <string-array name="setting_swipe_up_target">
-        <item>Ieškoti</item>
-        <item>Naujienos</item>
     </string-array>
     <string-array name="shortcut_dialog_delete">
         <item>Trinti</item>

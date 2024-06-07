@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Įvykiai</string>
     <string name="ad_click_to_play">Bakstelėkite, norėdami žaisti</string>
     <string name="ad_flag_text">Reklama</string>
+    <string name="ad_topview_repeat_play">Palieskite, kad žaistumėte dar kartą</string>
     <string name="add_local_shortcut_add">Pridėti</string>
     <string name="add_local_shortcut_des">Pridėkite „Mano vaizdo įrašai“ į pagrindinį ekraną, kad galėtumėte pasiekti vietinius vaizdo failus vienu bakstelėjimu.</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Pirmyn</string>
     <string name="cast_forward_10">Pirmyn dešimt sekundžių</string>
     <string name="cast_forward_30">Pirmyn trisdešimt sekundžių</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">TIESIOGIAI</string>
     <string name="cast_mute">Nutildyti</string>
     <string name="cast_notification_connected_message">Prisijungta prie „%1$s“</string>
@@ -175,9 +177,9 @@
     <string name="click_to_reload_more">Bakstelėkite, kad įkeltumėte daugiau</string>
     <string name="click_to_retry">Pakartoti</string>
     <string name="close">Uždaryti</string>
-    <string name="cloud_auto_pip_play_switch">Automatiškai naudoti vaizdą vaizde</string>
+    <string name="cloud_auto_pip_play_switch">Automatiškai žiūrėti vaizdą vaizde</string>
     <string name="cloud_online_player">Grotuvas</string>
-    <string name="cloud_online_switch">Suasmenintos rekomendacijos</string>
+    <string name="cloud_online_switch">Asmeninės rekomendacijos</string>
     <string name="cloud_online_switch_open_time">Rodyti suasmeninto turinio siūlymus</string>
     <string name="cmp_tier_privacy_policy">Trečiųjų šalių privatumo politika</string>
     <string name="collect_diagnosis_log">Rinkti žurnalus</string>
@@ -261,7 +263,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="dialog_cancel">Atšaukti</string>
     <string name="dialog_clearn_content">Valyti naršymo istoriją dabar?</string>
     <string name="dialog_clearn_title">Išvalyti istoriją</string>
-    <string name="dialog_confirm">Gerai</string>
+    <string name="dialog_confirm">Pridėti</string>
     <string name="dialog_delete_bookmarks_content">Trinti žymę dabar?</string>
     <string name="dialog_disagree_continue">Tęsti</string>
     <string name="dialog_disagree_info">Jei nesutiksite su „Mi Video“ privatumo politika, negalėsite naudotis mūsų internetinėmis paslaugomis ir galėsite žiūrėti tik jūsų įrenginyje saugomus vaizdo įrašus. Vis tiek tęsti?</string>
@@ -285,13 +287,13 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="dialog_privacy_change_title">Privatumo politikos atnaujinimas</string>
     <string name="dialog_privacy_info">"Sveiki atvykę į „Mi Video“! Ši programa teikia šias paslaugas: 
 - tiesiogines interneto transliacijas,
-- vietinį vaizdo įrašų grotuvą.
-„Mi Video“ turi surinkti reikiamą asmeninę informaciją, kad galėtų teikti jums pagrindines paslaugas. Kaip tvarkome renkamą informaciją, galite sužinoti mūsų Privatumo politikoje. Galėsite pakeisti susijusius parametrus skiltyje Paskyra > Parametrai."</string>
-    <string name="dialog_privacy_info_new4">Sveiki atvykę į „Mi Video“! Ši programa teikia šias paslaugas:&lt;br>&lt;/br> - tiesiogines interneto transliacijas&lt;br>&lt;/br>- vietinį vaizdo įrašų grotuvą&lt;br>&lt;/br>„Mi Video“ turi surinkti reikiamą asmeninę informaciją, kad galėtų teikti jums pagrindines paslaugas. Kaip tvarkome renkamą informaciją, galite sužinoti mūsų privatumo politikoje. Galėsite pakeisti susijusius parametrus skiltyje Parametrai > Slaptažodžiai &amp;amp; saugumas.&lt;br>&lt;/br>Prieš naudodami „Mi Video“, perskaitykite ir sutikite su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.</string>
-    <string name="dialog_privacy_info_new5">Sveiki prisijungę prie „Mi Video“! Ši programėlė teikia tokias paslaugas:&lt;br>&lt;/br> - Internetinės transliacijos paslaugas&lt;br>&lt;/br>- Vietos vaizdo grotuvo žadėją&lt;br>&lt;/br>Siekdama suteikti pagrindines paslaugas, programėlė renka būtiną asmeninę informaciją. Norėdami sužinoti daugiau, peržiūrėkite mūsų Privatumo politiką. Galite bet kuriuo metu pakeisti parametrus, eidami į: Paskyra > Parametrai.&lt;br>&lt;/br>Prieš naudodamiesi „Mi Video“, perskaitykite ir sutikite su mūsų &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> and &lt;a href=%2$s>Privatumo politika&lt;/a>.</string>
+- vartotojo vaizdo įrašų grotuvą.
+„Mi Video“ turi surinkti reikiamą asmeninę informaciją, kad galėtų teikti jums pagrindines paslaugas. Kaip tvarkome renkamą informaciją, galite sužinoti mūsų privatumo politikoje. Galite pakeisti susijusius parametrus skiltyje paskyra > parametrai."</string>
+    <string name="dialog_privacy_info_new4">Sveiki atvykę į „Mi Video“! Ši programa teikia šias paslaugas:&lt;br>&lt;/br> - tiesiogines interneto transliacijas&lt;br>&lt;/br>- vartotojo vaizdo įrašų grotuvą&lt;br>&lt;/br>„Mi Video“ turi surinkti reikiamą asmeninę informaciją, kad galėtų teikti jums pagrindines paslaugas. Kaip tvarkome renkamą informaciją, galite sužinoti mūsų privatumo politikoje. Galėsite pakeisti susijusius parametrus skiltyje Parametrai > Slaptažodžiai &amp;amp; saugumas.&lt;br>&lt;/br>Prieš naudodami „Mi Video“, perskaitykite ir sutikite su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.</string>
+    <string name="dialog_privacy_info_new5">Sveiki prisijungę prie „Mi Video“! Ši programėlė teikia tokias paslaugas:&lt;br>&lt;/br> - Internetinės transliacijos paslaugas&lt;br>&lt;/br>- vartotojo vaizdo įrašų grotuvą&lt;br>&lt;/br>Siekdama suteikti pagrindines paslaugas, programėlė renka būtiną asmeninę informaciją. Norėdami sužinoti daugiau, peržiūrėkite mūsų privatumo politiką. Galite bet kuriuo metu pakeisti parametrus, eidami į: Paskyra > Parametrai.&lt;br>&lt;/br>Prieš naudodamiesi „Mi Video“, perskaitykite ir sutikite su mūsų &lt;a href=%1$s>naudotojo sutartimi&lt;/a> and &lt;a href=%2$s>privatumo politika&lt;/a>.</string>
     <string name="dialog_privacy_revoke_cancel">Atšaukti</string>
     <string name="dialog_privacy_revoke_count_down">Atšaukti (%1$dsek.)</string>
-    <string name="dialog_privacy_revoke_description">Ketinate atšaukti savo sutikimą su „Mi Video“ privatumo politika. Jūsų asmeninė informacija nebebus renkama. Surinkta ir išsaugota asmeninė informacija bus ištrinta per konkretų laikotarpį, kaip to reikalaujama pagal taikytiną teisę. Privatumo politikos įgaliojimo atšaukimas bus laikomas atsisakymu sutikti su internetinių paslaugų teikimo sąlygomis dėl asmeninės informacijos rinkimo.</string>
+    <string name="dialog_privacy_revoke_description">Ketinate atšaukti savo sutikimą su „Mi Video“ privatumo politika. Jūsų asmeninė informacija nebebus renkama. Surinkta ir išsaugota asmeninė informacija bus ištrinta per konkretų laikotarpį, kaip to reikalaujama pagal įstatymus. Privatumo politikos įgaliojimo atšaukimas bus laikomas atsisakymu sutikti su internetinių paslaugų teikimo sąlygomis dėl asmeninės informacijos rinkimo.</string>
     <string name="dialog_privacy_revoke_fail">Įgaliojimų atsisakymui reikalinga interneto prieiga. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="dialog_privacy_revoke_ok">Atsisakyti</string>
     <string name="dialog_privacy_revoke_success">Sėkmingai atšaukta</string>
@@ -330,6 +332,8 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="download_unable_tip">Nepavyko atsiųsti šio elemento</string>
     <string name="download_video">Atsiunčiamas vaizdo įrašas</string>
     <string name="downloading">Atsiunčiama…</string>
+    <string name="draw_ad_button_click_text">Pakratykite arba bakstelėkite, norėdami atidaryti</string>
+    <string name="draw_ad_button_slide_text">Slinkite, norėdami sužinoti daugiau</string>
     <string name="early_morning">Rytas</string>
     <string name="empty" />
     <string name="empty_channels">Valdyti kanalus</string>
@@ -393,7 +397,7 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="exo_track_surround_5_point_1">5.1 erdvinis garsas</string>
     <string name="exo_track_surround_7_point_1">7.1 erdvinis garsas</string>
     <string name="exo_track_unknown">Nežinomas</string>
-    <string name="expand_button_title">Išplėstinė</string>
+    <string name="expand_button_title">Išplėstiniai</string>
     <string name="exposed_dropdown_menu_content_description">Rodyti išskleidžiamąjį meniu</string>
     <string name="failed_dup_secure_phone_number">Šis telefono numeris jau yra susietas su kita „Mi“ paskyra</string>
     <string name="failed_to_fetch_data">Nepavyko įkelti informacijos.</string>
@@ -414,14 +418,10 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="feedback_activity_title">Atsiliepimas</string>
     <string name="feedback_contact_empty">Įveskite savo kontaktinę informaciją</string>
     <string name="feedback_contact_title">Kontaktinė informacija</string>
-    <string name="feedback_detail_input_hint">Įveskite savo pranešimą</string>
-    <string name="feedback_hint">Apibūdinkite problemą, su kuria susidūrėte.</string>
     <string name="feedback_hint_contact">Telefonas/„QQ“/el. paštas</string>
     <string name="feedback_hint_text">Apibūdinkite problemą, su kuria susidūrėte.</string>
-    <string name="feedback_input_tip">Čia galite aprašyti problemas arba teikti pasiūlymus.</string>
     <string name="feedback_net_error">Nepavyko pateikti. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="feedback_sent">Pateikti</string>
-    <string name="feedback_success">Sėkmingai pateikta</string>
     <string name="feedback_success_toast">Pateikta sėkmingai. Dėkojame už jūsų atsiliepimą!</string>
     <string name="feedback_tag_title">Kategorija</string>
     <string name="feedback_text_empty_toast">Pirmiausia parašykite atsiliepimą.</string>
@@ -642,10 +642,11 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="hidden_channels">Tolesni kanalai nebebus rodomi pagrindiniame puslapyje.</string>
     <string name="hide">Slėpti</string>
     <string name="hide_video_toast">Šis elementas buvo paslėptas. Paslėptus elementus galite rasti ir tvarkyti skiltyje Vietinis > Aplankai > Paslėpti elementai.</string>
+    <string name="hiding_dialog_ok">Nustatyti</string>
     <string name="hint_icon_ad_title">Rekomenduojama</string>
     <string name="hint_in_mivideo">Dabar galite rasti papildomas funkcijas šoniniame skydelyje</string>
     <string name="history">Istorija</string>
-    <string name="history_local_video">Vietiniai</string>
+    <string name="history_local_video">Asmeniniai</string>
     <string name="history_online_video">Internete</string>
     <string name="icon_content_description">Dialogo lango piktograma</string>
     <string name="identity">Identifikavimas</string>
@@ -695,7 +696,6 @@ Išsiųskite šį kodą vadovui."</string>
     <string name="inline_mute_click_tip">Bakstelėkite, norėdami atšaukti nutildymą</string>
     <string name="input_email_address_notice">Šis el. pašto adresas bus naudojamas jūsų paskyros patvirtinimui</string>
     <string name="input_new_pwd">Įveskite naują slaptažodį</string>
-    <string name="input_size_tips_new">Galite įversti iki %d simbolių</string>
     <string name="isornot_your_mi_account">Ar tai jūsų „Mi“ paskyra?</string>
     <string name="item_card_all_replies">Visi atsakymai</string>
     <string name="item_card_continue_play">Automatinis paleidimas</string>
@@ -799,7 +799,6 @@ kalbą"</string>
     <string name="local_zoom_adjust_button">Rodymo režimo perjungimas</string>
     <string name="lock_screen">Užrakto ekranas</string>
     <string name="login">Prisijungti</string>
-    <string name="login_tip">Norėdami gauti mūsų atsakus į jūsų atsiliepimus – prisijunkite.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Atsijungti</string>
     <string name="logout_account">Atsijungti</string>
@@ -887,6 +886,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="manager_request_continue">Leisti</string>
     <string name="manager_request_tip">Daugiau neberodyti</string>
     <string name="manager_request_title">Nepavyksta pasiekti failo</string>
+    <string name="mangotv_episode">Serija: %d</string>
     <string name="mangotv_feature_list_title3">Pridėta %s serija</string>
     <string name="mangotv_feature_more">Daugiau</string>
     <string name="mangotv_feature_title1">Serijos</string>
@@ -916,11 +916,13 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="miuix_appcompat_delete_description">Trinti</string>
     <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
+    <string name="miuix_appcompat_edit">Redaguoti</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_dialog_ok">Gerai</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -1016,6 +1018,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -1045,7 +1048,6 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="music_new_user_dialog_got_it">Supratau</string>
     <string name="music_new_user_dialog_tip">Sveiki atvykę į „Mi Video“! Ši programa teikia vietinį vaizdo įrašų grotuvą ir muzikos ir vaizdo įrašų srautinio perdavimo paslaugas.</string>
     <string name="my_favorite_channels">Mano mėgstamiausi kanalai</string>
-    <string name="my_feedback_title">Mano atsiliepimas</string>
     <string name="native_body">Tekstas</string>
     <string name="native_headline">Antraštė</string>
     <string name="native_media_view">Medijos rodinys</string>
@@ -1056,6 +1058,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="network_failed">Nepavyksta prisijungti prie tinklo</string>
     <string name="newyearfestival_go_to_draw_prizes">Eiti į prizų traukimą</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Žiūrėkite vaizdo įrašus ir dalyvaukite prizų traukime</string>
+    <string name="next_button">Kitas</string>
     <string name="nick_name">Slapyvardis</string>
     <string name="night">Vakaras</string>
     <string name="no_account">Neprisijungta</string>
@@ -1105,6 +1108,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="online_play_start_ready_loading_tip_kb">Įkeliama %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Įkeliama %.2f MB/s</string>
     <string name="online_play_title">Įveskite URL</string>
+    <string name="order_alphabet">A-Ž</string>
     <string name="order_recently_subscribe">Naujausios prenumeratos</string>
     <string name="order_recently_updated">Vėliausiai naujinta</string>
     <string name="out_of_memory_background_playback_is_suspended">Dėl atminties stokos foninis atkūrimas sustabdytas</string>
@@ -1115,7 +1119,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="ovp_home_no_data_callback">Nepavyko įkelti informacijos. Patraukite žemyn, kad atnaujintumėte.</string>
     <string name="ovp_load_playinfo_failure">Nepavyko gauti informacijos</string>
     <string name="ovp_navigation_content">Turinio kooperacija</string>
-    <string name="ovp_navigation_darkmode">Tamsus režimas</string>
+    <string name="ovp_navigation_darkmode">Tamsusis režimas</string>
     <string name="ovp_navigation_favorites">Mėgstamiausi</string>
     <string name="ovp_navigation_feedback">Atsiliepimas</string>
     <string name="ovp_navigation_history">Istorija</string>
@@ -1125,14 +1129,14 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="ovp_navigation_score">Įvertinkite mūsų programą</string>
     <string name="ovp_navigation_setting">Parametrai</string>
     <string name="ovp_navigation_subscribe">Prenumerata</string>
-    <string name="ovp_navigation_version_update">Tikrinti, ar yra naujinimų</string>
+    <string name="ovp_navigation_version_update">Tikrinti, ar yra atnaujinimų</string>
     <string name="ovp_player_cached_error_btn">Vaizdo įrašai internete</string>
     <string name="ovp_player_cached_error_hint_info">Šiuo metu vietinių vaizdo įrašų grojimas negalimas</string>
     <string name="ovp_playlist">Grojaraštis</string>
     <string name="ovp_resolution_auto">Aut.</string>
     <string name="ovp_resolution_not_support">Šio vaizdo įrašo skiriamosios gebos perjungimas negalimas</string>
     <string name="ovp_resolution_title">Skiriamoji geba</string>
-    <string name="ovp_setting_clear_cache_success">Podėlis išvalytas sėkmingai</string>
+    <string name="ovp_setting_clear_cache_success">Duomenys išvalyti sėkmingai</string>
     <string name="ovp_setting_clear_cache_text">Išvalyti talpyklos failus išsaugotus įrenginyje</string>
     <string name="ovp_setting_privacy_policy_title">Privatumo politika</string>
     <string name="ovp_setting_user_agreement_title">Naudotojo sutartis</string>
@@ -1241,6 +1245,8 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="photoPickerNotFoundText">Nėra pasiekiamų nuotraukų.</string>
     <string name="pip">PiP</string>
     <string name="pip_not_supported_toast">Norėdami naudotis vaizdu vaizde, atnaujinkite į naujausią versiją.</string>
+    <string name="play_at_normal_speed">Leidžiama 1X greičiu</string>
+    <string name="play_at_speed">Leidžiama %.1fX greičiu</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Sukurti grojaraštį</string>
     <string name="play_list_save_dialog_title">Įtraukti į grojaraštį</string>
@@ -1412,6 +1418,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="remaining_space_not_enough">Nepavyko atsisiųsti. Nepakanka vietos saugykloje</string>
     <string name="reminder">Dėmesio</string>
     <string name="rename">Pervadinti</string>
+    <string name="rename_dialog_ok">Gerai</string>
     <string name="rename_word_out">Failo pavadinimas per ilgas</string>
     <string name="report">Pranešti</string>
     <string name="report_content_dislike">Smurtas ar kitoks netinkamas turinys</string>
@@ -1465,7 +1472,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="sending">Siunčiama…</string>
     <string name="service_error">Serverio klaida</string>
     <string name="set_success">Sėkmingai pakeista</string>
-    <string name="setting_privacy_title">Terms and conditions</string>
+    <string name="setting_privacy_title">Nuostatos ir sąlygos</string>
     <string name="settings_inline_auto_play">Visada leisti automatiškai</string>
     <string name="settings_inline_auto_play_close">Automatinis paleidimas išjungtas</string>
     <string name="settings_inline_auto_play_tip_close_forever">Visada išjungta</string>
@@ -1480,6 +1487,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="shake_to_open_ad">Pakratykite, kad sužinotumėte daugiau</string>
     <string name="share">Bendrinti</string>
     <string name="share_text_before_link">Peržiūrėkite ir atsisiųskite šaunius vaizdo įrašus iš „Mi Video“</string>
+    <string name="share_title">Bendrinti</string>
     <string name="share_ugc_waitting">Generuojama nuoroda…</string>
     <string name="shorts_assemble_ad_recommend">Rekomenduojama</string>
     <string name="show_the_location">Pranešimų tipai</string>
@@ -1494,6 +1502,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="slide_or_click_to_open_ad">Slinkite arba bakstelėkite, kad sužinotumėte daugiau</string>
     <string name="slide_save_message">Generuojamas vaizdo įrašas…</string>
     <string name="slide_to_open_ad">Slinkite, kad sužinotumėte daugiau</string>
+    <string name="small_mango_play_next_episode">Kita serija</string>
     <string name="small_video_load_more_hint">Braukite, kad rodytų daugiau vaizdo įrašų</string>
     <string name="small_video_report">Pranešti</string>
     <string name="small_video_report_dialog_title">Pasirinkite priežastį</string>
@@ -1506,9 +1515,9 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="sns_sign_in">Kiti prisijungimo būdai</string>
     <string name="source">"Šaltinis: "</string>
     <string name="start_download_tip">Pridėta į eilę. Patikrinkite eigą profilyje > atsisiuntimai.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD kortelė</string>
     <string name="storage_internal_sdcard">Vidinė saugykla</string>
-    <string name="submit">Pateikti</string>
     <string name="subscribe">PRENUMERUOTI</string>
     <string name="subscribe_author_recommend_btn">Prenumeruoti</string>
     <string name="subscribe_author_recommend_title">Prenumeruokite, kad matytumėte naujausius šių kūrėjų vaizdo įrašus</string>
@@ -1528,6 +1537,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
     <string name="sure_to_logout">Atsijungti dabar?</string>
+    <string name="swipe_to_exit">Perbraukite dar kartą, kad išeitumėte</string>
     <string name="switch_ratio_pause">Atkūrimo greitis – nepastovus. Perjungiama į numatytąjį greitį.</string>
     <string name="sync_favorites_limit_new">Jūsų parankiniuose yra daugiau nei %d vaizdo įrašų. Norėdami toliau sinchronizuoti, ištrinkite keletą ankstesnių vaizdo įrašų.</string>
     <string name="sync_favorites_message">Sinchronizuoti mėgstamiausius iš šio įrenginio į jūsų paskyrą? Nebepasiekiami elementai bus ištrinti.</string>
@@ -1550,7 +1560,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="tab_name_movies">Filmai</string>
     <string name="tab_name_trending">Populiaru</string>
     <string name="tab_name_video">Vaizdo įr.</string>
-    <string name="tab_playlist_local">Vietiniai</string>
+    <string name="tab_playlist_local">Asmeniniai</string>
     <string name="tab_playlist_online">Internete</string>
     <string name="talkback_ad_clicked">Reklama</string>
     <string name="talkback_background_playback">Atkūrimas fone</string>
@@ -1654,7 +1664,6 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Šis atlygis šiuo metu nepasiekiamas. Pabandykite vėliau.</string>
     <string name="toast_m3u8_download_path_tip">Negalima pakeisti atsisiuntimo kelio turiniui m3u8 formatu</string>
     <string name="toast_play_error_tip">Nepavyko atkurti šio failo</string>
-    <string name="toast_request_too_frequently">Ne taip greitai!</string>
     <string name="toast_share_failed">Nepavyko bendrinti. Palaukite porą minučių ir pabandykite dar kartą.</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
@@ -1663,9 +1672,6 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="tuesday">Antradienį</string>
     <string name="tuesday_short">An.</string>
     <string name="tuesday_shortest">An.</string>
-    <string name="type_content">Turinys</string>
-    <string name="type_issue">Problema</string>
-    <string name="type_suggestion">Pasiūlymas</string>
     <string name="ugc_no_net">Nepavyko prisijungti prie tinklo. Patikrinkite tinklo parametrus ir bandykite dar kartą.</string>
     <string name="ui_common_title_back">Atgal</string>
     <string name="unknow">Nežinomas</string>
@@ -1690,7 +1696,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="v_menu_hide">Slėpti</string>
     <string name="v_more">Daugiau</string>
     <string name="v_next">Toliau</string>
-    <string name="v_ok">Gerai</string>
+    <string name="v_ok">Toliau</string>
     <string name="v_online_play">Transliuoti internetu</string>
     <string name="v_pw_need_update_app">Visų „Mi Video“ funkcijų naudoijimui – atnaujinkite programą</string>
     <string name="v_save">Išsaugoti</string>
@@ -1701,6 +1707,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="video_download_fail">Nepavyko atsisiųsti vaizdo įrašo</string>
     <string name="video_download_fail_hint">Nepavyko atsiųsti</string>
     <string name="video_download_floating_guide">Atsisiųsti vaizdo įrašus nemokamai</string>
+    <string name="video_download_folder">Atsisiųsti vaizdo įrašai</string>
     <string name="video_download_folder_title">„Mi“ vaizdo įrašų atsisiuntimai</string>
     <string name="video_download_forbidden">Negalia atsiųsti iš šios interneto svetainės</string>
     <string name="video_download_login_guide">Prisijunkite prie %s, kad galėtumėte atsisiųsti vaizdo įrašų</string>
@@ -1741,7 +1748,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="wednesday">Trečiadienį</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>
-    <string name="welcome_tip_content1">Galingas vietinis vaizdo grotuvas</string>
+    <string name="welcome_tip_content1">Galingas asmeninis vaizdo grotuvas</string>
     <string name="welcome_tip_content2">Milijonai vaizdo įrašų, kuriuos galite peržiūrėti internete arba atsisiųsti</string>
     <string name="welcome_tip_explore_more">Atraskite</string>
     <string name="welcome_tip_into_mivideo">Pradėkite</string>
@@ -1752,7 +1759,7 @@ Galite leisti „Mi Video“ pasiekti ir leisti visus vaizdo įrašų failus.
     <string name="widget_add_dialog_desc_local">Naudodami šį valdiklį galite vienu bakstelėjimu pagrindiniame ekrane leisti įrenginyje saugomus garso ir vaizdo failus. Pridėti dabar?</string>
     <string name="widget_add_dialog_desc_online">Naudodami šį valdiklį galite vienu bakstelėjimu žiūrėti šiandienos populiarius vaizdo įrašus pagrindiniame ekrane. Pridėti dabar?</string>
     <string name="widget_add_dialog_title">Pridėti valdiklį</string>
-    <string name="widget_local_video">Vietiniai vaizdo įrašai</string>
+    <string name="widget_local_video">Asmeniniai vaizdo įrašai</string>
     <string name="widget_local_video_click">Palieskite, kad žiūrėtumėte savo įrenginyje laikomus vaizdo įrašus</string>
     <string name="widget_more_channel">Daugiau kanalų</string>
     <string name="widget_more_channel_click">Palieskite, kad pamatytumėte TV kanalus</string>

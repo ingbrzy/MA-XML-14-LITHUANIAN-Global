@@ -78,12 +78,6 @@
         <item quantity="few">Atsukti atgal %d sekundes</item>
         <item quantity="many">Atsukti atgal %d sekundės</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
-        <item quantity="one">Grįžtama į pagrindinį puslapį po %1$d sekundės…</item>
-        <item quantity="few">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
-        <item quantity="many">Grįžtama į pagrindinį puslapį po %1$d sekundžių…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Prieš pusvalandį</item>
         <item quantity="one">Prieš pusvalandį</item>

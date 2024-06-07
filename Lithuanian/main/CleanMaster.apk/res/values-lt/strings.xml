@@ -304,6 +304,7 @@
     <string name="download">Atsisiųsti</string>
     <string name="downloading">Atsisiunčiama</string>
     <string name="early_morning">Rytas</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Tuščia</string>
     <string name="empty_content_no_privacy">Tuščia</string>
     <string name="empty_content_no_similar_image">Nuotraukų nėra</string>
@@ -491,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Viskas atrodo tvarkingai</string>
     <string name="hints_garbage_handle_item_content">%1$d elementų, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Nėra įrašų</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Retai naudota</string>
     <string name="hints_installed_app_near">Neseniai naudota</string>
     <string name="hints_installed_app_never">Niekada nenaudota</string>
@@ -577,6 +579,7 @@
     <string name="miuix_appcompat_delete_description">Trinti</string>
     <string name="miuix_appcompat_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_deselect_all_description">Atžymėti viską</string>
+    <string name="miuix_appcompat_edit">Redaguoti</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Atšaukti</string>
     <string name="miuix_appcompat_search_input_description">Ieškoti</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>

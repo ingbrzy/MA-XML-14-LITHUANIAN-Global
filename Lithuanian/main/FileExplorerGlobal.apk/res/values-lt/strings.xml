@@ -875,6 +875,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="set_pattern">Atnaujinkite slaptažodį</string>
     <string name="set_pattern_btn">Nustatyti</string>
     <string name="set_pattern_msg">Iš naujo nustatykite slaptažodį. Privatumo apsaugos slaptažodis taip pat naudojamas nuotraukoms, pranešimams ir užrašams.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Mažesnis nei %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB – %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB – %2d MB</string>
