@@ -1223,7 +1223,6 @@ Daugiau informacijos galite gauti susisiekę su IT administratoriumi."</string>
     <string name="monitoring_description_personal_profile_named_vpn">Jūsų asmeninės programos prijungtos prie interneto naudojant „%1$s“. Jūsų tinklo veikla, įskaitant el. laiškus ir naršymo duomenis, matoma jūsų VPN teikėjui.</string>
     <string name="monitoring_description_two_named_vpns">Šis įrenginys prijungtas prie interneto naudojant „%1$s“ ir „%2$s“. Jūsų tinklo veikla, įskaitant el. laiškus ir naršymo duomenis, matoma jūsų IT administratoriui.</string>
     <string name="monitoring_description_vpn_settings">Atidaryti VPN nustatymus</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"„%1$s“ gali pasiekti duomenis, susietus su šiuo įrenginiu, tvarkyti programas ir pakeisti šio įrenginio nustatymus.
 
 Jei kyla klausimų, susisiekite su „%2$s“."</string>
@@ -1826,8 +1825,6 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="status_bar_clock_date_format_12">"E, MMM d 'd.'"</string>
     <string name="status_bar_clock_date_time_format">"H:mm MMM d 'd.', E"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, MMM d</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Eternetas</string>
     <string name="status_bar_settings_auto_rotation">Automatiškai sukti ekraną</string>
     <string name="status_bar_work">Darbo profilis</string>

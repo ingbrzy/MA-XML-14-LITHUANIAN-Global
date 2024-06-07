@@ -942,7 +942,6 @@ Jei norite, kad atsirastų atsiminimų, prijunkite kroviklį ir išjunkite ekran
     <string name="face_name_edit">Redaguoti</string>
     <string name="face_name_input">Įveskite vardą</string>
     <string name="face_recommend">Rekomendacijos</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Nepavyko sėkmingai baigti operacijos</string>
     <string name="fail_reason_migrate">Apdorojami elementai… Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="fail_to_pick_email">Netinkamas el. pašto adresas</string>
@@ -958,7 +957,6 @@ nuotraukų efektai"</string>
     <string name="feedback_my_reports">Atsiliepimas</string>
     <string name="feedback_problem">Pranešti apie problemą</string>
     <string name="feedback_suggest">Pateikti pasiūlymą</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="finish_create_baby_album_toast">\"%s\" albumas sukurtas „Xiaomi debesyje“</string>
     <string name="finish_fill_baby">Sukurti</string>
     <string name="first_delete_media_for_cloud">Pasirinkti elementai bus ištrinti iš debesies ir visi susinchronizuoti įrenginiai į Neseniai ištrintus elementus. Visam laikui bus ištrinta už %d dienų, nebent turite debesies saugyklos planą. Vistiek ištrinti?</string>
@@ -1068,7 +1066,6 @@ nuotraukų efektai"</string>
     <string name="grant_permission_go_and_set">Nustatyti</string>
     <string name="grant_permission_go_and_set_2">Parametrai</string>
     <string name="grant_permission_go_and_set_3">Parametrai</string>
-    <string name="grant_permission_item">„%s“</string>
     <string name="grant_permission_manage_storage">Reikalingi leidimai</string>
     <string name="grant_permission_manage_storage_unlock">Kad galėrumėte peržiūrėti elementus, atrakinkite įrenginį ir leiskite šiai programai pasiekti visus failus.</string>
     <string name="grant_permission_shortcut">Visų pirmą leisti šiai programai sukurti pagrindinio ekrano nuorodas.</string>
@@ -1750,7 +1747,6 @@ nuotraukų efektai"</string>
     <string name="people_page_label">Žmonės</string>
     <string name="people_page_photo">Žmogaus miniatiūra</string>
     <string name="people_page_unname">Nepavadintas</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">Prisijungimas ir sisteminių paskyrų valdymas</string>
     <string name="permission_account_name">Paskyros prieiga</string>
     <string name="permission_clipboard_desc">Pasiekti ir išsaugoti elementus į iškarpinę</string>
@@ -2156,7 +2152,6 @@ nuotraukų efektai"</string>
     <string name="share_album_cancel_share">Sustabdyti bendrinimą</string>
     <string name="share_album_change_background">Pakeisti fono paveikslėlį</string>
     <string name="share_album_create_failed">Nepavyko sukurti bendrinamo albumo</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Sustabdyti bendrinimą</string>
     <string name="share_album_exit_confirm">Jei tęsite, nebegalėsite pasiekti visų šio albumo elementų. Išsaugokite visus svarbius elementus prieš palikdami.</string>
     <string name="share_album_exit_confirm_title">Paliekate šią grupę?</string>
@@ -2243,7 +2238,6 @@ nuotraukų efektai"</string>
     <string name="share_with_family">Dalintis su šeima</string>
     <string name="sharer_quota_fulfiled">Jūs jau pasidalinote šiuo albumu su maksimaliu asmenų skaičiumi.</string>
     <string name="show_cloud_albumlist_summary">Nauji elementai iš pasirinktų albumų nebus nusiųsti į debesį, kai išjungsite sinchronizavimą.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Peržiūrėti ir valdyti paslėptus albumus</string>
     <string name="show_hidden_album_title">Rodyti paslėptus albumus</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Sėkmingai pašalinta. Dabar šį elementą galite matyti tarp „Albumų“.</string>

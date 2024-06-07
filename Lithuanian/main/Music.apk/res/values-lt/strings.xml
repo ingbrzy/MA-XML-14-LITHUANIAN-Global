@@ -384,7 +384,6 @@ Kai nuspręsite visam laikui išvalyti visus duomenis, būsite atjungtas nuo pro
     <string name="download_method">Atsisiųsti</string>
     <string name="download_paused_in_power_save_mode">Atsiuntimai yra pristabdomi, kai įjungtas energijos taupymo režimas</string>
     <string name="download_processing">Atsiunčiama…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Atsiuntimo kokybė</string>
     <string name="download_quality_summary">Papildomi atsiunčiamų dainų parametrai</string>
     <string name="download_song_quality_title">Atsiųstų dainų kokybė</string>
@@ -480,9 +479,7 @@ Kai nuspręsite visam laikui išvalyti visus duomenis, būsite atjungtas nuo pro
     <string name="exo_media_action_repeat_all_description">Kartoti viską</string>
     <string name="exo_media_action_repeat_off_description">Nekartoti nieko</string>
     <string name="exo_media_action_repeat_one_description">Kartoti vieną</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -943,7 +940,6 @@ Kai nuspręsite visam laikui išvalyti visus duomenis, būsite atjungtas nuo pro
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -1310,7 +1306,6 @@ Kai nuspręsite visam laikui išvalyti visus duomenis, būsite atjungtas nuo pro
     <string name="privacy_desc">Privatumo politika (privaloma)</string>
     <string name="privacy_policy">Privatumo politika</string>
     <string name="privacy_policy_title_asm">Visas muzikos pasaulis po ranka</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=lt_LT</string>
     <string name="privacy_request_desc"><Data>"„Mi“ muzikos tinklo transliavimo paslaugai teikti reikalingas būtinosios informacijos rinkimas. Apie tai, kaip tvarkome surinktą informaciją, galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Sutikimą su „Mi“ muzikos privatumo politika galite bet kada atšaukti programos parametruose.
 Prieš pradėdami naudotis „Mi“ muzika, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>.
 Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis, tačiau pagrindinės programos funkcijos ir toliau išliks pasiekiamos."</Data></string>
@@ -1487,7 +1482,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="start_to_download">Atsiunčiama…</string>
     <string name="start_to_play">Ruošiamasi groti…</string>
     <string name="start_update">Įdiegiama nauja versija…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Dvigubų programų saugykla</string>
     <string name="storage_space_permissions_for_display">Įrenginio saugyklos prieiga: siekiant nuskaityti, rodyti ir leisti vietinius failus</string>
     <string name="streamloadingtext">Jungiamasi prie %s</string>
@@ -1648,7 +1642,6 @@ Nesutikus su mūsų privatumo politikos sąlygomis, neturėsite galimybės naudo
     <string name="upload_playlist_to_hungama_title">Sinchronizuokite dainas žiniatinklyje su „hungama“, norėdami jas pasiekti iš bet kurio kito įrenginio, kuriame naudojate „Xiaomi“ paskyrą.</string>
     <string name="upload_playlist_to_hungama_toast">Dainos žiniatinklyje bus sinchronizuotos su „hungama“</string>
     <string name="user_agreement">Naudotojo sutartis</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=lt_LT</string>
     <string name="user_experience_program_open">Dėl autorių teisių apribojimų turėsite prisijungti prie naudotojų patirties programos. Tai atlikti galite eidami į Parametrai > Slaptažodžiai ir saugumas > Privatumas > Prisijungti prie naudotojų patirties programos.</string>
     <string name="user_playlist_plaza">Grojaraščiai</string>
     <string name="user_privacy_dialog_negative_text">Atšaukti</string>

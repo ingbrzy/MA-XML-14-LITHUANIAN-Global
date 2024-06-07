@@ -756,7 +756,6 @@ Dviejų telefonų įrašymas taip pat leidžia prisijungti prie kito netoliese e
     <string name="edit_temple">Smilkiniai</string>
     <string name="edit_touch_up">Makiažas</string>
     <string name="emoticon">Lipdukų paketas</string>
-    <string name="empty" />
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
     <string name="error_fail_to_start_audio_capture">Nepavyko pradėti garso įrašymo</string>
@@ -1403,7 +1402,6 @@ Leiskite subjektui išryškėti, o fonui išblukti."</string>
     <string name="pref_camera_auxiliary_close">Išjungta</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Išlaikymo patikrinimas</string>
     <string name="pref_camera_auxiliary_focus_peak">Fokusavimo žymėjimas</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Aukštas</string>
     <string name="pref_camera_beautify_entry_low">Žemas</string>
     <string name="pref_camera_beautify_entry_normal">Vidutinis</string>

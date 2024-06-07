@@ -253,9 +253,7 @@
     <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
     <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Monofoninis</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Alternatyvus</string>
     <string name="exo_track_role_closed_captions">Subtitrai</string>
     <string name="exo_track_role_commentary">Komentaras</string>
@@ -397,7 +395,6 @@
     <string name="incompatible_dialog_ok">Supratau</string>
     <string name="incompatible_dialog_title">Suderinamumo problemos</string>
     <string name="is_setting_wallpaper_message">Nustatomas fono paveikslėlis…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Žadintuvai</string>
     <string name="item_resource_audio_optional_color_ring">Pyptonas</string>
     <string name="item_resource_audio_optional_notification_ring">Priminimai</string>
@@ -568,7 +565,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
@@ -840,7 +836,6 @@ mm"</string>
     <string name="resource_pack_price_info">Originali kaina: %1$s</string>
     <string name="resource_pack_warning">Jūs jau įsigijote %1$d šios temos komponentus. Likusius komponentus pigiau įsigyti atskirai.</string>
     <string name="resource_present">Dovana</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Nemokama</string>
     <string name="resource_price_unit"> „Mi“ kreditai</string>
     <string name="resource_purchase_common_error">Įvyko klaida, bandykite dar kartą</string>
@@ -978,7 +973,6 @@ mm"</string>
     <string name="somatosensory_temperature_format">Jutiminė temp. %s°</string>
     <string name="special_topic">Kategorijos</string>
     <string name="start_all">Tęsti visus</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Taikyti</string>
     <string name="storage_file">Atsiųstų elementų išsaugojimas</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1111,7 +1105,6 @@ mm"</string>
     <string name="theme_is_external_priority_storage">Išsaugoti į SD kortelę</string>
     <string name="theme_is_external_priority_storage_summary">Šio pakeitimo įsigaliojimui temų programa persikraus.</string>
     <string name="theme_multiple_button_title_customize">Derinti</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Ne</string>
     <string name="theme_on_the_phone_alert">Grojimas negalimas skambučių metu</string>
     <string name="theme_recommend">Panašios temos</string>
